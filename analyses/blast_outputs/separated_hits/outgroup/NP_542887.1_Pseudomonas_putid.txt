@@ -1,0 +1,21 @@
+sp|P12691|ALKB_PSEOL Alkane 1-monooxygenase OS=Pseudomonas oleovorans OX=301 GN=alkB PE=1 SV=1
+           Length = 401
+
+sp|Q0VKZ3|ALKB1_ALCBS Alkane 1-monooxygenase 1 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13689 / SK2) OX=393595 GN=alkB1 PE=1 SV=1
+           Length = 404
+
+sp|Q9WWW6|ALKB_PSEPU Alkane 1-monooxygenase OS=Pseudomonas putida OX=303 GN=alkB PE=3 SV=1
+           Length = 402
+
+sp|Q0VTH3|ALKB2_ALCBS Alkane 1-monooxygenase 2 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13689 / SK2) OX=393595 GN=alkB2 PE=2 SV=1
+           Length = 382
+
+sp|Q6H941|ALKB2_PSEAE Alkane 1-monooxygenase 2 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alkB2 PE=1 SV=1
+           Length = 377
+
+sp|O31250|ALKB_ACIAD Alkane 1-monooxygenase OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=alkB PE=2 SV=1
+           Length = 408
+
+sp|Q9I0R2|ALKB1_PSEAE Alkane 1-monooxygenase 1 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alkB1 PE=1 SV=1
+           Length = 382
+

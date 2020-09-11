@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>data/seqs/db_uniprot/db_uniprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>BAC05504.1_Thauera_sp._DNT-1</BlastOutput_query-def>
+  <BlastOutput_query-len>298</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>BAC05504.1_Thauera_sp._DNT-1</Iteration_query-def>
+  <Iteration_query-len>298</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q46372|BPHA_COMTE</Hit_id>
+  <Hit_def>Biphenyl dioxygenase subunit alpha OS=Comamonas testosteroni OX=285 GN=bphA PE=1 SV=1</Hit_def>
+  <Hit_accession>Q46372</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>8.56996e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETLKP</Hsp_qseq>
+      <Hsp_hseq>LQARVETYKGLVFANWDPEAPDLKTYLSDAMPYMDVMLDRTEAGTEAIGGIQKWVIPCNWKFAAEQFCSDMYHAGTMSHLSGVLAGLPPEMDLTQIQLSKNGNQFRSAWGGHGAGWFINDSSILLSVVGPKITQYWTQGPAAEKA-ARRVPQLPILDMFGQHMTVFPTCSFLPGINTIRTWHPRGPNEVEVWAFVLVDADAPEDIKEEFRLQNIRTFNAGGVFEQDDGENWVEIQRVMRGHKAKSTSLCAKMGLNVPNKNNPAYPGKTAYVYAEEAARGMYHHWSRMMSEPSWDTLKP</Hsp_hseq>
+      <Hsp_midline>LQARV+TYKGLVFANWD +AP L  YLSDA PYMDVMLDRTEAGTE I G+Q+ VIPCNWKFAAEQFCSDMYHA TMSH++GV++ L P+ DL+ ++L   GNQFR+AWGGHG GWF +D S+L +++GPK+  YWT+GPAAE+A AR   +LP   M  QHMT+FPTCSFLPGINT+RTWHPRGPNE+EVW+F++VDADAPE+IK+E+R  NI TFN GG FEQDDGENWVE+QRV+RGH A+S   CA MG+  PN NNP +PGKT+YVY EEAARG YHHWSRMMSEPSW+TLKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q52438|BPHA1_PSES1</Hit_id>
+  <Hit_def>Biphenyl dioxygenase subunit alpha OS=Pseudomonas sp. (strain KKS102) OX=307 GN=bphA1 PE=3 SV=1</Hit_def>
+  <Hit_accession>Q52438</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>1.15422e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEV---WSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETLKP</Hsp_qseq>
+      <Hsp_hseq>LQARVETYKGLIFANWDAEAPDLKTYLSDAMPYMDVMLDRTEAGTTVVGGMQKWVIPCNWKFAAEQFCSDMYHAGTMAHLSGVLSSLPPEMDLTQVQMSKNGSQFRAAWGGHGSGWFINDAAILMAVMGPKITQYWTQGPAAEKAAKRL-NQMPTQTMFGQHMTVFPTCSFLPGINTIRSWHPRGPNEVECGPSWSSMPM---RPEDIKEEFRRQNIRTFNAGGTFEQDDGENWVEIQRGLRGHKAKSAPLCAQMGLNVPNKSNPDFPGKTAYVYAEEAARGMYHHWARMMSEPNWETLKP</Hsp_hseq>
+      <Hsp_midline>LQARV+TYKGL+FANWDA+AP L  YLSDA PYMDVMLDRTEAGT V+ GMQ+ VIPCNWKFAAEQFCSDMYHA TM+H++GV+SSL P+ DL+ V++   G+QFRAAWGGHG+GWF +D ++L A+MGPK+  YWT+GPAAE+A  RL N++P   M  QHMT+FPTCSFLPGINT+R+WHPRGPNE+E    WS + +    PE+IK+E+RR NI TFN GGTFEQDDGENWVE+QR LRGH A+S P CA MG+  PN +NPDFPGKT+YVY EEAARG YHHW+RMMSEP+WETLKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q52028|BPHA_PSEFK</Hit_id>
+  <Hit_def>Biphenyl dioxygenase subunit alpha OS=Pseudomonas furukawaii OX=1149133 GN=bphA PE=3 SV=1</Hit_def>
+  <Hit_accession>Q52028</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>4.52275e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETLKP</Hsp_qseq>
+      <Hsp_hseq>LQARVATYKGLVFANWDVQAPDLETYLGDARPYMDVMLDRTPAGTVAIGGMQKWVIPCNWKFAAEQFCSDMYHAGTMSHLSGILAGMPPEMDLSHAQVPTKGNQFRAGWGGHGSGWFVDEPGMLMAVMGPKVTQYWTEGPAADLAEQRLGHTMPVRRMFGQHMSVFPTCSFLPAINTIRTWHPRGPNEIEVWAFTLVDADAPAEIKEEYRRHNIRTFSAGGVFEQDDGENWVEIQKGLRGYKAKSQPLNAQMGLGRSQTGHPDFPGNVGYVYAEEAARGMYHHWMRMMSEPSWATLKP</Hsp_hseq>
+      <Hsp_midline>LQARV TYKGLVFANWD +AP L  YL DA PYMDVMLDRT AGT  I GMQ+ VIPCNWKFAAEQFCSDMYHA TMSH++G+++ + P+ DLS  ++P  GNQFRA WGGHG+GWF D+  +L A+MGPKV  YWT+GPAA+ A+ RLG+ +P  RM  QHM++FPTCSFLP INT+RTWHPRGPNE+EVW+F +VDADAP EIK+EYRR NI TF+ GG FEQDDGENWVE+Q+ LRG+ A+SQP  A MG+G+    +PDFPG   YVY EEAARG YHHW RMMSEPSW TLKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P37333|BPHA_PARXL</Hit_id>
+  <Hit_def>Biphenyl dioxygenase subunit alpha OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=bphA PE=1 SV=3</Hit_def>
+  <Hit_accession>P37333</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>1.2079e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNK-LPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETLKP</Hsp_qseq>
+      <Hsp_hseq>LQARVATYKGLVFANWDVQAPDLETYLGDARPYMDVMLDRTPAGTVAIGGMQKWVIPCNWKFAAEQFCSDMYHAGTTTHLSGILAGIPPEMDLSQAQIPTKGNQFRAAWGGHGSGWYVDEPGSLLAVMGPKVTQYWTEGPAAELAEQRLGHTGMPVRRMVGQHMTIFPTCSFLPTFNNIRIWHPRGPNEIEVWAFTLVDADAPAEIKEEYRRHNIRNFSAGGVFEQDDGENWVEIQKGLRGYKAKSQPLNAQMGLGRSQTGHPDFPGNVGYVYAEEAARGMYHHWMRMMSEPSWATLKP</Hsp_hseq>
+      <Hsp_midline>LQARV TYKGLVFANWD +AP L  YL DA PYMDVMLDRT AGT  I GMQ+ VIPCNWKFAAEQFCSDMYHA T +H++G+++ + P+ DLS  ++P  GNQFRAAWGGHG+GW+ D+   L A+MGPKV  YWT+GPAAE A+ RLG+  +P  RMV QHMTIFPTCSFLP  N +R WHPRGPNE+EVW+F +VDADAP EIK+EYRR NI  F+ GG FEQDDGENWVE+Q+ LRG+ A+SQP  A MG+G+    +PDFPG   YVY EEAARG YHHW RMMSEPSW TLKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q53122|BPHA1_RHOJR</Hit_id>
+  <Hit_def>Biphenyl 2,3-dioxygenase subunit alpha OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=bphA1 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q53122</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>9.59017e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>LQARVETYKGLIFANWDADAPDLDTYLGEAKFYMDHMLDRTEAGTEAIPGIQKWVIPCNWKFAAEQFCSDMYHAGTTSHLSGILAGLPDGVDLSELAPPTEGIQYRATWGGHGSGFYIGDPNLLLAIMGPKVTEYWTQGPAAEKASERLGSTERGQQLMAQHMTIFPTCSFLPGINTIRAWHPRGPNEIEVWAFTVVDADAPEEMKEEYRQQTLRTFSAGGVFEQDDGENWVEIQQVLRGHKARSRPFNAEMGLGQTDSDNPDYPGTISYVYSEEAARGLYTQWVRMMTSPDWAAL</Hsp_hseq>
+      <Hsp_midline>LQARV+TYKGL+FANWDA AP L  YL +A  YMD MLDRTEAGTE I G+Q+ VIPCNWKFAAEQFCSDMYHA T SH++G+++ L    DLS++  P  G Q+RA WGGHG+G++  D +LL AIMGPKV +YWT+GPAAE+A  RLG+     +++AQHMTIFPTCSFLPGINT+R WHPRGPNE+EVW+F VVDADAPEE+K+EYR+  + TF+ GG FEQDDGENWVE+Q+VLRGH ARS+PF A MG+G+ +++NPD+PG  SYVY EEAARG Y  W RMM+ P W  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P0C618|BNZA_PSEPU</Hit_id>
+  <Hit_def>Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bnzA PE=3 SV=1</Hit_def>
+  <Hit_accession>P0C618</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>5.29599e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTS-YVYGEEAARGFYHHWSRMMSEPSWETLK</Hsp_qseq>
+      <Hsp_hseq>LKARVETYKGLIFANWDENAVDLDTYLGEAKFYMDHMLDRTEAGTEAIPGVQKWVIPCNWKFAAEQFCSDMYHAGTTSHLSGILAGLPEDLEMADLAPPTVGKQYRASWGGHGSGFYVGDPNLMLAIMGPKVTSYWTEGPASEKAAERLGSVERGSKLMVEHMTVFPTCSFLPGINTVRTWHPRGPNEVEVWAFTVVDADAPDDIKEEFRRQTLRTFSAGGVFEQDDGENWVEIQHILRGHKARSRPFNAEMSMDQTVDNDPVYPGRISNNVYSEEAARGLYAHWLRMMTSPDWDALK</Hsp_hseq>
+      <Hsp_midline>L+ARV+TYKGL+FANWD  A  L  YL +A  YMD MLDRTEAGTE I G+Q+ VIPCNWKFAAEQFCSDMYHA T SH++G+++ L  D +++D+  P  G Q+RA+WGGHG+G++  D +L+ AIMGPKV  YWT+GPA+E+A  RLG+    ++++ +HMT+FPTCSFLPGINTVRTWHPRGPNE+EVW+F VVDADAP++IK+E+RR  + TF+ GG FEQDDGENWVE+Q +LRGH ARS+PF A M + +   N+P +PG+ S  VY EEAARG Y HW RMM+ P W+ LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|A5W4F2|BNZA_PSEP1</Hit_id>
+  <Hit_def>Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida (strain ATCC 700007 / DSM 6899 / BCRC 17059 / F1) OX=351746 GN=bnzA PE=1 SV=1</Hit_def>
+  <Hit_accession>A5W4F2</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>5.29599e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTS-YVYGEEAARGFYHHWSRMMSEPSWETLK</Hsp_qseq>
+      <Hsp_hseq>LKARVETYKGLIFANWDENAVDLDTYLGEAKFYMDHMLDRTEAGTEAIPGVQKWVIPCNWKFAAEQFCSDMYHAGTTSHLSGILAGLPEDLEMADLAPPTVGKQYRASWGGHGSGFYVGDPNLMLAIMGPKVTSYWTEGPASEKAAERLGSVERGSKLMVEHMTVFPTCSFLPGINTVRTWHPRGPNEVEVWAFTVVDADAPDDIKEEFRRQTLRTFSAGGVFEQDDGENWVEIQHILRGHKARSRPFNAEMSMDQTVDNDPVYPGRISNNVYSEEAARGLYAHWLRMMTSPDWDALK</Hsp_hseq>
+      <Hsp_midline>L+ARV+TYKGL+FANWD  A  L  YL +A  YMD MLDRTEAGTE I G+Q+ VIPCNWKFAAEQFCSDMYHA T SH++G+++ L  D +++D+  P  G Q+RA+WGGHG+G++  D +L+ AIMGPKV  YWT+GPA+E+A  RLG+    ++++ +HMT+FPTCSFLPGINTVRTWHPRGPNE+EVW+F VVDADAP++IK+E+RR  + TF+ GG FEQDDGENWVE+Q +LRGH ARS+PF A M + +   N+P +PG+ S  VY EEAARG Y HW RMM+ P W+ LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q07944|BEDC1_PSEPU</Hit_id>
+  <Hit_def>Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bedC1 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q07944</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.26646e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LQARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTS-YVYGEEAARGFYHHWSRMMSEPSWETLK</Hsp_qseq>
+      <Hsp_hseq>LKARVETYKGLIFANWDENAIDLDTYLGEAKFYMDHMLDRTEAGTEVIPGIQKWVIPCNWKFAAEQFCSDMYHAGTTAHLSGIIAGLPEDLELADLAPPKFGKQYRASWGGHGSGFYIGDPNMMLAMMGPKVTSYLTEGPAAEKAAERLGSIERGTKIMLEHMTVFPTCSFLPGVNTIRTWHPRGPNEVEVWAFTVVDADAPDDIKEEFRRQTLRTFSAGGVFEQDDGENWVEIQHILRGHKARSRPFNAEMSMGQTVDNDPIYPGRISNNVYSEEAARGLYAHWLKMMTSPDWEALK</Hsp_hseq>
+      <Hsp_midline>L+ARV+TYKGL+FANWD  A  L  YL +A  YMD MLDRTEAGTEVI G+Q+ VIPCNWKFAAEQFCSDMYHA T +H++G+++ L  D +L+D+  P  G Q+RA+WGGHG+G++  D +++ A+MGPKV  Y T+GPAAE+A  RLG+     +++ +HMT+FPTCSFLPG+NT+RTWHPRGPNE+EVW+F VVDADAP++IK+E+RR  + TF+ GG FEQDDGENWVE+Q +LRGH ARS+PF A M +G+   N+P +PG+ S  VY EEAARG Y HW +MM+ P WE LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q0T1Y1|HCAE_SHIF8</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri serotype 5b (strain 8401) OX=373384 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>Q0T1Y1</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>3.13899e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLHDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHAL-FSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWTFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q83K39|HCAE_SHIFL</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri OX=623 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>Q83K39</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>3.72784e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLHDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHA-LFSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q3YZ15|HCAE_SHISS</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella sonnei (strain Ss046) OX=300269 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>Q3YZ15</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>3.76811e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLRDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHA-LFSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P0ABR5|HCAE_ECOLI</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=hcaE PE=1 SV=1</Hit_def>
+  <Hit_accession>P0ABR5</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>3.76811e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLRDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHA-LFSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P0ABR6|HCAE_ECO57</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O157:H7 OX=83334 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>P0ABR6</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>3.76811e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLRDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHA-LFSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|A8A344|HCAE_ECOHS</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O9:H4 (strain HS) OX=331112 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>A8A344</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>2.63387e-73</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLRDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKFPAEQFASDQYHA-LFSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRSPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWKF AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPR P+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q31XV2|HCAE_SHIBS</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella boydii serotype 4 (strain Sb227) OX=300268 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>Q31XV2</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>5.40871e-73</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAW-----------GGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETL</Hsp_qseq>
+      <Hsp_hseq>VESYKGLIFGNWDTSAPGLRDYLGDIAWYLDGMLDRREGGTEIVGGVQKWVINCNWKSPAEQFASDQYHAL-FSH-ASAVQVLGAKDDGSDKRLG-DGQTARPVWETAKDALQFGQDGHGSGFFFTEKPDANVWVDGAVSSYYRETYA--EAEQRLG-EVRALRL-AGHNNIFPTLSWLNGTATLRVWHPRGPDQVEVWAFCITDKAASDEVKAAFENSATRAFGPAGFLEQDDSENWCEIQKLLKGHRARNSKLCLEMGLGQEKRRDDGIPGITNYIFSETAARGMYQRWADLLSSESWQEV</Hsp_hseq>
+      <Hsp_midline>V++YKGL+F NWD  AP L DYL D   Y+D MLDR E GTE++ G+Q+ VI CNWK  AEQF SD YHA   SH A  V  L    D SD +L   G   R  W            GHG+G+F  +       +   V  Y+ +  A   A+ RLG ++ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A +E+K  +       F   G  EQDD ENW E+Q++L+GH AR+   C  MG+G+    +   PG T+Y++ E AARG Y  W+ ++S  SW+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q7N4W0|HCAE_PHOLL</Hit_id>
+  <Hit_def>3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01) OX=243265 GN=hcaE PE=3 SV=1</Hit_def>
+  <Hit_accession>Q7N4W0</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.02052e-69</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>VDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGV-VSSLRPDQDLSDVKLPVTG--------NQFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMMSEPSWETLK</Hsp_qseq>
+      <Hsp_hseq>VENYKGLIFGNWDTTAPSLIDYLGDMAWYLDGVLDRREGGTEVIGGVQKWLINCNWKLPAEQFAGDQYHA-LFSHASAVQVLSVKDGDDKKALGADQTSRPVWETAKDAVQFAQNGHGCGFFLTEKPDANVWVDGAVARYYRETYA--EAEQRLG-KVRALRL-AGHNNIFPTLSWLNGTATMRVWHPRGPDQVEVWAFCIADKAASPEVKAAFENSATRAFGPAGFLEQDDSENWVEIQKVLRGYKARNSTLCMEMRLGQERVRDDGIPGVTNYVFSETVARGMYQRWADLLTSETWDEIE</Hsp_hseq>
+      <Hsp_midline>V+ YKGL+F NWD  AP+L+DYL D   Y+D +LDR E GTEVI G+Q+ +I CNWK  AEQF  D YHA   SH + V V S++   D   +    T         +  + A  GHG G+F  +       +   V  Y+ +  A   A+ RLG K+ A R+ A H  IFPT S+L G  T+R WHPRGP+++EVW+F + D  A  E+K  +       F   G  EQDD ENWVE+Q+VLRG+ AR+   C  M +G+    +   PG T+YV+ E  ARG Y  W+ +++  +W+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q51494|NDOB_PSEAI</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas aeruginosa OX=287 GN=ndoB PE=3 SV=1</Hit_def>
+  <Hit_accession>Q51494</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>1.03891e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDL-----SDVKLPVTGNQFR-AAWGGHGTGWFNDDFSLLY-AIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHM--TIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKT-SYVYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>ARVESFHGFIYGCFDEEAPSLKDYMGDAGWYLEPMFKHS-GGLELIGPPGKVIIKANWKAPAENFTGDAYH-VGWTHA----SSLRSGQSVFSSLAGNAALPPEGAGLQMTSKYGSGMGVLWDGYSGVHSADLVPELMAF--GGAKQERLNKEIGEVRA--RIYRSHLNCTVFPNNSFLTCSGVFKVWHPIDANTTEVWTYAMVEKDMPEDLKRRLVDAVQRTFGPAGFWESDDNDNMETVSQNAKKYQSRDGDLVSNLGFGGDVYGDEVYPGIVGKSAIGETSYRGFYRAYGAHISSSSW</Hsp_hseq>
+      <Hsp_midline>ARV+++ G ++  +D +AP+L DY+ DA  Y++ M   +  G E+I    + +I  NWK  AE F  D YH    +H     SSLR  Q +      +  LP  G   +  +  G G G   D +S ++ A + P+++ +   G   ER    +G      R+   H+  T+FP  SFL      + WHP   N  EVW++ +V+ D PE++K         TF   G +E DD +N   V +  + + +R     +++G G     +  +PG       GE + RGFY  +   +S  SW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|O07824|NDOB_PSEFL</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas fluorescens OX=294 GN=ndoB PE=3 SV=1</Hit_def>
+  <Hit_accession>O07824</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>3.49072e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDL-----SDVKLPVTGNQFR-AAWGGHGTGWFNDDFSLLY-AIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHM--TIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKT-SYVYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>ARVESFHGFIYGCFDQEAPSLMDYLGDAAWYLEPIFKHS-GGLELVGPPGKVVIKANWKAPAENFVGDAYH-VGWTHA----SSLRTGESIFSSLAGNAVLPPEGAGLQMTSKYGSGMGVLWDGYSGVHSADLVPELMAF--GGAKQERLNKEIGD-VPA-RIYRSHLNCTVFPNNSVLTCSGVFKVWNPIDANTTEVWTYAIVEKDMPEDLKRRLADAVQRTFGPAGFWESDDNDNMETASQNGKKYQSRDSDLISNLGFGKDVYGDAVYPGVVGKSAIGETSYRGFYRAYQAHVSSSNW</Hsp_hseq>
+      <Hsp_midline>ARV+++ G ++  +D +AP+LMDYL DA  Y++ +   +  G E++    + VI  NWK  AE F  D YH    +H     SSLR  + +      +  LP  G   +  +  G G G   D +S ++ A + P+++ +   G   ER    +G+ +PA R+   H+  T+FP  S L      + W+P   N  EVW++ +V+ D PE++K         TF   G +E DD +N     +  + + +R     +++G GK    +  +PG       GE + RGFY  +   +S  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|P0A111|NDOB_PSEU8</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas sp. (strain C18) OX=69011 GN=doxB PE=1 SV=1</Hit_def>
+  <Hit_accession>P0A111</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.23332e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYH-----ACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFR-AAWGGHGTGWFNDDFSLLY-AIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHM--TIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKT-SYVYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>ARVESFHGFIYGCFDQEAPPLMDYLGDAAWYLEPMFKHS-GGLELVGPPGKVVIKANWKAPAENFVGDAYHVGWTHASSLRSGESIFSSLA-----GNAALPPEGAGLQMTSKYGSGMGVLWDGYSGVHSADLVPELMAF--GGAKQERLNKEIGDVRA--RIYRSHLNCTVFPNNSMLTCSGVFKVWNPIDANTTEVWTYAIVEKDMPEDLKRRLADSVQRTFGPAGFWESDDNDNMETASQNGKKYQSRDSDLLSNLGFGEDVYGDAVYPGVVGKSAIGETSYRGFYRAYQAHVSSSNW</Hsp_hseq>
+      <Hsp_midline>ARV+++ G ++  +D +AP LMDYL DA  Y++ M   +  G E++    + VI  NWK  AE F  D YH     A ++     + SSL       +  LP  G   +  +  G G G   D +S ++ A + P+++ +   G   ER    +G+     R+   H+  T+FP  S L      + W+P   N  EVW++ +V+ D PE++K         TF   G +E DD +N     +  + + +R     +++G G+    +  +PG       GE + RGFY  +   +S  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|P0A110|NDOB_PSEPU</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=ndoB PE=1 SV=1</Hit_def>
+  <Hit_accession>P0A110</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.23332e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYH-----ACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFR-AAWGGHGTGWFNDDFSLLY-AIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHM--TIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKT-SYVYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>ARVESFHGFIYGCFDQEAPPLMDYLGDAAWYLEPMFKHS-GGLELVGPPGKVVIKANWKAPAENFVGDAYHVGWTHASSLRSGESIFSSLA-----GNAALPPEGAGLQMTSKYGSGMGVLWDGYSGVHSADLVPELMAF--GGAKQERLNKEIGDVRA--RIYRSHLNCTVFPNNSMLTCSGVFKVWNPIDANTTEVWTYAIVEKDMPEDLKRRLADSVQRTFGPAGFWESDDNDNMETASQNGKKYQSRDSDLLSNLGFGEDVYGDAVYPGVVGKSAIGETSYRGFYRAYQAHVSSSNW</Hsp_hseq>
+      <Hsp_midline>ARV+++ G ++  +D +AP LMDYL DA  Y++ M   +  G E++    + VI  NWK  AE F  D YH     A ++     + SSL       +  LP  G   +  +  G G G   D +S ++ A + P+++ +   G   ER    +G+     R+   H+  T+FP  S L      + W+P   N  EVW++ +V+ D PE++K         TF   G +E DD +N     +  + + +R     +++G G+    +  +PG       GE + RGFY  +   +S  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|O52382|NDOB_RALSP</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Ralstonia sp. OX=54061 GN=nagAc PE=1 SV=1</Hit_def>
+  <Hit_accession>O52382</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.85259e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWG---------GHGTGWFNDDFSLLY-AIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHM--TIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSY-VYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>RIESFHGFIYGCFDAEAPTLVDYLGDAAWYLEPIFKHS-GGLELVGPPGKVVIKANWKAPAENFVGDAYHV-GWTHA----SSLRSGQS---IFTPLAGNAMLPPEGAGLQMTSKYGSGMGVLWDGYSGVHSADLVPEMMAF--GGAKQEKLAKEIGDVRA--RIYRSHLNCTVFPNNSILTCSGVFKVWNPIDENTTEVWTYAIVEKDMPEDLKRRLADAVQRTFGPAGFWESDDNDNMETESQNAKKYQSSNSDLIANLGFGKDVYGDECYPGVVAKSAIGETSYRGFYRAYQAHISSSNW</Hsp_hseq>
+      <Hsp_midline>R++++ G ++  +DA+AP L+DYL DA  Y++ +   +  G E++    + VI  NWK  AE F  D YH    +H     SSLR  Q    +  P+ GN      G         G G G   D +S ++ A + P+++ +   G   E+    +G+     R+   H+  T+FP  S L      + W+P   N  EVW++ +V+ D PE++K         TF   G +E DD +N     +  + + + +    A++G GK    +  +PG  +    GE + RGFY  +   +S  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q45695|DNTAC_BURSR</Hit_id>
+  <Hit_def>2,4-dinitrotoluene dioxygenase system, large oxygenase component OS=Burkholderia sp. (strain RASC) OX=69003 GN=dntAc PE=1 SV=1</Hit_def>
+  <Hit_accession>Q45695</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.64964e-24</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>RVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDL-----SDVKLPVTGNQFRAAWG-GHGTGWFNDDFS-LLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINTVRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRGHVARSQPFCASMGVGKPNANNPDFPGKTSY-VYGEEAARGFYHHWSRMMSEPSW</Hsp_qseq>
+      <Hsp_hseq>RIESFHGFIYGCFDAEAPPLIDYLGDVAWYLEPTFKHS-GGLELVGPPAKVVVKGNWKVFAENFVGDIYH-IGWTHA----SILRAGQAIFAPLAGNAMLPPEGTGLQATTKYGSGIGVSLDAYSGVQSADLVPEMMAF--GGAKQEKLAKEIGDVRARIYRSQVNGTVFPNNCFLTGAGVFKVFNPIDENTTEAWTYAIVEKDMPEDLKRRLADAAQRSTGPAGYWESDDNDNMVLSQNAKKYQSSNSD-LIADLGFGKDVYGDECYPGVVSKSAFSETNHRGFYRAYQAHISSSNW</Hsp_hseq>
+      <Hsp_midline>R++++ G ++  +DA+AP L+DYL D   Y++     +  G E++    + V+  NWK  AE F  D+YH    +H     S LR  Q +      +  LP  G   +A    G G G   D +S +  A + P+++ +   G   E+    +G+          + T+FP   FL G    + ++P   N  E W++ +V+ D PE++K         +    G +E DD +N V  Q   +   + S    A +G GK    +  +PG  S   + E   RGFY  +   +S  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|Q51974|CMTAB_PSEPU</Hit_id>
+  <Hit_def>p-cumate 2,3-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=cmtAb PE=1 SV=1</Hit_def>
+  <Hit_accession>Q51974</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.37068e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVT----GN-----QFRAAWGGHGTGWFNDDFSLLYAIMGPKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSF--LPGINTVRTWHPRGPNELEV--WSFIVVDADAPEEIKD---EYRRMNILTF-NQGGTFEQDDGENWVEVQRVLRGHVARSQPFC-ASMGVGKPNANNPDFPGKTSYVYGEEAARGFYHHWSRMM</Hsp_qseq>
+      <Hsp_hseq>RFDIYAGFCFVSFNAEVEPLPDYLAGAKEYLELVSKYSESGMGITTGTQEYAIRANWKLLVEN-SIDGYHAVS-THASYLDYLKNINDGFSGAKLEGKSTDLGNGHAVIEFSAPWGRPIASWVP-----IWGEEGKQEIDQ-IYARLVELHGAEMADRMAYKN---RNLLIFPNLIINDIMAI-TVRTFYPQAPNYMHVNGWSL------APNEESDWARKYRLSNFLEFLGPGGFATPDDVEALESCQNGFSNY--RLVPWSDISKGMGKETANYDD----------ELQMRAFWTRWNQFI</Hsp_hseq>
+      <Hsp_midline>R D Y G  F +++A+   L DYL+ A  Y++++   +E+G  + TG Q   I  NWK   E    D YHA + +H + +      +   S  KL       GN     +F A WG     W       ++   G + +D        E   A + +++       +++ IFP      +  I TVRT++P+ PN + V  WS       AP E  D   +YR  N L F   GG    DD E     Q     +  R  P+   S G+GK  AN  D          E   R F+  W++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|P07769|BENA_ACIAD</Hit_id>
+  <Hit_def>Benzoate 1,2-dioxygenase subunit alpha OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=benA PE=3 SV=2</Hit_def>
+  <Hit_accession>P07769</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.5896e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTG--WFNDDFSLLYAIMG--------PKVVDYWTKGPAAERAQARLGNKLPANRMVAQHMTIFPTCSFLPGINT-VRTWHPRGPNELEVWSFIVVD-ADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQ</Hsp_qseq>
+      <Hsp_hseq>ARFESYKGFLFGSLNPDVPSLQEFLGETTKIIDMIVGQSDQGLEVLRGVSTYTYEGNWKLTAEN-GADGYHVSAVHWNYAATTQHRKEKQAGDTIRAMSA----GSWGKHGGGSYGFEHGHMLLWTQWGNPEDRPNFPKAAEYTEKFGAAM-------SKWMIER--SRNLCLYPNVYLMDQFGSQIRVLRPISVNKTEVTIYCIAPVGEAPEARARRIRQYEDF-FNASGMATPDDLEEFRACQ</Hsp_hseq>
+      <Hsp_midline>AR ++YKG +F + +   P+L ++L + T  +D+++ +++ G EV+ G+       NWK  AE   +D YH   +       +  R ++   D    ++      +WG HG G   F     LL+   G        PK  +Y  K  AA        +K    R  ++++ ++P    +    + +R   P   N+ EV  + +    +APE      R+     FN  G    DD E +   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q51601|CBDA_BURCE</Hit_id>
+  <Hit_def>2-halobenzoate 1,2-dioxygenase large subunit OS=Burkholderia cepacia OX=292 GN=cbdA PE=1 SV=3</Hit_def>
+  <Hit_accession>Q51601</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.32797e-07</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>YKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFNDDFSLLYAIM-GPKVVDYWTKGPAAERAQARLGNKLPANRMVAQ--HMTIFPTCSFLPGINT-VRTWHPRGPNELEVWSFIVVDADAPEEIKDEYRRMNILTFNQGGTFEQDDGENWVEVQRVLRG</Hsp_qseq>
+      <Hsp_hseq>YRGFLFGSMNPDACPIEEHLGGSKAILDQVIDQTPGELEVLRGSSSYIYDGNWKLQIEN-GADGYHVGSV-HWNYVATIGRRDRTSDTIRTVDVTTWSKKNIGGTYT--FEHGHMLLWTRLPNPEVRPVFAR---REELKARVGEEV-ADAIVNQTRNLCIYPNLYVMDQISTQIRVVRPISVDKTEVTIYCFAPRDESEEVRNARIRQYEDFFNVSGMGTPDDLEEFRACQSGYRG</Hsp_hseq>
+      <Hsp_midline>Y+G +F + +  A  + ++L  +   +D ++D+T    EV+ G    +   NWK   E   +D YH  ++ H   V +  R D+    ++        +   GG  T  F     LL+  +  P+V   + +    E  +AR+G ++ A+ +V Q  ++ I+P    +  I+T +R   P   ++ EV  +     D  EE+++   R     FN  G    DD E +   Q   RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|P23099|XYLX_PSEPU</Hit_id>
+  <Hit_def>Toluate 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=xylX PE=3 SV=1</Hit_def>
+  <Hit_accession>P23099</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.63823e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARVDTYKGLVFANWDAKAPALMDYLSDATPYMDVMLDRTEAGTEVITGMQRTVIPCNWKFAAEQFCSDMYHACTMSHVAGVVSSLRPDQDLSDVKLPVTGNQFRAAWGGHGTGWFN</Hsp_qseq>
+      <Hsp_hseq>ARFASYRGFLFGSLREDVAPLEEFLGESRKVIDMVVDQSPEGLEVLRGSSTYVYEGNWKVQVEN-GADGYHVSTVHWNYAATQQQRKLRDAGDDIRAMTA----SSWGGDGGGFYS</Hsp_hseq>
+      <Hsp_midline>AR  +Y+G +F +       L ++L ++   +D+++D++  G EV+ G    V   NWK   E   +D YH  T+          R  +D  D    +T     ++WGG G G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>563082</Statistics_db-num>
+      <Statistics_db-len>202799066</Statistics_db-len>
+      <Statistics_hsp-len>117</Statistics_hsp-len>
+      <Statistics_eff-space>24782243432</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

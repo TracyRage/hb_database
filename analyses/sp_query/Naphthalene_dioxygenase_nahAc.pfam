@@ -1,0 +1,40 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:30:57 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/Naphthalene_dioxygenase_nahAc.filtered
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_C3VIX2_C3VIX2_PSEPUNaphthalene_1_2-dioxygenase_large_oxygenase_subunit_OS=Pseudomonas_putida_OX=303_GN=nahAc_PE=3_SV=2                   38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.5   5.7e-17   1 CL0516   
+tr_C3VIX2_C3VIX2_PSEPUNaphthalene_1_2-dioxygenase_large_oxygenase_subunit_OS=Pseudomonas_putida_OX=303_GN=nahAc_PE=3_SV=2                  159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    156.3     1e-45   1 CL0209   
+tr_D9IVE3_D9IVE3_PSESTNaphthalene_dioxygenase_large_alpha_subunit_OS=Pseudomonas_stutzeri_OX=316_GN=nahAc_PE=3_SV=1                         38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     62.9     2e-17   1 CL0516   
+tr_D9IVE3_D9IVE3_PSESTNaphthalene_dioxygenase_large_alpha_subunit_OS=Pseudomonas_stutzeri_OX=316_GN=nahAc_PE=3_SV=1                        163    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     5   214   215    155.9   1.4e-45   1 CL0209   
+tr_G9G7I5_G9G7I5_9PSEDNapthalene_dioxygenase_iron_sulfur_protein_large_subunit_OS=Pseudomonas_sp._MC1_OX=1123041_GN=nahAc_PE=3_SV=1         38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.1   7.5e-17   1 CL0516   
+tr_G9G7I5_G9G7I5_9PSEDNapthalene_dioxygenase_iron_sulfur_protein_large_subunit_OS=Pseudomonas_sp._MC1_OX=1123041_GN=nahAc_PE=3_SV=1        159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.4   1.2e-46   1 CL0209   
+tr_Q05K20_Q05K20_9ZZZZNaphthalene_1_2-dioxygenase_iron_sulfer_protein_large_subunit_OS=Plasmid_pFKY4_OX=381744_GN=nahAc_PE=3_SV=1           38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.5   5.7e-17   1 CL0516   
+tr_Q05K20_Q05K20_9ZZZZNaphthalene_1_2-dioxygenase_iron_sulfer_protein_large_subunit_OS=Plasmid_pFKY4_OX=381744_GN=nahAc_PE=3_SV=1          159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.8   9.2e-47   1 CL0209   
+tr_Q05K30_Q05K30_9ZZZZNaphthalene_1_2-dioxygenase_iron_sulfer_protein_large_subunit_OS=Plasmid_pFKY1_OX=381743_GN=nahAc_PE=3_SV=1           38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.5   5.7e-17   1 CL0516   
+tr_Q05K30_Q05K30_9ZZZZNaphthalene_1_2-dioxygenase_iron_sulfer_protein_large_subunit_OS=Plasmid_pFKY1_OX=381743_GN=nahAc_PE=3_SV=1          159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.8   9.2e-47   1 CL0209   
+tr_Q1XGM0_Q1XGM0_PSEPUIron_sulfur_protein_large_subunit_NahAc_of_napthalene_dioxygenase_OS=Pseudomonas_putida_OX=303_GN=nahAc_PE=3_SV=1     38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.1   7.5e-17   1 CL0516   
+tr_Q1XGM0_Q1XGM0_PSEPUIron_sulfur_protein_large_subunit_NahAc_of_napthalene_dioxygenase_OS=Pseudomonas_putida_OX=303_GN=nahAc_PE=3_SV=1    159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.4   1.2e-46   1 CL0209   

@@ -1,0 +1,9 @@
+# Directory /alpha_subunit_curated_seq includes the following files:
+
+- 01_list_alpha_subunits.csv (table includes metadata about curated alpha catalytic sites used for gathering KEGG hits)
+
+- 01_list_full_catalytic_site.csv (table includes metadata about all subunits of the real catalytic sites)
+ 
+- /kegg_hits/*fasta (each file include all KEGG hits attributed to a alpha site mentioned in 00_list_alpha_subunits.csv)  
+
+- /kegg_hits/*fasta (files were used for generation of merged file)

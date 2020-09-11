@@ -1,0 +1,32 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:32:03 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/Toluene_3-monooxygenase.filtered
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_A2SDY7_A2SDY7_METPPToluene_monooxygenase_alpha_subunit_OS=Methylibium_petroleiphilum__strain_ATCC_BAA-1232___LMG_22953___PM1__OX=420662_GN=tbuA1_PE=4_SV=1     18    248     18    249 PF02332.19  Phenol_Hydrox     Domain     1   229   230    246.9   1.8e-73   1 CL0044   
+tr_A2SDY7_A2SDY7_METPPToluene_monooxygenase_alpha_subunit_OS=Methylibium_petroleiphilum__strain_ATCC_BAA-1232___LMG_22953___PM1__OX=420662_GN=tbuA1_PE=4_SV=1    408    445    406    447 PF04945.14  YHS               Domain     4    44    47     45.2     7e-12   1 CL0175   
+tr_A2SIV5_A2SIV5_METPPToluene_monooxygenase_alpha_subunit_OS=Methylibium_petroleiphilum__strain_ATCC_BAA-1232___LMG_22953___PM1__OX=420662_GN=tbuA1_PE=4_SV=1     52     77     47     79 PF04945.14  YHS               Domain    20    45    47     39.0     6e-10   1 CL0175   
+tr_Q51939_Q51939_RALPIAlpha_hydroxylase_subunit_OS=Ralstonia_pickettii_OX=329_GN=tbuA1_PE=4_SV=1                                                                  18    247     18    249 PF02332.19  Phenol_Hydrox     Domain     1   228   230    255.5   4.3e-76   1 CL0044   

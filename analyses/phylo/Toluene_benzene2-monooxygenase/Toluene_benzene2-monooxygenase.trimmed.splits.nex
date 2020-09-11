@@ -1,0 +1,61 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=12;
+TAXLABELS
+[1] 'Q768T5-O_Gordonia-G_prmA-T_BLAST'
+[2] 'E9RFS9-O_Mycobacterium-G_mimA-T_BLAST'
+[3] 'A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST'
+[4] 'Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST'
+[5] 'P22869-O_Methylococcus-G_mmoX-T_BLAST'
+[6] 'P27353-O_Methylosinus-G_mmoX-T_BLAST'
+[7] 'P19732-O_Pseudomonas-G_dmpN-T_BLAST'
+[8] 'O87082-O_Xanthobacter-G_xamoA-T_BLAST'
+[9] 'AAT40431.1-O_Pseudomonas-NCBI'
+[10] 'Q6IV66-O_Pseudomonas-G_touA-T_Query'
+[11] 'O87798-O_Pseudomonas-G_touA-T_Query'
+[12] 'Q00456-O_Pseudomonas-G_tmoA-T_BLAST'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=12 nsplits=34;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	98	 2 3,
+	100	 4,
+	90	 2 3 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 7,
+	100	 8,
+	100	 9,
+	100	 10,
+	38	 9 10,
+	100	 11,
+	100	 9 10 11,
+	100	 12,
+	97	 9 10 11 12,
+	100	 8 9 10 11 12,
+	100	 1 2 3 4 5 6,
+	100	 1 2 3 4,
+	100	 1,
+	39	 9 11,
+	23	 10 11,
+	8	 1 2 3,
+	1	 1 3 4,
+	2	 1 4,
+	1	 3 4,
+	3	 8 9 10 11,
+	1	 8 12,
+	0	 9 10 12,
+	0	 8 11 12,
+	0	 11 12,
+	0	 1 2 4,
+	0	 9 11 12,
+;
+END; [Splits]
+

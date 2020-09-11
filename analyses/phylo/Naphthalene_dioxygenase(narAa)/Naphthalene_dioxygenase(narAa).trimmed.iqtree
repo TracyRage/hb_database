@@ -1,0 +1,300 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: analyses/phylo/Naphthalene_dioxygenase(narAa)/Naphthalene_dioxygenase(narAa).trimmed
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 3333
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 545 amino-acid sites
+Number of constant sites: 27 (= 4.95413% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 27 (= 4.95413% of all sites)
+Number of parsimony informative sites: 476
+Number of distinct site patterns: 539
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.0545,0.0404) (0.0604,0.1962) (0.1096,0.4637) (0.1651,0.4637) (0.2713,0.8229) (0.2788,1.5068) (0.0602,3.5726)
+
+ Category  Relative_rate  Proportion
+  1         0.0404         0.0545
+  2         0.1962         0.0604
+  3         0.4637         0.1096
+  4         0.4637         0.1651
+  5         0.8229         0.2713
+  6         1.5068         0.2788
+  7         3.5726         0.0602
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -21283.6417 (s.e. 436.3588)
+Unconstrained log-likelihood (without tree): -3425.0872
+Number of free parameters (#branches + #model parameters): 109
+Akaike information criterion (AIC) score: 42785.2833
+Corrected Akaike information criterion (AICc) score: 42840.4098
+Bayesian information criterion (BIC) score: 43254.0690
+
+Total tree length (sum of branch lengths): 29.2016
+Sum of internal branch lengths: 14.9562 (51.2170% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0018) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'D5IGG0-O_Sphingomonas-G_carAa-T_BLAST' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------------------------D5IGG0-O_Sphingomonas-G_carAa-T_BLAST
+|
+|                                            +**P0ABR7-O_Escherichia-G_yeaW-T_BLAST
+|                                         +--| (100)
+|                                         |  +**P0ABR8-O_Escherichia-G_yeaW-T_BLAST
+|            +----------------------------| (100)
+|            |                            |  +--F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST
+|            |                            +--| (100)
+|            |                               +--D0C9N6-O_Acinetobacter-G_cntA-T_BLAST
+|     +------| (95)
+|     |      |           +-------------Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST
+|     |      +-----------| (99)
+|     |                  +--------------Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST
+|  +--| (46)
+|  |  |                 +-----------O85673-O_Acinetobacter-G_antA-T_BLAST
+|  |  |    +------------| (100)
+|  |  |    |            |  +------Q51601-O_Burkholderia-G_cbdA-T_BLAST
+|  |  |    |            +--| (94)
+|  |  |    |               |  +----P07769-O_Acinetobacter-G_benA-T_BLAST
+|  |  |    |               +--| (99)
+|  |  |    |                  +---P23099-O_Pseudomonas-G_xylX-T_BLAST
+|  |  +----| (97)
+|  |       +---------------------Q51974-O_Pseudomonas-G_cmtAb-T_BLAST
++--| (31)
+|  |                       +--Q45695-O_Burkholderia-G_dntAc-T_BLAST
+|  |     +-----------------| (100)
+|  |     |                 |  +--O52382-O_Ralstonia-G_nagAc-T_BLAST
+|  |     |                 +--| (71)
+|  |     |                    |  +--Q51494-O_Pseudomonas-G_ndoB-T_BLAST
+|  |     |                    +--| (73)
+|  |     |                       |  +--O07824-O_Pseudomonas-G_ndoB-T_BLAST
+|  |     |                       +--| (99)
+|  |     |                          |  +**P0A111-O_Pseudomonas-G_doxB-T_BLAST
+|  |     |                          +--| (100)
+|  |     |                             +**P0A110-O_Pseudomonas-G_ndoB-T_BLAST
+|  |  +--| (48)
+|  |  |  |        +--Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST
+|  |  |  |  +-----| (98)
+|  |  |  |  |     |     +--Q83K39-O_Shigella-G_hcaE-T_BLAST
+|  |  |  |  |     |  +**| (74)
+|  |  |  |  |     |  |  +--Q0T1Y1-O_Shigella-G_hcaE-T_BLAST
+|  |  |  |  |     +--| (94)
+|  |  |  |  |        |        +--Q31XV2-O_Shigella-G_hcaE-T_BLAST
+|  |  |  |  |        |     +**| (10)
+|  |  |  |  |        |     |  +**P0ABR5-O_Escherichia-G_hcaE-T_BLAST
+|  |  |  |  |        |  +**| (67)
+|  |  |  |  |        |  |  +**Q3YZ15-O_Shigella-G_hcaE-T_BLAST
+|  |  |  |  |        +--| (83)
+|  |  |  |  |           +--A8A344-O_Escherichia-G_hcaE-T_BLAST
+|  |  |  +--| (89)
+|  |  |     |        +--Q53122-O_Rhodococcus-G_bphA1-T_BLAST
+|  |  |     |     +--| (99)
+|  |  |     |     |  |     +**P0C618-O_Pseudomonas-G_bnzA-T_BLAST
+|  |  |     |     |  |  +--| (99)
+|  |  |     |     |  |  |  +**A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST
+|  |  |     |     |  +--| (100)
+|  |  |     |     |     +--Q07944-O_Pseudomonas-G_bedC1-T_BLAST
+|  |  |     +-----| (99)
+|  |  |           |     +--Q52028-O_Pseudomonas-G_bphA-T_BLAST
+|  |  |           |  +--| (100)
+|  |  |           |  |  +--P37333-O_Paraburkholderia-G_bphA-T_BLAST
+|  |  |           +--| (99)
+|  |  |              |  +--Q46372-O_Comamonas-G_bphA-T_BLAST
+|  |  |              +--| (95)
+|  |  |                 +--Q52438-O_Pseudomonas-G_bphA1-T_BLAST
+|  +--| (28)
+|     |                   +--Q0PET4-O_Rhodococcus-G_narAa-T_Query
+|     |                +--| (98)
+|     |                |  +--Q9X3R9-O_Rhodococcus-G_narAa-T_Query
+|     |        +-------| (100)
+|     |        |       |  +**C1BE09-O_Rhodococcus-G_narAa-T_Query
+|     |        |       +--| (54)
+|     |        |          |  +--A0A2H4GVN5-O_Rhodococcus-G_narAa-T_Query
+|     |        |          +--| (62)
+|     |        |             |           +**A0A286NGM5-O_Rhodococcus-G_nidA-T_Query
+|     |        |             |        +--| (98)
+|     |        |             |        |  +--Q6TML2-O_Rhodococcus-G_narAa-T_Query
+|     |        |             |     +**| (75)
+|     |        |             |     |  +**ADM94827.1-O_Rhodococcus-NCBI
+|     |        |             |  +**| (54)
+|     |        |             |  |  +**Q6TMM0-O_Rhodococcus-G_narAa-T_Query
+|     |        |             +--| (88)
+|     |        |                +--C9EIC8-O_Gordonia-G_narAa-T_Query
+|     +--------| (83)
+|              |            +--X7ZPU1-O_Mycobacterium-G_narAa-T_Query
+|              +------------| (100)
+|                           |  +--X8AJF5-O_Mycobacterium-G_narAa-T_Query
+|                           +--| (99)
+|                              |  +**X7VEF0-O_Mycobacterium-G_narAa-T_Query
+|                              +--| (100)
+|                                 +**X8B6M6-O_Mycobacterium-G_narAa-T_Query
+|
+|           +---------------O52379-O_Ralstonia-G_nagG-T_BLAST
++-----------| (99)
+            |   +---------Q84BZ3-O_Burkholderia-G_andAc-T_BLAST
+            +---| (98)
+                |          +--Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST
+                +----------| (100)
+                           +--Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST
+
+Tree in newick format:
+
+(D5IGG0-O_Sphingomonas-G_carAa-T_BLAST:4.4810786644,(((((P0ABR7-O_Escherichia-G_yeaW-T_BLAST:0.0000013908,P0ABR8-O_Escherichia-G_yeaW-T_BLAST:0.0000013908)100:0.2530139988,(F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST:0.0057734488,D0C9N6-O_Acinetobacter-G_cntA-T_BLAST:0.0149819624)100:0.2691065374)100:2.2349133910,(Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST:1.1073495207,Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST:1.1546064862)99:0.9064705300)95:0.5387042746,((O85673-O_Acinetobacter-G_antA-T_BLAST:0.9372154617,(Q51601-O_Burkholderia-G_cbdA-T_BLAST:0.5280955364,(P07769-O_Acinetobacter-G_benA-T_BLAST:0.3837734050,P23099-O_Pseudomonas-G_xylX-T_BLAST:0.3119692972)99:0.1743229627)94:0.2618288810)100:1.0316197520,Q51974-O_Pseudomonas-G_cmtAb-T_BLAST:1.6863294457)97:0.4017922682)46:0.2144113169,(((Q45695-O_Burkholderia-G_dntAc-T_BLAST:0.0862868324,(O52382-O_Ralstonia-G_nagAc-T_BLAST:0.0025637669,(Q51494-O_Pseudomonas-G_ndoB-T_BLAST:0.0738200028,(O07824-O_Pseudomonas-G_ndoB-T_BLAST:0.0154026863,(P0A111-O_Pseudomonas-G_doxB-T_BLAST:0.0000013908,P0A110-O_Pseudomonas-G_ndoB-T_BLAST:0.0000013908)100:0.0294921311)99:0.0248530410)73:0.1120685457)71:0.0784894894)100:1.3805192170,((Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST:0.1881584720,((Q83K39-O_Shigella-G_hcaE-T_BLAST:0.0024360766,Q0T1Y1-O_Shigella-G_hcaE-T_BLAST:0.0024383674)74:0.0000030688,(((Q31XV2-O_Shigella-G_hcaE-T_BLAST:0.0024392741,P0ABR5-O_Escherichia-G_hcaE-T_BLAST:0.0000013908)10:0.0000013908,Q3YZ15-O_Shigella-G_hcaE-T_BLAST:0.0000013908)67:0.0000013908,A8A344-O_Escherichia-G_hcaE-T_BLAST:0.0024372856)83:0.0024362846)94:0.0791303100)98:0.5086584209,((Q53122-O_Rhodococcus-G_bphA1-T_BLAST:0.1664749942,((P0C618-O_Pseudomonas-G_bnzA-T_BLAST:0.0000013908,A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST:0.0000013908)99:0.0253518170,Q07944-O_Pseudomonas-G_bedC1-T_BLAST:0.0678875215)100:0.1728640179)99:0.0978005524,((Q52028-O_Pseudomonas-G_bphA-T_BLAST:0.0107344988,P37333-O_Paraburkholderia-G_bphA-T_BLAST:0.0373370381)100:0.1449085707,(Q46372-O_Comamonas-G_bphA-T_BLAST:0.1073311942,Q52438-O_Pseudomonas-G_bphA1-T_BLAST:0.1212860098)95:0.0721665593)99:0.1926324207)99:0.4914564976)89:0.2701767831)48:0.1082079494,(((Q0PET4-O_Rhodococcus-G_narAa-T_Query:0.0226333526,Q9X3R9-O_Rhodococcus-G_narAa-T_Query:0.0561023724)98:0.0685853323,(C1BE09-O_Rhodococcus-G_narAa-T_Query:0.0000013908,(A0A2H4GVN5-O_Rhodococcus-G_narAa-T_Query:0.0071976438,((((A0A286NGM5-O_Rhodococcus-G_nidA-T_Query:0.0000013908,Q6TML2-O_Rhodococcus-G_narAa-T_Query:0.0023828796)98:0.0071730038,ADM94827.1-O_Rhodococcus-NCBI:0.0000013908)75:0.0000013908,Q6TMM0-O_Rhodococcus-G_narAa-T_Query:0.0000013908)54:0.0000013908,C9EIC8-O_Gordonia-G_narAa-T_Query:0.0047822289)88:0.0048055821)62:0.0096017779)54:0.0170257738)100:0.6218523000,(X7ZPU1-O_Mycobacterium-G_narAa-T_Query:0.1763529111,(X8AJF5-O_Mycobacterium-G_narAa-T_Query:0.0312142032,(X7VEF0-O_Mycobacterium-G_narAa-T_Query:0.0000040317,X8B6M6-O_Mycobacterium-G_narAa-T_Query:0.0000013908)100:0.0924580957)99:0.1310766309)100:1.0016797350)83:0.7450985757)28:0.2674615210)31:0.2125659357,(O52379-O_Ralstonia-G_nagG-T_BLAST:1.2203767476,(Q84BZ3-O_Burkholderia-G_andAc-T_BLAST:0.8000717877,(Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST:0.0033230617,Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST:0.0224443638)100:0.8682653462)98:0.3070479280)99:0.9243945065);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -21284.084095
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------D5IGG0-O_Sphingomonas-G_carAa-T_BLAST
+|
+|                                               +--P0ABR7-O_Escherichia-G_yeaW-T_BLAST
+|                                            +--| (100)
+|                                            |  +--P0ABR8-O_Escherichia-G_yeaW-T_BLAST
+|               +----------------------------| (100)
+|               |                            |  +--F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST
+|               |                            +--| (100)
+|               |                               +--D0C9N6-O_Acinetobacter-G_cntA-T_BLAST
+|         +-----| (95)
+|         |     |          +-------------Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST
+|         |     +----------| (99)
+|         |                +--------------Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST
+|      +--| (46)
+|      |  |                 +-----------O85673-O_Acinetobacter-G_antA-T_BLAST
+|      |  |    +------------| (100)
+|      |  |    |            |  +-----Q51601-O_Burkholderia-G_cbdA-T_BLAST
+|      |  |    |            +--| (94)
+|      |  |    |               |  +----P07769-O_Acinetobacter-G_benA-T_BLAST
+|      |  |    |               +--| (99)
+|      |  |    |                  +---P23099-O_Pseudomonas-G_xylX-T_BLAST
+|      |  +----| (97)
+|      |       +---------------------Q51974-O_Pseudomonas-G_cmtAb-T_BLAST
+|  +---| (63)
+|  |   |             +--------------O52379-O_Ralstonia-G_nagG-T_BLAST
+|  |   +-------------| (99)
+|  |                 |   +---------Q84BZ3-O_Burkholderia-G_andAc-T_BLAST
+|  |                 +---| (98)
+|  |                     |          +--Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST
+|  |                     +----------| (100)
+|  |                                +--Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST
++--| (37)
+|  |                   +--Q0PET4-O_Rhodococcus-G_narAa-T_Query
+|  |                +--| (98)
+|  |                |  +--Q9X3R9-O_Rhodococcus-G_narAa-T_Query
+|  |        +-------| (100)
+|  |        |       |  +--C1BE09-O_Rhodococcus-G_narAa-T_Query
+|  |        |       +--| (54)
+|  |        |          |  +--A0A2H4GVN5-O_Rhodococcus-G_narAa-T_Query
+|  |        |          +--| (62)
+|  |        |             |           +--A0A286NGM5-O_Rhodococcus-G_nidA-T_Query
+|  |        |             |        +--| (98)
+|  |        |             |        |  +--Q6TML2-O_Rhodococcus-G_narAa-T_Query
+|  |        |             |     +--| (75)
+|  |        |             |     |  +--ADM94827.1-O_Rhodococcus-NCBI
+|  |        |             |  +--| (54)
+|  |        |             |  |  +--Q6TMM0-O_Rhodococcus-G_narAa-T_Query
+|  |        |             +--| (88)
+|  |        |                +--C9EIC8-O_Gordonia-G_narAa-T_Query
+|  +--------| (83)
+|           |            +--X7ZPU1-O_Mycobacterium-G_narAa-T_Query
+|           +------------| (100)
+|                        |  +--X8AJF5-O_Mycobacterium-G_narAa-T_Query
+|                        +--| (99)
+|                           |  +--X7VEF0-O_Mycobacterium-G_narAa-T_Query
+|                           +--| (100)
+|                              +--X8B6M6-O_Mycobacterium-G_narAa-T_Query
+|
+|                    +--Q45695-O_Burkholderia-G_dntAc-T_BLAST
+|  +-----------------| (100)
+|  |                 |  +--O52382-O_Ralstonia-G_nagAc-T_BLAST
+|  |                 +--| (71)
+|  |                    |  +--Q51494-O_Pseudomonas-G_ndoB-T_BLAST
+|  |                    +--| (73)
+|  |                       |  +--O07824-O_Pseudomonas-G_ndoB-T_BLAST
+|  |                       +--| (99)
+|  |                          |  +--P0A111-O_Pseudomonas-G_doxB-T_BLAST
+|  |                          +--| (100)
+|  |                             +--P0A110-O_Pseudomonas-G_ndoB-T_BLAST
++--| (48)
+   |        +--Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST
+   |  +-----| (98)
+   |  |     |     +--Q83K39-O_Shigella-G_hcaE-T_BLAST
+   |  |     |  +--| (74)
+   |  |     |  |  +--Q0T1Y1-O_Shigella-G_hcaE-T_BLAST
+   |  |     +--| (94)
+   |  |        |     +--Q31XV2-O_Shigella-G_hcaE-T_BLAST
+   |  |        |  +--| (67)
+   |  |        |  |  |     +**Q3YZ15-O_Shigella-G_hcaE-T_BLAST
+   |  |        |  |  |  +--|
+   |  |        |  |  |  |  +**P0ABR6-O_Escherichia-G_hcaE-T_BLAST
+   |  |        |  |  +--| (78)
+   |  |        |  |     +--P0ABR5-O_Escherichia-G_hcaE-T_BLAST
+   |  |        +--| (83)
+   |  |           +--A8A344-O_Escherichia-G_hcaE-T_BLAST
+   +--| (89)
+      |        +--Q53122-O_Rhodococcus-G_bphA1-T_BLAST
+      |     +--| (99)
+      |     |  |     +--P0C618-O_Pseudomonas-G_bnzA-T_BLAST
+      |     |  |  +--| (99)
+      |     |  |  |  +--A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST
+      |     |  +--| (100)
+      |     |     +--Q07944-O_Pseudomonas-G_bedC1-T_BLAST
+      +-----| (99)
+            |     +--Q52028-O_Pseudomonas-G_bphA-T_BLAST
+            |  +--| (100)
+            |  |  +--P37333-O_Paraburkholderia-G_bphA-T_BLAST
+            +--| (99)
+               |  +--Q46372-O_Comamonas-G_bphA-T_BLAST
+               +--| (95)
+                  +--Q52438-O_Pseudomonas-G_bphA1-T_BLAST
+
+
+Consensus tree in newick format: 
+
+(D5IGG0-O_Sphingomonas-G_carAa-T_BLAST:4.5493897100,((((((P0ABR7-O_Escherichia-G_yeaW-T_BLAST:0.0000027944,P0ABR8-O_Escherichia-G_yeaW-T_BLAST:0.0000027944)100:0.2485695555,(F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST:0.0057426565,D0C9N6-O_Acinetobacter-G_cntA-T_BLAST:0.0149744336)100:0.2730979389)100:2.2312875232,(Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST:1.1106588882,Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST:1.1470413247)99:0.9006911164)95:0.5276136906,((O85673-O_Acinetobacter-G_antA-T_BLAST:0.9387333767,(Q51601-O_Burkholderia-G_cbdA-T_BLAST:0.5290403009,(P07769-O_Acinetobacter-G_benA-T_BLAST:0.3834447742,P23099-O_Pseudomonas-G_xylX-T_BLAST:0.3115213356)99:0.1724149171)94:0.2583738328)100:1.0407146198,Q51974-O_Pseudomonas-G_cmtAb-T_BLAST:1.6746173975)97:0.4162154604)46:0.1796980432,(O52379-O_Ralstonia-G_nagG-T_BLAST:1.2059591700,(Q84BZ3-O_Burkholderia-G_andAc-T_BLAST:0.7977809811,(Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST:0.0036285205,Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST:0.0221166281)100:0.8672545611)98:0.3127041395)99:1.1056251029)63:0.3045644691,(((Q0PET4-O_Rhodococcus-G_narAa-T_Query:0.0225950969,Q9X3R9-O_Rhodococcus-G_narAa-T_Query:0.0559662097)98:0.0676983684,(C1BE09-O_Rhodococcus-G_narAa-T_Query:0.0000027944,(A0A2H4GVN5-O_Rhodococcus-G_narAa-T_Query:0.0071817232,((((A0A286NGM5-O_Rhodococcus-G_nidA-T_Query:0.0000027944,Q6TML2-O_Rhodococcus-G_narAa-T_Query:0.0023775180)98:0.0071563730,ADM94827.1-O_Rhodococcus-NCBI:0.0000027944)75:0.0000027944,Q6TMM0-O_Rhodococcus-G_narAa-T_Query:0.0000027944)54:0.0000027944,C9EIC8-O_Gordonia-G_narAa-T_Query:0.0047714672)88:0.0047951007)62:0.0095806865)54:0.0178208042)100:0.6275059368,(X7ZPU1-O_Mycobacterium-G_narAa-T_Query:0.1766177112,(X8AJF5-O_Mycobacterium-G_narAa-T_Query:0.0311180195,(X7VEF0-O_Mycobacterium-G_narAa-T_Query:0.0000025895,X8B6M6-O_Mycobacterium-G_narAa-T_Query:0.0000027944)100:0.0922789369)99:0.1301927262)100:0.9928201514)83:0.7204211953)37:0.1422691959,((Q45695-O_Burkholderia-G_dntAc-T_BLAST:0.0861737470,(O52382-O_Ralstonia-G_nagAc-T_BLAST:0.0025533813,(Q51494-O_Pseudomonas-G_ndoB-T_BLAST:0.0738088874,(O07824-O_Pseudomonas-G_ndoB-T_BLAST:0.0154068011,(P0A111-O_Pseudomonas-G_doxB-T_BLAST:0.0000027944,P0A110-O_Pseudomonas-G_ndoB-T_BLAST:0.0000027944)100:0.0294762757)99:0.0248298148)73:0.1120400310)71:0.0786714006)100:1.3804412436,((Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST:0.1889101962,((Q83K39-O_Shigella-G_hcaE-T_BLAST:0.0024349543,Q0T1Y1-O_Shigella-G_hcaE-T_BLAST:0.0024372385)74:0.0000020297,((Q31XV2-O_Shigella-G_hcaE-T_BLAST:0.0024381765,((Q3YZ15-O_Shigella-G_hcaE-T_BLAST:0.0000000000,P0ABR6-O_Escherichia-G_hcaE-T_BLAST:0.0000000000):0.0000027944,P0ABR5-O_Escherichia-G_hcaE-T_BLAST:0.0000027944)78:0.0000027944)67:0.0000027944,A8A344-O_Escherichia-G_hcaE-T_BLAST:0.0024361650)83:0.0024360229)94:0.0784363072)98:0.5055544126,((Q53122-O_Rhodococcus-G_bphA1-T_BLAST:0.1664971999,((P0C618-O_Pseudomonas-G_bnzA-T_BLAST:0.0000027944,A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST:0.0000027944)99:0.0253529965,Q07944-O_Pseudomonas-G_bedC1-T_BLAST:0.0678814856)100:0.1726014298)99:0.0970003633,((Q52028-O_Pseudomonas-G_bphA-T_BLAST:0.0107453929,P37333-O_Paraburkholderia-G_bphA-T_BLAST:0.0373405018)100:0.1448785331,(Q46372-O_Comamonas-G_bphA-T_BLAST:0.1075171502,Q52438-O_Pseudomonas-G_bphA1-T_BLAST:0.1211773176)95:0.0721096536)99:0.1939649295)99:0.4948892299)89:0.2537355032)48:0.0000029047);
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep  3 14:51:26 2020
+Total CPU time used: 2451.375877 seconds (0h:40m:51s)
+Total wall-clock time used: 2438.258127 seconds (0h:40m:38s)
+

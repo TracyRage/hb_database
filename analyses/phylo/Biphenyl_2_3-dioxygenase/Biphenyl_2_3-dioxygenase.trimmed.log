@@ -1,0 +1,597 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 12:34:22 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 104 sequences with 541 columns, 539 distinct patterns
+506 parsimony-informative, 22 singleton sites, 13 constant sites
+WARNING: Some sequence names are changed as follows:
+A0A5P8ZUW4-O=Mycobacterium-G=bphA1-T=Query -> A0A5P8ZUW4-O_Mycobacterium-G_bphA1-T_Query
+A0A498P6U5-O=Mycobacterium-G=bphA1-T=Query -> A0A498P6U5-O_Mycobacterium-G_bphA1-T_Query
+Q9RBG5-O=Alcaligenes-G=absAa-T=BLAST -> Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST
+Q9X404-O=Methylosulfonomonas-G=msmA-T=BLAST -> Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST
+Q51974-O=Pseudomonas-G=cmtAb-T=BLAST -> Q51974-O_Pseudomonas-G_cmtAb-T_BLAST
+O85673-O=Acinetobacter-G=antA-T=BLAST -> O85673-O_Acinetobacter-G_antA-T_BLAST
+Q51601-O=Burkholderia-G=cbdA-T=BLAST -> Q51601-O_Burkholderia-G_cbdA-T_BLAST
+P07769-O=Acinetobacter-G=benA-T=BLAST -> P07769-O_Acinetobacter-G_benA-T_BLAST
+P23099-O=Pseudomonas-G=xylX-T=BLAST -> P23099-O_Pseudomonas-G_xylX-T_BLAST
+O52379-O=Ralstonia-G=nagG-T=BLAST -> O52379-O_Ralstonia-G_nagG-T_BLAST
+Q84BZ3-O=Burkholderia-G=andAc-T=BLAST -> Q84BZ3-O_Burkholderia-G_andAc-T_BLAST
+Q3C1E3-O=Comamonas-G=tphA2I-T=BLAST -> Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST
+Q3C1D5-O=Comamonas-G=tphA2II-T=BLAST -> Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST
+A0A5E6PE82-O=Pseudomonas-G=bphA1-T=Query -> A0A5E6PE82-O_Pseudomonas-G_bphA1-T_Query
+A0A5E6S025-O=Pseudomonas-G=bphA1-T=Query -> A0A5E6S025-O_Pseudomonas-G_bphA1-T_Query
+A0A5E7J631-O=Pseudomonas-G=bphA1-T=Query -> A0A5E7J631-O_Pseudomonas-G_bphA1-T_Query
+Q45695-O=Burkholderia-G=dntAc-T=BLAST -> Q45695-O_Burkholderia-G_dntAc-T_BLAST
+O52382-O=Ralstonia-G=nagAc-T=BLAST -> O52382-O_Ralstonia-G_nagAc-T_BLAST
+Q51494-O=Pseudomonas-G=ndoB-T=BLAST -> Q51494-O_Pseudomonas-G_ndoB-T_BLAST
+P0A111-O=Pseudomonas-G=doxB-T=BLAST -> P0A111-O_Pseudomonas-G_doxB-T_BLAST
+P0A110-O=Pseudomonas-G=ndoB-T=BLAST -> P0A110-O_Pseudomonas-G_ndoB-T_BLAST
+O07824-O=Pseudomonas-G=ndoB-T=BLAST -> O07824-O_Pseudomonas-G_ndoB-T_BLAST
+A0A498PYA1-O=Mycobacterium-G=bphA1-T=Query -> A0A498PYA1-O_Mycobacterium-G_bphA1-T_Query
+A0A498Q0M2-O=Mycobacterium-G=bphA1-T=Query -> A0A498Q0M2-O_Mycobacterium-G_bphA1-T_Query
+A0A2H5ZQW9-O=bacterium-G=bphA1-T=Query -> A0A2H5ZQW9-O_bacterium-G_bphA1-T_Query
+A0A2H5ZUQ3-O=bacterium-G=bphA1-T=Query -> A0A2H5ZUQ3-O_bacterium-G_bphA1-T_Query
+A0A2X2P8V6-O=Burkholderia-G=bphA1-T=Query -> A0A2X2P8V6-O_Burkholderia-G_bphA1-T_Query
+A3KCY4-O=Rhodococcus-G=bphA1-T=Query -> A3KCY4-O_Rhodococcus-G_bphA1-T_Query
+A3KD13-O=Rhodococcus-G=bphA1-T=Query -> A3KD13-O_Rhodococcus-G_bphA1-T_Query
+A3KCZ6-O=Rhodococcus-G=bphA1-T=Query -> A3KCZ6-O_Rhodococcus-G_bphA1-T_Query
+Q7N4W0-O=Photorhabdus-G=hcaE-T=BLAST -> Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST
+Q0T1Y1-O=Shigella-G=hcaE-T=BLAST -> Q0T1Y1-O_Shigella-G_hcaE-T_BLAST
+Q83K39-O=Shigella-G=hcaE-T=BLAST -> Q83K39-O_Shigella-G_hcaE-T_BLAST
+Q31XV2-O=Shigella-G=hcaE-T=BLAST -> Q31XV2-O_Shigella-G_hcaE-T_BLAST
+Q3YZ15-O=Shigella-G=hcaE-T=BLAST -> Q3YZ15-O_Shigella-G_hcaE-T_BLAST
+P0ABR5-O=Escherichia-G=hcaE-T=BLAST -> P0ABR5-O_Escherichia-G_hcaE-T_BLAST
+P0ABR6-O=Escherichia-G=hcaE-T=BLAST -> P0ABR6-O_Escherichia-G_hcaE-T_BLAST
+A0A069XNL2-O=Escherichia-G=bphA1-T=Query -> A0A069XNL2-O_Escherichia-G_bphA1-T_Query
+A0A070SU90-O=Escherichia-G=bphA1-T=Query -> A0A070SU90-O_Escherichia-G_bphA1-T_Query
+A0A070VB08-O=Escherichia-G=bphA1-T=Query -> A0A070VB08-O_Escherichia-G_bphA1-T_Query
+A0A073G524-O=Escherichia-G=bphA1-T=Query -> A0A073G524-O_Escherichia-G_bphA1-T_Query
+A0A073HLS7-O=Escherichia-G=bphA1-T=Query -> A0A073HLS7-O_Escherichia-G_bphA1-T_Query
+A0A073UPZ8-O=Escherichia-G=bphA1-T=Query -> A0A073UPZ8-O_Escherichia-G_bphA1-T_Query
+A0A074HT50-O=Escherichia-G=bphA1-T=Query -> A0A074HT50-O_Escherichia-G_bphA1-T_Query
+A0A080FTH9-O=Escherichia-G=bphA1-T=Query -> A0A080FTH9-O_Escherichia-G_bphA1-T_Query
+A0A080IUM8-O=Escherichia-G=bphA1-T=Query -> A0A080IUM8-O_Escherichia-G_bphA1-T_Query
+A0A6C8HEE5-O=Escherichia-G=bphA1-T=Query -> A0A6C8HEE5-O_Escherichia-G_bphA1-T_Query
+A8A344-O=Escherichia-G=hcaE-T=BLAST -> A8A344-O_Escherichia-G_hcaE-T_BLAST
+A0A009JR72-O=Acinetobacter-G=bphA1-T=Query -> A0A009JR72-O_Acinetobacter-G_bphA1-T_Query
+A0A009FNX5-O=Acinetobacter-G=bphA1-T=Query -> A0A009FNX5-O_Acinetobacter-G_bphA1-T_Query
+A0A062BZH5-O=Acinetobacter-G=bphA1-T=Query -> A0A062BZH5-O_Acinetobacter-G_bphA1-T_Query
+A0A1S1H7L5-O=Sphingomonas-G=bphA1-T=Query -> A0A1S1H7L5-O_Sphingomonas-G_bphA1-T_Query
+A9QT30-O=Dyella-G=bphA1-T=Query -> A9QT30-O_Dyella-G_bphA1-T_Query
+A0A097SRH9-O=Cupriavidus-G=bphA1-T=Query -> A0A097SRH9-O_Cupriavidus-G_bphA1-T_Query
+C0LLA1-O=Pseudomonas-G=bphA1-T=Query -> C0LLA1-O_Pseudomonas-G_bphA1-T_Query
+ABE37059.1-O=Paraburkholderia-NCBI -> ABE37059.1-O_Paraburkholderia-NCBI
+P37333-O=Paraburkholderia-G=bphA-T=BLAST -> P37333-O_Paraburkholderia-G_bphA-T_BLAST
+Q52028-O=Pseudomonas-G=bphA-T=BLAST -> Q52028-O_Pseudomonas-G_bphA-T_BLAST
+A0A6F8PAD7-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8PAD7-O_Pseudomonas-G_bphA1-T_Query
+A0A6F8PBP4-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8PBP4-O_Pseudomonas-G_bphA1-T_Query
+A0A6F8PCS0-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8PCS0-O_Pseudomonas-G_bphA1-T_Query
+A0A6F8P9I3-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8P9I3-O_Pseudomonas-G_bphA1-T_Query
+A0A6F8PC93-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8PC93-O_Pseudomonas-G_bphA1-T_Query
+A0A6F8P9V0-O=Pseudomonas-G=bphA1-T=Query -> A0A6F8P9V0-O_Pseudomonas-G_bphA1-T_Query
+B3VTJ5-O=Achromobacter-G=bphA1-T=Query -> B3VTJ5-O_Achromobacter-G_bphA1-T_Query
+Q46372-O=Comamonas-G=bphA-T=BLAST -> Q46372-O_Comamonas-G_bphA-T_BLAST
+A0A2J7Y7H8-O=Pseudomonas-G=bphA1-T=Query -> A0A2J7Y7H8-O_Pseudomonas-G_bphA1-T_Query
+Q52438-O=Pseudomonas-G=bphA1-T=BLAST -> Q52438-O_Pseudomonas-G_bphA1-T_BLAST
+A0A6F8PC68-O=Cupriavidus-G=bphA1-T=Query -> A0A6F8PC68-O_Cupriavidus-G_bphA1-T_Query
+A0A0P0UWD9-O=Achromobacter-G=bphA1-T=Query -> A0A0P0UWD9-O_Achromobacter-G_bphA1-T_Query
+A0A6F8PCP3-O=Comamonas-G=bphA1-T=Query -> A0A6F8PCP3-O_Comamonas-G_bphA1-T_Query
+C5NS58-O=Lysobacter-G=bphA1-T=Query -> C5NS58-O_Lysobacter-G_bphA1-T_Query
+Q53122-O=Rhodococcus-G=bphA1-T=BLAST -> Q53122-O_Rhodococcus-G_bphA1-T_BLAST
+P0C618-O=Pseudomonas-G=bnzA-T=BLAST -> P0C618-O_Pseudomonas-G_bnzA-T_BLAST
+A5W4F2-O=Pseudomonas-G=bnzA-T=BLAST -> A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST
+Q07944-O=Pseudomonas-G=bedC1-T=BLAST -> Q07944-O_Pseudomonas-G_bedC1-T_BLAST
+A0A6G1A0E0-O=Andreprevotia-G=bphA1-T=Query -> A0A6G1A0E0-O_Andreprevotia-G_bphA1-T_Query
+A0A446CJW6-O=Achromobacter-G=bphA1-T=Query -> A0A446CJW6-O_Achromobacter-G_bphA1-T_Query
+A0A446CRA9-O=Achromobacter-G=bphA1-T=Query -> A0A446CRA9-O_Achromobacter-G_bphA1-T_Query
+A0A433SBW2-O=Saezia-G=bphA1-T=Query -> A0A433SBW2-O_Saezia-G_bphA1-T_Query
+A0A132HKQ0-O=Cupriavidus-G=bphA1-T=Query -> A0A132HKQ0-O_Cupriavidus-G_bphA1-T_Query
+A0A2N7RVH6-O=Janthinobacterium-G=bphA1-T=Query -> A0A2N7RVH6-O_Janthinobacterium-G_bphA1-T_Query
+A0A554XL20-O=Tepidimonas-G=bphA1-T=Query -> A0A554XL20-O_Tepidimonas-G_bphA1-T_Query
+A0A679IUG5-O=Variovorax-G=bphA1-T=Query -> A0A679IUG5-O_Variovorax-G_bphA1-T_Query
+A0A2S6QP07-O=Alphaproteobacteria-G=bphA1-T=Query -> A0A2S6QP07-O_Alphaproteobacteria-G_bphA1-T_Query
+A0A220W799-O=Sphingorhabdus-G=bphA1-T=Query -> A0A220W799-O_Sphingorhabdus-G_bphA1-T_Query
+A0A220W7C5-O=Sphingorhabdus-G=bphA1-T=Query -> A0A220W7C5-O_Sphingorhabdus-G_bphA1-T_Query
+A0A220W8I6-O=Sphingorhabdus-G=bphA1-T=Query -> A0A220W8I6-O_Sphingorhabdus-G_bphA1-T_Query
+A0A2Z4UH76-O=Rhodobiaceae-G=bphA1-T=Query -> A0A2Z4UH76-O_Rhodobiaceae-G_bphA1-T_Query
+A0A2S6THS7-O=Alphaproteobacteria-G=bphA1-T=Query -> A0A2S6THS7-O_Alphaproteobacteria-G_bphA1-T_Query
+A0A1K2FN06-O=Streptomyces-G=bphA1-T=Query -> A0A1K2FN06-O_Streptomyces-G_bphA1-T_Query
+A0A2S6R747-O=Alphaproteobacteria-G=bphA1-T=Query -> A0A2S6R747-O_Alphaproteobacteria-G_bphA1-T_Query
+P0ABR7-O=Escherichia-G=yeaW-T=BLAST -> P0ABR7-O_Escherichia-G_yeaW-T_BLAST
+P0ABR8-O=Escherichia-G=yeaW-T=BLAST -> P0ABR8-O_Escherichia-G_yeaW-T_BLAST
+F0KFI5-O=Acinetobacter-G=yeaW-T=BLAST -> F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST
+D0C9N6-O=Acinetobacter-G=cntA-T=BLAST -> D0C9N6-O_Acinetobacter-G_cntA-T_BLAST
+A0A5P9GL34-O=Ruegeria-G=bphA1-T=Query -> A0A5P9GL34-O_Ruegeria-G_bphA1-T_Query
+A0A2R8BEK1-O=Ascidiaceihabitans-G=bphA1-T=Query -> A0A2R8BEK1-O_Ascidiaceihabitans-G_bphA1-T_Query
+A0A5P9I333-O=Roseovarius-G=bphA1-T=Query -> A0A5P9I333-O_Roseovarius-G_bphA1-T_Query
+A0A2H5Z1X2-O=bacterium-G=bphA1-T=Query -> A0A2H5Z1X2-O_bacterium-G_bphA1-T_Query
+A0A2S6UUL4-O=Alphaproteobacteria-G=bphA1-T=Query -> A0A2S6UUL4-O_Alphaproteobacteria-G_bphA1-T_Query
+A0A2Z2NWK3-O=Granulosicoccus-G=bphA1-T=Query -> A0A2Z2NWK3-O_Granulosicoccus-G_bphA1-T_Query
+A0A2R8ASC0-O=Aliiroseovarius-G=bphA1-T=Query -> A0A2R8ASC0-O_Aliiroseovarius-G_bphA1-T_Query
+A0A5P9GYC2-O=Roseovarius-G=bphA1-T=Query -> A0A5P9GYC2-O_Roseovarius-G_bphA1-T_Query
+
+                                                  Gap/Ambiguity  Composition  p-value
+   1  A0A5P8ZUW4-O_Mycobacterium-G_bphA1-T_Query         23.11%    passed     41.44%
+   2  A0A498P6U5-O_Mycobacterium-G_bphA1-T_Query         19.96%    passed     28.78%
+   3  Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST               27.91%    passed     28.39%
+   4  Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST        25.51%    passed      6.29%
+   5  Q51974-O_Pseudomonas-G_cmtAb-T_BLAST               21.07%    passed     45.55%
+   6  O85673-O_Acinetobacter-G_antA-T_BLAST              13.49%    passed     33.08%
+   7  Q51601-O_Burkholderia-G_cbdA-T_BLAST               14.23%    passed     21.89%
+   8  P07769-O_Acinetobacter-G_benA-T_BLAST              14.97%    passed     72.14%
+   9  P23099-O_Pseudomonas-G_xylX-T_BLAST                16.08%    passed     88.52%
+  10  O52379-O_Ralstonia-G_nagG-T_BLAST                  22.55%    passed     22.34%
+  11  Q84BZ3-O_Burkholderia-G_andAc-T_BLAST              22.00%    passed     53.40%
+  12  Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST                24.40%    passed     44.96%
+  13  Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST               24.40%    passed     47.98%
+  14  A0A5E6PE82-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     32.89%
+  15  A0A5E6S025-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     34.17%
+  16  A0A5E7J631-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     45.11%
+  17  Q45695-O_Burkholderia-G_dntAc-T_BLAST              17.01%    passed     58.81%
+  18  O52382-O_Ralstonia-G_nagAc-T_BLAST                 17.38%    passed     55.92%
+  19  Q51494-O_Pseudomonas-G_ndoB-T_BLAST                17.01%    passed     24.81%
+  20  P0A111-O_Pseudomonas-G_doxB-T_BLAST                17.38%    passed     10.21%
+  21  P0A110-O_Pseudomonas-G_ndoB-T_BLAST                17.01%    passed     12.52%
+  22  O07824-O_Pseudomonas-G_ndoB-T_BLAST                17.19%    passed     15.95%
+  23  A0A498PYA1-O_Mycobacterium-G_bphA1-T_Query         16.08%    passed     72.85%
+  24  A0A498Q0M2-O_Mycobacterium-G_bphA1-T_Query         48.24%    passed     99.60%
+  25  A0A2H5ZQW9-O_bacterium-G_bphA1-T_Query             30.87%    failed      2.07%
+  26  A0A2H5ZUQ3-O_bacterium-G_bphA1-T_Query             30.68%    passed      6.79%
+  27  A0A2X2P8V6-O_Burkholderia-G_bphA1-T_Query          14.23%    passed     97.83%
+  28  A3KCY4-O_Rhodococcus-G_bphA1-T_Query               19.04%    passed     94.86%
+  29  A3KD13-O_Rhodococcus-G_bphA1-T_Query               18.85%    passed     93.62%
+  30  A3KCZ6-O_Rhodococcus-G_bphA1-T_Query               19.04%    passed     94.12%
+  31  Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST               16.45%    passed     87.43%
+  32  Q0T1Y1-O_Shigella-G_hcaE-T_BLAST                   16.27%    passed     99.04%
+  33  Q83K39-O_Shigella-G_hcaE-T_BLAST                   16.27%    passed     98.74%
+  34  Q31XV2-O_Shigella-G_hcaE-T_BLAST                   16.27%    passed     98.00%
+  35  Q3YZ15-O_Shigella-G_hcaE-T_BLAST                   16.27%    passed     98.37%
+  36  P0ABR5-O_Escherichia-G_hcaE-T_BLAST                16.27%    passed     98.37%
+  37  P0ABR6-O_Escherichia-G_hcaE-T_BLAST                16.27%    passed     98.37%
+  38  A0A069XNL2-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  39  A0A070SU90-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  40  A0A070VB08-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  41  A0A073G524-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  42  A0A073HLS7-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  43  A0A073UPZ8-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  44  A0A074HT50-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  45  A0A080FTH9-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  46  A0A080IUM8-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  47  A0A6C8HEE5-O_Escherichia-G_bphA1-T_Query           16.27%    passed     98.37%
+  48  A8A344-O_Escherichia-G_hcaE-T_BLAST                16.27%    passed     98.27%
+  49  A0A009JR72-O_Acinetobacter-G_bphA1-T_Query         15.16%    passed     90.63%
+  50  A0A009FNX5-O_Acinetobacter-G_bphA1-T_Query         15.90%    passed     77.02%
+  51  A0A062BZH5-O_Acinetobacter-G_bphA1-T_Query         15.90%    passed     76.82%
+  52  A0A1S1H7L5-O_Sphingomonas-G_bphA1-T_Query          15.16%    passed     86.67%
+  53  A9QT30-O_Dyella-G_bphA1-T_Query                    14.23%    passed     91.30%
+  54  A0A097SRH9-O_Cupriavidus-G_bphA1-T_Query           15.34%    passed     96.75%
+  55  C0LLA1-O_Pseudomonas-G_bphA1-T_Query               15.71%    passed     98.05%
+  56  ABE37059.1-O_Paraburkholderia-NCBI                 15.16%    passed     97.85%
+  57  P37333-O_Paraburkholderia-G_bphA-T_BLAST           15.16%    passed     97.85%
+  58  Q52028-O_Pseudomonas-G_bphA-T_BLAST                15.34%    passed     75.75%
+  59  A0A6F8PAD7-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     75.75%
+  60  A0A6F8PBP4-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     75.75%
+  61  A0A6F8PCS0-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     75.75%
+  62  A0A6F8P9I3-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     78.04%
+  63  A0A6F8PC93-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     78.04%
+  64  A0A6F8P9V0-O_Pseudomonas-G_bphA1-T_Query           15.16%    passed     93.54%
+  65  B3VTJ5-O_Achromobacter-G_bphA1-T_Query             15.16%    passed     91.80%
+  66  Q46372-O_Comamonas-G_bphA-T_BLAST                  15.53%    passed     97.16%
+  67  A0A2J7Y7H8-O_Pseudomonas-G_bphA1-T_Query           15.34%    passed     81.39%
+  68  Q52438-O_Pseudomonas-G_bphA1-T_BLAST               15.53%    passed     49.71%
+  69  A0A6F8PC68-O_Cupriavidus-G_bphA1-T_Query           15.34%    passed     72.62%
+  70  A0A0P0UWD9-O_Achromobacter-G_bphA1-T_Query         15.34%    passed     80.78%
+  71  A0A6F8PCP3-O_Comamonas-G_bphA1-T_Query             15.34%    passed     77.58%
+  72  C5NS58-O_Lysobacter-G_bphA1-T_Query                15.34%    passed     96.28%
+  73  Q53122-O_Rhodococcus-G_bphA1-T_BLAST               15.16%    passed     73.36%
+  74  P0C618-O_Pseudomonas-G_bnzA-T_BLAST                16.82%    passed     98.36%
+  75  A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST                16.82%    passed     98.36%
+  76  Q07944-O_Pseudomonas-G_bedC1-T_BLAST               16.82%    passed     92.54%
+  77  A0A6G1A0E0-O_Andreprevotia-G_bphA1-T_Query         31.61%    passed     51.40%
+  78  A0A446CJW6-O_Achromobacter-G_bphA1-T_Query         31.98%    passed     27.90%
+  79  A0A446CRA9-O_Achromobacter-G_bphA1-T_Query         31.79%    passed     44.64%
+  80  A0A433SBW2-O_Saezia-G_bphA1-T_Query                29.76%    passed     10.38%
+  81  A0A132HKQ0-O_Cupriavidus-G_bphA1-T_Query           33.64%    passed     40.88%
+  82  A0A2N7RVH6-O_Janthinobacterium-G_bphA1-T_Query     32.72%    passed     42.15%
+  83  A0A554XL20-O_Tepidimonas-G_bphA1-T_Query           31.61%    passed     12.95%
+  84  A0A679IUG5-O_Variovorax-G_bphA1-T_Query            32.90%    passed     37.22%
+  85  A0A2S6QP07-O_Alphaproteobacteria-G_bphA1-T_Query   30.50%    failed      0.00%
+  86  A0A220W799-O_Sphingorhabdus-G_bphA1-T_Query        15.16%    passed      6.02%
+  87  A0A220W7C5-O_Sphingorhabdus-G_bphA1-T_Query        27.36%    passed     72.72%
+  88  A0A220W8I6-O_Sphingorhabdus-G_bphA1-T_Query        24.95%    passed     38.50%
+  89  A0A2Z4UH76-O_Rhodobiaceae-G_bphA1-T_Query          29.39%    passed     36.23%
+  90  A0A2S6THS7-O_Alphaproteobacteria-G_bphA1-T_Query   29.02%    passed     35.05%
+  91  A0A1K2FN06-O_Streptomyces-G_bphA1-T_Query          26.80%    passed     14.01%
+  92  A0A2S6R747-O_Alphaproteobacteria-G_bphA1-T_Query   24.40%    passed     93.75%
+  93  P0ABR7-O_Escherichia-G_yeaW-T_BLAST                31.24%    passed     78.67%
+  94  P0ABR8-O_Escherichia-G_yeaW-T_BLAST                31.24%    passed     78.67%
+  95  F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST              31.79%    passed     33.33%
+  96  D0C9N6-O_Acinetobacter-G_cntA-T_BLAST              31.79%    passed     51.24%
+  97  A0A5P9GL34-O_Ruegeria-G_bphA1-T_Query              29.02%    passed     68.84%
+  98  A0A2R8BEK1-O_Ascidiaceihabitans-G_bphA1-T_Query    29.94%    passed     38.78%
+  99  A0A5P9I333-O_Roseovarius-G_bphA1-T_Query           29.39%    passed     84.08%
+ 100  A0A2H5Z1X2-O_bacterium-G_bphA1-T_Query             28.47%    failed      1.35%
+ 101  A0A2S6UUL4-O_Alphaproteobacteria-G_bphA1-T_Query   26.80%    passed     33.66%
+ 102  A0A2Z2NWK3-O_Granulosicoccus-G_bphA1-T_Query       30.50%    passed     75.71%
+ 103  A0A2R8ASC0-O_Aliiroseovarius-G_bphA1-T_Query       30.50%    passed     81.46%
+ 104  A0A5P9GYC2-O_Roseovarius-G_bphA1-T_Query           29.76%    passed     61.73%
+****  TOTAL                                              20.83%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: P0ABR5-O_Escherichia-G_hcaE-T_BLAST is identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST but kept for subsequent analysis
+NOTE: P37333-O_Paraburkholderia-G_bphA-T_BLAST is identical to ABE37059.1-O_Paraburkholderia-NCBI but kept for subsequent analysis
+NOTE: A0A6F8PAD7-O_Pseudomonas-G_bphA1-T_Query is identical to Q52028-O_Pseudomonas-G_bphA-T_BLAST but kept for subsequent analysis
+NOTE: A0A6F8PC93-O_Pseudomonas-G_bphA1-T_Query is identical to A0A6F8P9I3-O_Pseudomonas-G_bphA1-T_Query but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: P0ABR6-O_Escherichia-G_hcaE-T_BLAST (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A069XNL2-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A070SU90-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A070VB08-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A073G524-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A073HLS7-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A073UPZ8-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A074HT50-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A080FTH9-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A080IUM8-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A6C8HEE5-O_Escherichia-G_bphA1-T_Query (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+NOTE: A0A6F8PBP4-O_Pseudomonas-G_bphA1-T_Query (identical to Q52028-O_Pseudomonas-G_bphA-T_BLAST) is ignored but added at the end
+NOTE: A0A6F8PCS0-O_Pseudomonas-G_bphA1-T_Query (identical to Q52028-O_Pseudomonas-G_bphA-T_BLAST) is ignored but added at the end
+Alignment was printed to analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.078 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 57 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+5 trees examined
+Threads: 1 / Time: 4.037 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -75010
+Threads: 2 / Time: 3.601 sec / Speedup: 1.121 / Efficiency: 56% / LogL: -75010
+Threads: 3 / Time: 3.540 sec / Speedup: 1.140 / Efficiency: 38% / LogL: -75010
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -48488.980
+2. Current log-likelihood: -47445.752
+3. Current log-likelihood: -47424.379
+4. Current log-likelihood: -47422.777
+5. Current log-likelihood: -47422.028
+6. Current log-likelihood: -47421.619
+7. Current log-likelihood: -47421.194
+8. Current log-likelihood: -47420.781
+9. Current log-likelihood: -47420.343
+10. Current log-likelihood: -47419.919
+11. Current log-likelihood: -47419.548
+12. Current log-likelihood: -47419.187
+13. Current log-likelihood: -47418.835
+14. Current log-likelihood: -47418.492
+15. Current log-likelihood: -47418.158
+16. Current log-likelihood: -47417.833
+17. Current log-likelihood: -47417.516
+18. Current log-likelihood: -47417.207
+19. Current log-likelihood: -47416.906
+20. Current log-likelihood: -47416.612
+21. Current log-likelihood: -47416.325
+22. Current log-likelihood: -47416.045
+23. Current log-likelihood: -47415.871
+24. Current log-likelihood: -47415.583
+25. Current log-likelihood: -47415.416
+26. Current log-likelihood: -47415.140
+27. Current log-likelihood: -47414.981
+28. Current log-likelihood: -47414.716
+29. Current log-likelihood: -47414.563
+30. Current log-likelihood: -47414.308
+31. Current log-likelihood: -47414.161
+32. Current log-likelihood: -47414.008
+33. Current log-likelihood: -47413.765
+34. Current log-likelihood: -47413.628
+35. Current log-likelihood: -47413.482
+36. Current log-likelihood: -47413.337
+37. Current log-likelihood: -47413.195
+38. Current log-likelihood: -47413.056
+39. Current log-likelihood: -47412.919
+40. Current log-likelihood: -47412.785
+41. Current log-likelihood: -47412.651
+42. Current log-likelihood: -47412.521
+43. Current log-likelihood: -47412.393
+44. Current log-likelihood: -47412.265
+45. Current log-likelihood: -47412.138
+46. Current log-likelihood: -47412.014
+47. Current log-likelihood: -47411.895
+48. Current log-likelihood: -47411.776
+49. Current log-likelihood: -47411.660
+50. Current log-likelihood: -47411.546
+51. Current log-likelihood: -47411.435
+Optimal log-likelihood: -47411.283
+Site proportion and rates:  (0.036,0.029) (0.038,0.148) (0.067,0.291) (0.105,0.435) (0.301,0.684) (0.316,1.217) (0.138,2.457)
+Parameters optimization took 51 rounds (349.847 sec)
+Computing ML distances based on estimated model parameters... 3.952 sec
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -47389.164
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.313 second
+Computing log-likelihood of 98 initial trees ... 40.226 seconds
+Current best score: -47389.164
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -47334.572
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -47334.196
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -47333.924
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -47333.672
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -47333.137
+Iteration 10 / LogL: -47352.417 / Time: 0h:10m:16s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -47332.351
+Iteration 20 / LogL: -47355.383 / Time: 0h:12m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -47332.351 / CPU time: 392.937
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -47332.198
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47332.053
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47331.913
+Iteration 30 / LogL: -47331.913 / Time: 0h:15m:3s (0h:47m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -47331.638
+Iteration 40 / LogL: -47332.252 / Time: 0h:17m:21s (0h:41m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -47331.494
+Iteration 50 / LogL: -47331.796 / Time: 0h:19m:42s (0h:38m:36s left)
+Log-likelihood cutoff on original alignment: -47370.319
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -47330.998
+BETTER TREE FOUND at iteration 58: -47330.990
+Iteration 60 / LogL: -47330.990 / Time: 0h:22m:5s (0h:36m:40s left)
+Iteration 70 / LogL: -47330.990 / Time: 0h:24m:13s (0h:30m:53s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.867
+Iteration 80 / LogL: -47330.867 / Time: 0h:26m:20s (0h:26m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -47330.859
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.741
+Iteration 90 / LogL: -47330.741 / Time: 0h:28m:35s (0h:21m:50s left)
+BETTER TREE FOUND at iteration 91: -47330.735
+UPDATE BEST LOG-LIKELIHOOD: -47330.735
+Iteration 100 / LogL: -47331.158 / Time: 0h:30m:40s (0h:28m:11s left)
+Log-likelihood cutoff on original alignment: -47370.319
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -47332.544 / Time: 0h:32m:49s (0h:27m:6s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.622
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -47330.506
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.395
+Iteration 120 / LogL: -47330.395 / Time: 0h:35m:26s (0h:28m:35s left)
+UPDATE BEST LOG-LIKELIHOOD: -47330.389
+Iteration 130 / LogL: -47337.217 / Time: 0h:37m:32s (0h:25m:1s left)
+Iteration 140 / LogL: -47331.747 / Time: 0h:39m:43s (0h:21m:43s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.286
+UPDATE BEST LOG-LIKELIHOOD: -47330.281
+Iteration 150 / LogL: -47330.765 / Time: 0h:41m:54s (0h:18m:33s left)
+Log-likelihood cutoff on original alignment: -47370.319
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.179
+UPDATE BEST LOG-LIKELIHOOD: -47330.174
+Iteration 160 / LogL: -47330.174 / Time: 0h:44m:23s (0h:15m:37s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47330.074
+UPDATE BEST LOG-LIKELIHOOD: -47330.070
+Iteration 170 / LogL: -47330.070 / Time: 0h:46m:43s (0h:12m:43s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.972
+UPDATE BEST LOG-LIKELIHOOD: -47329.968
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 178: -47329.873
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.771
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.675
+Iteration 180 / LogL: -47329.675 / Time: 0h:49m:34s (0h:27m:8s left)
+BETTER TREE FOUND at iteration 183: -47329.674
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.582
+UPDATE BEST LOG-LIKELIHOOD: -47329.578
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.488
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 190: -47329.397
+Iteration 190 / LogL: -47329.397 / Time: 0h:52m:22s (0h:27m:42s left)
+UPDATE BEST LOG-LIKELIHOOD: -47329.396
+UPDATE BEST LOG-LIKELIHOOD: -47329.395
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.306
+UPDATE BEST LOG-LIKELIHOOD: -47329.305
+BETTER TREE FOUND at iteration 199: -47329.305
+Iteration 200 / LogL: -47330.609 / Time: 0h:54m:45s (0h:27m:14s left)
+Log-likelihood cutoff on original alignment: -47370.319
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.217
+UPDATE BEST LOG-LIKELIHOOD: -47329.216
+Iteration 210 / LogL: -47335.770 / Time: 0h:57m:20s (0h:24m:41s left)
+UPDATE BEST LOG-LIKELIHOOD: -47329.216
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -47329.130
+Iteration 220 / LogL: -47329.130 / Time: 0h:59m:46s (0h:21m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 223: -47329.044
+UPDATE BEST LOG-LIKELIHOOD: -47329.044
+UPDATE BEST LOG-LIKELIHOOD: -47329.044
+Iteration 230 / LogL: -47330.374 / Time: 1h:2m:22s (0h:25m:20s left)
+UPDATE BEST LOG-LIKELIHOOD: -47329.043
+UPDATE BEST LOG-LIKELIHOOD: -47329.038
+Iteration 240 / LogL: -47332.025 / Time: 1h:4m:54s (0h:22m:32s left)
+UPDATE BEST LOG-LIKELIHOOD: -47329.031
+Iteration 250 / LogL: -47508.325 / Time: 1h:7m:15s (0h:19m:43s left)
+Log-likelihood cutoff on original alignment: -47370.423
+UPDATE BEST LOG-LIKELIHOOD: -47329.031
+Iteration 260 / LogL: -47329.894 / Time: 1h:9m:45s (0h:16m:58s left)
+UPDATE BEST LOG-LIKELIHOOD: -47329.029
+Iteration 270 / LogL: -47329.415 / Time: 1h:11m:59s (0h:14m:11s left)
+Iteration 280 / LogL: -47507.134 / Time: 1h:14m:25s (0h:11m:28s left)
+Iteration 290 / LogL: -47483.900 / Time: 1h:17m:1s (0h:8m:47s left)
+Iteration 300 / LogL: -47330.034 / Time: 1h:19m:29s (0h:6m:6s left)
+Log-likelihood cutoff on original alignment: -47370.423
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 310 / LogL: -47336.509 / Time: 1h:21m:55s (0h:23m:51s left)
+Iteration 320 / LogL: -47329.031 / Time: 1h:24m:20s (0h:21m:9s left)
+TREE SEARCH COMPLETED AFTER 324 ITERATIONS / Time: 1h:25m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -47329.029
+2. Current log-likelihood: -47328.977
+3. Current log-likelihood: -47328.920
+4. Current log-likelihood: -47328.862
+5. Current log-likelihood: -47328.805
+6. Current log-likelihood: -47328.751
+7. Current log-likelihood: -47328.696
+8. Current log-likelihood: -47328.629
+9. Current log-likelihood: -47328.577
+10. Current log-likelihood: -47328.524
+11. Current log-likelihood: -47328.472
+12. Current log-likelihood: -47328.419
+13. Current log-likelihood: -47328.366
+14. Current log-likelihood: -47328.315
+15. Current log-likelihood: -47328.262
+16. Current log-likelihood: -47328.211
+17. Current log-likelihood: -47328.164
+18. Current log-likelihood: -47328.115
+19. Current log-likelihood: -47328.066
+20. Current log-likelihood: -47328.018
+21. Current log-likelihood: -47327.972
+22. Current log-likelihood: -47327.925
+23. Current log-likelihood: -47327.880
+24. Current log-likelihood: -47327.834
+25. Current log-likelihood: -47327.790
+26. Current log-likelihood: -47327.745
+27. Current log-likelihood: -47327.702
+28. Current log-likelihood: -47327.657
+29. Current log-likelihood: -47327.614
+30. Current log-likelihood: -47327.571
+31. Current log-likelihood: -47327.531
+32. Current log-likelihood: -47327.491
+33. Current log-likelihood: -47327.452
+34. Current log-likelihood: -47327.411
+35. Current log-likelihood: -47327.371
+36. Current log-likelihood: -47327.330
+37. Current log-likelihood: -47327.292
+38. Current log-likelihood: -47327.254
+39. Current log-likelihood: -47327.217
+40. Current log-likelihood: -47327.181
+41. Current log-likelihood: -47327.145
+42. Current log-likelihood: -47327.109
+43. Current log-likelihood: -47327.073
+44. Current log-likelihood: -47327.039
+45. Current log-likelihood: -47327.003
+46. Current log-likelihood: -47326.969
+47. Current log-likelihood: -47326.935
+48. Current log-likelihood: -47326.912
+49. Current log-likelihood: -47326.876
+50. Current log-likelihood: -47326.841
+51. Current log-likelihood: -47326.808
+52. Current log-likelihood: -47326.774
+53. Current log-likelihood: -47326.742
+54. Current log-likelihood: -47326.709
+55. Current log-likelihood: -47326.676
+56. Current log-likelihood: -47326.655
+57. Current log-likelihood: -47326.620
+58. Current log-likelihood: -47326.588
+59. Current log-likelihood: -47326.556
+60. Current log-likelihood: -47326.523
+61. Current log-likelihood: -47326.492
+62. Current log-likelihood: -47326.472
+63. Current log-likelihood: -47326.440
+64. Current log-likelihood: -47326.422
+65. Current log-likelihood: -47326.393
+66. Current log-likelihood: -47326.375
+67. Current log-likelihood: -47326.360
+68. Current log-likelihood: -47326.343
+69. Current log-likelihood: -47326.323
+70. Current log-likelihood: -47326.294
+71. Current log-likelihood: -47326.275
+72. Current log-likelihood: -47326.260
+73. Current log-likelihood: -47326.245
+74. Current log-likelihood: -47326.228
+75. Current log-likelihood: -47326.211
+76. Current log-likelihood: -47326.193
+77. Current log-likelihood: -47326.179
+78. Current log-likelihood: -47326.161
+79. Current log-likelihood: -47326.144
+80. Current log-likelihood: -47326.130
+81. Current log-likelihood: -47326.114
+82. Current log-likelihood: -47326.096
+83. Current log-likelihood: -47326.082
+84. Current log-likelihood: -47326.065
+85. Current log-likelihood: -47326.051
+86. Current log-likelihood: -47326.034
+87. Current log-likelihood: -47326.018
+88. Current log-likelihood: -47326.001
+89. Current log-likelihood: -47325.986
+90. Current log-likelihood: -47325.973
+91. Current log-likelihood: -47325.959
+92. Current log-likelihood: -47325.944
+93. Current log-likelihood: -47325.931
+94. Current log-likelihood: -47325.913
+95. Current log-likelihood: -47325.900
+96. Current log-likelihood: -47325.883
+97. Current log-likelihood: -47325.870
+98. Current log-likelihood: -47325.855
+99. Current log-likelihood: -47325.839
+Optimal log-likelihood: -47325.839
+Site proportion and rates:  (0.033,0.015) (0.033,0.123) (0.069,0.270) (0.127,0.440) (0.303,0.713) (0.303,1.249) (0.132,2.466)
+Parameters optimization took 99 rounds (658.717 sec)
+BEST SCORE FOUND : -47325.839
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.splits.nex
+Total tree length: 72.466
+
+Total number of iterations: 324
+CPU time used for tree search: 9454.088 sec (2h:37m:34s)
+Wall-clock time used for tree search: 4752.246 sec (1h:19m:12s)
+Total CPU time used: 11495.023 sec (3h:11m:35s)
+Total wall-clock time used: 5778.706 sec (1h:36m:18s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.splits.nex...
+91 taxa and 471 splits.
+Consensus tree written to analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.contree
+Log-likelihood of consensus tree: -47326.270
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Biphenyl_2_3-dioxygenase/Biphenyl_2_3-dioxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 14:10:47 2020

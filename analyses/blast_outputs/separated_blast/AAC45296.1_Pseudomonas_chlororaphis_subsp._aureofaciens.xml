@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>data/seqs/db_uniprot/db_uniprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens</BlastOutput_query-def>
+  <BlastOutput_query-len>349</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens</Iteration_query-def>
+  <Iteration_query-len>349</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P21394|XYLA_PSEPU</Hit_id>
+  <Hit_def>Xylene monooxygenase electron transfer component OS=Pseudomonas putida OX=303 GN=xylA PE=1 SV=1</Hit_def>
+  <Hit_accession>P21394</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.22577e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>MRSFFQSIFGKATP---KQVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSAD-LPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFTD</Hsp_qseq>
+      <Hsp_hseq>MNEFFKKISGLFVPPPESTVSVRGQGFQFKVPRGQTILESALHQGIAFPHDCKVGSCGTCKYKLISGRVNELTSSAMGLSGDLYQSGYRLGCQCIPKEDLEI-ELDTVLGQALVPIET-SALISKQKRLAHDIVEMEVVPDKQIAFYPGQYADVECAECSAVRSYSFSAPPQPDGS--LSFHVRLVPGGVFSGWLFGGDRTGATLTLRAPYGQFGLHESNATMVCVAGGTGLAPIKCVLQSMTQAQRERDVLLFFGARQQRDLYCLDEIEALQLDWGGRFELIPVLSEESSTSSWKGKRGMVTEYF-KEYLTGQPYEGYLCGPPPMVDAAETELVRLGVARELVFADRFYN</Hsp_hseq>
+      <Hsp_midline>M  FF+ I G   P     V +  Q     +  GQT+LE+AL  GIA+PHDC VG+C +CK +L  GRV E T     LS     +GY L CQ  P+++L + E+D      L P+E  +A I   + L HDI+++ +  D+ + +  G+YA+V        R YSF+  PQ  G   L F++R VP G F+  LF G+  G  L + AP G F LH  +A M+C+AGG+GLAP+  +L+     + +RD +L FGAR + DLY L+ I  +  +W G F  IPVLS E   S W G RG+VTE+   ++  G   EGYLCGPPPM+DAA   L+   +  E +F D+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P0DPQ8|GCOB_AMYS7</Hit_id>
+  <Hit_def>Aromatic O-demethylase, reductase subunit OS=Amycolatopsis sp. (strain ATCC 39116 / 75iv2) OX=385957 GN=gcoB PE=1 SV=1</Hit_def>
+  <Hit_accession>P0DPQ8</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>2.83963e-52</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>EPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEA-LFRGELDGQPLEMEAPQGTFHLHGGD----APMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTG-ARGLVTEHIPADFCEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>EPGQTLLEAFLRGGVWMPNSCNQGTCGTCKLQVLSGEVDHGGAPEDTLSAEERASGLALACQARPLADTEVRSTADAGRVTHPLRDLTATVLEVADIARDTRRVLLGLAEPLAFEAGQYVELVVPGSGARRQYSLANTADED--KVLELHVRRVPGGVATDGWLFDGLAAGDRVEATGPLGDFHLPPPDEDDGGPMVLIGGGTGLAPLVGIARTALARHPSREVLLYHGVRGAADLYDLGRFAEIAEEHPG-FRFVPVLSDEPDPAYRGGFPTDAFVEDVPSG--RGWSGWLCGPPAMVEAGVKAFKRRRMSPRRIHREKFT</Hsp_hseq>
+      <Hsp_midline>EPGQTLLEA L  G+  P+ C  GTC +CK ++  G V        TLS  E  +G  LACQA P  +  V           P+    AT++    +  D  +V +    P+ + AG+Y  + VPG    R YS AN        VLE ++R+VP G  T+  LF G   G  +E   P G FHL   D     PM+ I GG+GLAPLV I   A A    R+ +L  G R   DLY L     IA    G FRF+PVLS EP+ +   G       E +P+    G  G+LCGPP M++A +      R+   +I  +KFT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q7WTJ2|DMPP_ACICP</Hit_id>
+  <Hit_def>Phenol hydroxylase P5 protein OS=Acinetobacter calcoaceticus (strain PHEA-2) OX=871585 GN=mphP PE=1 SV=3</Hit_def>
+  <Hit_accession>Q7WTJ2</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.26793e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQG--RVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPP------VEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLH-GGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADF---CEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>QVTIEPIGTTIEVEEDQTILDAALRQGVWLPFACGHGTCGTCKVQVTDGFYDVGEASPFA--LMDIERDENKVLACCCKPQSDM-VIEAD---VDEDPDFLGHLVQDYQATVIEIKDLSPTIKGIRLQLDRPIEFQAGQYINVQFPNIEGTRAFSIANSPSEVG--IVELHIRKVEGGAATTYVHEQLATGDQLDISGPYGQFFVRKSDDQNAIFIAGGSGLSSPQSMILDLLESGDSRTIYLFQGARDLAELYNRELFEQLVKDYPN-FRYIPALNAPKPEDQWTGFTGFVHEAVADYFENRCGGHKAYLCGPPIMIDSAISTLMQSRLFERDIHTERF</Hsp_hseq>
+      <Hsp_midline>QV I P   TI +E  QT+L+AAL  G+  P  C  GTC +CK ++  G   V EA+PF   L   E D   +LAC   P+ ++ V+E D    D  P      V+ + AT++  + L+  I  + +Q DRP+ + AG+Y NV+ P     R +S AN+P   G  ++E +IRKV  G  T  +      G  L++  P G F +    D   + IAGGSGL+   S++     +   R   L  GAR   +LY  E    +  ++   FR+IP L+       WTG  G V E +   F   C G + YLCGPP MID+AI+ L+ +RL    I  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P19734|DMPP_PSEUF</Hit_id>
+  <Hit_def>Phenol hydroxylase P5 protein OS=Pseudomonas sp. (strain CF600) OX=79676 GN=dmpP PE=1 SV=3</Hit_def>
+  <Hit_accession>P19734</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.99881e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVR--EATPFGYTLSKAELDAGYILACQAFPRDELTV---VEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAP----LVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADF---CEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>NVTIEPTGEVIEVEDGQTILQAALRQGVWLPFACGHGTCATCKVQVVEGEVDIGEASPF--ALMDIERDERKVLACCAIPLSDLVIEADVDADPDFLG-HPVEDYRGVVSALVDLSPTIKGLHIKLDRPMPFQAGQYVNLALPGIDGTRAFSLANPPSRN--DEVELHVRLVEGGAATGFIHKQLKVGDAVELSGPYGQFFVRDSQAGDLIFIAGGSGLSSPQSMILDLLERGDTRRIT----LFQGARNRAELYNCELFEELAAR-HPNFSYVPALNQANDDPEWQGFKGFVHDAAKAHFDGRFGGQKAYLCGPPPMIDAAITTLMQGRLFERDIFMERF</Hsp_hseq>
+      <Hsp_midline> V I P    I +E GQT+L+AAL  G+  P  C  GTCA+CK ++ +G V   EA+PF   L   E D   +LAC A P  +L +   V+ DP      PVE +   + A   L+  I  + I+ DRP+ + AG+Y N+ +PG    R +S AN P R   + +E ++R V  G  T  + +    G  +E+  P G F +    A  ++ IAGGSGL+     ++ +LE     RI     L  GAR   +LY  E    +AA     F ++P L+   +  +W G +G V +   A F     G + YLCGPPPMIDAAI  L+  RL    IF ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|A0QTU9|MIMB_MYCS2</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, reductase component OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mimB PE=1 SV=1</Hit_def>
+  <Hit_accession>A0QTU9</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>4.40852e-51</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>ATPKQVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADL---PPVEQFAATIVATEPLTHDILKVTIQTDRP--VHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD-GQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHS---DWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>ADSHKINFDPVDIEMEVREDENILDAAFRQGIHLMHGCREGRCSACKSYVLDGEIQMESYSTFACNDAEVDEGYVLLCRSHAFSDCTIELLNFDEDELLGGIPIQDVRTQVQAVEPKTRDIVSLRLKPIEPGKFDFKPGQYADLHIPGTDEHRSFSMATTQSRS--DEVEFLIKKYPGGKFS-ALLDGHIQVGDEIALTGPYGSFTLKDGHVLPVVCIGGGAGMAPILSLLRHMNETENSRPARFYYGARTPADLFYLDEILELGKGIK-DFRFIACLSESADGEVPGRVTVEEGMVTDVVARHETAIAKTEVYLCGPPPMVDAALMFLDANCVPKDQVFYDSFT</Hsp_hseq>
+      <Hsp_midline>A   ++   P D+ + +   + +L+AA   GI   H C  G C++CK+ +  G ++  +   +  + AE+D GY+L C++    + T+  ++    +L    P++     + A EP T DI+ + ++   P    +  G+YA++ +PG    R +S A    R   + +EF I+K P G+F+ AL  G +  G  + +  P G+F L  G   P++CI GG+G+AP++S+L H       R     +GART  DL+ L+ I  +    + +FRFI  LS   +       T   G+VT+ +       A  E YLCGPPPM+DAA+  L  N +P +++FYD FT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|E9RFT0|MIMB_MYCGD</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, reductase component OS=Mycobacterium goodii OX=134601 GN=mimB PE=1 SV=1</Hit_def>
+  <Hit_accession>E9RFT0</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>3.38878e-50</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>ATPKQVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADL---PPVEQFAATIVATEPLTHDILKVTIQTDRP--VHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD-GQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGA----RGLVTEHIP--ADFCEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>ADSHKINFEPVDIEMDVREDENILDAAFRQGIHLMHGCREGRCSACKSYVLDGEIQMENYSTFACNDAEVDEGFVLLCRSHAFSDCTIELLNFDEDELLGGIPIQDVRTEVLAVEPKTRDIVSLRLKPVEPGKFDFKPGQYADLHIPGTEEHRSFSMATTPSCS--DEVEFLIKKYPGGKFS-ALLDGHIQVGDEIALTGPYGSFTLKDGHVLPVVCIGGGAGMAPILSLLRHMNETGNGRPARFYYGARTAADLFYLDEILELGKGIK-DFQFIACLSESAE-GQVPGAVAVEEGMVTDVVARHESAIAKTEVYLCGPPPMVDAALGFLDANSVPKDQVFYDSFT</Hsp_hseq>
+      <Hsp_midline>A   ++   P D+ + +   + +L+AA   GI   H C  G C++CK+ +  G ++      +  + AE+D G++L C++    + T+  ++    +L    P++     ++A EP T DI+ + ++   P    +  G+YA++ +PG    R +S A  P     + +EF I+K P G+F+ AL  G +  G  + +  P G+F L  G   P++CI GG+G+AP++S+L H       R     +GART  DL+ L+ I  +    + +F+FI  LS   E     GA     G+VT+ +          E YLCGPPPM+DAA+  L  N +P +++FYD FT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q768T4|PRMB_GORST</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, reductase component OS=Gordonia sp. (strain TY-5) OX=235467 GN=prmB PE=1 SV=2</Hit_def>
+  <Hit_accession>Q768T4</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>2.0765e-47</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>ATPKQVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADL---PPVEQFAATIVATEPLTHDILKVTIQTDRP--VHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHS--DWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>ADTHKISFEPVDIEMEVGEDETILDAAFRQGIHLMHGCREGRC-SCKSYMLEGDVQMDDYSTFACNDAEEAEGYVLLCRTYAYSDCEIELLNFDEDELLGGAPIQDVTTKVAAIEPMTPDIVSLKLDVVEPESVEFKSGQYFDLFIPGTEDKRSFSIATTPATPDR--LEFLIKKYPGGLFAGMLTDGLSVGQEIKLNGPYGSCTLRNGHVLPIVAIGGGAGMAPLLSLLRHISETGLNRPVRFYYGARTAADLFLLDEIATLGEKID-DFSFTACLSESTDNAPEGVTVIGGNVTDIVNDNEADLARTEVYFCAPPPMVDAALALAEQHSVPHDQIFYDKFT</Hsp_hseq>
+      <Hsp_midline>A   ++   P D+ + +   +T+L+AA   GI   H C  G C SCK+ + +G V+      +  + AE   GY+L C+ +   +  +  ++    +L    P++     + A EP+T DI+ + +    P  V + +G+Y ++ +PG    R +S A  P    R  LEF I+K P G F   L  G   GQ +++  P G+  L  G   P++ I GG+G+APL+S+L H     + R     +GART  DL+ L+ I  +      +F F   LS   +++    T   G VT+ +  +  + A  E Y C PPPM+DAA+A    + +P ++IFYDKFT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q0SJK8|PRMB_RHOJR</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, reductase component OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=prmB PE=1 SV=1</Hit_def>
+  <Hit_accession>Q0SJK8</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>4.09011e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>ATPKQVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADL---PPVEQFAATIVATEPLTHDILKVTIQTDRPVHY--LAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHE---PEHSDWTGARGLVTEHI---PADFCEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>ADKHRINFEPVDIEMEVGEDEYILDAAFRQGIHLMHGCREGRCSACKSFVLEGDIQMEDYSTFACNDAEVDEGHVLLCRSTAYSDCTIELLNFDEDELLGGVPIQDVRTRVTRIEPMTKDIVSLRLAPVEPAGYEFKPGQYSDLHIPGTEEHRSFSMATTRSTPGH--VEFLIKKYPGGKFAGLLEDGISVGDEIALTGPYGSFTIKEGHVLPMVFIGGGAGMAPLLSLLRHMSETGNTRQVHFYYGARTPQDLFYVDEILELGRGLT-DFTFVACLSESMDPPPVGAIAVEDGNVTDVVGRREPDIGR-AEVYLCGPPPMVDAALELLEANGTPKDQIFYDKFT</Hsp_hseq>
+      <Hsp_midline>A   ++   P D+ + +   + +L+AA   GI   H C  G C++CK+ + +G ++      +  + AE+D G++L C++    + T+  ++    +L    P++     +   EP+T DI+ + +    P  Y    G+Y+++ +PG    R +S A      G   +EF I+K P G+F   L  G   G  + +  P G+F +  G   PM+ I GG+G+APL+S+L H       R     +GART  DL+ ++ I  +      +F F+  LS     P         G VT+ +     D    AE YLCGPPPM+DAA+  L  N  P ++IFYDKFT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q8GI14|CARAD_PSERE</Hit_id>
+  <Hit_def>Ferredoxin--NAD(P)(+) reductase CarAd OS=Pseudomonas resinovorans OX=53412 GN=carAd PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8GI14</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.49012e-42</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>GQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYI-LACQAFPRDELTV-VEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPR-FRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGT-FHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRD--CILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGA---EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>GKSLLVSALANGIGFPYECASGGCGVCKFELLEGNVQSMWPDAPGLSSRDREKGNRHLACQCVALSDLRIKVAVQDKYVPTIPISRMEAEVVEVRALTHDLLSVRLRTDGPANFLPGQFCLVEAEQLPGVVRAYSMANLKNPEG--IWEFYIKRVPTGRFSPWLFENRKEGARLFLTGPMGTSFFRPGTGRKSLCIGGGAGLSYAAAI---ARASMRETDKPVKLFYGSRTPRD-----AVRWIDIDIDEDKLEVVQAVTEDTDSLWQGPTGFIHQVVDAALLETLPEYEIYLAGPPPMVDATVRMLLGKGVPRDQIHFDAF</Hsp_hseq>
+      <Hsp_midline>G++LL +ALANGI +P++C  G C  CK  L +G V+   P    LS  + + G   LACQ     +L + V +        P+ +  A +V    LTHD+L V ++TD P ++L G++  V     P   R YS AN    +G  + EFYI++VP G F+  LF    +G  L +  P GT F   G     LCI GG+GL+   +I   ARA+  + D    L +G+RT  D     A+  I  +   +   +     E   S W G  G + + + A   E     E YL GPPPM+DA +  LL   +P ++I +D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q52126|NDOR_PSEPU</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase system ferredoxin--NAD(P)(+), reductase component OS=Pseudomonas putida OX=303 GN=ndoR PE=1 SV=1</Hit_def>
+  <Hit_accession>Q52126</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.12086e-40</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAEL-DAGYILACQAFPRDELTVVEIDPPSAD---LPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHL---HGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGAR-GLVTEHIPADFCE--GAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFTDG</Hsp_qseq>
+      <Hsp_hseq>ELLIQPNNRIIPFSAGANLLEVLRENGVAISYSCLSGRCGTCRCRVIDGSVIDS---GAENGQSNLTDKQYVLACQSVLTGNCA---IEVPEADEIVTHPARIIKGTVVAVESPTHDIRRLRVRLSKPFEFSPGQYATLQF-SPEHARPYSMAGLPDDQE---MEFHIRKVPGGRVTEYVFEHVREGTSIKLSGPLGTAYLRQKHTG--PMLCVGGGTGLAPVLSIVRGALKSGMTNPILLYFGVRSQQDLYDAERLHKLAAD-HPQLTVHTVIATGPINE---GQRAGLITDVIEKDILSLAGWRAYLCGAPAMVEALCTVTKHLGISPEHIYADAFYPG</Hsp_hseq>
+      <Hsp_midline>++ I P +  I    G  LLE    NG+A  + C  G C +C+ R+  G V ++   G    ++ L D  Y+LACQ+          I+ P AD     P      T+VA E  THDI ++ ++  +P  +  G+YA ++       R YS A  P  +    +EF+IRKVP G  TE +F    +G  +++  P GT +L   H G  PMLC+ GG+GLAP++SI+  A  + +    +L FG R++ DLY  E +  +AA+   +     V++  P +    G R GL+T+ I  D     G   YLCG P M++A         +  E I+ D F  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P07771|BENC_ACIAD</Hit_id>
+  <Hit_def>Benzoate 1,2-dioxygenase electron transfer component OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=benC PE=1 SV=2</Hit_def>
+  <Hit_accession>P07771</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.46474e-40</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>IVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGR--VREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLP-PVEQFAATIVATEPLTHDILKVTIQTDR---PVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAAN--WQGEFRFIPVLSH-EPEHSDWTGARGLVTEHIPADFCEGAE--GYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>IRIAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSD-AVFQIQASSEVCKTKIHHFEGTLARVENLSDSTITFDIQLDDGQPDIHFLAGQYVNVTLPGTTETRSYSFSSQP---GNRLTGFVVRNVPQGKMSEYLSVQAKAGDKMSFTGPFGSFYLRDVKRPVLMLAGGTGIAPFLSMLQVLEQKGSEHPVRLVFGVTQDCDLVALEQLDALQQKLPW---FEYRTVVAHAESQHE----RKGYVTGHIEYDWLNGGEVDVYLCGPVPMVEAVRSWLDTQGIQPANFLFEKFS</Hsp_hseq>
+      <Hsp_midline>I +  G+TL +AA    I  P DC  G C +C+   + G   + E       L+  E   GY+LACQ  P  +  V +I   S      +  F  T+   E L+   +   IQ D     +H+LAG+Y NV +PG    R YSF++ P   G  +  F +R VP G+ +E L      G  +    P G+F+L     P+L +AGG+G+AP +S+L+       +    L+FG   + DL  LE +  +     W   F +  V++H E +H      +G VT HI  D+  G E   YLCGP PM++A  + L    +      ++KF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P26395|RFBI_SALTY</Hit_id>
+  <Hit_def>Protein RfbI OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=rfbI PE=4 SV=1</Hit_def>
+  <Hit_accession>P26395</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>1.7966e-37</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>VQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVV-----EIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPL-EMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADF--CEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFTDGRN</Hsp_qseq>
+      <Hsp_hseq>IKIFPSNIEFSGREDESILDAALSAGIHLEHSCKAGDCGICESDLLAGEVVDSK--GNIFGQGD----KILTCCCKPKTALELNAHFFPELAGQTKKIVPCKVNSAVLVSGDVMT---LKLRTPPTAKIGFLPGQYINLHYKGVTR--SYSIANSDESNG---IELHVRNVPNGQMSSLIF-GELQENTLMRIEGPCGTFFIRESDRPIIFLAGGTGFAPVKSMVEHLIQGKCRREIYIYWGMQYSKDFYS--ALPQQWSEQHDNVHYIPVVS--GDDAEWGGRKGFVHHAVMDDFDSLEFFDIYACGSPVMIDASKKDFMMKNLSVEHFYSDAFTASNN</Hsp_hseq>
+      <Hsp_midline>++I P ++       +++L+AAL+ GI   H C  G C  C++ L  G V ++   G    + +     IL C   P+  L +      E+   +  + P +  +A +V+ + +T   LK+       + +L G+Y N+   G  R   YS AN+ +  G   +E ++R VP G+ +  +F GEL    L  +E P GTF +   D P++ +AGG+G AP+ S++EH    + +R+  + +G +   D Y   A+    +       +IPV+S   + ++W G +G V   +  DF   E  + Y CG P MIDA+    +   L +E  + D FT   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|Q03304|TMOF_PSEME</Hit_id>
+  <Hit_def>Toluene-4-monooxygenase system, ferredoxin--NAD(+) reductase component OS=Pseudomonas mendocina OX=300 GN=tmoF PE=1 SV=1</Hit_def>
+  <Hit_accession>Q03304</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>3.53937e-36</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>EPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPS--ADLPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPM-LCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCE---GAEGYLCGPPPMIDAAIARLL-DNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DSNDTLLSAALRAELVFPYECNSGGCGACKIELLEGEVSNLWPDAPGLAARELRKNRFLACQCKPLSDLKIKVINRAEGRASHPP-KRFSTRVVSKRFLSDEMFELRLEAEQKVVFSPGQYFMVDVPELGT-RAYSAANPVD---GNTLTLIVKAVPNGKVSCALANETI--ETLQLDGPYGLSVLKTADETQSVFIAGGSGIAPMVSMVNTLIAQGYEKPITVFYGSRLEAELEAAETL----FGWKENLKLINVSSSVVGNSEKKYPTGYVHEIIP-EYMEGLLGAEFYLCGPPQMINSVQKLLMIENKVPFEAIHFDRF</Hsp_hseq>
+      <Hsp_midline>+   TLL AAL   + +P++C  G C +CK  L +G V    P    L+  EL     LACQ  P  +L +  I+     A  PP ++F+  +V+   L+ ++ ++ ++ ++ V +  G+Y  V VP     R YS AN       N L   ++ VP G+ + AL    +  + L+++ P G   L   D    + IAGGSG+AP+VS++    A   ++   + +G+R E +L   E +      W+   + I V S    +S+     G V E IP ++ E   GAE YLCGPP MI++    L+ +N++P E I +D+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|O85675|ANTDC_ACIAD</Hit_id>
+  <Hit_def>Anthranilate 1,2-dioxygenase electron transfer component OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=antC PE=1 SV=1</Hit_def>
+  <Hit_accession>O85675</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>9.08017e-36</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>IVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFA-ATIVATEPLTHDILKV----TIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC--EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>IAVQEDELLLDAAVRQGINLPLDCREGVCGTCQGTCETGIYEQEYVDEDALSERDLAKRKMLACQTRVKSN-AAFYFDHHSSICNAGETLKIATVVTGVELVSETTAILHLDASQHVKQLDFLPGQYARLQIPDTDDWRSYSFANRP--NASNQLQFLIRLLPNGVMSNYLRERCQVGQTLIMEAPLGSFYLREVERPLVFIAGGTGLSAFLGMLDNIAEQPNQPSVHLYYGVNTEADLCEQKRLTTYAERIKN-FSYHPIISKASEQ--WQGKSGFIHEHLDKNQLSEQSFDMYLCGPPPMIEAVKTWLDEQAIADCHIYSEKF</Hsp_hseq>
+      <Hsp_midline>I ++  + LL+AA+  GI  P DC  G C +C+   + G   +       LS+ +L    +LACQ   +        D  S+     E    AT+V    L  +   +      Q  + + +L G+YA +++P    +R YSFAN P     N L+F IR +P G  +  L      GQ L MEAP G+F+L   + P++ IAGG+GL+  + +L++      +    L +G  TE DL + + +   A   +  F + P++S   E   W G  G + EH+  +    +  + YLCGPPPMI+A    L +  +    I+ +KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|A7IPX7|XAMOF_XANP2</Hit_id>
+  <Hit_def>Alkene monooxygenase system, ferredoxin--NAD(+) reductase component OS=Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2) OX=78245 GN=xamoF PE=1 SV=2</Hit_def>
+  <Hit_accession>A7IPX7</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>6.00976e-35</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>QTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAG-YILACQAFPRDELTVVEIDPPSADL---PPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPAD--FCEGAEGYLCGPPPMIDAAIARLLDNR-LPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>QTVLHAALAAGIDMPYECASGSCGSCRCRLSHGSVSLLWPEAPGLSARDRQKGDRILACQSTPSSDL---EINVRAGDALLEPPPRRHAARVTVKETLCASVIRLVLNVGGPIHFLPGQFFILDLPGAGR-RAYSVANLENAAGG--IELLIKRKIGGAGTAALFDQCAPGMGLVIEGPYGRAYLRADSARGIVAVAGGSGLAPMLSILRGALARGFGGPMDLYFGVNTAEELFCVPELSALQA--AGARVHLALRDGGPGPAGLHRQAGLIGDALVAGEPDLKAKDLYVAGPAPMTDDILARTVRQEAIPADRVFFDRFV</Hsp_hseq>
+      <Hsp_midline>QT+L AALA GI  P++C  G+C SC+ RL  G V    P    LS  +   G  ILACQ+ P  +L   EI+  + D    PP  + AA +   E L   ++++ +    P+H+L G++  + +PG  R R YS AN     G   +E  I++   G  T ALF     G  L +E P G  +L    A  ++ +AGGSGLAP++SIL  A A        L FG  T  +L+ +  +  + A   G    + +    P  +      GL+ + + A     +  + Y+ GP PM D  +AR +    +P +++F+D+F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q9X406|MSMD_METHY</Hit_id>
+  <Hit_def>Putative methanesulfonate monooxygenase ferredoxin reductase subunit OS=Methylosulfonomonas methylovora OX=50057 GN=msmD PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9X406</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>9.92346e-35</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>PGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAA----TIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGD-APMLCIAGGSGLAPLVSILEH-ARANRIK-RDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHE-------PEHSDWTGARGLVTE---HIPADFCEGAEGYLCGPPPMIDAAIARLL-DNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>PGETLLYAGLRHGLTLPHECATGTCGTCRARVMTGEVDVAWEEAPGAARFKRDKGDVLLCQTRAVGD-CVLRVPAEVAAKPARHQIPAYRTGLMENIRRLTGDVISFEVALSAPMDFDAGQFVVVEAPGLEGARAYSMVNFTRSADR--IELVVKRKPSGGFGDWLFGATAEGAKVKVFGPLGRATFHADEHKNLLMIAGGSGIAGMMSILASAAEADHFRTRKGYLFFGVRTLADGFYLQEFAQRVVEAQGNLEVTLALSHEDPAGADHPDHPGVKLASGMVHEVAGRAMAGRYDDLIAYVAGPPPMVDGALRTLITQGGLSPSAIRYDKF</Hsp_hseq>
+      <Hsp_midline>PG+TLL A L +G+  PH+C  GTC +C+ R+  G V  A       ++ + D G +L CQ     +  V+ +    A  P   Q  A     +     LT D++   +    P+ + AG++  V  PG    R YS  N  +   R  +E  +++ P+G F + LF    +G  +++  P G    H  +   +L IAGGSG+A ++SIL   A A+  + R   L FG RT  D + L+         QG       LSHE       P+H     A G+V E      A   +    Y+ GPPPM+D A+  L+    L    I YDKF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|O52378|NAGAA_RALSP</Hit_id>
+  <Hit_def>Naphthalene 1,2-dioxygenase/salicylate 5-hydroxylase systems, ferredoxin--NAD(P)(+), reductase component OS=Ralstonia sp. OX=54061 GN=nagAa PE=1 SV=1</Hit_def>
+  <Hit_accession>O52378</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.94678e-34</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAG-YILACQAFPRDELTVVEIDPPSAD---LPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPR-FRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHL---HGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGAR-GLVTEHIPADF--CEGAEGYLCGPPPMIDA---AIARL</Hsp_qseq>
+      <Hsp_hseq>ELVVEPLNLHLNAETGSTLLDVLRSNEVPISYSCMSGRCGTCRCRVIAGHLRDNGP---ETGRPQAGKGTYVLACQAVLTEDCT---IEIPESDEIVVHPARIVKGTVTAIDEATHDIRRLRIKLAKPLEFSPGQYATVQF--TPECVRPYSMAGLPSDAE---MEFQIRAVPGGHVSNYVFNELSVGASVRISGPLGTAYLRRTHTG--PMLCVGGGTGLAPVLSIVRGALESGMSNPIHLYFGVRSEQDIYDEERLHALAARFP-NLKVNVVVATGPA---GPGRRSGLVTDLIGRDLPNLAGWRAYLCGAPAMVEALNLLVARL</Hsp_hseq>
+      <Hsp_midline>++ + P ++ +  E G TLL+   +N +   + C  G C +C+ R+  G +R+  P      + +   G Y+LACQA   ++ T   I+ P +D   + P      T+ A +  THDI ++ I+  +P+ +  G+YA V+    P   R YS A  P       +EF IR VP G  +  +F     G  + +  P GT +L   H G  PMLC+ GG+GLAP++SI+  A  + +     L FG R+E D+Y  E +  +AA +    +   V++  P      G R GLVT+ I  D     G   YLCG P M++A    +ARL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q51603|CBDC_BURCE</Hit_id>
+  <Hit_def>2-halobenzoate 1,2-dioxygenase electron transfer component OS=Burkholderia cepacia OX=292 GN=cbdC PE=1 SV=1</Hit_def>
+  <Hit_accession>Q51603</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>7.15531e-34</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>DVT--IVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQTD--RPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCI----LLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGAEG--YLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DVTYFITSSEHETVADAAYQHGIRIPLDCRNGVCGTCKGFCEHGEYDGGDYIEDALSADEAREGFVLPCQMQARTDCVVRILASSSACQVKKSTMTGQMTEIDRGSSSTLQFTLAIDPSSKVDFLPGQYAQLRIPGTTESRAYSYSSMP---GSSHVTFLVRDVPNGKMSGYLRNQATITETFTFDGPYGAFYLREPVRPILMLAGGTGLAPFLSMLQYMAG--LQRNDLPSVRLVYGVNRDDDLVGLDKLDELATQLSG-FSYITTVV---DKDSAQLRRGYVTQQITNDDMNGGDVDIYVCGPPPMVEAVRSWLAAEKLNPVNFYFEKF</Hsp_hseq>
+      <Hsp_midline>DVT  I     +T+ +AA  +GI  P DC  G C +CK   + G           LS  E   G++L CQ   R +  V  +   SA           +   +  +   L+ T+  D    V +L G+YA +R+PG    R YS+++ P   G + + F +R VP G+ +  L       +    + P G F+L     P+L +AGG+GLAP +S+L++     ++R+ +    L++G   + DL  L+ +  +A    G F +I  +    +       RG VT+ I  D   G +   Y+CGPPPM++A  + L   +L     +++KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|P68641|ASCD_YERPE</Hit_id>
+  <Hit_def>CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pestis OX=632 GN=ascD PE=3 SV=2</Hit_def>
+  <Hit_accession>P68641</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>3.43227e-33</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANW---QGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>NVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAE--NTFLTEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRLPPTAKIQYLAGQYIDLIING--QRRSYSIANAPGGNGN--IELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYS-----DIANEWAIKHPNIHYVPVVS--GDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGLAENKFFSDAFV</Hsp_hseq>
+      <Hsp_midline> V++ P  +    +   T+L+AAL + I   + C  GTC SCK  L  G V  A      L++ ++  G IL C +  + ++ +     P       + +   + + E +  DI  L + +     + YLAG+Y ++ + G  + R YS ANAP   G   +E ++RKV  G F+  +F      Q L +E PQGTF +   + P++ +AGG+G AP+ S++E       +R   + +G     + Y      +IA  W        ++PV+S   + S WTGA G V + +  D  + +    Y CG   MI AA    +++ L   K F D F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q66DP5|ASCD_YERPS</Hit_id>
+  <Hit_def>CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=ascD PE=1 SV=3</Hit_def>
+  <Hit_accession>Q66DP5</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>3.61453e-33</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANW---QGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>NVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAE--NTFLTEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRLPPTAKIQYLAGQYIDLIING--QRRSYSIANAPGGNGN--IELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYS-----DIANEWAIKHPNIHYVPVVS--GDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGLAENKFFSDAFV</Hsp_hseq>
+      <Hsp_midline> V++ P  +    +   T+L+AAL + I   + C  GTC SCK  L  G V  A      L++ ++  G IL C +  + ++ +     P       + +   + + E +  DI  L + +     + YLAG+Y ++ + G  + R YS ANAP   G   +E ++RKV  G F+  +F      Q L +E PQGTF +   + P++ +AGG+G AP+ S++E       +R   + +G     + Y      +IA  W        ++PV+S   + S WTGA G V + +  D  + +    Y CG   MI AA    +++ L   K F D F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P22868|MMOC_METCA</Hit_id>
+  <Hit_def>Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2</Hit_def>
+  <Hit_accession>P22868</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.0063e-32</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>VTIVLEPGQTL----------LEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSA----DLPPVEQFAATIVATEPLTHDILKVTIQT------DRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHL-HGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGAEG----YLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>ITAVTEDGESLRFECRSDEDVITAALRQNIFLMSSCREGGCATCKALCSEGDYDLKGCSVQALPPEEEEEGLVLLCRTYPKTDL---EIELPYTHCRISFGEVGSFEAEVVGLNWVSSNTVQFLLQKRPDECGNRGVKFEPGQFMDLTIPGTDVSRSYSPANLPNPEGR--LEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGVFGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRN--LTVKACVWHP-SGDWEGEQGSPIDALREDL-ESSDANPDIYLCGPPGMIDAACELVRSRGIPGEQVFFEKF</Hsp_hseq>
+      <Hsp_midline>+T V E G++L          + AAL   I     C  G CA+CK    +G           L   E + G +L C+ +P+ +L   EI+ P          V  F A +V    ++ + ++  +Q       +R V +  G++ ++ +PG    R YS AN P  +GR  LEF IR +P G F++ L      GQ L ++ P G F L   G AP   +AGG+GLAP+VS++   +      +  + FG  TE +L+ ++ + ++  + +     +      P   DW G +G   + +  D  E ++     YLCGPP MIDAA   +    +P E++F++KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q45692|DNTAA_BURSR</Hit_id>
+  <Hit_def>2,4-dinitrotoluene dioxygenase system ferredoxin--NAD(+), reductase component OS=Burkholderia sp. (strain RASC) OX=69003 GN=dntAa PE=1 SV=1</Hit_def>
+  <Hit_accession>Q45692</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.74855e-29</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSAD---LPPVEQFAATIVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPR-FRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHL---HGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANW</Hsp_qseq>
+      <Hsp_hseq>ELVVEPLNLHLNAETGSTLLDVLRSNEVPISYSCMSGRCGTCRCRVIAGHLRDNGP--ETGRPQAGKGAYVLACQAVLTEDCT---IEIPESDEIVVHPARIVKGTVTAIDEATHDIRRLRIKLAKPLEFSPGQYATVQF--TPECVRPYSMAGLPSDA---EMEFQIRAVPGGHVSNYVFNELSVGASVRISGPLGTAYLRRTHTG--PMLCVGGGTGLAPVLSIVRGALESGMSYPIHLYFGVRSEQDIYDEERLHALAARF</Hsp_hseq>
+      <Hsp_midline>++ + P ++ +  E G TLL+   +N +   + C  G C +C+ R+  G +R+  P   T         Y+LACQA   ++ T   I+ P +D   + P      T+ A +  THDI ++ I+  +P+ +  G+YA V+    P   R YS A  P       +EF IR VP G  +  +F     G  + +  P GT +L   H G  PMLC+ GG+GLAP++SI+  A  + +     L FG R+E D+Y  E +  +AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P23101|XYLZ_PSEPU</Hit_id>
+  <Hit_def>Toluate 1,2-dioxygenase electron transfer component OS=Pseudomonas putida OX=303 GN=xylZ PE=3 SV=1</Hit_def>
+  <Hit_accession>P23101</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>3.98992e-28</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>GQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPF-GYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQ--FAATIVATEPLTHDILKVTIQTD--RPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGA---RGLVTEHIPADFCEGAEG--YLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>GETVADAAYRQGINLPLDCRDGACGACKCFAESGRYSLGEEYIEDALSEAEAEQGYVLTCQM--RAESDCVIRVPAASDVCKTQQAGYQAAISNVRQLSESTIALSIKSASLNQLAFLPGQYVNLQVPGSDQTRAYSFSSL-QKDGE--VSFLIRKLPGGLMSSFLTSLAKVGDSVSLAGPLGAFYLREIKRPLLLLAGGTGLAPFTAMLEKIAEQGGEHPLHLIYGVTHDHDLVEMDKLEAFAAR-------IPNFSYSACVASPDSAYPQKGYVTQYIEPKQLNGGEVDIYLCGPPPMVEAVSQYIRAQGIQPANFYYEKF</Hsp_hseq>
+      <Hsp_midline>G+T+ +AA   GI  P DC  G C +CK   + GR      +    LS+AE + GY+L CQ   R E   V   P ++D+   +Q  + A I     L+   + ++I++     + +L G+Y N++VPG  + R YSF++  Q+ G   + F IRK+P G  +  L      G  + +  P G F+L     P+L +AGG+GLAP  ++LE       +    L++G   + DL +++ +   AA        IP  S+    +    A   +G VT++I      G E   YLCGPPPM++A    +    +     +Y+KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|Q3C1E0|TPDR1_COMSP</Hit_id>
+  <Hit_def>Terephthalate 1,2-dioxygenase, reductase component 1 OS=Comamonas sp. OX=34028 GN=tphA1I PE=1 SV=1</Hit_def>
+  <Hit_accession>Q3C1E0</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>3.10866e-27</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAEL-DAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLS</Hsp_qseq>
+      <Hsp_hseq>QIHIHDSDIAFPCAPGQSVLDAALQAGIELPYSCRKGSCGNCASALLDGNI---TSFNGMAVRSELCTSEQVLLCGCTAASDIRIQPSSFRRLDPEARKRFTAKVYSNTLAAPDVSLLRLRLPVGKRAKFEAGQYLLIHLDDGES-RSYSMANPPHES--DGITLHVRHVPGGRFS-TIVQQLKSGDTLEIELPFGSIALKPDDTRPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARNPSGLYLPSAIDKWRKTWP-QFRYIAAIT</Hsp_hseq>
+      <Hsp_midline>Q+ I   D+     PGQ++L+AAL  GI  P+ C  G+C +C + L  G +   T F     ++EL  +  +L C      ++ +        D    ++F A + +      D+  L++ +   +   + AG+Y  + +      R YS AN P     + +  ++R VP G F+  + +    G  LE+E P G+  L   D  P++C+AGG+G AP+ S+L+     +++RD  L++GAR    LY   AI      W  +FR+I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q3C1D2|TPDR2_COMSP</Hit_id>
+  <Hit_def>Terephthalate 1,2-dioxygenase, reductase component 2 OS=Comamonas sp. OX=34028 GN=tphA1II PE=1 SV=1</Hit_def>
+  <Hit_accession>Q3C1D2</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.85672e-26</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>QVQILPQDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAG-YILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDA-PMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLS</Hsp_qseq>
+      <Hsp_hseq>QIHIHDSDIAFPCAPGQSVLDAALQAGIELPYSCRKGSCGNCASTLLDGNI---ASFNGMAVRNELCASEQVLLCGCTAASDIRIHPSSFRRLDPEARKRFTAKVYSNTLAAPDVSLLRLRLPVGKRAKFEAGQYLLIHLDDGES-RSYSMANPPHES--DGITLHVRHVPGGRFS-TIVQQLKSGDTLDIELPFGSIALKPDDARPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARNPSGLYLPSAIDKWRKVWP-QFRYIAAIT</Hsp_hseq>
+      <Hsp_midline>Q+ I   D+     PGQ++L+AAL  GI  P+ C  G+C +C + L  G +     F     + EL A   +L C      ++ +        D    ++F A + +      D+  L++ +   +   + AG+Y  + +      R YS AN P     + +  ++R VP G F+  + +    G  L++E P G+  L   DA P++C+AGG+G AP+ S+L+     +++RD  L++GAR    LY   AI      W  +FR+I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|Q4FPV2|NQRF_PSYA2</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4) OX=259536 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q4FPV2</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>4.05676e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREA-TPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR----------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEG------AEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DNDVVTPAGGKLLQTLASEGIFLSSACGGGGTCAQCRCRVIEGGGSILPTEEGY-FTQGEIRNHMRLACQVAVKQDMKI-EIDPEFFD---VQKWECEVISNDNVATFIKELVLKIPEGEEVNFRAGGYVQLEAPPHEVHYKDFDIAEEYQDDWNNFGIFKYVSKVDEPVIRAYSMANYPDEKG--LIKFNIRIASPPPRGPDGIPPGKMSSWTFSLK-PGDKVTVSGPYGEFFAKKTEAEMIFVGGGAGMAPMRSHIFDQLKRLNSDRKISFWYGARSIREMFYVEDYDQLEADF-ANFQWHVALSDPQPEDNWTGYTGFIHNVLLEEYLKGHPNPEDCEYYMCGPPMMNAAVIDMLHSLGVEDENIMLDDF</Hsp_hseq>
+      <Hsp_midline>D  +V   G  LL+   + GI     C  G TCA C+ R+ +G      T  GY  ++ E+     LACQ   + ++ + EIDP   D   V+++   +++ + +   I  L + I     V++ AG Y  +  P                  W  F              R YS AN P  KG  +++F IR           +P G+ +   F  +  G  + +  P G F     +A M+ + GG+G+AP+ S I +  +     R     +GAR+  +++ +E    + A++   F++   LS      +WTG  G +   +  ++ +G       E Y+CGPP M  A I  L    +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|A6V3A2|NQRF_PSEA7</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain PA7) OX=381754 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>A6V3A2</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.84968e-18</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TIVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR--------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>SLTVPAGGKLLQTLAANNVFLSSACGGGGTCAQCKCVVVDGGGEMLPTEESHFTRRQAKEGWRLSCQTPVKQDM---QIRVPE-EVFGVKKWECTVESNPNVATFIKELTLRLPDGESVDFRAGGYVQLECPPHVVEYKDFDIQPEYRGDWDKFNMWRYVSKVDETVIRAYSMANYPEEKG--VVKFNIRIASPPPGSDLPPGQMSSWVFNLK-PGDKVTVYGPFGEFFAKDTEAEMVFIGGGAGMAPMRSHIFDQLRRLRSTRKISFWYGARSLREAFYTEEYDQLQAE-NPNFQWHLALSDPQPEDNWTGLTGFIHNVLFENYLKDHPAPEDCEFYMCGPPMMNAAVIKMLTDLGVERENILLDDF</Hsp_hseq>
+      <Hsp_midline>++ +  G  LL+   AN +     C  G TCA CK  +  G            ++ +   G+ L+CQ   + ++   +I  P  ++  V+++  T+ +   +   I ++T++      V + AG Y  +  P                  W +F              R YS AN P+ KG  V++F IR         +P G+ +  +F  +  G  + +  P G F     +A M+ I GG+G+AP+ S I +  R  R  R     +GAR+  + +  E    + A     F++   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|Q9HZL1|NQRF_PSEAE</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q9HZL1</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>5.18275e-18</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TIVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR--------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>SLTVPAGGKLLQTLAANNVFLSSACGGGGTCAQCKCVVVEGGGEMLPTEESHFTRRQAKEGWRLSCQTPVKQDM---QIRVPE-EVFGVKKWECTVESNPNVATFIKELTLRLPDGESVDFRAGGYVQLECPPHVVEYKDFDIQPEYRGDWDKFNMWRYVSKVDETVIRAYSMANYPEEKG--VVKFNIRIASPPPGSDLPPGQMSSWVFNLK-PGDKVTVYGPFGEFFAKDTEAEMVFIGGGAGMAPMRSHIFDQLRRLKSNRKISFWYGARSLREAFYTEEYDQLQAE-NPNFQWHLALSDPQPEDNWTGLTGFIHNVLFENYLKDHPAPEDCEFYMCGPPMMNAAVIKMLTDLGVERENILLDDF</Hsp_hseq>
+      <Hsp_midline>++ +  G  LL+   AN +     C  G TCA CK  + +G            ++ +   G+ L+CQ   + ++   +I  P  ++  V+++  T+ +   +   I ++T++      V + AG Y  +  P                  W +F              R YS AN P+ KG  V++F IR         +P G+ +  +F  +  G  + +  P G F     +A M+ I GG+G+AP+ S I +  R  +  R     +GAR+  + +  E    + A     F++   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|P24273|LUXG_ALIFS</Hit_id>
+  <Hit_def>Probable flavin reductase OS=Aliivibrio fischeri OX=668 GN=luxG PE=3 SV=1</Hit_def>
+  <Hit_accession>P24273</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.07104e-17</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>VATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRC-YSFANAPQRKGRNVLEFYI---RKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHG-GDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGA--EGYLCGPPPMIDAAIARLL-DNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>IVLASIKNNIYKVFITVNSPIKFIAGQFVMVTING---KKCPFSIANCPTKNHE--IELHIGSSNKDCSLDIIEYFVDALVEEVAIELDAPHGNAWLRSESNNPLLLIAGGTGLSYINSILTNCLNRNIPQDIYLYWGVKNSSLLYEDEELLELSLN-NKNLHYIPVIEDKSE--EWIGKKGTVLDAVMEDFTDLAHFDIYVCGPFMMAKTAKEKLIEEKKAKSEQMFADAF</Hsp_hseq>
+      <Hsp_midline>+    + ++I KV I  + P+ ++AG++  V + G    +C +S AN P +     +E +I    K  + +  E      ++   +E++AP G   L    + P+L IAGG+GL+ + SIL +     I +D  L +G +    LY+ E +  ++ N      +IPV+  + E  +W G +G V + +  DF + A  + Y+CGP  M   A  +L+ + +   E++F D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|Q1Q7Z7|NQRF_PSYCK</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5) OX=335284 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q1Q7Z7</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.21165e-17</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>IVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREA-TPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR----------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>VVTPAGGKLLQTLASEGIFLSSACGGGGTCAQCRCRVIEGGGSILPTEEGY-FTQGEIRNHMRLACQVAVKQDMKI-EIDPEFFD---VQKWECEVISNDNVATFIKELVLKIPDGEEVNFRAGGYVQLEAPPHEVHYKDFDIAEEYQDDWNNFGIFKYVSKVDEPVIRAYSMANYPDEKG--LIKFNIRIASPPPRGPDGIPPGKMSSWTFSLK-PGDKVTVSGPYGEFFAKKTEAEMIFVGGGAGMAPMRSHIFDQLKRLNSDRKISFWYGARSIREMFYVEDYDQLEEEF-ANFEWHVALSDPLPEDNWDGYTGFIHNVLLEEYLKDHPNPEDCEYYMCGPPMMNAAVIDMLHSMGVEDENIMLDDF</Hsp_hseq>
+      <Hsp_midline>+V   G  LL+   + GI     C  G TCA C+ R+ +G      T  GY  ++ E+     LACQ   + ++ + EIDP   D   V+++   +++ + +   I  L + I     V++ AG Y  +  P                  W  F              R YS AN P  KG  +++F IR           +P G+ +   F  +  G  + +  P G F     +A M+ + GG+G+AP+ S I +  +     R     +GAR+  +++ +E    +   +   F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L    +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|A6VW13|NQRF_MARMS</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Marinomonas sp. (strain MWYL1) OX=400668 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>A6VW13</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.2471e-17</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>GQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVPG-----------------WPRF--------------RCYSFANAPQRKGRNVLEFYIR---------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>GGKLLQTLANSGIFLSSACGGGGTCAQCKCKVTSGGGSMLSTEQSHFTRRDEKEGYRLSCQVSVKQDM---DVEVPE-EVFGVKAWECTVESNPNVATFIKELTLKLPEGENVDFRAGGYVQLEAPAHTVNYKDFDIEEEYRGDWDKFNLWKFVSKVDETVIRAYSMANYPEEKG--IVKFNIRIASPPPGKDDLPPGQMSSYVFSLK-PGDKIKVYGPFGEFFAKDTDAEMVFVGGGAGMAPMRSHIFDQLKRLNSKRKISFWYGARSVREAFYTEEYDKLQEENEN-FEWHLALSDPQPEDNWEGKTGFIHNVLYESYLKDHPAPEDCEFYMCGPPMMNASVIKMLEDLGVEKENILLDDF</Hsp_hseq>
+      <Hsp_midline>G  LL+    +GI     C  G TCA CK ++  G     +      ++ +   GY L+CQ   + ++   +++ P  ++  V+ +  T+ +   +   I ++T++      V + AG Y  +  P                  W +F              R YS AN P+ KG  +++F IR          +P G+ +  +F  +  G  +++  P G F     DA M+ + GG+G+AP+ S I +  +    KR     +GAR+  + +  E    +    +  F +   LS      +W G  G +   +   +       E  E Y+CGPP M  + I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|P43126|FRE_ALIFS</Hit_id>
+  <Hit_def>NAD(P)H-flavin reductase OS=Aliivibrio fischeri OX=668 GN=fre PE=3 SV=1</Hit_def>
+  <Hit_accession>P43126</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.21048e-17</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>IVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYI----RKVPAGEFTEALFRGELDGQPLEMEAPQGTFHL-HGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLY---QLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFCEGAEG--YLCGPPPMIDAAIARL-LDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>VKSIEPLACNTFRILLHPEQPVAFKAGQYLTV-VMGEKDKRPFSIASSPCRH-EGEIELHIGAAEHNAYAGEVVESMKSALETGGDILIDAPHGEAWIREDSDRSMLLIAGGTGFSYVRSILDHCISQQIQKPIYLYWGGRDECQLYAKAELESI----AQAHSHITFVPVVE---KSEGWTGKTGNVLEAVKADFNSLADMDIYIAGRFEMAGAAREQFTTEKQAKKEQLFGDAF</Hsp_hseq>
+      <Hsp_midline>+ + EPL  +  ++ +  ++PV + AG+Y  V V G    R +S A++P R     +E +I        AGE  E++      G  + ++AP G   +    D  ML IAGG+G + + SIL+H  + +I++   L +G R E  LY   +LE+I    A       F+PV+    +   WTG  G V E + ADF   A+   Y+ G   M  AA  +   + +   E++F D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|Q02PF8|NQRF_PSEAB</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q02PF8</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>3.99969e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>TIVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR--------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>SLTVPAGGKLLQTLATNNVFLSSACGGGGTCAQCKCVVVEGGGEMLPTEESHFTRRQAKEGWRLSCQTPVKQDM---QIRVPE-EVFGVKKWECTVESNPNVATFIKELTLRLPDGESVDFRAGGYVQLECPPHVVEYKDFDIQPEYRGDWDKFNMWRYVSKVDETVIRAYSMANYPEEQG--VVKFNIRIASPPPGSDLPPGQMSSWVFNLK-PGDKVTVYGPFGEFFAKDTEAEMVFIGGGAGMAPMRSHIFDQLRRLKSNRKISFWYGARSLREAFYTEEYDQLQAE-NPNFQWHLALSDPQPEDNWTGLTGFIHNVLFENYLKDHPAPEDCEFYMCGPPMMNAAVIKMLTDLGVERENILLDDF</Hsp_hseq>
+      <Hsp_midline>++ +  G  LL+    N +     C  G TCA CK  + +G            ++ +   G+ L+CQ   + ++   +I  P  ++  V+++  T+ +   +   I ++T++      V + AG Y  +  P                  W +F              R YS AN P+ +G  V++F IR         +P G+ +  +F  +  G  + +  P G F     +A M+ I GG+G+AP+ S I +  R  +  R     +GAR+  + +  E    + A     F++   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q53563|MMOC_METTR</Hit_id>
+  <Hit_def>Methane monooxygenase component C OS=Methylosinus trichosporium OX=426 GN=mmoC PE=1 SV=1</Hit_def>
+  <Hit_accession>Q53563</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>4.34993e-17</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>CTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVE----QFAATIVATEPLTHDILKVTIQTDRPV------HYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELDGQPLEMEAPQGTF--HLHGGDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAAN</Hsp_qseq>
+      <Hsp_hseq>CRAG-CATCKADCTDGDYELIDVKVQAVPPDEEEDGKVLLCRTFPRSDLHLLV--PYTYDRISFEAIQTNWLAEILACDRVSSNVVRLVLQRSRPMAARISLNFVPGQFVDIEIPGTHTRRSYSMASVAED---GQLEFIIRLLPDGAFSKFLQTEAKVGMRVDLRGPAGSFFLHDHGGRSRVF-VAGGTGLSPVLSMIRQLGKASDPSPATLLFGVTNREELFYVDELKTLAQS</Hsp_hseq>
+      <Hsp_midline>C  G CA+CK     G           +   E + G +L C+ FPR +L ++   P + D    E     + A I+A + ++ +++++ +Q  RP+      +++ G++ ++ +PG    R YS A+  +      LEF IR +P G F++ L      G  +++  P G+F  H HGG + +  +AGG+GL+P++S++             LLFG     +L+ ++ +  +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|Q605A0|NQRF_METCA</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q605A0</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.01553e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>TIVLEPGQTLLEAALANGIAYPHDCTVG-TCASCKTRLKQGRVREATPFGYT-LSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVP-----------------GW--------------PRFRCYSFANAPQRKGRNVLEFYIR--------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>TIHVPIGSKLLTALADNNLFVSSACGGGGTCAQCRVQVLEGG-GEILPTELSHITKREAAQGDRLSCQVTVKQNMKI----HVHEEVFGVKKWECTVRSNRNVATFIKELVLELPAGENVDFRAGGYIQIECPPYDCKFSDFAIEPEYREDWDKYDLWKIESHVKAPAIRAYSMANYPEEKGIIMLNVRIATPPWGKEGTVPPGVMSSYIFNLK-PGDKVTISGPFGEFFARDTDKEMVFIGGGAGMAPMRSHIFDQLLRLKSKRKMTFWYGARSLREAFYVEEFDRLQAE-NPNFKWFLGLSDPKPEDGWTGYTGFIHNILYEQYLKNHPAPEDCEYYMCGPPMMNSAVIQMLLDIGVDRENIMLDDF</Hsp_hseq>
+      <Hsp_midline>TI +  G  LL A   N +     C  G TCA C+ ++ +G   E  P   + ++K E   G  L+CQ   +  + +        ++  V+++  T+ +   +   I ++ ++      V + AG Y  +  P                  W              P  R YS AN P+ KG  +L   I          VP G  +  +F  +  G  + +  P G F     D  M+ I GG+G+AP+ S I +     + KR     +GAR+  + + +E    + A     F++   LS       WTG  G +   +   +       E  E Y+CGPP M  A I  LLD  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|Q12QK1|NQRF_SHEDO</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013) OX=318161 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q12QK1</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>7.56418e-17</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>LSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVT----------------IQTDRPVHYLAGRYANVRVPG-----WPRF--------------RCYSFANAPQRKGRNVLEFYIR-------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>ISKGEARGGCRLSCQVNVKSDMEI-ELDE---EIFGIKKWECDVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHV--KYADFDVPAKYRGDWEHFGFFKLESKVDEETIRAYSMANYPEEFGIIMLNVRIATPPPRNLSLPCGKMSSYIWSLKA-GDKVTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHLFDQLKRLKSKRKMSFWYGARSKREMFYVEDFDGLAAENE-NFQWHVALSDPQAEDEWTGYTGFIHNVLYENYLRDHDAPEDCEFYMCGPPMMNAAVISMLKDLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>+SK E   G  L+CQ   + ++ + E+D    ++  ++++   +++ +     I ++                 IQ + P H++  +YA+  VP      W  F              R YS AN P+  G  +L   I         +P G+ +  ++  +  G  + +  P G F     DA M+ I GG+G+AP+ S + +  +  + KR     +GAR++ +++ +E    +AA  +  F++   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I+ L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|Q9LCI7|NQRF_SHEPU</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F (Fragment) OS=Shewanella putrefaciens OX=24 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q9LCI7</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>3.72142e-16</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>GTCASCKTRLKQGRVREA-TPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVPG-----------------WPRF--------------RCYSFANAPQRKGRNVLEFYIR-----KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADF</Hsp_qseq>
+      <Hsp_hseq>GSCGQCRVKIKSGGGDILPTEMGH-ITKKEAKEGCRLACQVAVKTDMEL-ELDE---EIFGVKKWQCEVISNDNKATFIKELLLKLPEGEDVHFKAGGYIQIEAPAHVVKYADFDIPEKYRGDWDKYGLFDIVSTVNEDVLRAYSMANYPDEKGRIMLNVRIATPPSANVPAGKMSSYIFNLKA-GDKVTISGPFGEFFVKETDAEMVFIGGGAGMAPMRSHIFDQLKSKKTKRKMSFWYGARSTREVFYQADFDALAAE-NDNFVWHVALSEPLPEDNWTGYTGFIHNVIYENY</Hsp_hseq>
+      <Hsp_midline>G+C  C+ ++K G      T  G+ ++K E   G  LACQ   + ++ + E+D    ++  V+++   +++ +     I ++ ++      VH+ AG Y  +  P                  W ++              R YS AN P  KGR +L   I       VPAG+ +  +F  +  G  + +  P G F +   DA M+ I GG+G+AP+ S I +  ++ + KR     +GAR+  +++       +AA     F +   LS      +WTG  G +   I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|P43127|FRE_VIBHA</Hit_id>
+  <Hit_def>NAD(P)H-flavin reductase OS=Vibrio harveyi OX=669 GN=fre PE=1 SV=3</Hit_def>
+  <Hit_accession>P43127</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>4.06651e-16</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>IVATEPLTHDILKVTIQTDRPVHYLAGRYANVRVPGWPRFRCYSFANAPQRKGRNVLEFYI----RKVPAGEFTEALFRG-ELDGQPLEMEAPQGTFHLHG-GDAPMLCIAGGSGLAPLVSILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADF--CEGAEGYLCGPPPMIDAAIARLLDN-RLPLEKIFYDKFT</Hsp_qseq>
+      <Hsp_hseq>VKSIQPLACNTYQILLHPESPVPFKAGQYLMV-VMGEKDKRPFSIASSPCRH-EGELELHIGAAEHNAYALEVVEAMQAALETDGH-IEIDAPHGDAWVQEESERPLLLIAGGTGFSYVRSILDHCVAQNKTNPIYLYWGARDNCQLYAKEELVEIADKF-ANVHFVPVVEEAP--ADWQGKVGNVLQAVSEDFESLENYDIYIAGRFEMAGAAREQFTQNKKAKSERMFADAYA</Hsp_hseq>
+      <Hsp_midline>+ + +PL  +  ++ +  + PV + AG+Y  V V G    R +S A++P R     LE +I        A E  EA+    E DG  +E++AP G   +    + P+L IAGG+G + + SIL+H  A        L +GAR    LY  E +  IA  +     F+PV+   P  +DW G  G V + +  DF   E  + Y+ G   M  AA  +   N +   E++F D + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|Q15YQ1|NQRF_PSEA6</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudoalteromonas atlantica (strain T6c / ATCC BAA-1087) OX=342610 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q15YQ1</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.1264e-15</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGI-AYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIRK-------VPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DKAITAQPGDKLLGALANSGIFVSSACGGGGSCGQCRVDIKAGGGEILPTELDHISKREAKEGCRLSCQVSIKQDM---DIELPE-EIFGIKKWDCEVISNDNKATFIKELKLKIPNGESVPFRAGGYIQIEAPPHHVKYKDFDVPEEYRGDWERFGFFDIESKVDDETIRAYSMANYPEEEGIIMLNVRVASPPPNNLSLPAGKMSSYIWSLK-EGDKATISGPFGEFFAKKTDAEMVFIGGGAGMAPMRSHIFDQLRRLKTDRKISFWYGARSLREMFYVEDF-DMLQKENDNFKWHVALSDPQPEDNWEGMTGFIHQVLLENYLKDHPAPEDCEFYMCGPPMMNAAVISMLKDLGVEDENIMLDDF</Hsp_hseq>
+      <Hsp_midline>D  I  +PG  LL A   +GI         G+C  C+  +K G           +SK E   G  L+CQ   + ++   +I+ P  ++  ++++   +++ +     I  LK+ I     V + AG Y  +  P                  W RF              R YS AN P+ +G  +L   +         +PAG+ +  ++  + +G    +  P G F     DA M+ I GG+G+AP+ S I +  R  +  R     +GAR+  +++ +E   ++       F++   LS      +W G  G + + +  ++       E  E Y+CGPP M  A I+ L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|Q5QYQ8|NQRF_IDILO</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Idiomarina loihiensis (strain ATCC BAA-735 / DSM 15497 / L2-TR) OX=283942 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q5QYQ8</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.57647e-15</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>QDVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRL--KQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVTIQ--TDRPVHYLAGRYANVRVP-----------------GWPRF--------------RCYSFANAPQRKGRNVLEFYIR-------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHI------PADFCEGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>EDKKIVTQPGTKLL-GALANAGIFVSSACGGGGSCGQCRVTVKEGGGDILPTELDHITKREAREGCRLSCQVNVKQDM---EIELPE-EVFGIRKWDCTVKSNDNVATFIKEFIVQLPEGEEVPFRAGGFIQIEAPPHHVKYKDFDISEEYHGDWDRFGFFDVESKVDEEVVRAYSMANYPEEKGIIMLNVRIATPPPNDLSLPAGKMSSYIFSLK-PGDKVTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHLFDQMRRIKTDRKVSFWYGARSKKEMFYVEDF-DMLAEENENFDWHVALSDPQPEDNWEGDTGFIHNVLYERYLKDHDAPEDCEFYMCGPPVMNAAVINLLKDLGVEDENIMLDDF</Hsp_hseq>
+      <Hsp_midline>+D  IV +PG  LL  ALAN   +      G  +  + R+  K+G           ++K E   G  L+CQ   + ++   EI+ P  ++  + ++  T+ + + +   I +  +Q      V + AG +  +  P                  W RF              R YS AN P+ KG  +L   I         +PAG+ +  +F  +  G  + +  P G F     DA M+ I GG+G+AP+ S + +  R  +  R     +GAR++ +++ +E   ++ A     F +   LS      +W G  G +   +        D  E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|Q9RFV6|NQRF_VIBCB</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio campbellii (strain ATCC BAA-1116 / BB120) OX=338187 GN=nqrF PE=3 SV=2</Hit_def>
+  <Hit_accession>Q9RFV6</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.11452e-15</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>VTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTL-------SKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPG-----------------WPRF--------------RCYSFANAPQRKGRNVLEFYIRKVP------AGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>LAIVTQPGGKLLSALAGAGV------FVSSACGGGGSCGQCRVKVKSGGGDILPTELDHITKGEAREGERLACQVAMK---TDMDIELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHVKYADYDIPEEYREDWEKFNLFRYESKVNEETIRAYSMANYPEEHGIIMLNVRIATPPPNNPDVAPGIMSSFIWSLKEGDKCTISGPFGEFFAKDTDAEMVFVGGGAGMAPMRSHIFDQLKRLHSKRKMSFWYGARSKREMFYVEDFDGLAAD-NDNFVWHCALSDPLPEDNWDGYTGFIHNVLYENYLRDHEAPEDCEYYMCGPPMMNAAVIGMLKDLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>+ IV +PG  LL A    G+       V +         Q RV+  +  G  L       +K E   G  LACQ   +   T ++I+ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +  P                  W +F              R YS AN P+  G  +L   I   P      A     +      +G    +  P G F     DA M+ + GG+G+AP+ S I +  +    KR     +GAR++ +++ +E    +AA+    F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|Q7MID2|NQRF_VIBVY</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q7MID2</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.47779e-15</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTL-------SKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVT----------------IQTDRPVHYLAGRYANVRVP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIR-------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DKSIVTSPGGKLLSALAGAGV------FVSSACGGGGSCGQCRVKVKSGGGDILPTELDHITKGEAREGERLACQVAVK---TDMDIELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHV--KYADFDVPEEYRGDWDKFNLFRYESIVKEDIIRAYSMANYPEEFGIIMLNVRIATPPPNNPDVAPGQMSSYIWSLK-EGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSYWYGARSKREMFYVEDFDGLAAE-NDNFVWHCALSDPLPEDNWDGYTGFIHNVLYENYLRDHDAPEDCEYYMCGPPMMNAAVIGMLKNLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>D +IV  PG  LL A    G+       V +         Q RV+  +  G  L       +K E   G  LACQ   +   T ++I+ P  ++  V+++  T+++ +     I ++                 IQ + P H++  +YA+  VP      W +F              R YS AN P+  G  +L   I         V  G+ +  ++  + +G    +  P G F     DA M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++ +E    +AA     F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L +  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|Q8DBJ1|NQRF_VIBVU</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio vulnificus (strain CMCP6) OX=216895 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q8DBJ1</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.47779e-15</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTL-------SKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVT----------------IQTDRPVHYLAGRYANVRVP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIR-------KVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DKSIVTSPGGKLLSALAGAGV------FVSSACGGGGSCGQCRVKVKSGGGDILPTELDHITKGEAREGERLACQVAVK---TDMDIELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHV--KYADFDVPEEYRGDWDKFNLFRYESIVKEDIIRAYSMANYPEEFGIIMLNVRIATPPPNNPDVAPGQMSSYIWSLK-EGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSYWYGARSKREMFYVEDFDGLAAE-NDNFVWHCALSDPLPEDNWDGYTGFIHNVLYENYLRDHDAPEDCEYYMCGPPMMNAAVIGMLKNLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>D +IV  PG  LL A    G+       V +         Q RV+  +  G  L       +K E   G  LACQ   +   T ++I+ P  ++  V+++  T+++ +     I ++                 IQ + P H++  +YA+  VP      W +F              R YS AN P+  G  +L   I         V  G+ +  ++  + +G    +  P G F     DA M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++ +E    +AA     F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L +  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|Q9X4Q8|NQRF_VIBCH</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 GN=nqrF PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9X4Q8</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.54556e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>IVLEPGQTLLEAALANGI-AYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVT----------------IQTDRPVHYLAGRYANVRVP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD--------GQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNR-LPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>IVTQPGGKLLTALAGAGVFVSSACGGGGSCGQCRVKIKSGGGDILPTELDHISKGEAREGERLACQVAVKADM---DLELPE-EIFGVKKWECTVISNDNKATFIKELKLAIPDGESVPFRAGGYIQIEAPAHHV--KYADFDVPEKYRGDWDKFNLFRYESKVDEPIIRAYSMANYPEEFG--IIMLNVRIATPPPNNPNVPPGQMSSYIWSLKAGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSYWYGARSKREMFYVEDFDGLAAE-NDNFVWHCALSDPQPEDNWTGYTGFIHNVLYENYLKDHEAPEDCEYYMCG-PPMMNAAVINMLKNLGVEEENILLDDF</Hsp_hseq>
+      <Hsp_midline>IV +PG  LL A    G+         G+C  C+ ++K G           +SK E   G  LACQ   + ++   +++ P  ++  V+++  T+++ +     I ++                 IQ + P H++  +YA+  VP      W +F              R YS AN P+  G  ++   +R          +  G++         G    +  P G F     DA M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++ +E    +AA     F +   LS      +WTG  G +   +  ++       E  E Y+CG PPM++AA+  +L N  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|A5F5Y4|NQRF_VIBC3</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395) OX=345073 GN=nqrF PE=1 SV=1</Hit_def>
+  <Hit_accession>A5F5Y4</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.54556e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>IVLEPGQTLLEAALANGI-AYPHDCTVGTCASCKTRLKQGRVREATPFGYTLSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDILKVT----------------IQTDRPVHYLAGRYANVRVP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD--------GQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNR-LPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>IVTQPGGKLLTALAGAGVFVSSACGGGGSCGQCRVKIKSGGGDILPTELDHISKGEAREGERLACQVAVKADM---DLELPE-EIFGVKKWECTVISNDNKATFIKELKLAIPDGESVPFRAGGYIQIEAPAHHV--KYADFDVPEKYRGDWDKFNLFRYESKVDEPIIRAYSMANYPEEFG--IIMLNVRIATPPPNNPNVPPGQMSSYIWSLKAGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSYWYGARSKREMFYVEDFDGLAAE-NDNFVWHCALSDPQPEDNWTGYTGFIHNVLYENYLKDHEAPEDCEYYMCG-PPMMNAAVINMLKNLGVEEENILLDDF</Hsp_hseq>
+      <Hsp_midline>IV +PG  LL A    G+         G+C  C+ ++K G           +SK E   G  LACQ   + ++   +++ P  ++  V+++  T+++ +     I ++                 IQ + P H++  +YA+  VP      W +F              R YS AN P+  G  ++   +R          +  G++         G    +  P G F     DA M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++ +E    +AA     F +   LS      +WTG  G +   +  ++       E  E Y+CG PPM++AA+  +L N  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|Q9LCJ0|NQRF_VIBPA</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=nqrF PE=3 SV=2</Hit_def>
+  <Hit_accession>Q9LCJ0</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>7.1615e-15</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTL-------SKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPG-----------------WPRF--------------RCYSFANAPQRKGRNVLEFYI-------RKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DKAIVTQPGGKLLSALAGAGV------FVSSACGGGGSCGQCRVKVKSGGGDILPTELDHITKGEAREGERLACQVAVK---TDMDIELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHVKYADYDIPQEYREDWEKFNLFRYESKVNEETIRAYSMANYPEEHGIIMLNVRIATPPPNNPDVPPGIMSSYIWSLK-EGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLHSKRKMSFWYGARSKREMFYVEDFDGLAAE-NDNFVWHCALSDPLPEDNWDGYTGFIHNVLYENYLRDHEAPEDCEYYMCGPPMMNAAVIGMLKDLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>D  IV +PG  LL A    G+       V +         Q RV+  +  G  L       +K E   G  LACQ   +   T ++I+ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +  P                  W +F              R YS AN P+  G  +L   I         VP G  +  ++  + +G    +  P G F     DA M+ I GG+G+AP+ S I +  +    KR     +GAR++ +++ +E    +AA     F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|Q0I5Y1|NQRF_HAES1</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Haemophilus somnus (strain 129Pt) OX=205914 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q0I5Y1</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.6518e-14</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>LSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVR------------VP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYI-------RKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>ISKREAKEGYRLSCQVNVKNSM---KIELPE-EVFGVKKWECTVISNDNKATFIKELKLQIPEGEEVPFRAGGYIQIEAEPHTVHYKDFDIPKEYHEDWDKFDLWRYTSKVDEHIIRAYSMASYPEEKGIIMLNVRIATPPPRNPDVPPGQMSSYIWSLK-EGDKVTISGPFGEFFAKETDNEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSFWYGARSKREMFYVEDFDMLQAE-NDNFVWHVALSDPLPEDDWDGYTGFIHNVLYENYLKNHEAPEDCEYYMCGPPVMNAAVIKMLKDLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>+SK E   GY L+CQ   ++ +   +I+ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +             +P      W +F              R YS A+ P+ KG  +L   I         VP G+ +  ++  + +G  + +  P G F     D  M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++ +E    + A     F +   LS      DW G  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|A5UFX3|NQRF_HAEIG</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Haemophilus influenzae (strain PittGG) OX=374931 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>A5UFX3</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>3.69219e-14</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVR------------VP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD--------GQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>INKREAKEGYRLACQVNVKGNM---EVELPE-EIFGVKKWECTVISNDNKATFIKELKLAIPEGEEVPFRAGGYIQIEAEPHVVNYKDFDIPEEYHEDWDKYDLWRYVSKVDEHIIRAYSMASYPEEKG--IIMLNVRIATPPPRQPDAPPGQMSSYIWSLKAGDKVTISGPFGEFFAKETDAEMVFIGGGAGMAPMRSHIFDQLKRLHSKRKMSFWYGARSKREIFYQEDFDQLQAE-NDNFVWHVALSDALPEDNWTGYTGFIHNVLYENYLKNHEAPEDCEYYMCGPPVMNAAVIKMLKDLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>++K E   GY LACQ   +  +   E++ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +             +P      W ++              R YS A+ P+ KG  ++   +R             G++         G  + +  P G F     DA M+ I GG+G+AP+ S I +  +    KR     +GAR++ +++  E    + A     F +   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I  L D  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|Q75R59|NQRF_VIBAN</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio anguillarum OX=55601 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>Q75R59</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.17143e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>DVTIVLEPGQTLLEAALANGIAYPHDCTVGTCASCKTRLKQGRVREATPFGYTL-------SKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVRVPG-----------------WPRF--------------RCYSFANAPQRKGRNVLEFYI-------RKVPAGEFTEALFRGELDGQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>DKSIVTNPGGKLLSVLAGSGV------FVSSACGGGGSCGQCRVKVKSGGGDILPTELDHITKGEAREGERLACQVAVK---TDMDIELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPDGESVPFRAGGYIQIEAPAHHIKYSDFDVPEEYRGDWDKFNLFRYESKVDEDIIRAYSMANYPEEFGIIMLNVRIATPPPNNPNVPPGQMSSYIWSLK-EGDKCTISGPFGEFFAKDTDAEMVFIGGGAGMAPMRSHIFDQLKRLKSTRKMSYWYGARSKREMFYVEDFDGLAAE-NSNFVWHCALSDPMPEDNWDGYTGFIHNVLYENYLKDHEAPEDCEYYMCGPPMMNAAVIGMLKNLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>D +IV  PG  LL     +G+       V +         Q RV+  +  G  L       +K E   G  LACQ   +   T ++I+ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +  P                  W +F              R YS AN P+  G  +L   I         VP G+ +  ++  + +G    +  P G F     DA M+ I GG+G+AP+ S I +  +  +  R     +GAR++ +++ +E    +AA     F +   LS      +W G  G +   +  ++       E  E Y+CGPP M  A I  L +  +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|A3MYM7|NQRF_ACTP2</Hit_id>
+  <Hit_def>Na(+)-translocating NADH-quinone reductase subunit F OS=Actinobacillus pleuropneumoniae serotype 5b (strain L20) OX=416269 GN=nqrF PE=3 SV=1</Hit_def>
+  <Hit_accession>A3MYM7</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>6.03268e-14</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>LSKAELDAGYILACQAFPRDELTVVEIDPPSADLPPVEQFAATIVATEPLTHDI--LKVTIQTDRPVHYLAGRYANVR------------VP-----GWPRF--------------RCYSFANAPQRKGRNVLEFYIRKVPAGEFTEALFRGELD--------GQPLEMEAPQGTFHLHGGDAPMLCIAGGSGLAPLVS-ILEHARANRIKRDCILLFGARTEGDLYQLEAIGNIAANWQGEFRFIPVLSHEPEHSDWTGARGLVTEHIPADFC------EGAEGYLCGPPPMIDAAIARLLDNRLPLEKIFYDKF</Hsp_qseq>
+      <Hsp_hseq>ISKKEAKEGWRLACQVNVKSSM---DVELPE-EIFGVKKWECTVISNDNKATFIKELKLQIPEGEEVPFRAGGYIQIEADPHTVNYKDFDIPKEYHEDWDKFNLWRYVSKVDEHIIRAYSMASYPEEKG--IIMLNVRIATPPPRNPDVPPGQMSSYIWSLKPGDKVTISGPFGEFFAKETDNEMVFIGGGAGMAPMRSHIFDQLKRLKSKRKMSFWYGARSKREIFYQEDFDQLAAE-NDNFVWHVALSDALPEDNWTGYTGFIHNVLYENYLKNHEAPEDCEYYMCGPPVMNAAVIGMLKSLGVEDENILLDDF</Hsp_hseq>
+      <Hsp_midline>+SK E   G+ LACQ   +  +   +++ P  ++  V+++  T+++ +     I  LK+ I     V + AG Y  +             +P      W +F              R YS A+ P+ KG  ++   +R          +  G++         G  + +  P G F     D  M+ I GG+G+AP+ S I +  +  + KR     +GAR++ +++  E    +AA     F +   LS      +WTG  G +   +  ++       E  E Y+CGPP M  A I  L    +  E I  D F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>563082</Statistics_db-num>
+      <Statistics_db-len>202799066</Statistics_db-len>
+      <Statistics_hsp-len>119</Statistics_hsp-len>
+      <Statistics_eff-space>31232230840</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

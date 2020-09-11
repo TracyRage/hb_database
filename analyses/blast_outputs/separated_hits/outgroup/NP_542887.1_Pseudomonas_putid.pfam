@@ -1,0 +1,35 @@
+# pfam_scan.pl,  run at Wed Sep  2 20:55:30 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/blast_outputs/separated_hits/outgroup/NP_542887.1_Pseudomonas_putid.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+P12691    120    328    113    332 PF00487.25  FA_desaturase     Domain     6   234   254     93.9   1.4e-26   1 No_clan  
+Q0VKZ3    125    342    121    351 PF00487.25  FA_desaturase     Domain     6   245   254     90.9   1.2e-25   1 No_clan  
+Q9WWW6    119    328    115    332 PF00487.25  FA_desaturase     Domain     5   234   254     91.7   6.8e-26   1 No_clan  
+Q0VTH3    121    341    113    345 PF00487.25  FA_desaturase     Domain     9   249   254     91.1     1e-25   1 No_clan  
+Q6H941    115    329    113    345 PF00487.25  FA_desaturase     Domain     3   235   254     94.0   1.3e-26   1 No_clan  
+O31250    134    342    131    358 PF00487.25  FA_desaturase     Domain     8   236   254    100.7   1.2e-28   1 No_clan  
+Q9I0R2    114    329    113    344 PF00487.25  FA_desaturase     Domain     2   235   254     97.2   1.4e-27   1 No_clan  

@@ -1,0 +1,249 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 10:00:32 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 56 sequences with 451 columns, 449 distinct patterns
+407 parsimony-informative, 28 singleton sites, 16 constant sites
+WARNING: Some sequence names are changed as follows:
+A0A285B961-O=Klebsiella-G=cymA-T=Query -> A0A285B961-O_Klebsiella-G_cymA-T_Query
+Q48391-O=Klebsiella-G=cymA-T=Query -> Q48391-O_Klebsiella-G_cymA-T_Query
+P95832-O=Shewanella-G=cymA-T=Query -> P95832-O_Shewanella-G_cymA-T_Query
+Q8E8S0-O=Shewanella-G=cymA-T=Query -> Q8E8S0-O_Shewanella-G_cymA-T_Query
+P24273-O=Aliivibrio-G=luxG-T=BLAST -> P24273-O_Aliivibrio-G_luxG-T_BLAST
+P43126-O=Aliivibrio-G=fre-T=BLAST -> P43126-O_Aliivibrio-G_fre-T_BLAST
+P43127-O=Vibrio-G=fre-T=BLAST -> P43127-O_Vibrio-G_fre-T_BLAST
+Q3C1E0-O=Comamonas-G=tphA1I-T=BLAST -> Q3C1E0-O_Comamonas-G_tphA1I-T_BLAST
+Q3C1D2-O=Comamonas-G=tphA1II-T=BLAST -> Q3C1D2-O_Comamonas-G_tphA1II-T_BLAST
+Q03304-O=Pseudomonas-G=tmoF-T=BLAST -> Q03304-O_Pseudomonas-G_tmoF-T_BLAST
+Q8GI14-O=Pseudomonas-G=carAd-T=BLAST -> Q8GI14-O_Pseudomonas-G_carAd-T_BLAST
+A7IPX7-O=Xanthobacter-G=xamoF-T=BLAST -> A7IPX7-O_Xanthobacter-G_xamoF-T_BLAST
+P26395-O=Salmonella-G=rfbI-T=BLAST -> P26395-O_Salmonella-G_rfbI-T_BLAST
+P68641-O=Yersinia-G=ascD-T=BLAST -> P68641-O_Yersinia-G_ascD-T_BLAST
+Q66DP5-O=Yersinia-G=ascD-T=BLAST -> Q66DP5-O_Yersinia-G_ascD-T_BLAST
+O85675-O=Acinetobacter-G=antC-T=BLAST -> O85675-O_Acinetobacter-G_antC-T_BLAST
+Q51603-O=Burkholderia-G=cbdC-T=BLAST -> Q51603-O_Burkholderia-G_cbdC-T_BLAST
+P07771-O=Acinetobacter-G=benC-T=BLAST -> P07771-O_Acinetobacter-G_benC-T_BLAST
+P23101-O=Pseudomonas-G=xylZ-T=BLAST -> P23101-O_Pseudomonas-G_xylZ-T_BLAST
+Q768T4-O=Gordonia-G=prmB-T=BLAST -> Q768T4-O_Gordonia-G_prmB-T_BLAST
+Q0SJK8-O=Rhodococcus-G=prmB-T=BLAST -> Q0SJK8-O_Rhodococcus-G_prmB-T_BLAST
+A0QTU9-O=Mycolicibacterium-G=mimB-T=BLAST -> A0QTU9-O_Mycolicibacterium-G_mimB-T_BLAST
+E9RFT0-O=Mycobacterium-G=mimB-T=BLAST -> E9RFT0-O_Mycobacterium-G_mimB-T_BLAST
+P22868-O=Methylococcus-G=mmoC-T=BLAST -> P22868-O_Methylococcus-G_mmoC-T_BLAST
+Q53563-O=Methylosinus-G=mmoC-T=BLAST -> Q53563-O_Methylosinus-G_mmoC-T_BLAST
+Q9X406-O=Methylosulfonomonas-G=msmD-T=BLAST -> Q9X406-O_Methylosulfonomonas-G_msmD-T_BLAST
+Q4FPV2-O=Psychrobacter-G=nqrF-T=BLAST -> Q4FPV2-O_Psychrobacter-G_nqrF-T_BLAST
+Q1Q7Z7-O=Psychrobacter-G=nqrF-T=BLAST -> Q1Q7Z7-O_Psychrobacter-G_nqrF-T_BLAST
+A6VW13-O=Marinomonas-G=nqrF-T=BLAST -> A6VW13-O_Marinomonas-G_nqrF-T_BLAST
+A6V3A2-O=Pseudomonas-G=nqrF-T=BLAST -> A6V3A2-O_Pseudomonas-G_nqrF-T_BLAST
+Q02PF8-O=Pseudomonas-G=nqrF-T=BLAST -> Q02PF8-O_Pseudomonas-G_nqrF-T_BLAST
+Q9HZL1-O=Pseudomonas-G=nqrF-T=BLAST -> Q9HZL1-O_Pseudomonas-G_nqrF-T_BLAST
+Q605A0-O=Methylococcus-G=nqrF-T=BLAST -> Q605A0-O_Methylococcus-G_nqrF-T_BLAST
+Q9LCI7-O=Shewanella-G=nqrF-T=BLAST -> Q9LCI7-O_Shewanella-G_nqrF-T_BLAST
+Q5QYQ8-O=Idiomarina-G=nqrF-T=BLAST -> Q5QYQ8-O_Idiomarina-G_nqrF-T_BLAST
+Q15YQ1-O=Pseudoalteromonas-G=nqrF-T=BLAST -> Q15YQ1-O_Pseudoalteromonas-G_nqrF-T_BLAST
+Q0I5Y1-O=Haemophilus-G=nqrF-T=BLAST -> Q0I5Y1-O_Haemophilus-G_nqrF-T_BLAST
+A5UFX3-O=Haemophilus-G=nqrF-T=BLAST -> A5UFX3-O_Haemophilus-G_nqrF-T_BLAST
+A3MYM7-O=Actinobacillus-G=nqrF-T=BLAST -> A3MYM7-O_Actinobacillus-G_nqrF-T_BLAST
+Q12QK1-O=Shewanella-G=nqrF-T=BLAST -> Q12QK1-O_Shewanella-G_nqrF-T_BLAST
+Q9X4Q8-O=Vibrio-G=nqrF-T=BLAST -> Q9X4Q8-O_Vibrio-G_nqrF-T_BLAST
+A5F5Y4-O=Vibrio-G=nqrF-T=BLAST -> A5F5Y4-O_Vibrio-G_nqrF-T_BLAST
+Q9RFV6-O=Vibrio-G=nqrF-T=BLAST -> Q9RFV6-O_Vibrio-G_nqrF-T_BLAST
+Q9LCJ0-O=Vibrio-G=nqrF-T=BLAST -> Q9LCJ0-O_Vibrio-G_nqrF-T_BLAST
+Q7MID2-O=Vibrio-G=nqrF-T=BLAST -> Q7MID2-O_Vibrio-G_nqrF-T_BLAST
+Q8DBJ1-O=Vibrio-G=nqrF-T=BLAST -> Q8DBJ1-O_Vibrio-G_nqrF-T_BLAST
+Q75R59-O=Vibrio-G=nqrF-T=BLAST -> Q75R59-O_Vibrio-G_nqrF-T_BLAST
+Q52126-O=Pseudomonas-G=ndoR-T=BLAST -> Q52126-O_Pseudomonas-G_ndoR-T_BLAST
+O52378-O=Ralstonia-G=nagAa-T=BLAST -> O52378-O_Ralstonia-G_nagAa-T_BLAST
+Q45692-O=Burkholderia-G=dntAa-T=BLAST -> Q45692-O_Burkholderia-G_dntAa-T_BLAST
+AAC45296.1-O=Pseudomonas-NCBI -> AAC45296.1-O_Pseudomonas-NCBI
+P95461-O=Pseudomonas-G=cymA-T=Query -> P95461-O_Pseudomonas-G_cymA-T_Query
+P21394-O=Pseudomonas-G=xylA-T=BLAST -> P21394-O_Pseudomonas-G_xylA-T_BLAST
+P0DPQ8-O=Amycolatopsis-G=gcoB-T=BLAST -> P0DPQ8-O_Amycolatopsis-G_gcoB-T_BLAST
+Q7WTJ2-O=Acinetobacter-G=mphP-T=BLAST -> Q7WTJ2-O_Acinetobacter-G_mphP-T_BLAST
+P19734-O=Pseudomonas-G=dmpP-T=BLAST -> P19734-O_Pseudomonas-G_dmpP-T_BLAST
+
+                                             Gap/Ambiguity  Composition  p-value
+   1  A0A285B961-O_Klebsiella-G_cymA-T_Query        29.49%    failed      0.00%
+   2  Q48391-O_Klebsiella-G_cymA-T_Query            29.49%    failed      0.00%
+   3  P95832-O_Shewanella-G_cymA-T_Query            58.54%    failed      4.88%
+   4  Q8E8S0-O_Shewanella-G_cymA-T_Query            58.54%    failed      4.88%
+   5  P24273-O_Aliivibrio-G_luxG-T_BLAST            47.67%    failed      0.58%
+   6  P43126-O_Aliivibrio-G_fre-T_BLAST             47.67%    passed     73.12%
+   7  P43127-O_Vibrio-G_fre-T_BLAST                 47.45%    passed     37.45%
+   8  Q3C1E0-O_Comamonas-G_tphA1I-T_BLAST           25.94%    failed      1.02%
+   9  Q3C1D2-O_Comamonas-G_tphA1II-T_BLAST          25.94%    failed      0.37%
+  10  Q03304-O_Pseudomonas-G_tmoF-T_BLAST           27.72%    passed     73.96%
+  11  Q8GI14-O_Pseudomonas-G_carAd-T_BLAST          27.27%    passed     77.60%
+  12  A7IPX7-O_Xanthobacter-G_xamoF-T_BLAST         27.72%    failed      0.00%
+  13  P26395-O_Salmonella-G_rfbI-T_BLAST            26.83%    passed     54.79%
+  14  P68641-O_Yersinia-G_ascD-T_BLAST              27.05%    passed     10.58%
+  15  Q66DP5-O_Yersinia-G_ascD-T_BLAST              27.05%    passed     14.14%
+  16  O85675-O_Acinetobacter-G_antC-T_BLAST         23.95%    passed      8.93%
+  17  Q51603-O_Burkholderia-G_cbdC-T_BLAST          24.83%    passed      9.43%
+  18  P07771-O_Acinetobacter-G_benC-T_BLAST         23.28%    failed      4.51%
+  19  P23101-O_Pseudomonas-G_xylZ-T_BLAST           25.50%    failed      2.70%
+  20  Q768T4-O_Gordonia-G_prmB-T_BLAST              23.28%    passed     51.54%
+  21  Q0SJK8-O_Rhodococcus-G_prmB-T_BLAST           18.18%    passed     10.72%
+  22  A0QTU9-O_Mycolicibacterium-G_mimB-T_BLAST     22.84%    passed     86.67%
+  23  E9RFT0-O_Mycobacterium-G_mimB-T_BLAST         22.84%    passed     92.35%
+  24  P22868-O_Methylococcus-G_mmoC-T_BLAST         23.50%    passed     15.11%
+  25  Q53563-O_Methylosinus-G_mmoC-T_BLAST          25.50%    failed      0.14%
+  26  Q9X406-O_Methylosulfonomonas-G_msmD-T_BLAST   21.06%    failed      0.02%
+  27  Q4FPV2-O_Psychrobacter-G_nqrF-T_BLAST          9.09%    passed     88.42%
+  28  Q1Q7Z7-O_Psychrobacter-G_nqrF-T_BLAST          9.09%    passed     78.82%
+  29  A6VW13-O_Marinomonas-G_nqrF-T_BLAST            9.53%    passed     87.21%
+  30  A6V3A2-O_Pseudomonas-G_nqrF-T_BLAST            9.76%    passed     94.84%
+  31  Q02PF8-O_Pseudomonas-G_nqrF-T_BLAST            9.76%    passed     89.56%
+  32  Q9HZL1-O_Pseudomonas-G_nqrF-T_BLAST            9.76%    passed     93.42%
+  33  Q605A0-O_Methylococcus-G_nqrF-T_BLAST          9.98%    passed     98.45%
+  34  Q9LCI7-O_Shewanella-G_nqrF-T_BLAST            33.26%    passed     47.53%
+  35  Q5QYQ8-O_Idiomarina-G_nqrF-T_BLAST             9.53%    passed     44.78%
+  36  Q15YQ1-O_Pseudoalteromonas-G_nqrF-T_BLAST      9.53%    passed     22.22%
+  37  Q0I5Y1-O_Haemophilus-G_nqrF-T_BLAST            9.76%    passed     33.91%
+  38  A5UFX3-O_Haemophilus-G_nqrF-T_BLAST            9.53%    passed     61.03%
+  39  A3MYM7-O_Actinobacillus-G_nqrF-T_BLAST         9.53%    passed     36.17%
+  40  Q12QK1-O_Shewanella-G_nqrF-T_BLAST             9.53%    passed     71.13%
+  41  Q9X4Q8-O_Vibrio-G_nqrF-T_BLAST                 9.53%    passed     83.86%
+  42  A5F5Y4-O_Vibrio-G_nqrF-T_BLAST                 9.53%    passed     83.86%
+  43  Q9RFV6-O_Vibrio-G_nqrF-T_BLAST                 9.76%    passed     93.10%
+  44  Q9LCJ0-O_Vibrio-G_nqrF-T_BLAST                 9.76%    passed     95.18%
+  45  Q7MID2-O_Vibrio-G_nqrF-T_BLAST                 9.76%    passed     81.96%
+  46  Q8DBJ1-O_Vibrio-G_nqrF-T_BLAST                 9.76%    passed     81.96%
+  47  Q75R59-O_Vibrio-G_nqrF-T_BLAST                 9.76%    passed     71.28%
+  48  Q52126-O_Pseudomonas-G_ndoR-T_BLAST           27.27%    passed     31.12%
+  49  O52378-O_Ralstonia-G_nagAa-T_BLAST            27.27%    failed      0.81%
+  50  Q45692-O_Burkholderia-G_dntAa-T_BLAST         25.72%    failed      0.01%
+  51  AAC45296.1-O_Pseudomonas-NCBI                 22.62%    passed     10.87%
+  52  P95461-O_Pseudomonas-G_cymA-T_Query           22.62%    passed     10.87%
+  53  P21394-O_Pseudomonas-G_xylA-T_BLAST           22.39%    passed      7.11%
+  54  P0DPQ8-O_Amycolatopsis-G_gcoB-T_BLAST         25.94%    failed      0.00%
+  55  Q7WTJ2-O_Acinetobacter-G_mphP-T_BLAST         23.73%    passed     30.74%
+  56  P19734-O_Pseudomonas-G_dmpP-T_BLAST           23.73%    passed     64.36%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                         22.07%  15 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Q48391-O_Klebsiella-G_cymA-T_Query is identical to A0A285B961-O_Klebsiella-G_cymA-T_Query but kept for subsequent analysis
+NOTE: Q8E8S0-O_Shewanella-G_cymA-T_Query is identical to P95832-O_Shewanella-G_cymA-T_Query but kept for subsequent analysis
+NOTE: A5F5Y4-O_Vibrio-G_nqrF-T_BLAST is identical to Q9X4Q8-O_Vibrio-G_nqrF-T_BLAST but kept for subsequent analysis
+NOTE: Q8DBJ1-O_Vibrio-G_nqrF-T_BLAST is identical to Q7MID2-O_Vibrio-G_nqrF-T_BLAST but kept for subsequent analysis
+NOTE: P95461-O_Pseudomonas-G_cymA-T_Query is identical to AAC45296.1-O_Pseudomonas-NCBI but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.038 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 30 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 5.205 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -33604
+Threads: 2 / Time: 4.134 sec / Speedup: 1.259 / Efficiency: 63% / LogL: -33604
+Threads: 3 / Time: 4.335 sec / Speedup: 1.201 / Efficiency: 40% / LogL: -33604
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -24139.035
+2. Current log-likelihood: -23567.523
+3. Current log-likelihood: -23557.243
+4. Current log-likelihood: -23556.598
+5. Current log-likelihood: -23556.346
+6. Current log-likelihood: -23556.225
+Optimal log-likelihood: -23556.144
+Site proportion and rates:  (0.046,0.053) (0.055,0.250) (0.097,0.305) (0.182,0.544) (0.158,0.811) (0.337,1.234) (0.124,2.510)
+Parameters optimization took 6 rounds (21.403 sec)
+Computing ML distances based on estimated model parameters... 1.781 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -23501.601
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.766 second
+Computing log-likelihood of 98 initial trees ... 24.515 seconds
+Current best score: -23501.601
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -23490.041
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -23487.848
+Iteration 10 / LogL: -23491.042 / Time: 0h:2m:24s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -23486.867
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -23485.945
+Iteration 20 / LogL: -23490.705 / Time: 0h:3m:30s
+Finish initializing candidate tree set (14)
+Current best tree score: -23485.945 / CPU time: 170.652
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -23486.225 / Time: 0h:4m:36s (0h:13m:59s left)
+Iteration 40 / LogL: -23486.238 / Time: 0h:5m:45s (0h:11m:31s left)
+Iteration 50 / LogL: -23486.261 / Time: 0h:6m:46s (0h:9m:23s left)
+Log-likelihood cutoff on original alignment: -23535.046
+Iteration 60 / LogL: -23486.748 / Time: 0h:7m:47s (0h:7m:39s left)
+Iteration 70 / LogL: -23486.072 / Time: 0h:8m:50s (0h:6m:9s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -23485.587
+Iteration 80 / LogL: -23487.111 / Time: 0h:10m:0s (0h:4m:48s left)
+Iteration 90 / LogL: -23489.873 / Time: 0h:11m:4s (0h:3m:29s left)
+Iteration 100 / LogL: -23487.349 / Time: 0h:12m:22s (0h:2m:14s left)
+Log-likelihood cutoff on original alignment: -23534.267
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -23486.171 / Time: 0h:13m:21s (0h:11m:1s left)
+TREE SEARCH COMPLETED AFTER 119 ITERATIONS / Time: 0h:14m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23485.587
+2. Current log-likelihood: -23485.550
+3. Current log-likelihood: -23485.527
+4. Current log-likelihood: -23485.508
+5. Current log-likelihood: -23485.491
+6. Current log-likelihood: -23485.477
+7. Current log-likelihood: -23485.466
+8. Current log-likelihood: -23485.456
+Optimal log-likelihood: -23485.444
+Site proportion and rates:  (0.041,0.051) (0.071,0.236) (0.054,0.288) (0.243,0.529) (0.115,0.945) (0.298,1.133) (0.177,2.203)
+Parameters optimization took 8 rounds (22.797 sec)
+BEST SCORE FOUND : -23485.444
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.splits.nex
+Total tree length: 42.937
+
+Total number of iterations: 119
+CPU time used for tree search: 1599.655 sec (0h:26m:39s)
+Wall-clock time used for tree search: 820.166 sec (0h:13m:40s)
+Total CPU time used: 1722.943 sec (0h:28m:42s)
+Total wall-clock time used: 883.341 sec (0h:14m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.splits.nex...
+56 taxa and 332 splits.
+Consensus tree written to analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.contree
+Reading input trees file analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.contree
+Log-likelihood of consensus tree: -23485.991
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.contree
+  Screen log file:               analyses/phylo/P-cymene_methyl_hydroxylase/P-cymene_methyl_hydroxylase.trimmed.log
+
+Date and Time: Thu Sep  3 10:15:18 2020

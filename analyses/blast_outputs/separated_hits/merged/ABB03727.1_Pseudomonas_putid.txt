@@ -1,0 +1,6 @@
+sp_O50214_STYA_PSESP_Styrene_monooxygenase_StyA_OS=Pseudomonas_sp._OX=306_GN=styA_PE=1_SV=1
+___________Length_=_415
+
+sp_O06834_STYA_PSEFL_Styrene_monooxygenase_StyA_OS=Pseudomonas_fluorescens_OX=294_GN=styA_PE=1_SV=1
+___________Length_=_415
+

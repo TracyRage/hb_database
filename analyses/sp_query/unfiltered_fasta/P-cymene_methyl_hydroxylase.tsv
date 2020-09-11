@@ -1,0 +1,6 @@
+UniProt	Cdd	Ko	Pfam
+tr_P95461_P95461_9PSED_p-cymene_methyl_hydroxylase_OS=Pseudomonas_chlororaphis_subsp._aureofaciens_OX=587851_GN=cymA_PE=4_SV=1	CDD:238126	-	PF00111.28
+tr_A0A285B961_A0A285B961_9ENTR_CymA_protein_OS=Klebsiella_grimontii_OX=2058152_GN=cymA_PE=4_SV=1	-	-	PF16941.6
+tr_P95832_P95832_SHEPU_Cytochrome_c-type_protein_OS=Shewanella_putrefaciens_OX=24_GN=cymA_PE=3_SV=1	-	-	PF03264.15
+tr_Q48391_Q48391_KLEOX_CymA_protein_OS=Klebsiella_oxytoca_OX=571_GN=cymA_PE=1_SV=1	-	-	PF16941.6
+tr_Q8E8S0_Q8E8S0_SHEON_Cytochrome_c-type_protein_OS=Shewanella_oneidensis__strain_MR-1__OX=211586_GN=cymA_PE=3_SV=1	-	-	PF03264.15

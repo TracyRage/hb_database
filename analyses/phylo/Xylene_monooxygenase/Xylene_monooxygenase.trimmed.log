@@ -1,0 +1,240 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 11:52:14 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 39 sequences with 466 columns, 466 distinct patterns
+406 parsimony-informative, 57 singleton sites, 3 constant sites
+WARNING: Some sequence names are changed as follows:
+A0A231VMA9-O=Thermoanaerobacterium-G=xylA-T=Query -> A0A231VMA9-O_Thermoanaerobacterium-G_xylA-T_Query
+A0A1W6VS93-O=Geobacillus-G=xylM-T=Query -> A0A1W6VS93-O_Geobacillus-G_xylM-T_Query
+Q09LZ2-O=Geobacillus-G=xylM-T=Query -> Q09LZ2-O_Geobacillus-G_xylM-T_Query
+A0A291I5P1-O=Geobacillus-G=xylM-T=Query -> A0A291I5P1-O_Geobacillus-G_xylM-T_Query
+H5T010-O=Lactococcus-G=xylM-T=Query -> H5T010-O_Lactococcus-G_xylM-T_Query
+Q9X420-O=Lactococcus-G=xylM-T=Query -> Q9X420-O_Lactococcus-G_xylM-T_Query
+Q9X424-O=Lactococcus-G=xylM-T=Query -> Q9X424-O_Lactococcus-G_xylM-T_Query
+A9QSS4-O=Lactococcus-G=xylM-T=Query -> A9QSS4-O_Lactococcus-G_xylM-T_Query
+Q9X417-O=Lactococcus-G=xylM-T=Query -> Q9X417-O_Lactococcus-G_xylM-T_Query
+Q9CFG9-O=Lactococcus-G=xylM-T=Query -> Q9CFG9-O_Lactococcus-G_xylM-T_Query
+A0A0D6DWJ9-O=Lactococcus-G=xylM-T=Query -> A0A0D6DWJ9-O_Lactococcus-G_xylM-T_Query
+A0A6A0BE11-O=Lactococcus-G=xylM-T=Query -> A0A6A0BE11-O_Lactococcus-G_xylM-T_Query
+A0A286LNP2-O=Luteimicrobium-G=xylM-T=Query -> A0A286LNP2-O_Luteimicrobium-G_xylM-T_Query
+A0A4U9C148-O=Streptococcus-G=xylH-T=Query -> A0A4U9C148-O_Streptococcus-G_xylH-T_Query
+A0A6C2WMV3-O=Streptococcus-G=xylM-T=Query -> A0A6C2WMV3-O_Streptococcus-G_xylM-T_Query
+R4Z9A2-O=Streptococcus-G=xylH-T=Query -> R4Z9A2-O_Streptococcus-G_xylH-T_Query
+I7C0Z3-O=Pseudomonas-G=xylM-T=Query -> I7C0Z3-O_Pseudomonas-G_xylM-T_Query
+A0A2Z5W3X9-O=Halioxenophilus-G=xylM-T=Query -> A0A2Z5W3X9-O_Halioxenophilus-G_xylM-T_Query
+NP_542887.1-O=Pseudomonas-NCBI -> NP_542887.1-O_Pseudomonas-NCBI
+P21395-O=Pseudomonas-G=xylM-T=BLAST -> P21395-O_Pseudomonas-G_xylM-T_BLAST
+Q7AXU3-O=Pseudomonas-G=xylM-T=Query -> Q7AXU3-O_Pseudomonas-G_xylM-T_Query
+D5MPF5-O=Pseudomonas-G=xylM-T=Query -> D5MPF5-O_Pseudomonas-G_xylM-T_Query
+F1LIV6-O=Pseudomonas-G=xylM-T=Query -> F1LIV6-O_Pseudomonas-G_xylM-T_Query
+O30865-O=Pseudomonas-G=xylM-T=Query -> O30865-O_Pseudomonas-G_xylM-T_Query
+R4ITU3-O=Pseudomonas-G=xylM-T=Query -> R4ITU3-O_Pseudomonas-G_xylM-T_Query
+T1VY96-O=Pseudomonas-G=xylM-T=Query -> T1VY96-O_Pseudomonas-G_xylM-T_Query
+O85970-O=Novosphingobium-G=xylM-T=Query -> O85970-O_Novosphingobium-G_xylM-T_Query
+U5XKU0-O=Sphingobium-G=xylM-T=Query -> U5XKU0-O_Sphingobium-G_xylM-T_Query
+A0A0A8XC21-O=Sphingobium-G=xylM-T=Query -> A0A0A8XC21-O_Sphingobium-G_xylM-T_Query
+A2TC53-O=Sphingobium-G=xylM-T=Query -> A2TC53-O_Sphingobium-G_xylM-T_Query
+Q83VJ5-O=Sphingomonas-G=xylM-T=Query -> Q83VJ5-O_Sphingomonas-G_xylM-T_Query
+Q46152-O=Cycloclasticus-G=XYLM-T=Query -> Q46152-O_Cycloclasticus-G_XYLM-T_Query
+Q0VTH3-O=Alcanivorax-G=alkB2-T=BLAST -> Q0VTH3-O_Alcanivorax-G_alkB2-T_BLAST
+Q6H941-O=Pseudomonas-G=alkB2-T=BLAST -> Q6H941-O_Pseudomonas-G_alkB2-T_BLAST
+Q9I0R2-O=Pseudomonas-G=alkB1-T=BLAST -> Q9I0R2-O_Pseudomonas-G_alkB1-T_BLAST
+O31250-O=Acinetobacter-G=alkB-T=BLAST -> O31250-O_Acinetobacter-G_alkB-T_BLAST
+Q0VKZ3-O=Alcanivorax-G=alkB1-T=BLAST -> Q0VKZ3-O_Alcanivorax-G_alkB1-T_BLAST
+P12691-O=Pseudomonas-G=alkB-T=BLAST -> P12691-O_Pseudomonas-G_alkB-T_BLAST
+Q9WWW6-O=Pseudomonas-G=alkB-T=BLAST -> Q9WWW6-O_Pseudomonas-G_alkB-T_BLAST
+
+                                                   Gap/Ambiguity  Composition  p-value
+   1  A0A231VMA9-O_Thermoanaerobacterium-G_xylA-T_Query   10.52%    failed      0.00%
+   2  A0A1W6VS93-O_Geobacillus-G_xylM-T_Query             25.11%    failed      3.77%
+   3  Q09LZ2-O_Geobacillus-G_xylM-T_Query                 30.90%    failed      0.99%
+   4  A0A291I5P1-O_Geobacillus-G_xylM-T_Query             24.89%    failed      0.36%
+   5  H5T010-O_Lactococcus-G_xylM-T_Query                 28.33%    failed      0.66%
+   6  Q9X420-O_Lactococcus-G_xylM-T_Query                 29.61%    failed      1.89%
+   7  Q9X424-O_Lactococcus-G_xylM-T_Query                 28.33%    failed      1.14%
+   8  A9QSS4-O_Lactococcus-G_xylM-T_Query                 28.33%    failed      0.96%
+   9  Q9X417-O_Lactococcus-G_xylM-T_Query                 28.33%    failed      1.13%
+  10  Q9CFG9-O_Lactococcus-G_xylM-T_Query                 28.33%    failed      1.01%
+  11  A0A0D6DWJ9-O_Lactococcus-G_xylM-T_Query             28.33%    passed     66.79%
+  12  A0A6A0BE11-O_Lactococcus-G_xylM-T_Query             28.33%    failed      0.26%
+  13  A0A286LNP2-O_Luteimicrobium-G_xylM-T_Query           5.36%    failed      0.00%
+  14  A0A4U9C148-O_Streptococcus-G_xylH-T_Query           86.91%    passed     27.99%
+  15  A0A6C2WMV3-O_Streptococcus-G_xylM-T_Query           86.91%    passed     29.69%
+  16  R4Z9A2-O_Streptococcus-G_xylH-T_Query               87.12%    passed     16.25%
+  17  I7C0Z3-O_Pseudomonas-G_xylM-T_Query                 20.39%    failed      4.42%
+  18  A0A2Z5W3X9-O_Halioxenophilus-G_xylM-T_Query         22.10%    passed     79.82%
+  19  NP_542887.1-O_Pseudomonas-NCBI                      20.82%    passed     80.87%
+  20  P21395-O_Pseudomonas-G_xylM-T_BLAST                 20.82%    passed     80.87%
+  21  Q7AXU3-O_Pseudomonas-G_xylM-T_Query                 20.82%    passed     80.87%
+  22  D5MPF5-O_Pseudomonas-G_xylM-T_Query                 20.39%    passed     80.76%
+  23  F1LIV6-O_Pseudomonas-G_xylM-T_Query                 20.39%    passed     78.15%
+  24  O30865-O_Pseudomonas-G_xylM-T_Query                 20.39%    passed     75.49%
+  25  R4ITU3-O_Pseudomonas-G_xylM-T_Query                 21.89%    passed     67.14%
+  26  T1VY96-O_Pseudomonas-G_xylM-T_Query                 20.82%    passed     57.13%
+  27  O85970-O_Novosphingobium-G_xylM-T_Query             21.24%    passed     17.98%
+  28  U5XKU0-O_Sphingobium-G_xylM-T_Query                 21.24%    passed     19.67%
+  29  A0A0A8XC21-O_Sphingobium-G_xylM-T_Query             21.24%    passed      7.72%
+  30  A2TC53-O_Sphingobium-G_xylM-T_Query                 19.53%    failed      2.13%
+  31  Q83VJ5-O_Sphingomonas-G_xylM-T_Query                23.39%    passed      8.48%
+  32  Q46152-O_Cycloclasticus-G_XYLM-T_Query              70.82%    failed      0.36%
+  33  Q0VTH3-O_Alcanivorax-G_alkB2-T_BLAST                18.03%    passed     28.13%
+  34  Q6H941-O_Pseudomonas-G_alkB2-T_BLAST                19.10%    passed      6.10%
+  35  Q9I0R2-O_Pseudomonas-G_alkB1-T_BLAST                18.03%    passed      6.46%
+  36  O31250-O_Acinetobacter-G_alkB-T_BLAST               12.66%    failed      0.72%
+  37  Q0VKZ3-O_Alcanivorax-G_alkB1-T_BLAST                13.30%    passed     91.37%
+  38  P12691-O_Pseudomonas-G_alkB-T_BLAST                 13.95%    passed     77.03%
+  39  Q9WWW6-O_Pseudomonas-G_alkB-T_BLAST                 13.73%    passed     78.82%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                               27.71%  16 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: P21395-O_Pseudomonas-G_xylM-T_BLAST is identical to NP_542887.1-O_Pseudomonas-NCBI but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Q7AXU3-O_Pseudomonas-G_xylM-T_Query (identical to NP_542887.1-O_Pseudomonas-NCBI) is ignored but added at the end
+Alignment was printed to analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 21 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 4.097 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -25194
+Threads: 2 / Time: 2.643 sec / Speedup: 1.550 / Efficiency: 78% / LogL: -25194
+Threads: 3 / Time: 3.057 sec / Speedup: 1.340 / Efficiency: 45% / LogL: -25194
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -15818.868
+2. Current log-likelihood: -15376.616
+3. Current log-likelihood: -15361.110
+4. Current log-likelihood: -15360.641
+5. Current log-likelihood: -15360.520
+Optimal log-likelihood: -15360.416
+Site proportion and rates:  (0.015,0.341) (0.104,0.347) (0.153,0.395) (0.196,0.744) (0.220,0.889) (0.190,1.271) (0.123,2.576)
+Parameters optimization took 5 rounds (8.955 sec)
+Computing ML distances based on estimated model parameters... 0.808 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -15391.718
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.321 second
+Computing log-likelihood of 98 initial trees ... 10.901 seconds
+Current best score: -15360.416
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -15352.021
+BETTER TREE FOUND at iteration 3: -15352.020
+UPDATE BEST LOG-LIKELIHOOD: -15352.020
+Iteration 10 / LogL: -15354.179 / Time: 0h:1m:9s
+Iteration 20 / LogL: -15356.002 / Time: 0h:1m:47s
+Finish initializing candidate tree set (11)
+Current best tree score: -15352.020 / CPU time: 87.387
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -15351.887
+Iteration 30 / LogL: -15352.400 / Time: 0h:2m:28s (0h:7m:51s left)
+Iteration 40 / LogL: -15351.977 / Time: 0h:3m:14s (0h:6m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -15351.887
+Iteration 50 / LogL: -15351.889 / Time: 0h:3m:56s (0h:5m:47s left)
+Log-likelihood cutoff on original alignment: -15386.593
+Iteration 60 / LogL: -15354.457 / Time: 0h:4m:38s (0h:4m:52s left)
+Iteration 70 / LogL: -15354.549 / Time: 0h:5m:22s (0h:4m:3s left)
+Iteration 80 / LogL: -15353.300 / Time: 0h:6m:2s (0h:3m:12s left)
+BETTER TREE FOUND at iteration 82: -15351.887
+Iteration 90 / LogL: -15352.437 / Time: 0h:6m:49s (0h:7m:3s left)
+Iteration 100 / LogL: -15383.091 / Time: 0h:7m:36s (0h:6m:18s left)
+Log-likelihood cutoff on original alignment: -15383.670
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -15351.978 / Time: 0h:8m:25s (0h:6m:57s left)
+BETTER TREE FOUND at iteration 115: -15351.887
+Iteration 120 / LogL: -15351.887 / Time: 0h:9m:9s (0h:7m:18s left)
+Iteration 130 / LogL: -15351.887 / Time: 0h:9m:59s (0h:6m:34s left)
+Iteration 140 / LogL: -15354.205 / Time: 0h:11m:16s (0h:6m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -15351.887
+Iteration 150 / LogL: -15351.888 / Time: 0h:12m:18s (0h:5m:22s left)
+Log-likelihood cutoff on original alignment: -15383.599
+UPDATE BEST LOG-LIKELIHOOD: -15351.887
+Iteration 160 / LogL: -15354.185 / Time: 0h:13m:47s (0h:4m:46s left)
+Iteration 170 / LogL: -15374.287 / Time: 0h:15m:36s (0h:4m:9s left)
+Iteration 180 / LogL: -15353.299 / Time: 0h:17m:34s (0h:3m:26s left)
+Iteration 190 / LogL: -15353.573 / Time: 0h:19m:9s (0h:2m:32s left)
+Iteration 200 / LogL: -15353.436 / Time: 0h:20m:56s (0h:1m:34s left)
+Log-likelihood cutoff on original alignment: -15383.599
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -15362.209 / Time: 0h:22m:58s (0h:9m:53s left)
+TREE SEARCH COMPLETED AFTER 216 ITERATIONS / Time: 0h:24m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -15351.887
+2. Current log-likelihood: -15351.839
+3. Current log-likelihood: -15351.793
+4. Current log-likelihood: -15351.747
+5. Current log-likelihood: -15351.703
+6. Current log-likelihood: -15351.659
+7. Current log-likelihood: -15351.614
+8. Current log-likelihood: -15351.566
+9. Current log-likelihood: -15351.515
+10. Current log-likelihood: -15351.460
+11. Current log-likelihood: -15351.400
+12. Current log-likelihood: -15351.334
+13. Current log-likelihood: -15351.262
+14. Current log-likelihood: -15351.182
+15. Current log-likelihood: -15351.094
+16. Current log-likelihood: -15350.998
+17. Current log-likelihood: -15350.893
+18. Current log-likelihood: -15350.836
+19. Current log-likelihood: -15350.825
+Optimal log-likelihood: -15350.821
+Site proportion and rates:  (0.015,0.362) (0.148,0.362) (0.101,0.362) (0.223,0.782) (0.246,0.802) (0.238,1.704) (0.029,4.421)
+Parameters optimization took 19 rounds (77.062 sec)
+BEST SCORE FOUND : -15350.821
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.splits.nex
+Total tree length: 34.063
+
+Total number of iterations: 216
+CPU time used for tree search: 2767.912 sec (0h:46m:7s)
+Wall-clock time used for tree search: 1423.299 sec (0h:23m:43s)
+Total CPU time used: 2957.761 sec (0h:49m:17s)
+Total wall-clock time used: 1520.665 sec (0h:25m:20s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.splits.nex...
+38 taxa and 232 splits.
+Consensus tree written to analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.contree
+Log-likelihood of consensus tree: -15350.996
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Xylene_monooxygenase/Xylene_monooxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 12:17:41 2020

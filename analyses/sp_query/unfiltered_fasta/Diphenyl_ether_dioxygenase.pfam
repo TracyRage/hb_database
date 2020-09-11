@@ -1,0 +1,30 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:31:01 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/unfiltered_fasta/Diphenyl_ether_dioxygenase.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_A0A1B1VV77_A0A1B1VV77_9SPHN_Diphenyl_ether_1a_2-dioxygenase_large_subunit_OS=Sphingobium_phenoxybenzoativorans_OX=1592790_GN=dpeA1_PE=4_SV=1     49    132     48    154 PF00355.27  Rieske            Domain     2    84    89     64.2   8.2e-18   1 CL0516   
+tr_A0A1B1VV77_A0A1B1VV77_9SPHN_Diphenyl_ether_1a_2-dioxygenase_large_subunit_OS=Sphingobium_phenoxybenzoativorans_OX=1592790_GN=dpeA1_PE=4_SV=1    181    442    169    443 PF00848.20  Ring_hydroxyl_A   Domain    13   214   215     67.6   1.5e-18   1 CL0209   

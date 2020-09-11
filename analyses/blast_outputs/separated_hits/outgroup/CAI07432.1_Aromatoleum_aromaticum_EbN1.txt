@@ -1,0 +1,150 @@
+sp|I3R9M9|NARG_HALMT Respiratory nitrate reductase subunit alpha OS=Haloferax mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4) OX=523841 GN=narG PE=1 SV=1
+           Length = 984
+
+sp|P60068|CLRA_IDEDE Chlorate reductase subunit alpha OS=Ideonella dechloratans OX=36863 GN=clrA PE=1 SV=1
+           Length = 914
+
+sp|Q47CW6|PCRA_DECAR Perchlorate reductase subunit alpha OS=Dechloromonas aromatica (strain RCB) OX=159087 GN=pcrA PE=1 SV=1
+           Length = 927
+
+sp|Q8GPG4|DDHA_RHOSU Dimethylsulfide dehydrogenase subunit alpha OS=Rhodovulum sulfidophilum OX=35806 GN=ddhA PE=1 SV=1
+           Length = 910
+
+sp|Q9S1H0|SERA_THASE Selenate reductase subunit alpha OS=Thauera selenatis OX=33058 GN=serA PE=1 SV=1
+           Length = 918
+
+sp|P9WJQ3|NARG_MYCTU Nitrate reductase alpha subunit OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=narG PE=1 SV=1
+           Length = 1232
+
+sp|P9WJQ2|NARG_MYCTO Nitrate reductase alpha subunit OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=narG PE=3 SV=1
+           Length = 1232
+
+sp|P42175|NARG_BACSU Nitrate reductase alpha chain OS=Bacillus subtilis (strain 168) OX=224308 GN=narG PE=3 SV=2
+           Length = 1228
+
+sp|P09152|NARG_ECOLI Respiratory nitrate reductase 1 alpha chain OS=Escherichia coli (strain K12) OX=83333 GN=narG PE=1 SV=4
+           Length = 1247
+
+sp|Q9HR74|DMSA_HALSA Putative dimethyl sulfoxide reductase catalytic subunit A OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=dmsA PE=2 SV=1
+           Length = 837
+
+sp|P19319|NARZ_ECOLI Respiratory nitrate reductase 2 alpha chain OS=Escherichia coli (strain K12) OX=83333 GN=narZ PE=1 SV=5
+           Length = 1246
+
+sp|P46448|FDXG_HAEIN Formate dehydrogenase major subunit OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=fdxG PE=3 SV=2
+           Length = 1028
+
+sp|P77374|YNFE_ECOLI Putative dimethyl sulfoxide reductase chain YnfE OS=Escherichia coli (strain K12) OX=83333 GN=ynfE PE=1 SV=1
+           Length = 808
+
+sp|P32176|FDOG_ECOLI Formate dehydrogenase-O major subunit OS=Escherichia coli (strain K12) OX=83333 GN=fdoG PE=1 SV=5
+           Length = 1016
+
+sp|P85097|NARG_BRASZ Respiratory nitrate reductase alpha chain (Fragments) OS=Bradyrhizobium sp. OX=376 GN=narG PE=1 SV=1
+           Length = 902
+
+sp|P45004|DMSA_HAEIN Dimethyl sulfoxide reductase DmsA OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=dmsA PE=3 SV=1
+           Length = 806
+
+sp|P18775|DMSA_ECOLI Dimethyl sulfoxide reductase DmsA OS=Escherichia coli (strain K12) OX=83333 GN=dmsA PE=1 SV=2
+           Length = 814
+
+sp|Q71EW5|AHY_PELAE Acetylene hydratase OS=Pelobacter acetylenicus OX=29542 PE=1 SV=1
+           Length = 730
+
+sp|P77783|YNFF_ECOLI Probable dimethyl sulfoxide reductase chain YnfF OS=Escherichia coli (strain K12) OX=83333 GN=ynfF PE=1 SV=4
+           Length = 807
+
+sp|P24183|FDNG_ECOLI Formate dehydrogenase, nitrate-inducible, major subunit OS=Escherichia coli (strain K12) OX=83333 GN=fdnG PE=1 SV=3
+           Length = 1015
+
+sp|D3RNN8|SOEA_ALLVD Sulfite dehydrogenase subunit A OS=Allochromatium vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB 10441 / D) OX=572477 GN=soeA PE=1 SV=1
+           Length = 967
+
+sp|Q934F5|FDHA_DESGI Formate dehydrogenase subunit alpha OS=Desulfovibrio gigas OX=879 GN=fdhA PE=1 SV=2
+           Length = 1012
+
+sp|Q727P3|FDNGA_DESVH Formate dehydrogenase 2 subunit alpha (cytochrome c-553) OS=Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / DSM 644 / NCIMB 8303) OX=882 GN=fdnG-3 PE=1 SV=2
+           Length = 1012
+
+sp|P07658|FDHF_ECOLI Formate dehydrogenase H OS=Escherichia coli (strain K12) OX=83333 GN=fdhF PE=1 SV=2
+           Length = 715
+
+sp|Q57366|DSTOR_RHOSH Dimethyl sulfoxide/trimethylamine N-oxide reductase OS=Rhodobacter sphaeroides OX=1063 GN=dmsA PE=1 SV=1
+           Length = 822
+
+sp|C0SP82|YOAE_BACSU Probable oxidoreductase YoaE OS=Bacillus subtilis (strain 168) OX=224308 GN=yoaE PE=3 SV=1
+           Length = 680
+
+sp|P37519|YYAE_BACSU Probable oxidoreductase YyaE OS=Bacillus subtilis (strain 168) OX=224308 GN=yyaE PE=3 SV=1
+           Length = 667
+
+sp|Q0I5G9|NAPA_HAES1 Periplasmic nitrate reductase OS=Haemophilus somnus (strain 129Pt) OX=205914 GN=napA PE=3 SV=1
+           Length = 827
+
+sp|P31075|PSRA_WOLSU Polysulfide reductase chain A OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) OX=273121 GN=psrA PE=1 SV=1
+           Length = 763
+
+sp|B0URQ3|NAPA_HISS2 Periplasmic nitrate reductase OS=Histophilus somni (strain 2336) OX=228400 GN=napA PE=3 SV=1
+           Length = 827
+
+sp|P06131|FDHA_METFO Formate dehydrogenase subunit alpha OS=Methanobacterium formicicum OX=2162 GN=fdhA PE=1 SV=1
+           Length = 684
+
+sp|P42434|NASC_BACSU Assimilatory nitrate reductase catalytic subunit OS=Bacillus subtilis (strain 168) OX=224308 GN=nasC PE=2 SV=3
+           Length = 710
+
+sp|P9WJQ1|NARX_MYCTU Nitrate reductase-like protein NarX OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=narX PE=1 SV=1
+           Length = 652
+
+sp|P9WJQ0|NARX_MYCTO Nitrate reductase-like protein NarX OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=narX PE=2 SV=1
+           Length = 652
+
+sp|P37600|PHSA_SALTY Thiosulfate reductase molybdopterin-containing subunit PhsA OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=phsA PE=1 SV=2
+           Length = 758
+
+sp|B1Y6A6|NAPA_LEPCP Periplasmic nitrate reductase OS=Leptothrix cholodnii (strain ATCC 51168 / LMG 8142 / SP-6) OX=395495 GN=napA PE=3 SV=1
+           Length = 851
+
+sp|P81186|NAPA_DESDA Periplasmic nitrate reductase OS=Desulfovibrio desulfuricans (strain ATCC 27774 / DSM 6949 / MB) OX=525146 GN=napA PE=1 SV=2
+           Length = 755
+
+sp|A7ZCK4|NAPA_CAMC1 Periplasmic nitrate reductase OS=Campylobacter concisus (strain 13826) OX=360104 GN=napA PE=3 SV=1
+           Length = 926
+
+sp|Q67QZ1|NAPA_SYMTH Nitrate reductase OS=Symbiobacterium thermophilum (strain T / IAM 14863) OX=292459 GN=napA PE=3 SV=1
+           Length = 754
+
+sp|A7GZP5|NAPA_CAMC5 Periplasmic nitrate reductase OS=Campylobacter curvus (strain 525.92) OX=360105 GN=napA PE=3 SV=1
+           Length = 926
+
+sp|A4VJ11|NAPA_PSEU5 Periplasmic nitrate reductase OS=Pseudomonas stutzeri (strain A1501) OX=379731 GN=napA PE=3 SV=1
+           Length = 834
+
+sp|Q3HS05|NAPA_PSEST Periplasmic nitrate reductase OS=Pseudomonas stutzeri OX=316 GN=napA PE=3 SV=1
+           Length = 834
+
+sp|A1VZC8|NAPA_CAMJJ Periplasmic nitrate reductase OS=Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176) OX=354242 GN=napA PE=3 SV=1
+           Length = 923
+
+sp|A8FLJ3|NAPA_CAMJ8 Periplasmic nitrate reductase OS=Campylobacter jejuni subsp. jejuni serotype O:6 (strain 81116 / NCTC 11828) OX=407148 GN=napA PE=3 SV=1
+           Length = 924
+
+sp|Q5HV12|NAPA_CAMJR Periplasmic nitrate reductase OS=Campylobacter jejuni (strain RM1221) OX=195099 GN=napA PE=3 SV=1
+           Length = 924
+
+sp|Q9PPD9|NAPA_CAMJE Periplasmic nitrate reductase OS=Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168) OX=192222 GN=napA PE=3 SV=1
+           Length = 924
+
+sp|Q9Z4S6|TTRA_SALTY Tetrathionate reductase subunit A OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=ttrA PE=1 SV=1
+           Length = 1020
+
+sp|A7I3Y7|NAPA_CAMHC Periplasmic nitrate reductase OS=Campylobacter hominis (strain ATCC BAA-381 / LMG 19568 / NCTC 13146 / CH001A) OX=360107 GN=napA PE=3 SV=1
+           Length = 920
+
+sp|O33732|NARB_SHEFN Nitrate reductase OS=Shewanella frigidimarina (strain NCIMB 400) OX=318167 GN=Sfri_1505 PE=3 SV=2
+           Length = 938
+
+sp|Q9CKL8|NAPA_PASMU Periplasmic nitrate reductase OS=Pasteurella multocida (strain Pm70) OX=272843 GN=napA PE=3 SV=1
+           Length = 828
+

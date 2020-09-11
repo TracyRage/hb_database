@@ -1,0 +1,12 @@
+# Uniprot database directory
+/curated_tree/R*
+/curated_tree/analyses/R*
+/curated_tree/data/seqs/db_*
+/curated_tree/data/seqs/best_tree
+/curated_tree/tmp
+# Ignore temporary files
+*.sw*
+__pycache__/
+*~
+*.pyc
+.Rproj.user

@@ -1,0 +1,3 @@
+sp|Q00456|TMOA_PSEME Toluene-4-monooxygenase system, hydroxylase component subunit alpha OS=Pseudomonas mendocina OX=300 GN=tmoA PE=1 SV=3
+           Length = 500
+

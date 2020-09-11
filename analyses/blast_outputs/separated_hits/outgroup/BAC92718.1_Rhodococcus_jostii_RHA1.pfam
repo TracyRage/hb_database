@@ -1,0 +1,102 @@
+# pfam_scan.pl,  run at Wed Sep  2 20:53:26 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/blast_outputs/separated_hits/outgroup/BAC92718.1_Rhodococcus_jostii_RHA1.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+P0C618     53    137     53    158 PF00355.27  Rieske            Domain     1    84    89     74.7   4.1e-21   1 CL0516   
+P0C618    172    439    172    440 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    188.3   1.7e-55   1 CL0209   
+A5W4F2     53    137     53    158 PF00355.27  Rieske            Domain     1    84    89     74.7   4.1e-21   1 CL0516   
+A5W4F2    172    439    172    440 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    188.3   1.7e-55   1 CL0209   
+Q53122     55    139     55    160 PF00355.27  Rieske            Domain     1    84    89     74.8     4e-21   1 CL0516   
+Q53122    174    440    174    441 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    201.4   1.7e-59   1 CL0209   
+Q0T1Y1     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+Q0T1Y1    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    164.1   4.6e-48   1 CL0209   
+Q3YZ15     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+Q3YZ15    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    163.6   6.4e-48   1 CL0209   
+P0ABR5     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+P0ABR5    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    163.6   6.4e-48   1 CL0209   
+P0ABR6     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+P0ABR6    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    163.6   6.4e-48   1 CL0209   
+Q83K39     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.5   5.6e-22   1 CL0516   
+Q83K39    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    163.6   6.3e-48   1 CL0209   
+Q07944     53    137     53    158 PF00355.27  Rieske            Domain     1    84    89     74.7   4.2e-21   1 CL0516   
+Q07944    172    439    172    440 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    179.1   1.1e-52   1 CL0209   
+A8A344     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+A8A344    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    163.0   9.5e-48   1 CL0209   
+Q31XV2     43    125     42    145 PF00355.27  Rieske            Domain     2    83    89     77.4   5.9e-22   1 CL0516   
+Q31XV2    163    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    160.2   6.8e-47   1 CL0209   
+Q52028     57    141     57    169 PF00355.27  Rieske            Domain     1    84    89     79.3   1.6e-22   1 CL0516   
+Q52028    183    450    183    450 PF00848.20  Ring_hydroxyl_A   Domain     1   215   215    198.4   1.4e-58   1 CL0209   
+Q7N4W0     43    125     42    143 PF00355.27  Rieske            Domain     2    83    89     76.1   1.5e-21   1 CL0516   
+Q7N4W0    165    433    163    434 PF00848.20  Ring_hydroxyl_A   Domain     3   214   215    152.1   2.1e-44   1 CL0209   
+P37333     57    141     57    169 PF00355.27  Rieske            Domain     1    84    89     79.3   1.6e-22   1 CL0516   
+P37333    183    451    183    451 PF00848.20  Ring_hydroxyl_A   Domain     1   215   215    206.8   3.7e-61   1 CL0209   
+Q46372     57    141     57    168 PF00355.27  Rieske            Domain     1    84    89     72.3   2.3e-20   1 CL0516   
+Q46372    184    449    183    449 PF00848.20  Ring_hydroxyl_A   Domain     2   215   215    174.6   2.7e-51   1 CL0209   
+Q52438     58    142     58    169 PF00355.27  Rieske            Domain     1    84    89     76.5   1.2e-21   1 CL0516   
+Q52438    185    450    184    450 PF00848.20  Ring_hydroxyl_A   Domain     2   215   215    167.8   3.2e-49   1 CL0209   
+Q51494     38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     62.9     2e-17   1 CL0516   
+Q51494    160    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     2   214   215    159.9   8.6e-47   1 CL0209   
+O52382     36    121     36    137 PF00355.27  Rieske            Domain     1    85    89     62.3   3.1e-17   1 CL0516   
+O52382    159    423    157    424 PF00848.20  Ring_hydroxyl_A   Domain     3   214   215    166.0   1.2e-48   1 CL0209   
+P0A111     38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.5   5.7e-17   1 CL0516   
+P0A111    159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.8   9.2e-47   1 CL0209   
+P0A110     38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.5   5.7e-17   1 CL0516   
+P0A110    159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    159.8   9.2e-47   1 CL0209   
+O07824     38    123     38    139 PF00355.27  Rieske            Domain     1    85    89     61.1   7.5e-17   1 CL0516   
+O07824    159    425    159    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    161.3   3.2e-47   1 CL0209   
+Q45695     41    126     41    142 PF00355.27  Rieske            Domain     1    85    89     60.4   1.2e-16   1 CL0516   
+Q45695    164    427    162    428 PF00848.20  Ring_hydroxyl_A   Domain     3   214   215    124.1   7.6e-36   1 CL0209   
+Q51601     55    136     55    154 PF00355.27  Rieske            Domain     1    81    89     66.5   1.5e-18   1 CL0516   
+Q51601    205    393    199    448 PF00848.20  Ring_hydroxyl_A   Domain     8   188   215     62.7   4.8e-17   1 CL0209   
+P07769     52    136     52    157 PF00355.27  Rieske            Domain     1    84    89     79.9   9.8e-23   1 CL0516   
+P07769    205    399    197    445 PF00848.20  Ring_hydroxyl_A   Domain    11   187   215     70.6   1.8e-19   1 CL0209   
+P23099     49    132     49    152 PF00355.27  Rieske            Domain     1    83    89     74.6   4.7e-21   1 CL0516   
+P23099    199    388    172    437 PF00848.20  Ring_hydroxyl_A   Domain     8   189   215     61.1   1.4e-16   1 CL0209   
+O85673     51    134     50    154 PF00355.27  Rieske            Domain     2    84    89     81.6   3.1e-23   1 CL0516   
+O85673    200    393    170    437 PF00848.20  Ring_hydroxyl_A   Domain    10   187   215     40.3   3.2e-10   1 CL0209   
+Q51974     42    124     41    143 PF00355.27  Rieske            Domain     2    83    89     63.3   1.5e-17   1 CL0516   
+Q51974    189    415    162    417 PF00848.20  Ring_hydroxyl_A   Domain    13   213   215     67.3   1.8e-18   1 CL0209   
+Q84BZ3     52    135     52    148 PF00355.27  Rieske            Domain     1    83    89     63.5   1.4e-17   1 CL0516   
+Q84BZ3    208    414    197    422 PF00848.20  Ring_hydroxyl_A   Domain    15   206   215     41.3   1.6e-10   1 CL0209   
+Q3C1E3     40    121     39    126 PF00355.27  Rieske            Domain     2    82    89     67.5   7.3e-19   1 CL0516   
+Q3C1E3    188    408    173    409 PF00848.20  Ring_hydroxyl_A   Domain     8   214   215     52.8   4.9e-14   1 CL0209   
+Q3C1D5     40    121     39    126 PF00355.27  Rieske            Domain     2    82    89     67.5   7.3e-19   1 CL0516   
+Q3C1D5    188    408    173    409 PF00848.20  Ring_hydroxyl_A   Domain     8   214   215     54.0   2.2e-14   1 CL0209   
+O52379     48    134     48    137 PF00355.27  Rieske            Domain     1    86    89     64.4   6.9e-18   1 CL0516   
+O52379    206    422    170    423 PF00848.20  Ring_hydroxyl_A   Domain    12   214   215     60.8   1.8e-16   1 CL0209   
+Q9RBG5     43    126     42    143 PF00355.27  Rieske            Domain     2    83    89     62.9     2e-17   1 CL0516   
+Q9RBG5    190    387    179    388 PF00848.20  Ring_hydroxyl_A   Domain    11   214   215     28.6   1.3e-06   1 CL0209   
+P0ABR7     46    134     46    135 PF00355.27  Rieske            Domain     1    88    89     73.3   1.2e-20   1 CL0516   
+P0ABR7    184    370    182    373 PF00848.20  Ring_hydroxyl_A   Domain     3   211   215     75.7   4.8e-21   1 CL0209   
+P0ABR8     46    134     46    135 PF00355.27  Rieske            Domain     1    88    89     73.3   1.2e-20   1 CL0516   
+P0ABR8    184    370    182    373 PF00848.20  Ring_hydroxyl_A   Domain     3   211   215     75.7   4.8e-21   1 CL0209   
+Q9X404     44    132     43    145 PF00355.27  Rieske            Domain     2    80    89     56.7   1.8e-15   1 CL0516   
+F0KFI5     43    131     43    132 PF00355.27  Rieske            Domain     1    88    89     67.8     6e-19   1 CL0516   
+F0KFI5    181    369    179    371 PF00848.20  Ring_hydroxyl_A   Domain     3   212   215     74.3   1.3e-20   1 CL0209   
+D0C9N6     43    131     43    132 PF00355.27  Rieske            Domain     1    88    89     70.1   1.2e-19   1 CL0516   
+D0C9N6    181    369    179    371 PF00848.20  Ring_hydroxyl_A   Domain     3   212   215     74.0   1.6e-20   1 CL0209   
+G2IN04     27    108     26    125 PF00355.27  Rieske            Domain     2    84    89     54.7   7.5e-15   1 CL0516   

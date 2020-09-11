@@ -1,0 +1,232 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 10:41:28 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 54 sequences with 1495 columns, 1491 distinct patterns
+1217 parsimony-informative, 238 singleton sites, 40 constant sites
+WARNING: Some sequence names are changed as follows:
+Q9Z4S6-O=Salmonella-G=ttrA-T=BLAST -> Q9Z4S6-O_Salmonella-G_ttrA-T_BLAST
+D3RNN8-O=Allochromatium-G=soeA-T=BLAST -> D3RNN8-O_Allochromatium-G_soeA-T_BLAST
+P42175-O=Bacillus-G=narG-T=BLAST -> P42175-O_Bacillus-G_narG-T_BLAST
+P85097-O=Bradyrhizobium-G=narG-T=BLAST -> P85097-O_Bradyrhizobium-G_narG-T_BLAST
+P09152-O=Escherichia-G=narG-T=BLAST -> P09152-O_Escherichia-G_narG-T_BLAST
+P19319-O=Escherichia-G=narZ-T=BLAST -> P19319-O_Escherichia-G_narZ-T_BLAST
+P9WJQ3-O=Mycobacterium-G=narG-T=BLAST -> P9WJQ3-O_Mycobacterium-G_narG-T_BLAST
+P9WJQ2-O=Mycobacterium-G=narG-T=BLAST -> P9WJQ2-O_Mycobacterium-G_narG-T_BLAST
+P9WJQ1-O=Mycobacterium-G=narX-T=BLAST -> P9WJQ1-O_Mycobacterium-G_narX-T_BLAST
+P9WJQ0-O=Mycobacterium-G=narX-T=BLAST -> P9WJQ0-O_Mycobacterium-G_narX-T_BLAST
+Q47CW6-O=Dechloromonas-G=pcrA-T=BLAST -> Q47CW6-O_Dechloromonas-G_pcrA-T_BLAST
+I3R9M9-O=Haloferax-G=narG-T=BLAST -> I3R9M9-O_Haloferax-G_narG-T_BLAST
+CAI07432.1-O=Aromatoleum-NCBI -> CAI07432.1-O_Aromatoleum-NCBI
+Q5P5I0-O=Aromatoleum-G=ebdA-T=Query -> Q5P5I0-O_Aromatoleum-G_ebdA-T_Query
+Q93PD2-O=Azoarcus-G=ebdA-T=Query -> Q93PD2-O_Azoarcus-G_ebdA-T_Query
+H9NNA7-O=Sterolibacterium-G=ebdA-T=Query -> H9NNA7-O_Sterolibacterium-G_ebdA-T_Query
+Q8GPG4-O=Rhodovulum-G=ddhA-T=BLAST -> Q8GPG4-O_Rhodovulum-G_ddhA-T_BLAST
+P60068-O=Ideonella-G=clrA-T=BLAST -> P60068-O_Ideonella-G_clrA-T_BLAST
+Q9S1H0-O=Thauera-G=serA-T=BLAST -> Q9S1H0-O_Thauera-G_serA-T_BLAST
+O33732_Shewanella_frigidimarina__strain_NCIMB_400_.OrderedLocusNames=Sfri_1505_ -> O33732_Shewanella_frigidimarina__strain_NCIMB_400_.OrderedLocusNames_Sfri_1505_
+Q9HR74-O=Halobacterium-G=dmsA-T=BLAST -> Q9HR74-O_Halobacterium-G_dmsA-T_BLAST
+P46448-O=Haemophilus-G=fdxG-T=BLAST -> P46448-O_Haemophilus-G_fdxG-T_BLAST
+P32176-O=Escherichia-G=fdoG-T=BLAST -> P32176-O_Escherichia-G_fdoG-T_BLAST
+P24183-O=Escherichia-G=fdnG-T=BLAST -> P24183-O_Escherichia-G_fdnG-T_BLAST
+Q934F5-O=Desulfovibrio-G=fdhA-T=BLAST -> Q934F5-O_Desulfovibrio-G_fdhA-T_BLAST
+Q727P3-O=Desulfovibrio-G=fdnG-3-T=BLAST -> Q727P3-O_Desulfovibrio-G_fdnG-3-T_BLAST
+P42434-O=Bacillus-G=nasC-T=BLAST -> P42434-O_Bacillus-G_nasC-T_BLAST
+Q5HV12-O=Campylobacter-G=napA-T=BLAST -> Q5HV12-O_Campylobacter-G_napA-T_BLAST
+Q9PPD9-O=Campylobacter-G=napA-T=BLAST -> Q9PPD9-O_Campylobacter-G_napA-T_BLAST
+A1VZC8-O=Campylobacter-G=napA-T=BLAST -> A1VZC8-O_Campylobacter-G_napA-T_BLAST
+A8FLJ3-O=Campylobacter-G=napA-T=BLAST -> A8FLJ3-O_Campylobacter-G_napA-T_BLAST
+A7I3Y7-O=Campylobacter-G=napA-T=BLAST -> A7I3Y7-O_Campylobacter-G_napA-T_BLAST
+A7ZCK4-O=Campylobacter-G=napA-T=BLAST -> A7ZCK4-O_Campylobacter-G_napA-T_BLAST
+A7GZP5-O=Campylobacter-G=napA-T=BLAST -> A7GZP5-O_Campylobacter-G_napA-T_BLAST
+Q9CKL8-O=Pasteurella-G=napA-T=BLAST -> Q9CKL8-O_Pasteurella-G_napA-T_BLAST
+Q0I5G9-O=Haemophilus-G=napA-T=BLAST -> Q0I5G9-O_Haemophilus-G_napA-T_BLAST
+B0URQ3-O=Histophilus-G=napA-T=BLAST -> B0URQ3-O_Histophilus-G_napA-T_BLAST
+B1Y6A6-O=Leptothrix-G=napA-T=BLAST -> B1Y6A6-O_Leptothrix-G_napA-T_BLAST
+A4VJ11-O=Pseudomonas-G=napA-T=BLAST -> A4VJ11-O_Pseudomonas-G_napA-T_BLAST
+Q3HS05-O=Pseudomonas-G=napA-T=BLAST -> Q3HS05-O_Pseudomonas-G_napA-T_BLAST
+P81186-O=Desulfovibrio-G=napA-T=BLAST -> P81186-O_Desulfovibrio-G_napA-T_BLAST
+Q67QZ1-O=Symbiobacterium-G=napA-T=BLAST -> Q67QZ1-O_Symbiobacterium-G_napA-T_BLAST
+P06131-O=Methanobacterium-G=fdhA-T=BLAST -> P06131-O_Methanobacterium-G_fdhA-T_BLAST
+P07658-O=Escherichia-G=fdhF-T=BLAST -> P07658-O_Escherichia-G_fdhF-T_BLAST
+P31075-O=Wolinella-G=psrA-T=BLAST -> P31075-O_Wolinella-G_psrA-T_BLAST
+P37600-O=Salmonella-G=phsA-T=BLAST -> P37600-O_Salmonella-G_phsA-T_BLAST
+Q57366-O=Rhodobacter-G=dmsA-T=BLAST -> Q57366-O_Rhodobacter-G_dmsA-T_BLAST
+P37519-O=Bacillus-G=yyaE-T=BLAST -> P37519-O_Bacillus-G_yyaE-T_BLAST
+C0SP82-O=Bacillus-G=yoaE-T=BLAST -> C0SP82-O_Bacillus-G_yoaE-T_BLAST
+P45004-O=Haemophilus-G=dmsA-T=BLAST -> P45004-O_Haemophilus-G_dmsA-T_BLAST
+P18775-O=Escherichia-G=dmsA-T=BLAST -> P18775-O_Escherichia-G_dmsA-T_BLAST
+P77374-O=Escherichia-G=ynfE-T=BLAST -> P77374-O_Escherichia-G_ynfE-T_BLAST
+P77783-O=Escherichia-G=ynfF-T=BLAST -> P77783-O_Escherichia-G_ynfF-T_BLAST
+
+                                                                                 Gap/Ambiguity  Composition  p-value
+   1  Q9Z4S6-O_Salmonella-G_ttrA-T_BLAST                                                35.05%    failed      0.10%
+   2  Q71EW5_Pelobacter_acetylenicus.                                                   51.77%    passed     11.44%
+   3  D3RNN8-O_Allochromatium-G_soeA-T_BLAST                                            38.66%    failed      1.23%
+   4  P42175-O_Bacillus-G_narG-T_BLAST                                                  20.00%    passed     22.90%
+   5  P85097-O_Bradyrhizobium-G_narG-T_BLAST                                            40.40%    passed      9.26%
+   6  P09152-O_Escherichia-G_narG-T_BLAST                                               17.46%    passed     34.92%
+   7  P19319-O_Escherichia-G_narZ-T_BLAST                                               17.73%    failed      3.24%
+   8  P9WJQ3-O_Mycobacterium-G_narG-T_BLAST                                             19.40%    failed      0.00%
+   9  P9WJQ2-O_Mycobacterium-G_narG-T_BLAST                                             19.40%    failed      0.00%
+  10  P9WJQ1-O_Mycobacterium-G_narX-T_BLAST                                             56.39%    failed      0.00%
+  11  P9WJQ0-O_Mycobacterium-G_narX-T_BLAST                                             56.39%    failed      0.00%
+  12  Q47CW6-O_Dechloromonas-G_pcrA-T_BLAST                                             38.66%    passed     90.36%
+  13  I3R9M9-O_Haloferax-G_narG-T_BLAST                                                 37.06%    failed      0.00%
+  14  CAI07432.1-O_Aromatoleum-NCBI                                                     34.72%    passed     25.87%
+  15  Q5P5I0-O_Aromatoleum-G_ebdA-T_Query                                               34.72%    passed     25.87%
+  16  Q93PD2-O_Azoarcus-G_ebdA-T_Query                                                  34.85%    passed     26.48%
+  17  H9NNA7-O_Sterolibacterium-G_ebdA-T_Query                                          34.78%    failed      3.28%
+  18  Q8GPG4-O_Rhodovulum-G_ddhA-T_BLAST                                                39.13%    passed     10.67%
+  19  P60068-O_Ideonella-G_clrA-T_BLAST                                                 38.93%    passed     98.23%
+  20  Q9S1H0-O_Thauera-G_serA-T_BLAST                                                   38.66%    passed     96.16%
+  21  O33732_Shewanella_frigidimarina__strain_NCIMB_400_.OrderedLocusNames_Sfri_1505_   50.70%    failed      0.00%
+  22  Q9HR74-O_Halobacterium-G_dmsA-T_BLAST                                             44.55%    failed      0.00%
+  23  P46448-O_Haemophilus-G_fdxG-T_BLAST                                               31.84%    passed      6.45%
+  24  P32176-O_Escherichia-G_fdoG-T_BLAST                                               32.11%    passed     49.97%
+  25  P24183-O_Escherichia-G_fdnG-T_BLAST                                               32.17%    passed     30.67%
+  26  Q934F5-O_Desulfovibrio-G_fdhA-T_BLAST                                             32.98%    passed     31.05%
+  27  Q727P3-O_Desulfovibrio-G_fdnG-3-T_BLAST                                           32.84%    passed     77.95%
+  28  P42434-O_Bacillus-G_nasC-T_BLAST                                                  52.51%    failed      2.60%
+  29  Q5HV12-O_Campylobacter-G_napA-T_BLAST                                             38.19%    failed      0.29%
+  30  Q9PPD9-O_Campylobacter-G_napA-T_BLAST                                             38.19%    failed      0.29%
+  31  A1VZC8-O_Campylobacter-G_napA-T_BLAST                                             38.26%    failed      0.16%
+  32  A8FLJ3-O_Campylobacter-G_napA-T_BLAST                                             38.19%    failed      0.16%
+  33  A7I3Y7-O_Campylobacter-G_napA-T_BLAST                                             38.46%    failed      0.15%
+  34  A7ZCK4-O_Campylobacter-G_napA-T_BLAST                                             38.06%    failed      3.93%
+  35  A7GZP5-O_Campylobacter-G_napA-T_BLAST                                             38.06%    passed     15.79%
+  36  Q9CKL8-O_Pasteurella-G_napA-T_BLAST                                               44.62%    passed     81.02%
+  37  Q0I5G9-O_Haemophilus-G_napA-T_BLAST                                               44.68%    passed     97.57%
+  38  B0URQ3-O_Histophilus-G_napA-T_BLAST                                               44.68%    passed     96.56%
+  39  B1Y6A6-O_Leptothrix-G_napA-T_BLAST                                                43.08%    passed     77.63%
+  40  A4VJ11-O_Pseudomonas-G_napA-T_BLAST                                               44.21%    passed     71.19%
+  41  Q3HS05-O_Pseudomonas-G_napA-T_BLAST                                               44.21%    passed     71.19%
+  42  P81186-O_Desulfovibrio-G_napA-T_BLAST                                             49.50%    failed      0.91%
+  43  Q67QZ1-O_Symbiobacterium-G_napA-T_BLAST                                           49.77%    passed     40.21%
+  44  P06131-O_Methanobacterium-G_fdhA-T_BLAST                                          54.25%    failed      0.05%
+  45  P07658-O_Escherichia-G_fdhF-T_BLAST                                               52.51%    passed     30.39%
+  46  P31075-O_Wolinella-G_psrA-T_BLAST                                                 49.03%    failed      0.19%
+  47  P37600-O_Salmonella-G_phsA-T_BLAST                                                49.30%    failed      1.86%
+  48  Q57366-O_Rhodobacter-G_dmsA-T_BLAST                                               46.56%    passed     21.01%
+  49  P37519-O_Bacillus-G_yyaE-T_BLAST                                                  55.38%    passed      7.63%
+  50  C0SP82-O_Bacillus-G_yoaE-T_BLAST                                                  54.52%    passed     18.27%
+  51  P45004-O_Haemophilus-G_dmsA-T_BLAST                                               46.09%    failed      1.09%
+  52  P18775-O_Escherichia-G_dmsA-T_BLAST                                               46.02%    passed     21.70%
+  53  P77374-O_Escherichia-G_ynfE-T_BLAST                                               45.95%    passed     23.52%
+  54  P77783-O_Escherichia-G_ynfF-T_BLAST                                               46.15%    passed     75.56%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                             40.59%  23 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: P9WJQ2-O_Mycobacterium-G_narG-T_BLAST is identical to P9WJQ3-O_Mycobacterium-G_narG-T_BLAST but kept for subsequent analysis
+NOTE: P9WJQ0-O_Mycobacterium-G_narX-T_BLAST is identical to P9WJQ1-O_Mycobacterium-G_narX-T_BLAST but kept for subsequent analysis
+NOTE: Q3HS05-O_Pseudomonas-G_napA-T_BLAST is identical to A4VJ11-O_Pseudomonas-G_napA-T_BLAST but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.080 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 94 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+4 trees examined
+Threads: 1 / Time: 4.903 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -110139
+Threads: 2 / Time: 3.646 sec / Speedup: 1.345 / Efficiency: 67% / LogL: -110139
+Threads: 3 / Time: 3.857 sec / Speedup: 1.271 / Efficiency: 42% / LogL: -110139
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -77751.035
+2. Current log-likelihood: -75369.065
+3. Current log-likelihood: -75319.745
+4. Current log-likelihood: -75318.836
+5. Current log-likelihood: -75318.198
+6. Current log-likelihood: -75317.746
+7. Current log-likelihood: -75317.464
+8. Current log-likelihood: -75317.301
+Optimal log-likelihood: -75317.202
+Site proportion and rates:  (0.012,0.059) (0.033,0.197) (0.075,0.401) (0.149,0.510) (0.212,0.694) (0.372,1.135) (0.147,2.159)
+Parameters optimization took 8 rounds (92.756 sec)
+Computing ML distances based on estimated model parameters... 1.499 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -75291.282
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.774 second
+Computing log-likelihood of 98 initial trees ... 78.155 seconds
+Current best score: -75291.282
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -75229.488
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -75227.982
+Iteration 10 / LogL: -75232.495 / Time: 0h:6m:4s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -75225.955
+Iteration 20 / LogL: -75230.186 / Time: 0h:8m:49s
+Finish initializing candidate tree set (4)
+Current best tree score: -75225.955 / CPU time: 417.922
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -75227.990 / Time: 0h:11m:16s (0h:31m:28s left)
+Iteration 40 / LogL: -75228.334 / Time: 0h:13m:46s (0h:25m:4s left)
+Iteration 50 / LogL: -75233.512 / Time: 0h:16m:34s (0h:20m:37s left)
+Log-likelihood cutoff on original alignment: -75272.589
+Iteration 60 / LogL: -75227.254 / Time: 0h:19m:25s (0h:16m:47s left)
+Iteration 70 / LogL: -75227.892 / Time: 0h:21m:59s (0h:13m:3s left)
+Iteration 80 / LogL: -75227.431 / Time: 0h:24m:52s (0h:9m:45s left)
+Iteration 90 / LogL: -75226.155 / Time: 0h:27m:29s (0h:6m:29s left)
+Iteration 100 / LogL: -75228.253 / Time: 0h:30m:12s (0h:3m:21s left)
+Log-likelihood cutoff on original alignment: -75272.589
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Iteration 110 / LogL: -75229.544 / Time: 0h:32m:51s (0h:27m:7s left)
+TREE SEARCH COMPLETED AFTER 112 ITERATIONS / Time: 0h:33m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -75225.955
+2. Current log-likelihood: -75225.945
+Optimal log-likelihood: -75225.933
+Site proportion and rates:  (0.012,0.058) (0.031,0.195) (0.080,0.389) (0.141,0.524) (0.226,0.678) (0.380,1.164) (0.130,2.251)
+Parameters optimization took 2 rounds (24.097 sec)
+BEST SCORE FOUND : -75225.933
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.splits.nex
+Total tree length: 46.300
+
+Total number of iterations: 112
+CPU time used for tree search: 3726.441 sec (1h:2m:6s)
+Wall-clock time used for tree search: 1900.704 sec (0h:31m:40s)
+Total CPU time used: 3993.371 sec (1h:6m:33s)
+Total wall-clock time used: 2036.700 sec (0h:33m:56s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.splits.nex...
+54 taxa and 186 splits.
+Consensus tree written to analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.contree
+Reading input trees file analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.contree
+Log-likelihood of consensus tree: -75225.943
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.contree
+  Screen log file:               analyses/phylo/Ethylbenzene_dehydrogenase/Ethylbenzene_dehydrogenase.trimmed.log
+
+Date and Time: Thu Sep  3 11:15:30 2020

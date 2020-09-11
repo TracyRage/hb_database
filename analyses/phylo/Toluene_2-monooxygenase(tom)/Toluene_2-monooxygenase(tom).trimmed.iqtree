@@ -1,0 +1,147 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: analyses/phylo/Toluene_2-monooxygenase(tom)/Toluene_2-monooxygenase(tom).trimmed
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 3333
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 620 amino-acid sites
+Number of constant sites: 76 (= 12.2581% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 76 (= 12.2581% of all sites)
+Number of parsimony informative sites: 470
+Number of distinct site patterns: 597
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.0585,0.1774) (0.1149,0.4402) (0.1648,0.6956) (0.1938,0.9276) (0.1952,1.1359) (0.1694,1.3290) (0.1035,1.9115)
+
+ Category  Relative_rate  Proportion
+  1         0.1774         0.0585
+  2         0.4402         0.1149
+  3         0.6956         0.1648
+  4         0.9276         0.1938
+  5         1.1359         0.1952
+  6         1.3290         0.1694
+  7         1.9115         0.1035
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -9748.8839 (s.e. 173.9335)
+Unconstrained log-likelihood (without tree): -3949.9463
+Number of free parameters (#branches + #model parameters): 35
+Akaike information criterion (AIC) score: 19567.7679
+Corrected Akaike information criterion (AICc) score: 19572.0829
+Bayesian information criterion (BIC) score: 19722.8081
+
+Total tree length (sum of branch lengths): 10.3243
+Sum of internal branch lengths: 7.7577 (75.1403% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'D4Z0A1-O_Sphingobium-G_tomA1-T_Query' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-------D4Z0A1-O_Sphingobium-G_tomA1-T_Query
+|
+|  +--Q1LNR3-O_Cupriavidus-G_tomA1-T_Query
++--| (87)
+|  +**Q9ANX4-O_Burkholderia-G_tomA1-T_Query
+|
+|                                                    +--Q768T5-O_Gordonia-G_prmA-T_BLAST
+|                                          +---------| (100)
+|                                          |         |     +--E9RFS9-O_Mycobacterium-G_mimA-T_BLAST
+|                                          |         |  +--| (91)
+|                                          |         |  |  +--A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST
+|                                          |         +--| (74)
+|                                          |            +--Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST
+|                                  +-------| (94)
+|                                  |       |           +--P22869-O_Methylococcus-G_mmoX-T_BLAST
+|                                  |       +-----------| (100)
+|                                  |                   +--P27353-O_Methylosinus-G_mmoX-T_BLAST
++----------------------------------| (100)
+                                   |                 +--AAK07411.1-O_Burkholderia-NCBI
+                                   |  +--------------| (100)
+                                   |  |              +--P19732-O_Pseudomonas-G_dmpN-T_BLAST
+                                   +--| (46)
+                                      |         +----Q00456-O_Pseudomonas-G_tmoA-T_BLAST
+                                      +---------| (98)
+                                                +--------O87082-O_Xanthobacter-G_xamoA-T_BLAST
+
+Tree in newick format:
+
+(D4Z0A1-O_Sphingobium-G_tomA1-T_Query:0.6221366157,(Q1LNR3-O_Cupriavidus-G_tomA1-T_Query:0.0121934418,Q9ANX4-O_Burkholderia-G_tomA1-T_Query:0.0000024885)87:0.2520114098,(((Q768T5-O_Gordonia-G_prmA-T_BLAST:0.0176661888,((E9RFS9-O_Mycobacterium-G_mimA-T_BLAST:0.0028810987,A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST:0.0068316079)91:0.0237122698,Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST:0.0249601994)74:0.0377050043)100:0.8103112143,(P22869-O_Methylococcus-G_mmoX-T_BLAST:0.0797817185,P27353-O_Methylosinus-G_mmoX-T_BLAST:0.1481906372)100:0.9777714957)94:0.6541690757,((AAK07411.1-O_Burkholderia-NCBI:0.3027748360,P19732-O_Pseudomonas-G_dmpN-T_BLAST:0.2201558531)100:1.1524487600,(Q00456-O_Pseudomonas-G_tmoA-T_BLAST:0.4333026899,O87082-O_Xanthobacter-G_xamoA-T_BLAST:0.6957203049)98:0.8329925990)46:0.2957746770)100:2.7208233050);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -9749.144747
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------D4Z0A1-O_Sphingobium-G_tomA1-T_Query
+|
+|  +--Q1LNR3-O_Cupriavidus-G_tomA1-T_Query
++--| (87)
+|  +--Q9ANX4-O_Burkholderia-G_tomA1-T_Query
+|
+|                                                      +--Q768T5-O_Gordonia-G_prmA-T_BLAST
+|                                             +--------| (100)
+|                                             |        |     +--E9RFS9-O_Mycobacterium-G_mimA-T_BLAST
+|                                             |        |  +--| (91)
+|                                             |        |  |  +--A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST
+|                                             |        +--| (74)
+|                                             |           +--Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST
+|                                   +---------| (94)
+|                                   |         |          +--P22869-O_Methylococcus-G_mmoX-T_BLAST
+|                                   |         +----------| (100)
+|                                   |                    +--P27353-O_Methylosinus-G_mmoX-T_BLAST
+|                                +--| (49)
+|                                |  |            +--AAK07411.1-O_Burkholderia-NCBI
+|                                |  +------------| (100)
+|                                |               +--P19732-O_Pseudomonas-G_dmpN-T_BLAST
++--------------------------------| (100)
+                                 |       +----Q00456-O_Pseudomonas-G_tmoA-T_BLAST
+                                 +-------| (98)
+                                         +-------O87082-O_Xanthobacter-G_xamoA-T_BLAST
+
+
+Consensus tree in newick format: 
+
+(D4Z0A1-O_Sphingobium-G_tomA1-T_Query:0.6753382217,(Q1LNR3-O_Cupriavidus-G_tomA1-T_Query:0.0121917995,Q9ANX4-O_Burkholderia-G_tomA1-T_Query:0.0000021414)87:0.1983938192,((((Q768T5-O_Gordonia-G_prmA-T_BLAST:0.0179481060,((E9RFS9-O_Mycobacterium-G_mimA-T_BLAST:0.0028763484,A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST:0.0068322821)91:0.0237066352,Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST:0.0249491280)74:0.0373542858)100:0.8195230804,(P22869-O_Methylococcus-G_mmoX-T_BLAST:0.0800952695,P27353-O_Methylosinus-G_mmoX-T_BLAST:0.1478037259)100:0.9679179227)94:0.8969380080,(AAK07411.1-O_Burkholderia-NCBI:0.3044705273,P19732-O_Pseudomonas-G_dmpN-T_BLAST:0.2183567859)100:1.1494739110)49:0.1898775988,(Q00456-O_Pseudomonas-G_tmoA-T_BLAST:0.4321753850,O87082-O_Xanthobacter-G_xamoA-T_BLAST:0.6984858548)98:0.6933886140)100:2.7888470656);
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep  3 12:22:29 2020
+Total CPU time used: 291.249728 seconds (0h:4m:51s)
+Total wall-clock time used: 288.286746 seconds (0h:4m:48s)
+

@@ -1,0 +1,36 @@
+sp|Q8RQQ0|NPHA1_RHOSO 4-nitrophenol 2-monooxygenase, oxygenase component OS=Rhodococcus sp. OX=1831 GN=nphA1 PE=1 SV=2
+           Length = 519
+
+sp|Q9HWT7|HPAB_PSEAE 4-hydroxyphenylacetate 3-monooxygenase oxygenase component OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=hpaB PE=1 SV=1
+           Length = 520
+
+sp|Q57160|HPAB_ECOLX 4-hydroxyphenylacetate 3-monooxygenase oxygenase component OS=Escherichia coli OX=562 GN=hpaB PE=1 SV=1
+           Length = 520
+
+sp|Q48440|HPAB_KLEOX 4-hydroxyphenylacetate 3-monooxygenase oxygenase component OS=Klebsiella oxytoca OX=571 GN=hpaB PE=2 SV=1
+           Length = 520
+
+sp|O30372|PVCC_PSEAE Pyoverdin chromophore biosynthetic protein PvcC OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pvcC PE=4 SV=2
+           Length = 500
+
+sp|A4IT51|HPAH_GEOTN Anthranilate 3-monooxygenase oxygenase component OS=Geobacillus thermodenitrificans (strain NG80-2) OX=420246 GN=hpaH PE=1 SV=1
+           Length = 494
+
+sp|Q5SJP8|HPAB_THET8 4-hydroxyphenylacetate 3-monooxygenase oxygenase component OS=Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579) OX=300852 GN=TTHA0960 PE=1 SV=1
+           Length = 481
+
+sp|Q4L1M7|HPAH_GEOP9 4-hydroxyphenylacetate 3-monooxygenase oxygenase component OS=Geobacillus sp. (strain PA-9) OX=278858 GN=hpaH PE=3 SV=1
+           Length = 494
+
+sp|C0SPC0|YOAI_BACSU Probable 4-hydroxyphenylacetate 3-monooxygenase OS=Bacillus subtilis (strain 168) OX=224308 GN=yoaI PE=3 SV=1
+           Length = 483
+
+sp|Q6F4M8|NPCA_RHOOP 4-nitrophenol 4-monooxygenase/4-nitrocatechol 2-monooxygenase, oxygenase component OS=Rhodococcus opacus OX=37919 GN=npcA PE=1 SV=1
+           Length = 528
+
+sp|O87009|TFTD_BURCE FADH(2)-dependent monooxygenase TftD OS=Burkholderia cepacia OX=292 GN=tftD PE=1 SV=2
+           Length = 515
+
+sp|P55792|HDVD_CLOAM 4-hydroxybutyryl-CoA dehydratase/vinylacetyl-CoA-Delta-isomerase OS=Clostridium aminobutyricum OX=33953 GN=abfD PE=1 SV=3
+           Length = 490
+

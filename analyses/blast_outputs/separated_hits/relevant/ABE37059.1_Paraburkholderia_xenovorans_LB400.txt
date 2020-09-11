@@ -1,0 +1,6 @@
+sp|Q52438|BPHA1_PSES1 Biphenyl dioxygenase subunit alpha OS=Pseudomonas sp. (strain KKS102) OX=307 GN=bphA1 PE=3 SV=1
+           Length = 458
+
+sp|Q53122|BPHA1_RHOJR Biphenyl 2,3-dioxygenase subunit alpha OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=bphA1 PE=1 SV=1
+           Length = 460
+

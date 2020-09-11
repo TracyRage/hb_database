@@ -1,0 +1,27 @@
+sp|Q00456|TMOA_PSEME Toluene-4-monooxygenase system, hydroxylase component subunit alpha OS=Pseudomonas mendocina OX=300 GN=tmoA PE=1 SV=3
+           Length = 500
+
+sp|O87082|XAMOA_XANP2 Alkene monooxygenase system, oxygenase component subunit alpha OS=Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2) OX=78245 GN=xamoA PE=1 SV=1
+           Length = 497
+
+sp|P19732|DMPN_PSEUF Phenol hydroxylase P3 protein OS=Pseudomonas sp. (strain CF600) OX=79676 GN=dmpN PE=3 SV=1
+           Length = 517
+
+sp|Q768T5|PRMA_GORST Propane 2-monooxygenase, hydroxylase component large subunit OS=Gordonia sp. (strain TY-5) OX=235467 GN=prmA PE=1 SV=1
+           Length = 545
+
+sp|E9RFS9|MIMA_MYCGD Propane 2-monooxygenase, hydroxylase component large subunit OS=Mycobacterium goodii OX=134601 GN=mimA PE=1 SV=1
+           Length = 542
+
+sp|Q0SJK9|PRMA_RHOJR Propane 2-monooxygenase, hydroxylase component large subunit OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=prmA PE=1 SV=1
+           Length = 544
+
+sp|A0QTU8|MIMA_MYCS2 Propane 2-monooxygenase, hydroxylase component large subunit OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mimA PE=1 SV=1
+           Length = 542
+
+sp|P22869|MEMA_METCA Methane monooxygenase component A alpha chain OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoX PE=1 SV=3
+           Length = 527
+
+sp|P27353|MEMA_METTR Methane monooxygenase component A alpha chain OS=Methylosinus trichosporium OX=426 GN=mmoX PE=1 SV=4
+           Length = 526
+

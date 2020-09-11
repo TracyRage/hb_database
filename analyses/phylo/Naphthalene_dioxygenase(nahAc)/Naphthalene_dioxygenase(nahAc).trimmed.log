@@ -1,0 +1,312 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 08:46:54 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 45 sequences with 525 columns, 518 distinct patterns
+456 parsimony-informative, 41 singleton sites, 28 constant sites
+WARNING: Some sequence names are changed as follows:
+P94679-O=Comamonas-G=tsaM1-T=BLAST -> P94679-O_Comamonas-G_tsaM1-T_BLAST
+P0ABR7-O=Escherichia-G=yeaW-T=BLAST -> P0ABR7-O_Escherichia-G_yeaW-T_BLAST
+P0ABR8-O=Escherichia-G=yeaW-T=BLAST -> P0ABR8-O_Escherichia-G_yeaW-T_BLAST
+D0C9N6-O=Acinetobacter-G=cntA-T=BLAST -> D0C9N6-O_Acinetobacter-G_cntA-T_BLAST
+F0KFI5-O=Acinetobacter-G=yeaW-T=BLAST -> F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST
+Q51974-O=Pseudomonas-G=cmtAb-T=BLAST -> Q51974-O_Pseudomonas-G_cmtAb-T_BLAST
+O85673-O=Acinetobacter-G=antA-T=BLAST -> O85673-O_Acinetobacter-G_antA-T_BLAST
+Q51601-O=Burkholderia-G=cbdA-T=BLAST -> Q51601-O_Burkholderia-G_cbdA-T_BLAST
+P23099-O=Pseudomonas-G=xylX-T=BLAST -> P23099-O_Pseudomonas-G_xylX-T_BLAST
+P07769-O=Acinetobacter-G=benA-T=BLAST -> P07769-O_Acinetobacter-G_benA-T_BLAST
+Q9RBG5-O=Alcaligenes-G=absAa-T=BLAST -> Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST
+Q9X404-O=Methylosulfonomonas-G=msmA-T=BLAST -> Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST
+O52379-O=Ralstonia-G=nagG-T=BLAST -> O52379-O_Ralstonia-G_nagG-T_BLAST
+Q84BZ3-O=Burkholderia-G=andAc-T=BLAST -> Q84BZ3-O_Burkholderia-G_andAc-T_BLAST
+Q3C1D5-O=Comamonas-G=tphA2II-T=BLAST -> Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST
+Q3C1E3-O=Comamonas-G=tphA2I-T=BLAST -> Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST
+Q45695-O=Burkholderia-G=dntAc-T=BLAST -> Q45695-O_Burkholderia-G_dntAc-T_BLAST
+O52382-O=Ralstonia-G=nagAc-T=BLAST -> O52382-O_Ralstonia-G_nagAc-T_BLAST
+P0A111-O=Pseudomonas-G=doxB-T=BLAST -> P0A111-O_Pseudomonas-G_doxB-T_BLAST
+P0A110-O=Pseudomonas-G=ndoB-T=BLAST -> P0A110-O_Pseudomonas-G_ndoB-T_BLAST
+Q05K20-O=Plasmid-G=nahAc-T=Query -> Q05K20-O_Plasmid-G_nahAc-T_Query
+Q05K30-O=Plasmid-G=nahAc-T=Query -> Q05K30-O_Plasmid-G_nahAc-T_Query
+AAP44288.1-O=Pseudomonas-NCBI -> AAP44288.1-O_Pseudomonas-NCBI
+C3VIX2-O=Pseudomonas-G=nahAc-T=Query -> C3VIX2-O_Pseudomonas-G_nahAc-T_Query
+O07824-O=Pseudomonas-G=ndoB-T=BLAST -> O07824-O_Pseudomonas-G_ndoB-T_BLAST
+G9G7I5-O=Pseudomonas-G=nahAc-T=Query -> G9G7I5-O_Pseudomonas-G_nahAc-T_Query
+Q1XGM0-O=Pseudomonas-G=nahAc-T=Query -> Q1XGM0-O_Pseudomonas-G_nahAc-T_Query
+Q51494-O=Pseudomonas-G=ndoB-T=BLAST -> Q51494-O_Pseudomonas-G_ndoB-T_BLAST
+D9IVE3-O=Pseudomonas-G=nahAc-T=Query -> D9IVE3-O_Pseudomonas-G_nahAc-T_Query
+Q7N4W0-O=Photorhabdus-G=hcaE-T=BLAST -> Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST
+Q0T1Y1-O=Shigella-G=hcaE-T=BLAST -> Q0T1Y1-O_Shigella-G_hcaE-T_BLAST
+Q83K39-O=Shigella-G=hcaE-T=BLAST -> Q83K39-O_Shigella-G_hcaE-T_BLAST
+Q31XV2-O=Shigella-G=hcaE-T=BLAST -> Q31XV2-O_Shigella-G_hcaE-T_BLAST
+A8A344-O=Escherichia-G=hcaE-T=BLAST -> A8A344-O_Escherichia-G_hcaE-T_BLAST
+Q3YZ15-O=Shigella-G=hcaE-T=BLAST -> Q3YZ15-O_Shigella-G_hcaE-T_BLAST
+P0ABR5-O=Escherichia-G=hcaE-T=BLAST -> P0ABR5-O_Escherichia-G_hcaE-T_BLAST
+P0ABR6-O=Escherichia-G=hcaE-T=BLAST -> P0ABR6-O_Escherichia-G_hcaE-T_BLAST
+Q53122-O=Rhodococcus-G=bphA1-T=BLAST -> Q53122-O_Rhodococcus-G_bphA1-T_BLAST
+P0C618-O=Pseudomonas-G=bnzA-T=BLAST -> P0C618-O_Pseudomonas-G_bnzA-T_BLAST
+A5W4F2-O=Pseudomonas-G=bnzA-T=BLAST -> A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST
+Q07944-O=Pseudomonas-G=bedC1-T=BLAST -> Q07944-O_Pseudomonas-G_bedC1-T_BLAST
+Q52028-O=Pseudomonas-G=bphA-T=BLAST -> Q52028-O_Pseudomonas-G_bphA-T_BLAST
+P37333-O=Paraburkholderia-G=bphA-T=BLAST -> P37333-O_Paraburkholderia-G_bphA-T_BLAST
+Q46372-O=Comamonas-G=bphA-T=BLAST -> Q46372-O_Comamonas-G_bphA-T_BLAST
+Q52438-O=Pseudomonas-G=bphA1-T=BLAST -> Q52438-O_Pseudomonas-G_bphA1-T_BLAST
+
+                                             Gap/Ambiguity  Composition  p-value
+   1  P94679-O_Comamonas-G_tsaM1-T_BLAST            34.86%    passed     31.72%
+   2  P0ABR7-O_Escherichia-G_yeaW-T_BLAST           28.76%    passed     92.38%
+   3  P0ABR8-O_Escherichia-G_yeaW-T_BLAST           28.76%    passed     92.38%
+   4  D0C9N6-O_Acinetobacter-G_cntA-T_BLAST         29.71%    passed     69.74%
+   5  F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST         29.71%    passed     52.38%
+   6  Q51974-O_Pseudomonas-G_cmtAb-T_BLAST          18.67%    passed     79.81%
+   7  O85673-O_Acinetobacter-G_antA-T_BLAST         11.24%    passed     67.55%
+   8  Q51601-O_Burkholderia-G_cbdA-T_BLAST          11.43%    passed     44.43%
+   9  P23099-O_Pseudomonas-G_xylX-T_BLAST           13.90%    passed     86.07%
+  10  P07769-O_Acinetobacter-G_benA-T_BLAST         12.76%    passed     90.14%
+  11  Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST          26.67%    passed     31.13%
+  12  Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST   22.86%    failed      2.85%
+  13  O52379-O_Ralstonia-G_nagG-T_BLAST             20.00%    passed     11.74%
+  14  Q84BZ3-O_Burkholderia-G_andAc-T_BLAST         19.81%    passed     54.68%
+  15  Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST          21.33%    passed     73.49%
+  16  Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST           21.33%    passed     74.35%
+  17  Q45695-O_Burkholderia-G_dntAc-T_BLAST         14.10%    passed     96.46%
+  18  O52382-O_Ralstonia-G_nagAc-T_BLAST            14.86%    passed     97.66%
+  19  P0A111-O_Pseudomonas-G_doxB-T_BLAST           14.48%    passed     80.30%
+  20  P0A110-O_Pseudomonas-G_ndoB-T_BLAST           14.48%    passed     80.30%
+  21  Q05K20-O_Plasmid-G_nahAc-T_Query              14.48%    passed     80.30%
+  22  Q05K30-O_Plasmid-G_nahAc-T_Query              14.48%    passed     80.30%
+  23  AAP44288.1-O_Pseudomonas-NCBI                 14.48%    passed     77.76%
+  24  C3VIX2-O_Pseudomonas-G_nahAc-T_Query          14.48%    passed     77.76%
+  25  O07824-O_Pseudomonas-G_ndoB-T_BLAST           14.67%    passed     85.90%
+  26  G9G7I5-O_Pseudomonas-G_nahAc-T_Query          14.48%    passed     84.95%
+  27  Q1XGM0-O_Pseudomonas-G_nahAc-T_Query          14.48%    passed     84.95%
+  28  Q51494-O_Pseudomonas-G_ndoB-T_BLAST           14.48%    passed     85.09%
+  29  D9IVE3-O_Pseudomonas-G_nahAc-T_Query          14.48%    passed     94.87%
+  30  Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST          13.71%    passed     79.31%
+  31  Q0T1Y1-O_Shigella-G_hcaE-T_BLAST              13.71%    passed     98.05%
+  32  Q83K39-O_Shigella-G_hcaE-T_BLAST              13.71%    passed     98.02%
+  33  Q31XV2-O_Shigella-G_hcaE-T_BLAST              13.71%    passed     96.85%
+  34  A8A344-O_Escherichia-G_hcaE-T_BLAST           13.71%    passed     97.20%
+  35  Q3YZ15-O_Shigella-G_hcaE-T_BLAST              13.71%    passed     96.70%
+  36  P0ABR5-O_Escherichia-G_hcaE-T_BLAST           13.71%    passed     96.70%
+  37  P0ABR6-O_Escherichia-G_hcaE-T_BLAST           13.71%    passed     96.70%
+  38  Q53122-O_Rhodococcus-G_bphA1-T_BLAST          12.76%    passed     22.23%
+  39  P0C618-O_Pseudomonas-G_bnzA-T_BLAST           14.29%    passed     89.82%
+  40  A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST           14.29%    passed     89.82%
+  41  Q07944-O_Pseudomonas-G_bedC1-T_BLAST          14.29%    passed     67.11%
+  42  Q52028-O_Pseudomonas-G_bphA-T_BLAST           12.76%    passed     21.57%
+  43  P37333-O_Paraburkholderia-G_bphA-T_BLAST      12.57%    passed     63.39%
+  44  Q46372-O_Comamonas-G_bphA-T_BLAST             12.95%    passed     74.71%
+  45  Q52438-O_Pseudomonas-G_bphA1-T_BLAST          13.14%    passed      8.87%
+****  TOTAL                                         16.82%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: P0A110-O_Pseudomonas-G_ndoB-T_BLAST is identical to P0A111-O_Pseudomonas-G_doxB-T_BLAST but kept for subsequent analysis
+NOTE: C3VIX2-O_Pseudomonas-G_nahAc-T_Query is identical to AAP44288.1-O_Pseudomonas-NCBI but kept for subsequent analysis
+NOTE: Q1XGM0-O_Pseudomonas-G_nahAc-T_Query is identical to G9G7I5-O_Pseudomonas-G_nahAc-T_Query but kept for subsequent analysis
+NOTE: P0ABR5-O_Escherichia-G_hcaE-T_BLAST is identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST but kept for subsequent analysis
+NOTE: A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST is identical to P0C618-O_Pseudomonas-G_bnzA-T_BLAST but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Q05K20-O_Plasmid-G_nahAc-T_Query (identical to P0A111-O_Pseudomonas-G_doxB-T_BLAST) is ignored but added at the end
+NOTE: Q05K30-O_Plasmid-G_nahAc-T_Query (identical to P0A111-O_Pseudomonas-G_doxB-T_BLAST) is ignored but added at the end
+NOTE: P0ABR6-O_Escherichia-G_hcaE-T_BLAST (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+Alignment was printed to analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 26 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 4.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -31044
+Threads: 2 / Time: 2.834 sec / Speedup: 1.427 / Efficiency: 71% / LogL: -31044
+Threads: 3 / Time: 3.137 sec / Speedup: 1.289 / Efficiency: 43% / LogL: -31044
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18986.948
+2. Current log-likelihood: -18622.332
+3. Current log-likelihood: -18612.266
+4. Current log-likelihood: -18612.066
+Optimal log-likelihood: -18611.925
+Site proportion and rates:  (0.058,0.059) (0.071,0.320) (0.118,0.379) (0.153,0.665) (0.219,0.933) (0.233,1.161) (0.148,2.381)
+Parameters optimization took 4 rounds (10.287 sec)
+Computing ML distances based on estimated model parameters... 0.790 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -18610.090
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.798 second
+Computing log-likelihood of 98 initial trees ... 17.727 seconds
+Current best score: -18610.090
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18606.519
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -18604.702
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -18604.606
+UPDATE BEST LOG-LIKELIHOOD: -18604.597
+UPDATE BEST LOG-LIKELIHOOD: -18604.597
+BETTER TREE FOUND at iteration 10: -18604.597
+Iteration 10 / LogL: -18604.597 / Time: 0h:1m:39s
+Iteration 20 / LogL: -18604.886 / Time: 0h:2m:31s
+Finish initializing candidate tree set (9)
+Current best tree score: -18604.597 / CPU time: 129.444
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -18604.601 / Time: 0h:3m:41s (0h:10m:10s left)
+UPDATE BEST LOG-LIKELIHOOD: -18604.596
+Iteration 40 / LogL: -18610.644 / Time: 0h:4m:45s (0h:8m:32s left)
+Iteration 50 / LogL: -18604.598 / Time: 0h:5m:39s (0h:6m:55s left)
+Log-likelihood cutoff on original alignment: -18650.910
+Iteration 60 / LogL: -18604.606 / Time: 0h:6m:41s (0h:5m:40s left)
+Iteration 70 / LogL: -18604.596 / Time: 0h:7m:36s (0h:4m:24s left)
+Iteration 80 / LogL: -18604.598 / Time: 0h:8m:35s (0h:3m:15s left)
+Iteration 90 / LogL: -18604.703 / Time: 0h:9m:44s (0h:2m:11s left)
+Iteration 100 / LogL: -18604.607 / Time: 0h:10m:49s (0h:1m:5s left)
+Log-likelihood cutoff on original alignment: -18650.910
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -18604.807 / Time: 0h:11m:52s (0h:9m:48s left)
+TREE SEARCH COMPLETED AFTER 111 ITERATIONS / Time: 0h:12m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18604.596
+2. Current log-likelihood: -18604.549
+3. Current log-likelihood: -18604.476
+4. Current log-likelihood: -18604.404
+5. Current log-likelihood: -18604.334
+6. Current log-likelihood: -18604.266
+7. Current log-likelihood: -18604.199
+8. Current log-likelihood: -18604.136
+9. Current log-likelihood: -18604.074
+10. Current log-likelihood: -18604.013
+11. Current log-likelihood: -18603.955
+12. Current log-likelihood: -18603.897
+13. Current log-likelihood: -18603.841
+14. Current log-likelihood: -18603.788
+15. Current log-likelihood: -18603.735
+16. Current log-likelihood: -18603.684
+17. Current log-likelihood: -18603.633
+18. Current log-likelihood: -18603.584
+19. Current log-likelihood: -18603.536
+20. Current log-likelihood: -18603.489
+21. Current log-likelihood: -18603.445
+22. Current log-likelihood: -18603.402
+23. Current log-likelihood: -18603.359
+24. Current log-likelihood: -18603.319
+25. Current log-likelihood: -18603.279
+26. Current log-likelihood: -18603.240
+27. Current log-likelihood: -18603.201
+28. Current log-likelihood: -18603.164
+29. Current log-likelihood: -18603.127
+30. Current log-likelihood: -18603.091
+31. Current log-likelihood: -18603.055
+32. Current log-likelihood: -18603.021
+33. Current log-likelihood: -18602.987
+34. Current log-likelihood: -18602.952
+35. Current log-likelihood: -18602.919
+36. Current log-likelihood: -18602.886
+37. Current log-likelihood: -18602.853
+38. Current log-likelihood: -18602.821
+39. Current log-likelihood: -18602.790
+40. Current log-likelihood: -18602.760
+41. Current log-likelihood: -18602.729
+42. Current log-likelihood: -18602.699
+43. Current log-likelihood: -18602.670
+44. Current log-likelihood: -18602.642
+45. Current log-likelihood: -18602.614
+46. Current log-likelihood: -18602.587
+47. Current log-likelihood: -18602.559
+48. Current log-likelihood: -18602.532
+49. Current log-likelihood: -18602.506
+50. Current log-likelihood: -18602.479
+51. Current log-likelihood: -18602.454
+52. Current log-likelihood: -18602.438
+53. Current log-likelihood: -18602.422
+54. Current log-likelihood: -18602.405
+55. Current log-likelihood: -18602.389
+56. Current log-likelihood: -18602.373
+57. Current log-likelihood: -18602.356
+58. Current log-likelihood: -18602.341
+59. Current log-likelihood: -18602.326
+60. Current log-likelihood: -18602.311
+61. Current log-likelihood: -18602.295
+62. Current log-likelihood: -18602.281
+63. Current log-likelihood: -18602.267
+64. Current log-likelihood: -18602.252
+65. Current log-likelihood: -18602.238
+66. Current log-likelihood: -18602.225
+67. Current log-likelihood: -18602.211
+68. Current log-likelihood: -18602.197
+69. Current log-likelihood: -18602.183
+70. Current log-likelihood: -18602.170
+71. Current log-likelihood: -18602.157
+72. Current log-likelihood: -18602.144
+73. Current log-likelihood: -18602.132
+74. Current log-likelihood: -18602.119
+75. Current log-likelihood: -18602.106
+76. Current log-likelihood: -18602.092
+77. Current log-likelihood: -18602.079
+78. Current log-likelihood: -18602.067
+79. Current log-likelihood: -18602.056
+80. Current log-likelihood: -18602.044
+81. Current log-likelihood: -18602.032
+82. Current log-likelihood: -18602.022
+83. Current log-likelihood: -18602.010
+84. Current log-likelihood: -18601.999
+85. Current log-likelihood: -18601.988
+86. Current log-likelihood: -18601.976
+87. Current log-likelihood: -18601.965
+88. Current log-likelihood: -18601.954
+89. Current log-likelihood: -18601.942
+90. Current log-likelihood: -18601.932
+Optimal log-likelihood: -18601.916
+Site proportion and rates:  (0.050,0.037) (0.086,0.310) (0.050,0.311) (0.097,0.516) (0.188,0.710) (0.380,1.101) (0.148,2.393)
+Parameters optimization took 90 rounds (372.636 sec)
+BEST SCORE FOUND : -18601.916
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.splits.nex
+Total tree length: 23.607
+
+Total number of iterations: 111
+CPU time used for tree search: 1384.406 sec (0h:23m:4s)
+Wall-clock time used for tree search: 702.883 sec (0h:11m:42s)
+Total CPU time used: 2159.141 sec (0h:35m:59s)
+Total wall-clock time used: 1097.642 sec (0h:18m:17s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.splits.nex...
+42 taxa and 220 splits.
+Consensus tree written to analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.contree
+Reading input trees file analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.contree
+Log-likelihood of consensus tree: -18601.922
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.treefile
+  Likelihood distances:          analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.contree
+  Screen log file:               analyses/phylo/Naphthalene_dioxygenase(nahAc)/Naphthalene_dioxygenase(nahAc).trimmed.log
+
+Date and Time: Thu Sep  3 09:05:17 2020

@@ -1,0 +1,221 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 10:15:18 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 48 sequences with 572 columns, 568 distinct patterns
+524 parsimony-informative, 41 singleton sites, 7 constant sites
+WARNING: Some sequence names are changed as follows:
+A0A5C1EBH3-O=Oryzomicrobium-G=pheA1-T=Query -> A0A5C1EBH3-O_Oryzomicrobium-G_pheA1-T_Query
+P55792-O=Clostridium-G=abfD-T=BLAST -> P55792-O_Clostridium-G_abfD-T_BLAST
+A0A098BP36-O=Rhodococcus-G=pheA1-T=Query -> A0A098BP36-O_Rhodococcus-G_pheA1-T_Query
+A0A1Z1W4J5-O=Streptomyces-G=pheA1-T=Query -> A0A1Z1W4J5-O_Streptomyces-G_pheA1-T_Query
+A0A0K1ZQR1-O=Ralstonia-G=pheA1-T=Query -> A0A0K1ZQR1-O_Ralstonia-G_pheA1-T_Query
+A0A2D2A4L8-O=Rhodococcus-G=pheA1-T=Query -> A0A2D2A4L8-O_Rhodococcus-G_pheA1-T_Query
+O30372-O=Pseudomonas-G=pvcC-T=BLAST -> O30372-O_Pseudomonas-G_pvcC-T_BLAST
+Q9LAG3-O=Parageobacillus-G=pheA1-T=Query -> Q9LAG3-O_Parageobacillus-G_pheA1-T_Query
+Q9HWT7-O=Pseudomonas-G=hpaB-T=BLAST -> Q9HWT7-O_Pseudomonas-G_hpaB-T_BLAST
+Q57160-O=Escherichia-G=hpaB-T=BLAST -> Q57160-O_Escherichia-G_hpaB-T_BLAST
+Q48440-O=Klebsiella-G=hpaB-T=BLAST -> Q48440-O_Klebsiella-G_hpaB-T_BLAST
+Q8RQQ0-O=Rhodococcus-G=nphA1-T=BLAST -> Q8RQQ0-O_Rhodococcus-G_nphA1-T_BLAST
+Q0SDR7-O=Rhodococcus-G=pheA1-T=Query -> Q0SDR7-O_Rhodococcus-G_pheA1-T_Query
+ABS30825.1-O=Rhodococcus-NCBI -> ABS30825.1-O_Rhodococcus-NCBI
+A7LCL0-O=Rhodococcus-G=pheA1-T=Query -> A7LCL0-O_Rhodococcus-G_pheA1-T_Query
+Q4VY44-O=Rhodococcus-G=pheA1-T=Query -> Q4VY44-O_Rhodococcus-G_pheA1-T_Query
+Q974C6-O=Sulfurisphaera-G=pheA1-T=Query -> Q974C6-O_Sulfurisphaera-G_pheA1-T_Query
+C0SPC0-O=Bacillus-G=yoaI-T=BLAST -> C0SPC0-O_Bacillus-G_yoaI-T_BLAST
+A4IT51-O=Geobacillus-G=hpaH-T=BLAST -> A4IT51-O_Geobacillus-G_hpaH-T_BLAST
+Q4L1M7-O=Geobacillus-G=hpaH-T=BLAST -> Q4L1M7-O_Geobacillus-G_hpaH-T_BLAST
+Q5SJP8_Thermus_thermophilus__strain_HB8___ATCC_27634___DSM_579_.OrderedLocusNames=TTHA0960_ -> Q5SJP8_Thermus_thermophilus__strain_HB8___ATCC_27634___DSM_579_.OrderedLocusNames_TTHA0960_
+A0A5Q0UEJ5-O=DPANN-G=pheA1-T=Query -> A0A5Q0UEJ5-O_DPANN-G_pheA1-T_Query
+I3R4F0-O=Haloferax-G=pheA1-T=Query -> I3R4F0-O_Haloferax-G_pheA1-T_Query
+A0A5Q0UN06-O=Halomicrobium-G=pheA1-T=Query -> A0A5Q0UN06-O_Halomicrobium-G_pheA1-T_Query
+G0HQL8-O=Haloarcula-G=pheA1-T=Query -> G0HQL8-O_Haloarcula-G_pheA1-T_Query
+O87009-O=Burkholderia-G=tftD-T=BLAST -> O87009-O_Burkholderia-G_tftD-T_BLAST
+Q6F4M8-O=Rhodococcus-G=npcA-T=BLAST -> Q6F4M8-O_Rhodococcus-G_npcA-T_BLAST
+Q45413-O=Geobacillus-G=pheA-T=Query -> Q45413-O_Geobacillus-G_pheA-T_Query
+A0A076LI57-O=Edwardsiella-G=pheA1-T=Query -> A0A076LI57-O_Edwardsiella-G_pheA1-T_Query
+D3NZU3-O=Azospirillum-G=pheA-T=Query -> D3NZU3-O_Azospirillum-G_pheA-T_Query
+A8LMC1-O=Dinoroseobacter-G=pheA1-T=Query -> A8LMC1-O_Dinoroseobacter-G_pheA1-T_Query
+A9FIZ9-O=Sorangium-G=pheA1-T=Query -> A9FIZ9-O_Sorangium-G_pheA1-T_Query
+A0A0H3JB86-O=Clostridium-G=pheA1-T=Query -> A0A0H3JB86-O_Clostridium-G_pheA1-T_Query
+D8GM34-O=Clostridium-G=pheA1-T=Query -> D8GM34-O_Clostridium-G_pheA1-T_Query
+A0A0H2W1J1-O=Yersinia-G=pheA1-T=Query -> A0A0H2W1J1-O_Yersinia-G_pheA1-T_Query
+A0A649YLQ6-O=Vibrio-G=pheA1-T=Query -> A0A649YLQ6-O_Vibrio-G_pheA1-T_Query
+A0A6B8N779-O=Vibrio-G=pheA1-T=Query -> A0A6B8N779-O_Vibrio-G_pheA1-T_Query
+H6LB96-O=Acetobacterium-G=pheA1-T=Query -> H6LB96-O_Acetobacterium-G_pheA1-T_Query
+A0A1Z1WHA7-O=Streptomyces-G=pheA1-T=Query -> A0A1Z1WHA7-O_Streptomyces-G_pheA1-T_Query
+A0A1Z2L2C6-O=Streptomyces-G=pheA1-T=Query -> A0A1Z2L2C6-O_Streptomyces-G_pheA1-T_Query
+A0A0D8FTF4-O=Ferrimicrobium-G=pheA1-T=Query -> A0A0D8FTF4-O_Ferrimicrobium-G_pheA1-T_Query
+A0A0D8HMX8-O=Acidithrix-G=pheA1-T=Query -> A0A0D8HMX8-O_Acidithrix-G_pheA1-T_Query
+A0A1D8I5V9-O=Achromobacter-G=pheA1-T=Query -> A0A1D8I5V9-O_Achromobacter-G_pheA1-T_Query
+G2J4Q3-O=Pseudogulbenkiania-G=pheA1-T=Query -> G2J4Q3-O_Pseudogulbenkiania-G_pheA1-T_Query
+S6CFU2-O=endosymbiont-G=pheA1-T=Query -> S6CFU2-O_endosymbiont-G_pheA1-T_Query
+A0A1P8F4Y1-O=Dehalogenimonas-G=pheA1-T=Query -> A0A1P8F4Y1-O_Dehalogenimonas-G_pheA1-T_Query
+A0A410RR89-O=Corallococcus-G=pheA1-T=Query -> A0A410RR89-O_Corallococcus-G_pheA1-T_Query
+H8N089-O=Corallococcus-G=pheA1-T=Query -> H8N089-O_Corallococcus-G_pheA1-T_Query
+
+                                                                                             Gap/Ambiguity  Composition  p-value
+   1  A0A5C1EBH3-O_Oryzomicrobium-G_pheA1-T_Query                                                   66.08%    failed      0.00%
+   2  P55792-O_Clostridium-G_abfD-T_BLAST                                                           16.08%    failed      0.07%
+   3  A0A098BP36-O_Rhodococcus-G_pheA1-T_Query                                                      82.52%    failed      0.06%
+   4  A0A1Z1W4J5-O_Streptomyces-G_pheA1-T_Query                                                     64.69%    failed      0.00%
+   5  A0A0K1ZQR1-O_Ralstonia-G_pheA1-T_Query                                                        83.22%    passed      9.37%
+   6  A0A2D2A4L8-O_Rhodococcus-G_pheA1-T_Query                                                      82.87%    passed      9.33%
+   7  O30372-O_Pseudomonas-G_pvcC-T_BLAST                                                           12.59%    failed      1.16%
+   8  Q9LAG3-O_Parageobacillus-G_pheA1-T_Query                                                      11.89%    passed      7.16%
+   9  Q9HWT7-O_Pseudomonas-G_hpaB-T_BLAST                                                            9.09%    passed     59.11%
+  10  Q57160-O_Escherichia-G_hpaB-T_BLAST                                                            9.09%    passed     47.53%
+  11  Q48440-O_Klebsiella-G_hpaB-T_BLAST                                                             9.09%    passed     56.38%
+  12  Q8RQQ0-O_Rhodococcus-G_nphA1-T_BLAST                                                           9.27%    passed      5.60%
+  13  Q0SDR7-O_Rhodococcus-G_pheA1-T_Query                                                           5.94%    passed     28.35%
+  14  ABS30825.1-O_Rhodococcus-NCBI                                                                  5.24%    passed     47.63%
+  15  A7LCL0-O_Rhodococcus-G_pheA1-T_Query                                                           5.24%    passed     47.63%
+  16  Q4VY44-O_Rhodococcus-G_pheA1-T_Query                                                           5.24%    passed     45.10%
+  17  Q974C6-O_Sulfurisphaera-G_pheA1-T_Query                                                       13.64%    failed      0.03%
+  18  C0SPC0-O_Bacillus-G_yoaI-T_BLAST                                                              15.56%    failed      0.00%
+  19  A4IT51-O_Geobacillus-G_hpaH-T_BLAST                                                           13.64%    passed     62.84%
+  20  Q4L1M7-O_Geobacillus-G_hpaH-T_BLAST                                                           13.64%    passed     55.43%
+  21  Q5SJP8_Thermus_thermophilus__strain_HB8___ATCC_27634___DSM_579_.OrderedLocusNames_TTHA0960_   15.91%    passed     28.23%
+  22  A0A5Q0UEJ5-O_DPANN-G_pheA1-T_Query                                                            79.72%    failed      0.03%
+  23  I3R4F0-O_Haloferax-G_pheA1-T_Query                                                            82.34%    failed      4.34%
+  24  A0A5Q0UN06-O_Halomicrobium-G_pheA1-T_Query                                                    84.62%    passed     15.06%
+  25  G0HQL8-O_Haloarcula-G_pheA1-T_Query                                                           83.22%    passed      5.81%
+  26  O87009-O_Burkholderia-G_tftD-T_BLAST                                                          11.89%    passed     79.27%
+  27  Q6F4M8-O_Rhodococcus-G_npcA-T_BLAST                                                           11.54%    passed      9.49%
+  28  Q45413-O_Geobacillus-G_pheA-T_Query                                                           32.17%    passed     23.35%
+  29  A0A076LI57-O_Edwardsiella-G_pheA1-T_Query                                                     66.96%    passed     11.51%
+  30  D3NZU3-O_Azospirillum-G_pheA-T_Query                                                          47.90%    failed      0.00%
+  31  A8LMC1-O_Dinoroseobacter-G_pheA1-T_Query                                                      82.87%    passed     14.48%
+  32  A9FIZ9-O_Sorangium-G_pheA1-T_Query                                                            36.36%    failed      0.12%
+  33  A0A0H3JB86-O_Clostridium-G_pheA1-T_Query                                                      50.87%    failed      0.00%
+  34  D8GM34-O_Clostridium-G_pheA1-T_Query                                                          51.75%    failed      0.00%
+  35  A0A0H2W1J1-O_Yersinia-G_pheA1-T_Query                                                         33.04%    failed      2.11%
+  36  A0A649YLQ6-O_Vibrio-G_pheA1-T_Query                                                           30.59%    failed      0.00%
+  37  A0A6B8N779-O_Vibrio-G_pheA1-T_Query                                                           30.59%    failed      0.00%
+  38  H6LB96-O_Acetobacterium-G_pheA1-T_Query                                                       47.73%    failed      0.00%
+  39  A0A1Z1WHA7-O_Streptomyces-G_pheA1-T_Query                                                     82.52%    passed     21.09%
+  40  A0A1Z2L2C6-O_Streptomyces-G_pheA1-T_Query                                                     82.87%    passed     28.10%
+  41  A0A0D8FTF4-O_Ferrimicrobium-G_pheA1-T_Query                                                   45.45%    passed     24.41%
+  42  A0A0D8HMX8-O_Acidithrix-G_pheA1-T_Query                                                       45.63%    failed      2.56%
+  43  A0A1D8I5V9-O_Achromobacter-G_pheA1-T_Query                                                    37.41%    passed      8.34%
+  44  G2J4Q3-O_Pseudogulbenkiania-G_pheA1-T_Query                                                   37.76%    passed      5.76%
+  45  S6CFU2-O_endosymbiont-G_pheA1-T_Query                                                         37.06%    passed     24.86%
+  46  A0A1P8F4Y1-O_Dehalogenimonas-G_pheA1-T_Query                                                  37.24%    passed     72.86%
+  47  A0A410RR89-O_Corallococcus-G_pheA1-T_Query                                                    51.57%    failed      0.00%
+  48  H8N089-O_Corallococcus-G_pheA1-T_Query                                                        51.57%    failed      0.00%
+WARNING: 17 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                         40.08%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: A7LCL0-O_Rhodococcus-G_pheA1-T_Query is identical to ABS30825.1-O_Rhodococcus-NCBI but kept for subsequent analysis
+NOTE: A0A6B8N779-O_Vibrio-G_pheA1-T_Query is identical to A0A649YLQ6-O_Vibrio-G_pheA1-T_Query but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.046 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 32 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 5.284 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -36599
+Threads: 2 / Time: 3.939 sec / Speedup: 1.342 / Efficiency: 67% / LogL: -36599
+Threads: 3 / Time: 4.152 sec / Speedup: 1.273 / Efficiency: 42% / LogL: -36599
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -32081.200
+2. Current log-likelihood: -30408.813
+3. Current log-likelihood: -30375.228
+4. Current log-likelihood: -30374.045
+5. Current log-likelihood: -30373.585
+6. Current log-likelihood: -30373.457
+Optimal log-likelihood: -30373.346
+Site proportion and rates:  (0.002,0.259) (0.019,0.266) (0.078,0.420) (0.172,0.544) (0.251,0.744) (0.350,1.091) (0.128,2.337)
+Parameters optimization took 6 rounds (20.233 sec)
+Computing ML distances based on estimated model parameters... 1.228 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -30325.032
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.030 second
+Computing log-likelihood of 98 initial trees ... 21.204 seconds
+Current best score: -30325.032
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -30291.359
+Iteration 10 / LogL: -30298.615 / Time: 0h:2m:16s
+Iteration 20 / LogL: -30297.589 / Time: 0h:3m:35s
+Finish initializing candidate tree set (19)
+Current best tree score: -30291.359 / CPU time: 178.135
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -30294.520 / Time: 0h:5m:13s (0h:12m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -30291.227
+Iteration 40 / LogL: -30291.227 / Time: 0h:6m:50s (0h:17m:33s left)
+Iteration 50 / LogL: -30291.407 / Time: 0h:8m:28s (0h:15m:33s left)
+Log-likelihood cutoff on original alignment: -30330.186
+Iteration 60 / LogL: -30299.259 / Time: 0h:10m:37s (0h:14m:23s left)
+Iteration 70 / LogL: -30306.009 / Time: 0h:14m:6s (0h:14m:18s left)
+Iteration 80 / LogL: -30292.080 / Time: 0h:16m:24s (0h:12m:27s left)
+Iteration 90 / LogL: -30294.545 / Time: 0h:18m:1s (0h:10m:7s left)
+Iteration 100 / LogL: -30291.725 / Time: 0h:19m:40s (0h:7m:57s left)
+Log-likelihood cutoff on original alignment: -30330.186
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -30291.228 / Time: 0h:21m:0s (0h:17m:20s left)
+Iteration 120 / LogL: -30291.272 / Time: 0h:22m:25s (0h:15m:4s left)
+Iteration 130 / LogL: -30291.712 / Time: 0h:23m:57s (0h:13m:0s left)
+Iteration 140 / LogL: -30291.272 / Time: 0h:25m:42s (0h:11m:5s left)
+TREE SEARCH COMPLETED AFTER 141 ITERATIONS / Time: 0h:25m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -30291.227
+2. Current log-likelihood: -30291.215
+Optimal log-likelihood: -30291.211
+Site proportion and rates:  (0.003,0.321) (0.022,0.321) (0.082,0.379) (0.151,0.539) (0.254,0.774) (0.357,1.049) (0.132,2.339)
+Parameters optimization took 2 rounds (8.784 sec)
+BEST SCORE FOUND : -30291.211
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.splits.nex
+Total tree length: 68.451
+
+Total number of iterations: 141
+CPU time used for tree search: 2973.124 sec (0h:49m:33s)
+Wall-clock time used for tree search: 1519.808 sec (0h:25m:19s)
+Total CPU time used: 3062.324 sec (0h:51m:2s)
+Total wall-clock time used: 1565.831 sec (0h:26m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.splits.nex...
+48 taxa and 497 splits.
+Consensus tree written to analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.contree
+Log-likelihood of consensus tree: -30291.266
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Phenol_2-monooxygenase/Phenol_2-monooxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 10:41:28 2020

@@ -1,0 +1,32 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:31:19 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/unfiltered_fasta/PAH_dioxygenase_b.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_Q83VJ3_Q83VJ3_9SPHN_Large_subunit_of_oxygenase_OS=Sphingomonas_sp._P2_OX=208080_GN=ahdA1b_PE=3_SV=1     45    124     45    131 PF00355.27  Rieske            Domain     1    79    89     63.4   1.5e-17   1 CL0516   
+tr_Q83VJ3_Q83VJ3_9SPHN_Large_subunit_of_oxygenase_OS=Sphingomonas_sp._P2_OX=208080_GN=ahdA1b_PE=3_SV=1    166    425    166    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    115.4   3.4e-33   1 CL0209   
+tr_U5XNU7_U5XNU7_9SPHN_AhdA1b_OS=Sphingobium_sp._PNB_OX=863934_GN=ahdA1b_PE=3_SV=1                         45    124     45    131 PF00355.27  Rieske            Domain     1    79    89     64.9   4.8e-18   1 CL0516   
+tr_U5XNU7_U5XNU7_9SPHN_AhdA1b_OS=Sphingobium_sp._PNB_OX=863934_GN=ahdA1b_PE=3_SV=1                        166    425    166    426 PF00848.20  Ring_hydroxyl_A   Domain     1   214   215    114.5   6.4e-33   1 CL0209   

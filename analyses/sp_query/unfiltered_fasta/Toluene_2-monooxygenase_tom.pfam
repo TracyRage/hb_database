@@ -1,0 +1,31 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:31:07 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/unfiltered_fasta/Toluene_2-monooxygenase_tom.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_D4Z0A1_D4Z0A1_SPHJU_Toluene_ortho-monooxygenase_subunit_OS=Sphingobium_japonicum__strain_DSM_16413___CCM_7287___MTCC_6362___UT26___NBRC_101211___UT26S__OX=452662_GN=tomA1_PE=4_SV=1                                                 52    275     52    275 PF02332.19  Phenol_Hydrox     Domain     1   230   230    227.9   1.2e-67   1 CL0044   
+tr_Q1LNR3_Q1LNR3_CUPMC_Phenol_hydroxylase_P1_protein__Phenol_2-monooxygenase_P1_component__Protein_belongs_to_CMGI-2__OS=Cupriavidus_metallidurans__strain_ATCC_43123___DSM_2839___NBRC_102507___CH34__OX=266264_GN=tomA1_PE=4_SV=1     52    274     52    275 PF02332.19  Phenol_Hydrox     Domain     1   229   230    233.6   2.2e-69   1 CL0044   
+tr_Q9ANX4_Q9ANX4_BURCE_TomA1_OS=Burkholderia_cepacia_OX=292_GN=tomA1_PE=4_SV=1                                                                                                                                                          52    274     52    275 PF02332.19  Phenol_Hydrox     Domain     1   229   230    233.7     2e-69   1 CL0044   

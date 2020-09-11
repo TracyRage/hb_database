@@ -1,0 +1,31 @@
+# pfam_scan.pl,  run at Thu Sep  3 17:43:37 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/blast_outputs/separated_fasta/AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens     19     93     17     94 PF00111.28  Fer2              Domain     3    77    78     54.7   7.1e-15   1 CL0486   
+AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens    117    211    116    212 PF00970.25  FAD_binding_6     Domain     2    98    99     38.4   1.2e-09   1 CL0076   
+AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens    222    324    221    325 PF00175.22  NAD_binding_1     Domain     2   107   109     61.0   1.5e-16   1 CL0091   

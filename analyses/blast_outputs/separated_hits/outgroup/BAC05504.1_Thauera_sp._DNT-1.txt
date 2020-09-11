@@ -1,0 +1,78 @@
+sp|Q46372|BPHA_COMTE Biphenyl dioxygenase subunit alpha OS=Comamonas testosteroni OX=285 GN=bphA PE=1 SV=1
+           Length = 457
+
+sp|Q52438|BPHA1_PSES1 Biphenyl dioxygenase subunit alpha OS=Pseudomonas sp. (strain KKS102) OX=307 GN=bphA1 PE=3 SV=1
+           Length = 458
+
+sp|Q52028|BPHA_PSEFK Biphenyl dioxygenase subunit alpha OS=Pseudomonas furukawaii OX=1149133 GN=bphA PE=3 SV=1
+           Length = 458
+
+sp|P37333|BPHA_PARXL Biphenyl dioxygenase subunit alpha OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=bphA PE=1 SV=3
+           Length = 459
+
+sp|Q53122|BPHA1_RHOJR Biphenyl 2,3-dioxygenase subunit alpha OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=bphA1 PE=1 SV=1
+           Length = 460
+
+sp|P0C618|BNZA_PSEPU Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bnzA PE=3 SV=1
+           Length = 450
+
+sp|A5W4F2|BNZA_PSEP1 Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida (strain ATCC 700007 / DSM 6899 / BCRC 17059 / F1) OX=351746 GN=bnzA PE=1 SV=1
+           Length = 450
+
+sp|Q07944|BEDC1_PSEPU Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bedC1 PE=1 SV=1
+           Length = 450
+
+sp|Q0T1Y1|HCAE_SHIF8 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri serotype 5b (strain 8401) OX=373384 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|Q83K39|HCAE_SHIFL 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri OX=623 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|Q3YZ15|HCAE_SHISS 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella sonnei (strain Ss046) OX=300269 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|P0ABR5|HCAE_ECOLI 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=hcaE PE=1 SV=1
+           Length = 453
+
+sp|P0ABR6|HCAE_ECO57 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O157:H7 OX=83334 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|A8A344|HCAE_ECOHS 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O9:H4 (strain HS) OX=331112 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|Q31XV2|HCAE_SHIBS 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella boydii serotype 4 (strain Sb227) OX=300268 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|Q7N4W0|HCAE_PHOLL 3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01) OX=243265 GN=hcaE PE=3 SV=1
+           Length = 453
+
+sp|Q51494|NDOB_PSEAI Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas aeruginosa OX=287 GN=ndoB PE=3 SV=1
+           Length = 449
+
+sp|O07824|NDOB_PSEFL Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas fluorescens OX=294 GN=ndoB PE=3 SV=1
+           Length = 449
+
+sp|P0A111|NDOB_PSEU8 Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas sp. (strain C18) OX=69011 GN=doxB PE=1 SV=1
+           Length = 449
+
+sp|P0A110|NDOB_PSEPU Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=ndoB PE=1 SV=1
+           Length = 449
+
+sp|O52382|NDOB_RALSP Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Ralstonia sp. OX=54061 GN=nagAc PE=1 SV=1
+           Length = 447
+
+sp|Q45695|DNTAC_BURSR 2,4-dinitrotoluene dioxygenase system, large oxygenase component OS=Burkholderia sp. (strain RASC) OX=69003 GN=dntAc PE=1 SV=1
+           Length = 451
+
+sp|Q51974|CMTAB_PSEPU p-cumate 2,3-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=cmtAb PE=1 SV=1
+           Length = 434
+
+sp|P07769|BENA_ACIAD Benzoate 1,2-dioxygenase subunit alpha OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=benA PE=3 SV=2
+           Length = 461
+
+sp|Q51601|CBDA_BURCE 2-halobenzoate 1,2-dioxygenase large subunit OS=Burkholderia cepacia OX=292 GN=cbdA PE=1 SV=3
+           Length = 465
+
+sp|P23099|XYLX_PSEPU Toluate 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=xylX PE=3 SV=1
+           Length = 454
+

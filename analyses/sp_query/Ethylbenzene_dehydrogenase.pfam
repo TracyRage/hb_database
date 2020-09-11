@@ -1,0 +1,34 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:33:32 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/Ethylbenzene_dehydrogenase.filtered
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_H9NNA7_H9NNA7_9PROTPutative_ethylbenzene_dehydrogenase-like_alpha-subunit_OS=Sterolibacterium_denitrificans_OX=157592_GN=ebdA_PE=3_SV=1    147    698    147    699 PF00384.23  Molybdopterin     Family     1   431   432    188.9   1.6e-55   1 No_clan  
+tr_H9NNA7_H9NNA7_9PROTPutative_ethylbenzene_dehydrogenase-like_alpha-subunit_OS=Sterolibacterium_denitrificans_OX=157592_GN=ebdA_PE=3_SV=1    843    948    843    954 PF01568.22  Molydop_binding   Domain     1   104   111     65.0   5.5e-18   1 CL0332   
+tr_Q5P5I0_Q5P5I0_AROAEAlpha-subunit_of_ethylbenzene_dehydrogenase_OS=Aromatoleum_aromaticum__strain_EbN1__OX=76114_GN=ebdA_PE=1_SV=1          142    696    142    697 PF00384.23  Molybdopterin     Family     1   431   432    148.1   3.7e-43   1 No_clan  
+tr_Q5P5I0_Q5P5I0_AROAEAlpha-subunit_of_ethylbenzene_dehydrogenase_OS=Aromatoleum_aromaticum__strain_EbN1__OX=76114_GN=ebdA_PE=1_SV=1          844    924    843    944 PF01568.22  Molydop_binding   Domain     2    82   111     50.4   1.9e-13   1 CL0332   
+tr_Q93PD2_Q93PD2_9RHOOEthylbenzene_dehydrogenase_subunit_A_OS=Azoarcus_sp._EB1_OX=166498_GN=ebdA_PE=3_SV=1                                    142    696    142    697 PF00384.23  Molybdopterin     Family     1   431   432    148.2   3.5e-43   1 No_clan  
+tr_Q93PD2_Q93PD2_9RHOOEthylbenzene_dehydrogenase_subunit_A_OS=Azoarcus_sp._EB1_OX=166498_GN=ebdA_PE=3_SV=1                                    844    924    843    944 PF01568.22  Molydop_binding   Domain     2    82   111     50.4   1.9e-13   1 CL0332   

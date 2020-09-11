@@ -1,0 +1,150 @@
+sp|P21394|XYLA_PSEPU Xylene monooxygenase electron transfer component OS=Pseudomonas putida OX=303 GN=xylA PE=1 SV=1
+           Length = 350
+
+sp|P0DPQ8|GCOB_AMYS7 Aromatic O-demethylase, reductase subunit OS=Amycolatopsis sp. (strain ATCC 39116 / 75iv2) OX=385957 GN=gcoB PE=1 SV=1
+           Length = 334
+
+sp|Q7WTJ2|DMPP_ACICP Phenol hydroxylase P5 protein OS=Acinetobacter calcoaceticus (strain PHEA-2) OX=871585 GN=mphP PE=1 SV=3
+           Length = 353
+
+sp|P19734|DMPP_PSEUF Phenol hydroxylase P5 protein OS=Pseudomonas sp. (strain CF600) OX=79676 GN=dmpP PE=1 SV=3
+           Length = 353
+
+sp|A0QTU9|MIMB_MYCS2 Propane 2-monooxygenase, reductase component OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mimB PE=1 SV=1
+           Length = 348
+
+sp|E9RFT0|MIMB_MYCGD Propane 2-monooxygenase, reductase component OS=Mycobacterium goodii OX=134601 GN=mimB PE=1 SV=1
+           Length = 348
+
+sp|Q768T4|PRMB_GORST Propane 2-monooxygenase, reductase component OS=Gordonia sp. (strain TY-5) OX=235467 GN=prmB PE=1 SV=2
+           Length = 346
+
+sp|Q0SJK8|PRMB_RHOJR Propane 2-monooxygenase, reductase component OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=prmB PE=1 SV=1
+           Length = 370
+
+sp|Q8GI14|CARAD_PSERE Ferredoxin--NAD(P)(+) reductase CarAd OS=Pseudomonas resinovorans OX=53412 GN=carAd PE=1 SV=1
+           Length = 329
+
+sp|Q52126|NDOR_PSEPU Naphthalene 1,2-dioxygenase system ferredoxin--NAD(P)(+), reductase component OS=Pseudomonas putida OX=303 GN=ndoR PE=1 SV=1
+           Length = 328
+
+sp|P07771|BENC_ACIAD Benzoate 1,2-dioxygenase electron transfer component OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=benC PE=1 SV=2
+           Length = 348
+
+sp|P26395|RFBI_SALTY Protein RfbI OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=rfbI PE=4 SV=1
+           Length = 330
+
+sp|Q03304|TMOF_PSEME Toluene-4-monooxygenase system, ferredoxin--NAD(+) reductase component OS=Pseudomonas mendocina OX=300 GN=tmoF PE=1 SV=1
+           Length = 326
+
+sp|O85675|ANTDC_ACIAD Anthranilate 1,2-dioxygenase electron transfer component OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=antC PE=1 SV=1
+           Length = 343
+
+sp|A7IPX7|XAMOF_XANP2 Alkene monooxygenase system, ferredoxin--NAD(+) reductase component OS=Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2) OX=78245 GN=xamoF PE=1 SV=2
+           Length = 327
+
+sp|Q9X406|MSMD_METHY Putative methanesulfonate monooxygenase ferredoxin reductase subunit OS=Methylosulfonomonas methylovora OX=50057 GN=msmD PE=1 SV=1
+           Length = 366
+
+sp|O52378|NAGAA_RALSP Naphthalene 1,2-dioxygenase/salicylate 5-hydroxylase systems, ferredoxin--NAD(P)(+), reductase component OS=Ralstonia sp. OX=54061 GN=nagAa PE=1 SV=1
+           Length = 328
+
+sp|Q51603|CBDC_BURCE 2-halobenzoate 1,2-dioxygenase electron transfer component OS=Burkholderia cepacia OX=292 GN=cbdC PE=1 SV=1
+           Length = 339
+
+sp|P68641|ASCD_YERPE CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pestis OX=632 GN=ascD PE=3 SV=2
+           Length = 329
+
+sp|Q66DP5|ASCD_YERPS CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=ascD PE=1 SV=3
+           Length = 329
+
+sp|P22868|MMOC_METCA Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2
+           Length = 348
+
+sp|Q45692|DNTAA_BURSR 2,4-dinitrotoluene dioxygenase system ferredoxin--NAD(+), reductase component OS=Burkholderia sp. (strain RASC) OX=69003 GN=dntAa PE=1 SV=1
+           Length = 346
+
+sp|P23101|XYLZ_PSEPU Toluate 1,2-dioxygenase electron transfer component OS=Pseudomonas putida OX=303 GN=xylZ PE=3 SV=1
+           Length = 336
+
+sp|Q3C1E0|TPDR1_COMSP Terephthalate 1,2-dioxygenase, reductase component 1 OS=Comamonas sp. OX=34028 GN=tphA1I PE=1 SV=1
+           Length = 336
+
+sp|Q3C1D2|TPDR2_COMSP Terephthalate 1,2-dioxygenase, reductase component 2 OS=Comamonas sp. OX=34028 GN=tphA1II PE=1 SV=1
+           Length = 336
+
+sp|Q4FPV2|NQRF_PSYA2 Na(+)-translocating NADH-quinone reductase subunit F OS=Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4) OX=259536 GN=nqrF PE=3 SV=1
+           Length = 411
+
+sp|A6V3A2|NQRF_PSEA7 Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain PA7) OX=381754 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|Q9HZL1|NQRF_PSEAE Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|P24273|LUXG_ALIFS Probable flavin reductase OS=Aliivibrio fischeri OX=668 GN=luxG PE=3 SV=1
+           Length = 236
+
+sp|Q1Q7Z7|NQRF_PSYCK Na(+)-translocating NADH-quinone reductase subunit F OS=Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5) OX=335284 GN=nqrF PE=3 SV=1
+           Length = 411
+
+sp|A6VW13|NQRF_MARMS Na(+)-translocating NADH-quinone reductase subunit F OS=Marinomonas sp. (strain MWYL1) OX=400668 GN=nqrF PE=3 SV=1
+           Length = 408
+
+sp|P43126|FRE_ALIFS NAD(P)H-flavin reductase OS=Aliivibrio fischeri OX=668 GN=fre PE=3 SV=1
+           Length = 236
+
+sp|Q02PF8|NQRF_PSEAB Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|Q53563|MMOC_METTR Methane monooxygenase component C OS=Methylosinus trichosporium OX=426 GN=mmoC PE=1 SV=1
+           Length = 340
+
+sp|Q605A0|NQRF_METCA Na(+)-translocating NADH-quinone reductase subunit F OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|Q12QK1|NQRF_SHEDO Na(+)-translocating NADH-quinone reductase subunit F OS=Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013) OX=318161 GN=nqrF PE=3 SV=1
+           Length = 408
+
+sp|Q9LCI7|NQRF_SHEPU Na(+)-translocating NADH-quinone reductase subunit F (Fragment) OS=Shewanella putrefaciens OX=24 GN=nqrF PE=3 SV=1
+           Length = 301
+
+sp|P43127|FRE_VIBHA NAD(P)H-flavin reductase OS=Vibrio harveyi OX=669 GN=fre PE=1 SV=3
+           Length = 237
+
+sp|Q15YQ1|NQRF_PSEA6 Na(+)-translocating NADH-quinone reductase subunit F OS=Pseudoalteromonas atlantica (strain T6c / ATCC BAA-1087) OX=342610 GN=nqrF PE=3 SV=1
+           Length = 408
+
+sp|Q5QYQ8|NQRF_IDILO Na(+)-translocating NADH-quinone reductase subunit F OS=Idiomarina loihiensis (strain ATCC BAA-735 / DSM 15497 / L2-TR) OX=283942 GN=nqrF PE=3 SV=1
+           Length = 408
+
+sp|Q9RFV6|NQRF_VIBCB Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio campbellii (strain ATCC BAA-1116 / BB120) OX=338187 GN=nqrF PE=3 SV=2
+           Length = 407
+
+sp|Q7MID2|NQRF_VIBVY Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|Q8DBJ1|NQRF_VIBVU Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio vulnificus (strain CMCP6) OX=216895 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|Q9X4Q8|NQRF_VIBCH Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 GN=nqrF PE=1 SV=1
+           Length = 408
+
+sp|A5F5Y4|NQRF_VIBC3 Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395) OX=345073 GN=nqrF PE=1 SV=1
+           Length = 408
+
+sp|Q9LCJ0|NQRF_VIBPA Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=nqrF PE=3 SV=2
+           Length = 407
+
+sp|Q0I5Y1|NQRF_HAES1 Na(+)-translocating NADH-quinone reductase subunit F OS=Haemophilus somnus (strain 129Pt) OX=205914 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|A5UFX3|NQRF_HAEIG Na(+)-translocating NADH-quinone reductase subunit F OS=Haemophilus influenzae (strain PittGG) OX=374931 GN=nqrF PE=3 SV=1
+           Length = 411
+
+sp|Q75R59|NQRF_VIBAN Na(+)-translocating NADH-quinone reductase subunit F OS=Vibrio anguillarum OX=55601 GN=nqrF PE=3 SV=1
+           Length = 407
+
+sp|A3MYM7|NQRF_ACTP2 Na(+)-translocating NADH-quinone reductase subunit F OS=Actinobacillus pleuropneumoniae serotype 5b (strain L20) OX=416269 GN=nqrF PE=3 SV=1
+           Length = 409
+

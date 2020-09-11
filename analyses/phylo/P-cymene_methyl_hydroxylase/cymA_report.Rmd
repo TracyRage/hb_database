@@ -1,0 +1,21 @@
+---
+output: html_document
+---
+
+## P-cymene methyl-hydroxylase
+### Analysis pipeline
+
+```{r pressure, echo=FALSE, out.width='100%'}
+knitr::include_graphics("cymA_flowchart.jpeg")
+knitr::include_graphics("cymA_tree.jpeg")
+```
+
+
+```{r echo=FALSE, message = FALSE}
+library(readr)
+library(stringr)
+library(dplyr)
+table_1 <- read_tsv('P-cymene_methyl_hydroxylase.tsv')
+table_2 <- read_tsv('AAC45296.1_Pseudomonas_chlororaphis_subsp._aureofaciens.tsv')
+knitr::kable(table_2[,1:4], caption = "UniProt BLASTP")
+knitr::kable(table_1[,1:4], caption="UniProt Query (Filtered)")

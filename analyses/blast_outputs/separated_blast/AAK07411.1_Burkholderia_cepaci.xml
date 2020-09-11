@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>data/seqs/db_uniprot/db_uniprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>AAK07411.1_Burkholderia_cepacia</BlastOutput_query-def>
+  <BlastOutput_query-len>519</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>AAK07411.1_Burkholderia_cepacia</Iteration_query-def>
+  <Iteration_query-len>519</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P19732|DMPN_PSEUF</Hit_id>
+  <Hit_def>Phenol hydroxylase P3 protein OS=Pseudomonas sp. (strain CF600) OX=79676 GN=dmpN PE=3 SV=1</Hit_def>
+  <Hit_accession>P19732</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>727.243</Hsp_bit-score>
+      <Hsp_score>1876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>507</Hsp_align-len>
+      <Hsp_qseq>KKKLGLKDRYAAMTRGLGWQTSYQPMEKVFPYDKYEGIKIHDWDKWEDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHYNKYFNGLHNSIHWYDRVWYLSVPKSFFEDAATGGPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLLSIVAMMQDYMLPNRVMSWRESWEMYVEQNGGALFKDLARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTWVPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNRFYNKTLPMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHCKEIFDNEPEKFVQSWLPPQQVYQGNCFKPDADPTKEGFDPLMALLDYYNLNVGRDNFDFEGSEDQKNFAAWRGEV</Hsp_qseq>
+      <Hsp_hseq>KKRLNLKDKYRYLTRDLAWETTYQKKEDVFPLEHFEGIKITDWDKWEDPFRLTMDTYWKYQAEKEKKLYAIFDAFAQNNGHQNISDARYVNALKLFLTAVSPLEYQAFQGFSRVGRQFSGAGARVACQMQAIDELRHVQTQVHAMSHYNKHFDGLHDFAHMYDRVWYLSVPKSYMDDARTAGPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMATVTFGFSAQSDEARHMTLGLEVIKFMLEQHEDNVPIIQRWIDKWFWRGYRLLTLIGMMMDYMLPNKVMSWSEAWGVYFEQAGGALFKDLERYGIRPPKYVEQTTIGKEHITHQVWGALYQYSKATSFHTWIPGDEELNWLSEKYPDTFDKYYRPRFEFWREQQAKGERFYNDTLPHLCQVCQLPVIFTEPDDPTKLSLRSLVHEGERYQFCSDGCCDIFKNEPVKYIQAWLPVHQIYQGNC---------EGGDVETVVQKYYHIKSGVDNLEYLGSPEHQRWLALKGQT</Hsp_hseq>
+      <Hsp_midline>KK+L LKD+Y  +TR L W+T+YQ  E VFP + +EGIKI DWDKWEDPFRLTMD YWKYQ EKEKKLYA+ DAFAQNNG  +ISDARYVNALK+F+  V+PLEY A +GF+ +GR F+G GARVACQMQ+IDELRH QT++HA+SHYNK+F+GLH+  H YDRVWYLSVPKS+ +DA T GPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDM+TVTFGFSAQSDE+RHMTLG+E IKFMLEQ  DNVPI+QRWIDKWFWRGYRLL+++ MM DYMLPN+VMSW E+W +Y EQ GGALFKDL RYGIR PK  +Q   GK+HI+HQ +   Y Y+ A   HTW+P  EE+ WLSEKYP+TFDKYYRPR+++WREQ AKG RFYN TLP LC  CQ+P+IFTEP D TK+  R   + G++Y FCSD C +IF NEP K++Q+WLP  Q+YQGNC         EG D    +  YY++  G DN ++ GS + + + A +G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q00456|TMOA_PSEME</Hit_id>
+  <Hit_def>Toluene-4-monooxygenase system, hydroxylase component subunit alpha OS=Pseudomonas mendocina OX=300 GN=tmoA PE=1 SV=3</Hit_def>
+  <Hit_accession>Q00456</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.60225e-35</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>MTRGLGWQTSYQPMEKVFP--YDKYEGIKIHDWDKWEDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEM---HALSHYNKYFNGLHNSIHWYDRVWYLSVPKSFFEDAATG-GPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLLSIV-AMMQDYMLP--NRVMSWRESWEMYVEQNGGALFKDLARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTWVP----TKEEMGWLSEKYPETFDKYYRPRWDYWREQAA--KGNRFYNKTLPMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHCKEIFDNEPEKF</Hsp_qseq>
+      <Hsp_hseq>LTRATNWTPSYVTEEQLFPERMSGHMGIPLEKWESYDEPYKTSYPEYVSIQREKDAGAYSVKAAL-ERAKIYENSDPGWISTLKSHYGAIAVGEYAAVTGEGRMARFSKAPGNRNMATFGMMDELRHGQLQLFFPHEYCKKDRQFDWAWRAYH--SNEWAAIAAKHFFDDIITGRDAISVAIMLTFSFETGFTNMQFLGLAADAAEAGDYTFANLISSIQTDESRHAQQGGPALQLLIENGKREE--AQKKVDMAIWRAWRLFAVLTGPVMDYYTPLEDRSQSFKEF--MY-EWIIGQFERSLIDLGLDKPWYWDLFLKDIDELHHSYHMGVWYWRTTA---WWNPAAGVTPEERDWLEEKYP-GWNKRWGRCWDVITENVLNDRMDLVSPETLPSVCNMSQIPLVGV-PGDDWNIEVFSLEHNGRLYHFGSEVDRWVFQQDPVQY</Hsp_hseq>
+      <Hsp_midline>+TR   W  SY   E++FP     + GI +  W+ +++P++ +   Y   Q EK+   Y+V  A  +       SD  +++ LK     +   EY A  G   + R     G R       +DELRH Q ++   H     ++ F+    + H     W     K FF+D  TG         ++FSFE   TN+ F+   + AA  GD +      S Q+DESRH   G   ++ ++E         Q+ +D   WR +RL +++   + DY  P  +R  S++E   MY E   G   + L   G+ KP  WD   +  D + H      + +   A    W P    T EE  WL EKYP  ++K +   WD   E     + +    +TLP +C   QIP++   PGD   I      + G  YHF S+  + +F  +P ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|O87082|XAMOA_XANP2</Hit_id>
+  <Hit_def>Alkene monooxygenase system, oxygenase component subunit alpha OS=Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2) OX=78245 GN=xamoA PE=1 SV=1</Hit_def>
+  <Hit_accession>O87082</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>1.88134e-34</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>454</Hsp_align-len>
+      <Hsp_qseq>KDRYAAMTRGLGWQTSYQPMEKVFPYDKYEG---IKIHDWDKWEDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEM---HALSHYNKYFNGLHNSIHWYDRVWYLSVPKSFFEDAATGGP-FEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLL-SIVAMMQDYMLP--NRVMSWRESWEMYVEQNGGALFKDLARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTWVP----TKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGN--RFYNKTLPMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHCKEIFDNEPEKFV</Hsp_qseq>
+      <Hsp_hseq>RDDWYDIARDVDWTLSYVDRAVAFP-EEWKGEKDICGTAWDDWDEPFRVSFREYVMVQRDKEASVGAIREAMVRAKAYEKLDDGHKATS-HLHMGTITMVEHMAVTMQSRFVRFAPSARWRSLGAFGMLDETRHTQLDLRFSHDLLNDSPSFDWSQRAFH--TDEWAVLATRNLFDDIMLNADCVEAALATSLTLEHGFTNIQFVALASDAMEAGDVNFSNLLSSIQTDEARHAQLGFPTLDVMMKHDPKR---AQQILDVAFWRSYRIFQAVTGVSMDYYTPVAKRQMSFKEFMLEWIVKHHERILRD---YGLQKPWYWDTFEKTLDHGHHALHIGTWFWR---PTLFWDPNGGVSREERRWLNQKYP-NWEESWGVLWDEIISNINAGNIEKTLPETLPMLCNVTNLPI--GSHWDRFHLKPEQLVYKGRLYTFDSDVSKWIFELDPERYA</Hsp_hseq>
+      <Hsp_midline>+D +  + R + W  SY      FP ++++G   I    WD W++PFR++   Y   Q +KE  + A+ +A  +      + D     +  + +  +T +E+MA    +   R       R       +DE RH Q ++   H L + +  F+    + H     W +   ++ F+D        E   A S + E+  TN+ FV   S A   GD++      S Q+DE+RH  LG   +  M++ DP      Q+ +D  FWR YR+  ++  +  DY  P   R MS++E    ++ ++   + +D   YG++KP  WD   +  DH  H      + +    P   W P    ++EE  WL++KYP  +++ +   WD        GN  +   +TLPMLC    +P+      D   +   +  Y G  Y F SD  K IF+ +PE++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q768T5|PRMA_GORST</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, hydroxylase component large subunit OS=Gordonia sp. (strain TY-5) OX=235467 GN=prmA PE=1 SV=1</Hit_def>
+  <Hit_accession>Q768T5</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>3.04276e-16</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>EDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHY-NKYFN--GLHNSIHWYDRVWYLSVPKSFFEDAATGGPFE----FLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLL-SIVAMMQDYMLPNRVMSWRESWEMYVEQNGGALFKD--------LARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTW---VPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNRFYNKTL---------PMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHC</Hsp_qseq>
+      <Hsp_hseq>KDPLKQIMRSYFPMEEEKDNRVYGAMDGAIRGNMFRQVQE-RWLEWQKLFLSIIPFPEISAARAMPMAIDAVPNPEIHNGLAVQMIDEVRHSTIQMNLKKLYMNNYIDPAGFDITEKAFANNYAGTIGRQFGEGFITGDAITAANIYLTVVA---ETAFTNTLFVAMPDEAAANGDYLLPTVFHSVQSDESRHISNGY-SILLMALADERNRPLLERDLRYAWWNNHCVVDAAIGTFIEYGTKDR----RKDRESYAEMWRRWIYDDYYRSYLLPLEKYGLTIPHDLVEEAWNRIVDKHYVHEVARFFATGWPVNYWRIDAMTDTDFEWFEEKYPGWYNKFGK-WWENYNRLAYPGK---NKPIAFEDVDYEYPHRCWTCMVPCLIREDMVTDKVD-------GQWRTYCSETC</Hsp_hseq>
+      <Hsp_midline>+DP +  M +Y+  + EK+ ++Y  +D   + N    + + R++   K+F+  +   E  A R                   +Q IDE+RH   +M+    Y N Y +  G   +   +   +  ++ + F E   TG        +LT V+   E   TN LFV     AA NGD    T   S QSDESRH++ G   I  M   D  N P+++R +   +W  + ++ + +    +Y   +R    R+  E Y E     ++ D        L +YG+  P    +    +    H    V   +    P++ W     T  +  W  EKYP  ++K+ +  W+ +   A  G    NK +         P  C TC +P +  E     K+        G    +CS+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|E9RFS9|MIMA_MYCGD</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, hydroxylase component large subunit OS=Mycobacterium goodii OX=134601 GN=mimA PE=1 SV=1</Hit_def>
+  <Hit_accession>E9RFS9</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.84645e-15</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>420</Hsp_align-len>
+      <Hsp_qseq>EDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHY-NKYFN--GLHNSIHWYDRVWYLSVPKSFFEDAATGGPFE----FLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLL-SIVAMMQDYMLPNRVMSWRESWEMYVEQNGGALFKD--------LARYGIRKP-----KGWDQACE-GKDHISHQTFAVFYNYNAAAPIHTW---VPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNRFYNKTL---------PMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHC</Hsp_qseq>
+      <Hsp_hseq>KDPLKQIMRSYFSMEEEKDNRVYGAMDGAIRGNMFRQVQQ-RWLEWQKLFLSIIPFPEISAARAMPMAIDAVPNPEIHNGLAVQMIDEVRHSTIQMNLKKLYMNNYIDPAGFDMTEKAFANNYAGTIGRQFGEGFITGDAITAANIYLTVVA---ETAFTNTLFVAMPDEAAANGDYLLPTVFHSVQSDESRHISNGY-SILLMALADERNRPLLERDLRYAWWNNHCVVDAAIGTFIEYGTKDR----RKDRESYAEMWRRWIYDDYYRSYLLPLEKYGLTIPHDLVEEAWKRIVEKGYVHEVARFFATGW------PVNYWRIDTMTDTDFEWFEHKYPGWYNKFGK-WWENYNRLAYPGR---NKPIAFEEVGYQYPHRCWTCMVPALIREDMIVEKVD-------GQWRTYCSETC</Hsp_hseq>
+      <Hsp_midline>+DP +  M +Y+  + EK+ ++Y  +D   + N    +   R++   K+F+  +   E  A R                   +Q IDE+RH   +M+    Y N Y +  G   +   +   +  ++ + F E   TG        +LT V+   E   TN LFV     AA NGD    T   S QSDESRH++ G   I  M   D  N P+++R +   +W  + ++ + +    +Y   +R    R+  E Y E     ++ D        L +YG+  P     + W +  E G  H   + FA  +      P++ W     T  +  W   KYP  ++K+ +  W+ +   A  G    NK +         P  C TC +P +  E     K+        G    +CS+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q0SJK9|PRMA_RHOJR</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, hydroxylase component large subunit OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=prmA PE=1 SV=1</Hit_def>
+  <Hit_accession>Q0SJK9</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>4.00459e-15</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>EDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHY-NKYFN--GLHNSIHWYDRVWYLSVPKSFFEDAATGGPFE----FLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLL-SIVAMMQDYMLPNRVMSWRESWEMYVEQNGGALFKD--------LARYGIRKPKGWDQACEGKDHISHQTFA--VFYNYNAAAPIHTW---VPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNRFYNKTL---------PMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYH-FCSDHC</Hsp_qseq>
+      <Hsp_hseq>KDPLKQIMRSYFPMEEEKDNRVYGAMDGAIRGNMFRQVQQ-RWLEWQKLFLSIIPFPEISAARAMPMAIDAVPNPEIHNGLAVQMIDEVRHSTIQMNLKKLYMNNYIDPAGFDMTEKAFANNYAGTIGRQFGEGFITGDAITAANIYLTVVA---ETAFTNTLFVAMPDEAAANGDYLLPTVFHSVQSDESRHISNGY-SILLMALADERNRPLLERDLRYAWWNNHCVVDAAIGTFIEYGTKDR----RKDRESYAEMWRRWIYDDYYRSYLIPLEKYGLTIPH--DLVEEAWKRITDKGYVHEVARFFATGWPVNYWRIDAMTDKDFEWFEHKYPGWYSKYGK----WWEEYNRLAYPGRNKPIAFEEVGYQYPHRCWTCMVPALIREDMVVEKV--------DDQWRTYCSETC</Hsp_hseq>
+      <Hsp_midline>+DP +  M +Y+  + EK+ ++Y  +D   + N    +   R++   K+F+  +   E  A R                   +Q IDE+RH   +M+    Y N Y +  G   +   +   +  ++ + F E   TG        +LT V+   E   TN LFV     AA NGD    T   S QSDESRH++ G   I  M   D  N P+++R +   +W  + ++ + +    +Y   +R    R+  E Y E     ++ D        L +YG+  P   D   E    I+ + +   V   +    P++ W     T ++  W   KYP  + KY +    +W E         NK +         P  C TC +P +  E     K+         D++  +CS+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|A0QTU8|MIMA_MYCS2</Hit_id>
+  <Hit_def>Propane 2-monooxygenase, hydroxylase component large subunit OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=mimA PE=1 SV=1</Hit_def>
+  <Hit_accession>A0QTU8</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>4.5511e-15</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>420</Hsp_align-len>
+      <Hsp_qseq>EDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHY-NKYFN--GLHNSIHWYDRVWYLSVPKSFFEDAATGGPFE----FLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLL-SIVAMMQDYMLPNRVMSWRESWEMYVEQNGGALFKD--------LARYGIRKP-----KGWDQACE-GKDHISHQTFAVFYNYNAAAPIHTW---VPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNRFYNKTL---------PMLCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHC</Hsp_qseq>
+      <Hsp_hseq>KDPLKQIMRSYFSMEEEKDNRVYGAMDGAIRGNMFRQVQQ-RWLEWQKLFLSIIPFPEISAARAMPMAIDAVPNPEIHNGLAVQMIDEVRHSTIQMNLKKLYMNNYIDPSGFDMTEKAFANNYAGTIGRQFGEGFITGDAITAANIYLTVVA---ETAFTNTLFVAMPDEAAANGDYLLPTVFHSVQSDESRHISNGY-SILLMALADERNRPLLERDLRYAWWNNHCVVDAAIGTFIEYGTKDR----RKDRESYAEMWRRWIYDDYYRSYLLPLEKYGLTIPHDLVEEAWKRIVEKGYVHEVARFFATGW------PVNYWRIDTMTDTDFEWFEHKYPGWYSKFGK-WWENYNRLAYPGR---NKPIAFEEVGYQYPHRCWTCMVPALIREDMIVEKVD-------GQWRTYCSETC</Hsp_hseq>
+      <Hsp_midline>+DP +  M +Y+  + EK+ ++Y  +D   + N    +   R++   K+F+  +   E  A R                   +Q IDE+RH   +M+    Y N Y +  G   +   +   +  ++ + F E   TG        +LT V+   E   TN LFV     AA NGD    T   S QSDESRH++ G   I  M   D  N P+++R +   +W  + ++ + +    +Y   +R    R+  E Y E     ++ D        L +YG+  P     + W +  E G  H   + FA  +      P++ W     T  +  W   KYP  + K+ +  W+ +   A  G    NK +         P  C TC +P +  E     K+        G    +CS+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|P22869|MEMA_METCA</Hit_id>
+  <Hit_def>Methane monooxygenase component A alpha chain OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoX PE=1 SV=3</Hit_def>
+  <Hit_accession>P22869</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>6.07965e-15</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>EDPFRLTMDAYWKYQGEKEKKLYAVI-DAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHYNKYF--NGLHNSIHWYDRVWYLSVP-----KSFFEDA-ATGGPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLLS-IVAMMQDYMLPNRVMSWRESWEMYVEQN-GGALFKDLARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTWVPTKEEMGWLSEKYPETFDKYYRPRWDYWREQAAKGNR--------FYNKTLPM-LCTTCQIPMIFTEPGDATKICYRESAYLGDKYHFCSDHCKEIFDNEPEKF</Hsp_qseq>
+      <Hsp_hseq>KEQFKLIAKEYARMEAVKDERQFGSLQDALTRLNAGVRVH-PKWNETMKVVSNFLEVGEYNAIAATGMLWDSAQAAEQKNGYLAQVLDEIRH----THQCAYVNYYFAKNGQDPAGHNDARRTRTIGPLWKGMKRVFSDGFISGDAVECSLNLQLVGEACFTNPLIVAVTEWAAANGDEITPTVFLSIETDELRHMANGYQTV-VSIANDPASAKYLNTDLNNAFWTQQKYFTPVLGMLFEYGSKFKVEPWVKTWNRWVYEDWGGIWIGRLGKYGVESPRSLKDAKQDAYWAHHDLYLLAYALWPTGFFRLALPDQEEMEWFEANYPGWYDHYGKI-YEEWRARGCEDPSSGFIPLMWFIENNHPIYIDRVSQVPFCPSLAKGASTL--RVHEYNGQMHTFSDQWGERMWLAEPERY</Hsp_hseq>
+      <Hsp_midline>++ F+L    Y + +  K+++ +  + DA  + N  + +   ++   +KV    +   EY A      +         +     Q +DE+RH     H  ++ N YF  NG   + H   R      P     K  F D   +G   E    +    E   TN L V     AA NGD  T T   S ++DE RHM  G + +   +  DP +   +   ++  FW   +  + ++ M+ +Y    +V  W ++W  +V ++ GG     L +YG+  P+    A +      H  + + Y           +P +EEM W    YP  +D Y +  ++ WR +  +           F     P+ +    Q+P   +    A+ +  R   Y G  + F     + ++  EPE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P27353|MEMA_METTR</Hit_id>
+  <Hit_def>Methane monooxygenase component A alpha chain OS=Methylosinus trichosporium OX=426 GN=mmoX PE=1 SV=4</Hit_def>
+  <Hit_accession>P27353</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.5744e-11</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>374</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>KIHDWDKWEDPFRLTMDAYWKYQGEKEKKLYAVIDAFAQNNGQLSISDARYVNALKVFIQGVTPLEYMAHRGFAHIGRHFTGEGARVACQMQSIDELRHFQTEMHALSHYNKYFN--GLHNSIHWYDRVWYL--SVPKSFFEDAATGGPFEFLTAVSFSFEYVLTNLLFVPFMSGAAYNGDMSTVTFGFSAQSDESRHMTLGIECIKFMLEQDPDNVPIVQRWIDKWFWRGYRLLS-IVAMMQDYMLPNRVMSWRESWEMYVEQN-GGALFKDLARYGIRKPKGWDQACEGKDHISHQTFAVFYNYNAAAPIHTWVPTKEEMGWLSEKYPETFDKY</Hsp_qseq>
+      <Hsp_hseq>KYHMANETKEQFKVIAKEYARMEAAKDERQFGTLLDGLTRLGAGNKVHPRWGETMKVISNFLEVGEYNAIAASAMLWDSATAAEQKNGYLAQVLDEIRHTHQCAFINHYYSKHYHDPAGHNDARRTRAIGPLWKGMKRVFADGFISGDAVECSVNLQLVGEACFTNPLIVAVTEWASANGDEITPTVFLSVETDELRHMANGYQTV-VSIANDPASAKFLNTDLNNAFWTQQKYFTPVLGYLFEYGSKFKVEPWVKTWNRWVYEDWGGIWIGRLGKYGVESPASLRDAKRDAYWAHHDLALAAYAMWPLGFARLALPDEEDQAWFEANYPGWADHY</Hsp_hseq>
+      <Hsp_midline>K H  ++ ++ F++    Y + +  K+++ +  +       G  +    R+   +KV    +   EY A    A +    T    +     Q +DE+RH         +Y+K+++    HN       +  L   + + F +   +G   E    +    E   TN L V     A+ NGD  T T   S ++DE RHM  G + +   +  DP +   +   ++  FW   +  + ++  + +Y    +V  W ++W  +V ++ GG     L +YG+  P     A        H      Y           +P +E+  W    YP   D Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>563082</Statistics_db-num>
+      <Statistics_db-len>202799066</Statistics_db-len>
+      <Statistics_hsp-len>122</Statistics_hsp-len>
+      <Statistics_eff-space>53238915614</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

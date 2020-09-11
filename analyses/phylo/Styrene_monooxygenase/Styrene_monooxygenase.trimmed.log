@@ -1,0 +1,328 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 09:27:51 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 85 sequences with 470 columns, 461 distinct patterns
+422 parsimony-informative, 24 singleton sites, 24 constant sites
+WARNING: Some sequence names are changed as follows:
+A0A3G8JSV3-O=Gordonia-G=styA-T=Query -> A0A3G8JSV3-O_Gordonia-G_styA-T_Query
+A0A231HD80-O=Nocardia-G=styA-T=Query -> A0A231HD80-O_Nocardia-G_styA-T_Query
+A0A4R8R8G1-O=Mycobacteroides-G=styA-T=Query -> A0A4R8R8G1-O_Mycobacteroides-G_styA-T_Query
+A0A4R8SU90-O=Mycobacteroides-G=styA-T=Query -> A0A4R8SU90-O_Mycobacteroides-G_styA-T_Query
+A0A4R8RYH8-O=Mycobacteroides-G=styA-T=Query -> A0A4R8RYH8-O_Mycobacteroides-G_styA-T_Query
+A0A4R8SC98-O=Mycobacteroides-G=styA-T=Query -> A0A4R8SC98-O_Mycobacteroides-G_styA-T_Query
+D5KT95-O=Pseudomonas-G=styA-T=Query -> D5KT95-O_Pseudomonas-G_styA-T_Query
+O33494-O=Pseudomonas-G=styA-T=Query -> O33494-O_Pseudomonas-G_styA-T_Query
+O06834-O=Pseudomonas-G=styA-T=BLAST -> O06834-O_Pseudomonas-G_styA-T_BLAST
+O50214-O=Pseudomonas-G=styA-T=BLAST -> O50214-O_Pseudomonas-G_styA-T_BLAST
+V4GUG2-O=Pseudomonas-G=styA-T=Query -> V4GUG2-O_Pseudomonas-G_styA-T_Query
+O33471-O=Pseudomonas-G=styA-T=Query -> O33471-O_Pseudomonas-G_styA-T_Query
+ABB03727.1-O=Pseudomonas-NCBI -> ABB03727.1-O_Pseudomonas-NCBI
+Q0H7E8-O=Pseudomonas-G=styA-T=Query -> Q0H7E8-O_Pseudomonas-G_styA-T_Query
+B1NY94-O=Pseudomonas-G=styA-T=Query -> B1NY94-O_Pseudomonas-G_styA-T_Query
+G3XEX2-O=Rhodococcus-G=styA-T=Query -> G3XEX2-O_Rhodococcus-G_styA-T_Query
+A0A076JVU4-O=Rhodococcus-G=styA-T=Query -> A0A076JVU4-O_Rhodococcus-G_styA-T_Query
+G3XEX5-O=Rhodococcus-G=styA-T=Query -> G3XEX5-O_Rhodococcus-G_styA-T_Query
+A0A0A7PAQ5-O=Sphingopyxis-G=styA-T=Query -> A0A0A7PAQ5-O_Sphingopyxis-G_styA-T_Query
+A0A5E7ZI74-O=Sphingomonas-G=styA-T=Query -> A0A5E7ZI74-O_Sphingomonas-G_styA-T_Query
+A0A5P3A479-O=Rhodobacteraceae-G=styA-T=Query -> A0A5P3A479-O_Rhodobacteraceae-G_styA-T_Query
+A0A0P1GIF2-O=Tropicibacter-G=styA-T=Query -> A0A0P1GIF2-O_Tropicibacter-G_styA-T_Query
+A0A2I7KGG0-O=Phaeobacter-G=styA-T=Query -> A0A2I7KGG0-O_Phaeobacter-G_styA-T_Query
+A0A2M9MZG3-O=Paenibacillus-G=styA-T=Query -> A0A2M9MZG3-O_Paenibacillus-G_styA-T_Query
+A0A1Z4QHQ6-O=Cylindrospermum-G=styA-T=Query -> A0A1Z4QHQ6-O_Cylindrospermum-G_styA-T_Query
+A0A1Z4GVE6-O=Calothrix-G=styA-T=Query -> A0A1Z4GVE6-O_Calothrix-G_styA-T_Query
+A0A1Z4HQI8-O=Nostoc-G=styA-T=Query -> A0A1Z4HQI8-O_Nostoc-G_styA-T_Query
+A0A0S3TKC2-O=Fischerella-G=styA-T=Query -> A0A0S3TKC2-O_Fischerella-G_styA-T_Query
+A0A218QPZ8-O=Tolypothrix-G=styA-T=Query -> A0A218QPZ8-O_Tolypothrix-G_styA-T_Query
+A0A2U3MZP5-O=Acinetobacter-G=styA-T=Query -> A0A2U3MZP5-O_Acinetobacter-G_styA-T_Query
+A0A4P6Q2G5-O=Streptomonospora-G=styA-T=Query -> A0A4P6Q2G5-O_Streptomonospora-G_styA-T_Query
+A0A649YNL6-O=Vibrio-G=styA-T=Query -> A0A649YNL6-O_Vibrio-G_styA-T_Query
+A0A6B8N974-O=Vibrio-G=styA-T=Query -> A0A6B8N974-O_Vibrio-G_styA-T_Query
+A1K6V0-O=Azoarcus-G=styA-T=Query -> A1K6V0-O_Azoarcus-G_styA-T_Query
+H0PTL5-O=Azoarcus-G=styA-T=Query -> H0PTL5-O_Azoarcus-G_styA-T_Query
+A0A447IC41-O=Devosia-G=styA-T=Query -> A0A447IC41-O_Devosia-G_styA-T_Query
+A0A158CP85-O=Caballeronia-G=styA-T=Query -> A0A158CP85-O_Caballeronia-G_styA-T_Query
+A0A446D0P1-O=Achromobacter-G=styA-T=Query -> A0A446D0P1-O_Achromobacter-G_styA-T_Query
+A0A5K8C9N1-O=Alcaligenes-G=styA-T=Query -> A0A5K8C9N1-O_Alcaligenes-G_styA-T_Query
+A0A132HTC5-O=Cupriavidus-G=styA-T=Query -> A0A132HTC5-O_Cupriavidus-G_styA-T_Query
+A0A0M3FRH7-O=Acinetobacter-G=styA-T=Query -> A0A0M3FRH7-O_Acinetobacter-G_styA-T_Query
+A0A143J0H4-O=Acinetobacter-G=styA-T=Query -> A0A143J0H4-O_Acinetobacter-G_styA-T_Query
+A0A385EVB1-O=Acinetobacter-G=styA-T=Query -> A0A385EVB1-O_Acinetobacter-G_styA-T_Query
+A0A1Q9QYN3-O=Pseudomonas-G=styA-T=Query -> A0A1Q9QYN3-O_Pseudomonas-G_styA-T_Query
+A0A2G9L375-O=Pseudomonas-G=styA-T=Query -> A0A2G9L375-O_Pseudomonas-G_styA-T_Query
+A0A5E7SFR3-O=Pseudomonas-G=styA-T=Query -> A0A5E7SFR3-O_Pseudomonas-G_styA-T_Query
+W7WN88-O=Hydrogenophaga-G=styA-T=Query -> W7WN88-O_Hydrogenophaga-G_styA-T_Query
+A0A1U9Z700-O=Martelella-G=styA-T=Query -> A0A1U9Z700-O_Martelella-G_styA-T_Query
+A0A6A7SCG2-O=wastewater-G=styA-T=Query -> A0A6A7SCG2-O_wastewater-G_styA-T_Query
+A0A165SZ23-O=Pseudovibrio-G=styA-T=Query -> A0A165SZ23-O_Pseudovibrio-G_styA-T_Query
+A0A1Y5RD73-O=Pacificibacter-G=styA-T=Query -> A0A1Y5RD73-O_Pacificibacter-G_styA-T_Query
+A0A2P4UD92-O=Actinomadura-G=styA-T=Query -> A0A2P4UD92-O_Actinomadura-G_styA-T_Query
+A0A2P8ARH0-O=Micromonospora-G=styA-T=Query -> A0A2P8ARH0-O_Micromonospora-G_styA-T_Query
+A0A221W312-O=Actinoalloteichus-G=styA-T=Query -> A0A221W312-O_Actinoalloteichus-G_styA-T_Query
+A0A5P9PGC0-O=Amycolatopsis-G=styA-T=Query -> A0A5P9PGC0-O_Amycolatopsis-G_styA-T_Query
+A0A2K8R374-O=Streptomyces-G=styA-T=Query -> A0A2K8R374-O_Streptomyces-G_styA-T_Query
+A0A2K8PCL9-O=Streptomyces-G=styA-T=Query -> A0A2K8PCL9-O_Streptomyces-G_styA-T_Query
+A0A3G4VYD6-O=Streptomyces-G=styA-T=Query -> A0A3G4VYD6-O_Streptomyces-G_styA-T_Query
+A0A3N6FXX7-O=Streptomyces-G=styA-T=Query -> A0A3N6FXX7-O_Streptomyces-G_styA-T_Query
+A0A6C0Q820-O=Streptomyces-G=styA-T=Query -> A0A6C0Q820-O_Streptomyces-G_styA-T_Query
+A0A399H805-O=Streptomyces-G=styA-T=Query -> A0A399H805-O_Streptomyces-G_styA-T_Query
+A0A1D8G6D9-O=Streptomyces-G=styA-T=Query -> A0A1D8G6D9-O_Streptomyces-G_styA-T_Query
+A0A1Y2NRU4-O=Streptomyces-G=styA-T=Query -> A0A1Y2NRU4-O_Streptomyces-G_styA-T_Query
+A0A3N6EG69-O=Streptomyces-G=styA-T=Query -> A0A3N6EG69-O_Streptomyces-G_styA-T_Query
+A0A3N6GKX7-O=Streptomyces-G=styA-T=Query -> A0A3N6GKX7-O_Streptomyces-G_styA-T_Query
+A0A124C1W9-O=Streptomyces-G=styA-T=Query -> A0A124C1W9-O_Streptomyces-G_styA-T_Query
+A0A1D2IEB0-O=Streptomyces-G=styA-T=Query -> A0A1D2IEB0-O_Streptomyces-G_styA-T_Query
+A0A117P4X1-O=Streptomyces-G=styA-T=Query -> A0A117P4X1-O_Streptomyces-G_styA-T_Query
+A0A2P8A6S0-O=Streptomyces-G=styA-T=Query -> A0A2P8A6S0-O_Streptomyces-G_styA-T_Query
+A0A2S6XCN3-O=Streptomyces-G=styA-T=Query -> A0A2S6XCN3-O_Streptomyces-G_styA-T_Query
+A0A3N6G5E0-O=Streptomyces-G=styA-T=Query -> A0A3N6G5E0-O_Streptomyces-G_styA-T_Query
+A0A3N6DXE4-O=Streptomyces-G=styA-T=Query -> A0A3N6DXE4-O_Streptomyces-G_styA-T_Query
+A0A2N9B701-O=Streptomyces-G=styA-T=Query -> A0A2N9B701-O_Streptomyces-G_styA-T_Query
+A0A2Z5K9S6-O=Streptomyces-G=styA-T=Query -> A0A2Z5K9S6-O_Streptomyces-G_styA-T_Query
+A0A1K2FZ72-O=Streptomyces-G=styA-T=Query -> A0A1K2FZ72-O_Streptomyces-G_styA-T_Query
+A0A6I1YJU3-O=Streptomyces-G=styA-T=Query -> A0A6I1YJU3-O_Streptomyces-G_styA-T_Query
+A0A177HSB6-O=Streptomyces-G=styA-T=Query -> A0A177HSB6-O_Streptomyces-G_styA-T_Query
+A0A3N6FXJ1-O=Streptomyces-G=styA-T=Query -> A0A3N6FXJ1-O_Streptomyces-G_styA-T_Query
+A0A3N6HAP9-O=Streptomyces-G=styA-T=Query -> A0A3N6HAP9-O_Streptomyces-G_styA-T_Query
+A0A3N6J7H3-O=Streptomyces-G=styA-T=Query -> A0A3N6J7H3-O_Streptomyces-G_styA-T_Query
+A0A1V2N2H0-O=Streptomyces-G=styA-T=Query -> A0A1V2N2H0-O_Streptomyces-G_styA-T_Query
+A0A1B9EIN1-O=Streptomyces-G=styA-T=Query -> A0A1B9EIN1-O_Streptomyces-G_styA-T_Query
+A0A433E864-O=Streptomyces-G=styA-T=Query -> A0A433E864-O_Streptomyces-G_styA-T_Query
+A0A100JWV7-O=Streptomyces-G=styA-T=Query -> A0A100JWV7-O_Streptomyces-G_styA-T_Query
+A0A2P9FDH9-O=Streptomyces-G=styA-T=Query -> A0A2P9FDH9-O_Streptomyces-G_styA-T_Query
+
+                                               Gap/Ambiguity  Composition  p-value
+   1  A0A3G8JSV3-O_Gordonia-G_styA-T_Query             3.62%    failed      0.37%
+   2  A0A231HD80-O_Nocardia-G_styA-T_Query             3.19%    failed      0.79%
+   3  A0A4R8R8G1-O_Mycobacteroides-G_styA-T_Query      2.77%    failed      0.34%
+   4  A0A4R8SU90-O_Mycobacteroides-G_styA-T_Query      2.77%    failed      0.21%
+   5  A0A4R8RYH8-O_Mycobacteroides-G_styA-T_Query      2.77%    failed      0.13%
+   6  A0A4R8SC98-O_Mycobacteroides-G_styA-T_Query      2.77%    failed      0.15%
+   7  D5KT95-O_Pseudomonas-G_styA-T_Query             11.70%    passed     72.96%
+   8  O33494-O_Pseudomonas-G_styA-T_Query             11.70%    passed     84.80%
+   9  O06834-O_Pseudomonas-G_styA-T_BLAST             11.70%    passed     87.19%
+  10  O50214-O_Pseudomonas-G_styA-T_BLAST             11.70%    passed     95.46%
+  11  V4GUG2-O_Pseudomonas-G_styA-T_Query             11.70%    passed     95.46%
+  12  O33471-O_Pseudomonas-G_styA-T_Query             11.70%    passed     94.16%
+  13  ABB03727.1-O_Pseudomonas-NCBI                   11.70%    passed     93.94%
+  14  Q0H7E8-O_Pseudomonas-G_styA-T_Query             11.70%    passed     93.94%
+  15  B1NY94-O_Pseudomonas-G_styA-T_Query             11.70%    passed     88.74%
+  16  G3XEX2-O_Rhodococcus-G_styA-T_Query              9.36%    passed     12.50%
+  17  A0A076JVU4-O_Rhodococcus-G_styA-T_Query          9.36%    passed     43.46%
+  18  G3XEX5-O_Rhodococcus-G_styA-T_Query              9.15%    passed     54.28%
+  19  A0A0A7PAQ5-O_Sphingopyxis-G_styA-T_Query        10.21%    passed     39.14%
+  20  A0A5E7ZI74-O_Sphingomonas-G_styA-T_Query        10.21%    passed     60.69%
+  21  A0A5P3A479-O_Rhodobacteraceae-G_styA-T_Query    11.49%    passed     29.75%
+  22  A0A0P1GIF2-O_Tropicibacter-G_styA-T_Query       15.96%    passed     62.30%
+  23  A0A2I7KGG0-O_Phaeobacter-G_styA-T_Query         11.49%    passed     65.44%
+  24  A0A2M9MZG3-O_Paenibacillus-G_styA-T_Query       15.74%    failed      0.01%
+  25  A0A1Z4QHQ6-O_Cylindrospermum-G_styA-T_Query     12.13%    passed      7.44%
+  26  A0A1Z4GVE6-O_Calothrix-G_styA-T_Query           10.21%    passed      7.45%
+  27  A0A1Z4HQI8-O_Nostoc-G_styA-T_Query              10.21%    passed      5.44%
+  28  A0A0S3TKC2-O_Fischerella-G_styA-T_Query         12.13%    failed      3.15%
+  29  A0A218QPZ8-O_Tolypothrix-G_styA-T_Query         11.91%    failed      0.17%
+  30  A0A2U3MZP5-O_Acinetobacter-G_styA-T_Query       10.85%    passed     36.25%
+  31  A0A4P6Q2G5-O_Streptomonospora-G_styA-T_Query    11.49%    passed     40.65%
+  32  A0A649YNL6-O_Vibrio-G_styA-T_Query              11.91%    failed      2.40%
+  33  A0A6B8N974-O_Vibrio-G_styA-T_Query              11.91%    failed      2.40%
+  34  A1K6V0-O_Azoarcus-G_styA-T_Query                10.64%    passed     91.25%
+  35  H0PTL5-O_Azoarcus-G_styA-T_Query                10.85%    passed     91.01%
+  36  A0A447IC41-O_Devosia-G_styA-T_Query             13.19%    passed     93.88%
+  37  A0A158CP85-O_Caballeronia-G_styA-T_Query        11.70%    passed     55.12%
+  38  A0A446D0P1-O_Achromobacter-G_styA-T_Query       12.13%    passed     58.11%
+  39  A0A5K8C9N1-O_Alcaligenes-G_styA-T_Query         12.13%    passed     32.96%
+  40  A0A132HTC5-O_Cupriavidus-G_styA-T_Query         12.13%    passed     33.01%
+  41  A0A0M3FRH7-O_Acinetobacter-G_styA-T_Query       12.34%    passed     11.67%
+  42  A0A143J0H4-O_Acinetobacter-G_styA-T_Query       12.34%    passed     25.88%
+  43  A0A385EVB1-O_Acinetobacter-G_styA-T_Query       12.34%    passed     21.62%
+  44  A0A1Q9QYN3-O_Pseudomonas-G_styA-T_Query         12.34%    passed     93.79%
+  45  A0A2G9L375-O_Pseudomonas-G_styA-T_Query         12.34%    passed      9.71%
+  46  A0A5E7SFR3-O_Pseudomonas-G_styA-T_Query         12.34%    passed     51.88%
+  47  W7WN88-O_Hydrogenophaga-G_styA-T_Query          50.85%    passed      5.85%
+  48  A0A1U9Z700-O_Martelella-G_styA-T_Query          12.77%    passed     56.02%
+  49  A0A6A7SCG2-O_wastewater-G_styA-T_Query          12.98%    passed     70.05%
+  50  A0A165SZ23-O_Pseudovibrio-G_styA-T_Query        12.98%    passed     31.88%
+  51  A0A1Y5RD73-O_Pacificibacter-G_styA-T_Query      12.98%    passed     58.86%
+  52  A0A2P4UD92-O_Actinomadura-G_styA-T_Query        12.98%    passed      8.87%
+  53  A0A2P8ARH0-O_Micromonospora-G_styA-T_Query      12.77%    passed     17.17%
+  54  A0A221W312-O_Actinoalloteichus-G_styA-T_Query   12.13%    passed     86.09%
+  55  A0A5P9PGC0-O_Amycolatopsis-G_styA-T_Query       13.19%    passed     99.69%
+  56  A0A2K8R374-O_Streptomyces-G_styA-T_Query         6.60%    passed     56.15%
+  57  A0A2K8PCL9-O_Streptomyces-G_styA-T_Query        12.13%    passed     96.06%
+  58  A0A3G4VYD6-O_Streptomyces-G_styA-T_Query        10.00%    passed     95.10%
+  59  A0A3N6FXX7-O_Streptomyces-G_styA-T_Query        11.70%    passed     95.58%
+  60  A0A6C0Q820-O_Streptomyces-G_styA-T_Query        11.91%    passed     86.33%
+  61  A0A399H805-O_Streptomyces-G_styA-T_Query        10.00%    passed     99.90%
+  62  A0A1D8G6D9-O_Streptomyces-G_styA-T_Query        12.55%    passed     66.61%
+  63  A0A1Y2NRU4-O_Streptomyces-G_styA-T_Query        12.55%    passed     66.61%
+  64  A0A3N6EG69-O_Streptomyces-G_styA-T_Query        11.91%    passed     98.43%
+  65  A0A3N6GKX7-O_Streptomyces-G_styA-T_Query        11.91%    passed     98.43%
+  66  A0A124C1W9-O_Streptomyces-G_styA-T_Query        11.70%    passed     99.09%
+  67  A0A1D2IEB0-O_Streptomyces-G_styA-T_Query        10.64%    passed     95.02%
+  68  A0A117P4X1-O_Streptomyces-G_styA-T_Query        11.28%    passed     99.89%
+  69  A0A2P8A6S0-O_Streptomyces-G_styA-T_Query        10.64%    passed     99.97%
+  70  A0A2S6XCN3-O_Streptomyces-G_styA-T_Query        10.64%    passed     99.66%
+  71  A0A3N6G5E0-O_Streptomyces-G_styA-T_Query        12.13%    passed     96.60%
+  72  A0A3N6DXE4-O_Streptomyces-G_styA-T_Query        12.13%    passed    100.00%
+  73  A0A2N9B701-O_Streptomyces-G_styA-T_Query        10.64%    passed     99.89%
+  74  A0A2Z5K9S6-O_Streptomyces-G_styA-T_Query        10.64%    passed     99.96%
+  75  A0A1K2FZ72-O_Streptomyces-G_styA-T_Query        11.28%    passed     99.92%
+  76  A0A6I1YJU3-O_Streptomyces-G_styA-T_Query        11.28%    passed     99.99%
+  77  A0A177HSB6-O_Streptomyces-G_styA-T_Query        11.28%    passed     99.88%
+  78  A0A3N6FXJ1-O_Streptomyces-G_styA-T_Query        11.70%    passed     99.90%
+  79  A0A3N6HAP9-O_Streptomyces-G_styA-T_Query        12.55%    passed     99.98%
+  80  A0A3N6J7H3-O_Streptomyces-G_styA-T_Query        12.55%    passed     99.99%
+  81  A0A1V2N2H0-O_Streptomyces-G_styA-T_Query        12.55%    passed     99.94%
+  82  A0A1B9EIN1-O_Streptomyces-G_styA-T_Query        12.55%    passed     99.92%
+  83  A0A433E864-O_Streptomyces-G_styA-T_Query        12.55%    passed     99.94%
+  84  A0A100JWV7-O_Streptomyces-G_styA-T_Query        12.55%    passed      6.44%
+  85  A0A2P9FDH9-O_Streptomyces-G_styA-T_Query        12.34%    passed     29.61%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                           11.58%  11 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: V4GUG2-O_Pseudomonas-G_styA-T_Query is identical to O50214-O_Pseudomonas-G_styA-T_BLAST but kept for subsequent analysis
+NOTE: Q0H7E8-O_Pseudomonas-G_styA-T_Query is identical to ABB03727.1-O_Pseudomonas-NCBI but kept for subsequent analysis
+NOTE: A0A6B8N974-O_Vibrio-G_styA-T_Query is identical to A0A649YNL6-O_Vibrio-G_styA-T_Query but kept for subsequent analysis
+NOTE: A0A1Y2NRU4-O_Streptomyces-G_styA-T_Query is identical to A0A1D8G6D9-O_Streptomyces-G_styA-T_Query but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.085 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 46 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+6 trees examined
+Threads: 1 / Time: 4.489 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -52688
+Threads: 2 / Time: 3.712 sec / Speedup: 1.209 / Efficiency: 60% / LogL: -52688
+Threads: 3 / Time: 4.329 sec / Speedup: 1.037 / Efficiency: 35% / LogL: -52688
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -29192.986
+2. Current log-likelihood: -28943.845
+3. Current log-likelihood: -28941.819
+4. Current log-likelihood: -28941.663
+5. Current log-likelihood: -28941.494
+6. Current log-likelihood: -28941.312
+7. Current log-likelihood: -28941.127
+8. Current log-likelihood: -28940.953
+9. Current log-likelihood: -28940.794
+10. Current log-likelihood: -28940.648
+11. Current log-likelihood: -28940.513
+12. Current log-likelihood: -28940.390
+13. Current log-likelihood: -28940.277
+14. Current log-likelihood: -28940.173
+Optimal log-likelihood: -28940.079
+Site proportion and rates:  (0.066,0.058) (0.085,0.233) (0.121,0.416) (0.145,0.515) (0.262,0.877) (0.211,1.672) (0.109,2.453)
+Parameters optimization took 14 rounds (107.533 sec)
+Computing ML distances based on estimated model parameters... 4.418 sec
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -28965.664
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.330 second
+Computing log-likelihood of 98 initial trees ... 51.290 seconds
+Current best score: -28940.079
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -28897.756
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -28894.983
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -28892.093
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -28891.408
+Iteration 10 / LogL: -28895.741 / Time: 0h:4m:42s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -28889.668
+Iteration 20 / LogL: -28897.877 / Time: 0h:5m:32s
+Finish initializing candidate tree set (17)
+Current best tree score: -28889.668 / CPU time: 205.405
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -28889.586
+Iteration 30 / LogL: -28891.291 / Time: 0h:6m:40s (0h:21m:23s left)
+Iteration 40 / LogL: -28890.013 / Time: 0h:7m:41s (0h:16m:20s left)
+Iteration 50 / LogL: -28889.615 / Time: 0h:8m:46s (0h:13m:4s left)
+Log-likelihood cutoff on original alignment: -28949.787
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -28889.478
+Iteration 60 / LogL: -28891.001 / Time: 0h:10m:26s (0h:16m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -28888.632
+Iteration 70 / LogL: -28895.351 / Time: 0h:11m:35s (0h:15m:57s left)
+Iteration 80 / LogL: -28890.354 / Time: 0h:12m:37s (0h:13m:35s left)
+Iteration 90 / LogL: -28889.753 / Time: 0h:13m:42s (0h:11m:33s left)
+Iteration 100 / LogL: -28889.221 / Time: 0h:14m:54s (0h:9m:47s left)
+Log-likelihood cutoff on original alignment: -28945.068
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+UPDATE BEST LOG-LIKELIHOOD: -28888.628
+Iteration 110 / LogL: -28890.812 / Time: 0h:16m:37s (0h:13m:43s left)
+Iteration 120 / LogL: -28904.430 / Time: 0h:18m:31s (0h:12m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -28887.065
+Iteration 130 / LogL: -28891.143 / Time: 0h:20m:37s (0h:14m:42s left)
+Iteration 140 / LogL: -28889.422 / Time: 0h:22m:26s (0h:13m:14s left)
+Iteration 150 / LogL: -28892.795 / Time: 0h:23m:49s (0h:11m:30s left)
+Log-likelihood cutoff on original alignment: -28945.403
+Iteration 160 / LogL: -28896.692 / Time: 0h:24m:47s (0h:9m:39s left)
+Iteration 170 / LogL: -28887.177 / Time: 0h:25m:45s (0h:7m:55s left)
+Iteration 180 / LogL: -28887.409 / Time: 0h:26m:41s (0h:6m:15s left)
+Iteration 190 / LogL: -28892.463 / Time: 0h:28m:3s (0h:4m:45s left)
+Iteration 200 / LogL: -28887.854 / Time: 0h:29m:25s (0h:3m:15s left)
+Log-likelihood cutoff on original alignment: -28945.403
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 210 / LogL: -28887.311 / Time: 0h:30m:41s (0h:13m:12s left)
+Iteration 220 / LogL: -28887.838 / Time: 0h:32m:5s (0h:11m:43s left)
+TREE SEARCH COMPLETED AFTER 223 ITERATIONS / Time: 0h:32m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -28887.065
+Optimal log-likelihood: -28887.056
+Site proportion and rates:  (0.065,0.055) (0.083,0.237) (0.109,0.411) (0.124,0.453) (0.309,0.853) (0.233,1.758) (0.077,2.633)
+Parameters optimization took 1 rounds (5.332 sec)
+BEST SCORE FOUND : -28887.056
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.splits.nex
+Total tree length: 23.671
+
+Total number of iterations: 223
+CPU time used for tree search: 3541.103 sec (0h:59m:1s)
+Wall-clock time used for tree search: 1825.068 sec (0h:30m:25s)
+Total CPU time used: 3797.651 sec (1h:3m:17s)
+Total wall-clock time used: 1958.186 sec (0h:32m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.splits.nex...
+85 taxa and 398 splits.
+Consensus tree written to analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.contree
+Log-likelihood of consensus tree: -28892.815
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Styrene_monooxygenase/Styrene_monooxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 10:00:32 2020

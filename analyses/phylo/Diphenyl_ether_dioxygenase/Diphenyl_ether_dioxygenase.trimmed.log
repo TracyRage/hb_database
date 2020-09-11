@@ -1,0 +1,204 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 15:20:42 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 40 sequences with 529 columns, 520 distinct patterns
+454 parsimony-informative, 48 singleton sites, 27 constant sites
+WARNING: Some sequence names are changed as follows:
+Q44256-O=Comamonas-G=cbaA-T=BLAST -> Q44256-O_Comamonas-G_cbaA-T_BLAST
+P0ABR7-O=Escherichia-G=yeaW-T=BLAST -> P0ABR7-O_Escherichia-G_yeaW-T_BLAST
+P0ABR8-O=Escherichia-G=yeaW-T=BLAST -> P0ABR8-O_Escherichia-G_yeaW-T_BLAST
+F0KFI5-O=Acinetobacter-G=yeaW-T=BLAST -> F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST
+D0C9N6-O=Acinetobacter-G=cntA-T=BLAST -> D0C9N6-O_Acinetobacter-G_cntA-T_BLAST
+Q51974-O=Pseudomonas-G=cmtAb-T=BLAST -> Q51974-O_Pseudomonas-G_cmtAb-T_BLAST
+O85673-O=Acinetobacter-G=antA-T=BLAST -> O85673-O_Acinetobacter-G_antA-T_BLAST
+Q51601-O=Burkholderia-G=cbdA-T=BLAST -> Q51601-O_Burkholderia-G_cbdA-T_BLAST
+P07769-O=Acinetobacter-G=benA-T=BLAST -> P07769-O_Acinetobacter-G_benA-T_BLAST
+P23099-O=Pseudomonas-G=xylX-T=BLAST -> P23099-O_Pseudomonas-G_xylX-T_BLAST
+Q9RBG5-O=Alcaligenes-G=absAa-T=BLAST -> Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST
+Q9X404-O=Methylosulfonomonas-G=msmA-T=BLAST -> Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST
+O52379-O=Ralstonia-G=nagG-T=BLAST -> O52379-O_Ralstonia-G_nagG-T_BLAST
+Q84BZ3-O=Burkholderia-G=andAc-T=BLAST -> Q84BZ3-O_Burkholderia-G_andAc-T_BLAST
+Q3C1D5-O=Comamonas-G=tphA2II-T=BLAST -> Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST
+Q3C1E3-O=Comamonas-G=tphA2I-T=BLAST -> Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST
+ANW37879.1-O=Sphingobium-NCBI -> ANW37879.1-O_Sphingobium-NCBI
+A0A1B1VV77-O=Sphingobium-G=dpeA1-T=Query -> A0A1B1VV77-O_Sphingobium-G_dpeA1-T_Query
+Q45695-O=Burkholderia-G=dntAc-T=BLAST -> Q45695-O_Burkholderia-G_dntAc-T_BLAST
+O52382-O=Ralstonia-G=nagAc-T=BLAST -> O52382-O_Ralstonia-G_nagAc-T_BLAST
+Q51494-O=Pseudomonas-G=ndoB-T=BLAST -> Q51494-O_Pseudomonas-G_ndoB-T_BLAST
+P0A111-O=Pseudomonas-G=doxB-T=BLAST -> P0A111-O_Pseudomonas-G_doxB-T_BLAST
+P0A110-O=Pseudomonas-G=ndoB-T=BLAST -> P0A110-O_Pseudomonas-G_ndoB-T_BLAST
+O07824-O=Pseudomonas-G=ndoB-T=BLAST -> O07824-O_Pseudomonas-G_ndoB-T_BLAST
+Q7N4W0-O=Photorhabdus-G=hcaE-T=BLAST -> Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST
+Q83K39-O=Shigella-G=hcaE-T=BLAST -> Q83K39-O_Shigella-G_hcaE-T_BLAST
+Q0T1Y1-O=Shigella-G=hcaE-T=BLAST -> Q0T1Y1-O_Shigella-G_hcaE-T_BLAST
+Q31XV2-O=Shigella-G=hcaE-T=BLAST -> Q31XV2-O_Shigella-G_hcaE-T_BLAST
+A8A344-O=Escherichia-G=hcaE-T=BLAST -> A8A344-O_Escherichia-G_hcaE-T_BLAST
+Q3YZ15-O=Shigella-G=hcaE-T=BLAST -> Q3YZ15-O_Shigella-G_hcaE-T_BLAST
+P0ABR5-O=Escherichia-G=hcaE-T=BLAST -> P0ABR5-O_Escherichia-G_hcaE-T_BLAST
+P0ABR6-O=Escherichia-G=hcaE-T=BLAST -> P0ABR6-O_Escherichia-G_hcaE-T_BLAST
+Q53122-O=Rhodococcus-G=bphA1-T=BLAST -> Q53122-O_Rhodococcus-G_bphA1-T_BLAST
+P0C618-O=Pseudomonas-G=bnzA-T=BLAST -> P0C618-O_Pseudomonas-G_bnzA-T_BLAST
+A5W4F2-O=Pseudomonas-G=bnzA-T=BLAST -> A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST
+Q07944-O=Pseudomonas-G=bedC1-T=BLAST -> Q07944-O_Pseudomonas-G_bedC1-T_BLAST
+Q52028-O=Pseudomonas-G=bphA-T=BLAST -> Q52028-O_Pseudomonas-G_bphA-T_BLAST
+P37333-O=Paraburkholderia-G=bphA-T=BLAST -> P37333-O_Paraburkholderia-G_bphA-T_BLAST
+Q52438-O=Pseudomonas-G=bphA1-T=BLAST -> Q52438-O_Pseudomonas-G_bphA1-T_BLAST
+Q46372-O=Comamonas-G=bphA-T=BLAST -> Q46372-O_Comamonas-G_bphA-T_BLAST
+
+                                             Gap/Ambiguity  Composition  p-value
+   1  Q44256-O_Comamonas-G_cbaA-T_BLAST             22.50%    passed     16.88%
+   2  P0ABR7-O_Escherichia-G_yeaW-T_BLAST           29.30%    passed     88.19%
+   3  P0ABR8-O_Escherichia-G_yeaW-T_BLAST           29.30%    passed     88.19%
+   4  F0KFI5-O_Acinetobacter-G_yeaW-T_BLAST         29.87%    passed     44.12%
+   5  D0C9N6-O_Acinetobacter-G_cntA-T_BLAST         29.87%    passed     64.02%
+   6  Q51974-O_Pseudomonas-G_cmtAb-T_BLAST          20.42%    passed     86.88%
+   7  O85673-O_Acinetobacter-G_antA-T_BLAST         11.72%    passed     70.58%
+   8  Q51601-O_Burkholderia-G_cbdA-T_BLAST          13.80%    passed     67.44%
+   9  P07769-O_Acinetobacter-G_benA-T_BLAST         13.80%    passed     87.76%
+  10  P23099-O_Pseudomonas-G_xylX-T_BLAST           14.18%    passed     92.49%
+  11  Q9RBG5-O_Alcaligenes-G_absAa-T_BLAST          26.65%    passed     32.23%
+  12  Q9X404-O_Methylosulfonomonas-G_msmA-T_BLAST   23.44%    passed      5.40%
+  13  O52379-O_Ralstonia-G_nagG-T_BLAST             21.74%    passed     19.29%
+  14  Q84BZ3-O_Burkholderia-G_andAc-T_BLAST         20.04%    passed     63.11%
+  15  Q3C1D5-O_Comamonas-G_tphA2II-T_BLAST          21.93%    passed     75.18%
+  16  Q3C1E3-O_Comamonas-G_tphA2I-T_BLAST           21.93%    passed     75.30%
+  17  ANW37879.1-O_Sphingobium-NCBI                 13.61%    passed     41.99%
+  18  A0A1B1VV77-O_Sphingobium-G_dpeA1-T_Query      13.61%    passed     41.99%
+  19  Q45695-O_Burkholderia-G_dntAc-T_BLAST         14.74%    passed     88.52%
+  20  O52382-O_Ralstonia-G_nagAc-T_BLAST            15.50%    passed     87.20%
+  21  Q51494-O_Pseudomonas-G_ndoB-T_BLAST           15.12%    passed     59.09%
+  22  P0A111-O_Pseudomonas-G_doxB-T_BLAST           15.12%    passed     47.08%
+  23  P0A110-O_Pseudomonas-G_ndoB-T_BLAST           15.12%    passed     47.08%
+  24  O07824-O_Pseudomonas-G_ndoB-T_BLAST           15.31%    passed     55.99%
+  25  Q7N4W0-O_Photorhabdus-G_hcaE-T_BLAST          14.37%    passed     87.16%
+  26  Q83K39-O_Shigella-G_hcaE-T_BLAST              14.37%    passed     99.09%
+  27  Q0T1Y1-O_Shigella-G_hcaE-T_BLAST              14.37%    passed     99.20%
+  28  Q31XV2-O_Shigella-G_hcaE-T_BLAST              14.37%    passed     98.60%
+  29  A8A344-O_Escherichia-G_hcaE-T_BLAST           14.37%    passed     98.84%
+  30  Q3YZ15-O_Shigella-G_hcaE-T_BLAST              14.37%    passed     98.66%
+  31  P0ABR5-O_Escherichia-G_hcaE-T_BLAST           14.37%    passed     98.66%
+  32  P0ABR6-O_Escherichia-G_hcaE-T_BLAST           14.37%    passed     98.66%
+  33  Q53122-O_Rhodococcus-G_bphA1-T_BLAST          13.04%    passed     42.81%
+  34  P0C618-O_Pseudomonas-G_bnzA-T_BLAST           14.93%    passed     95.67%
+  35  A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST           14.93%    passed     95.67%
+  36  Q07944-O_Pseudomonas-G_bedC1-T_BLAST          14.93%    passed     83.68%
+  37  Q52028-O_Pseudomonas-G_bphA-T_BLAST           13.42%    passed     33.60%
+  38  P37333-O_Paraburkholderia-G_bphA-T_BLAST      13.23%    passed     78.11%
+  39  Q52438-O_Pseudomonas-G_bphA1-T_BLAST          13.99%    passed     31.38%
+  40  Q46372-O_Comamonas-G_bphA-T_BLAST             13.61%    passed     88.68%
+****  TOTAL                                         17.39%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: P0A110-O_Pseudomonas-G_ndoB-T_BLAST is identical to P0A111-O_Pseudomonas-G_doxB-T_BLAST but kept for subsequent analysis
+NOTE: P0ABR5-O_Escherichia-G_hcaE-T_BLAST is identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST but kept for subsequent analysis
+NOTE: A5W4F2-O_Pseudomonas-G_bnzA-T_BLAST is identical to P0C618-O_Pseudomonas-G_bnzA-T_BLAST but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: P0ABR6-O_Escherichia-G_hcaE-T_BLAST (identical to Q3YZ15-O_Shigella-G_hcaE-T_BLAST) is ignored but added at the end
+Alignment was printed to analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.020 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 24 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 5.410 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -32534
+Threads: 2 / Time: 5.070 sec / Speedup: 1.067 / Efficiency: 53% / LogL: -32534
+Threads: 3 / Time: 5.563 sec / Speedup: 0.972 / Efficiency: 32% / LogL: -32534
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19892.309
+2. Current log-likelihood: -19502.175
+3. Current log-likelihood: -19488.907
+4. Current log-likelihood: -19488.620
+Optimal log-likelihood: -19488.568
+Site proportion and rates:  (0.057,0.059) (0.066,0.278) (0.114,0.421) (0.179,0.652) (0.214,0.815) (0.194,1.176) (0.176,2.334)
+Parameters optimization took 4 rounds (12.530 sec)
+Computing ML distances based on estimated model parameters... 0.863 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -19483.980
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.597 second
+Computing log-likelihood of 98 initial trees ... 18.337 seconds
+Current best score: -19483.980
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -19475.054
+UPDATE BEST LOG-LIKELIHOOD: -19475.045
+UPDATE BEST LOG-LIKELIHOOD: -19475.045
+Iteration 10 / LogL: -19475.064 / Time: 0h:1m:40s
+UPDATE BEST LOG-LIKELIHOOD: -19475.045
+Iteration 20 / LogL: -19475.164 / Time: 0h:2m:29s
+Finish initializing candidate tree set (4)
+Current best tree score: -19475.045 / CPU time: 119.336
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -19475.541 / Time: 0h:3m:16s (0h:8m:1s left)
+Iteration 40 / LogL: -19475.627 / Time: 0h:3m:57s (0h:6m:11s left)
+Iteration 50 / LogL: -19479.483 / Time: 0h:4m:45s (0h:4m:57s left)
+Log-likelihood cutoff on original alignment: -19505.437
+Iteration 60 / LogL: -19490.548 / Time: 0h:5m:32s (0h:3m:51s left)
+Iteration 70 / LogL: -19476.481 / Time: 0h:6m:14s (0h:2m:48s left)
+Iteration 80 / LogL: -19475.060 / Time: 0h:7m:19s (0h:1m:56s left)
+Iteration 90 / LogL: -19475.101 / Time: 0h:8m:10s (0h:1m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -19475.045
+Iteration 100 / LogL: -19489.144 / Time: 0h:9m:0s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -19506.073
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:9m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -19475.045
+Optimal log-likelihood: -19475.033
+Site proportion and rates:  (0.059,0.058) (0.062,0.296) (0.114,0.416) (0.179,0.646) (0.213,0.801) (0.191,1.180) (0.182,2.301)
+Parameters optimization took 1 rounds (2.512 sec)
+BEST SCORE FOUND : -19475.033
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.splits.nex
+Total tree length: 25.764
+
+Total number of iterations: 102
+CPU time used for tree search: 1033.795 sec (0h:17m:13s)
+Wall-clock time used for tree search: 520.118 sec (0h:8m:40s)
+Total CPU time used: 1099.424 sec (0h:18m:19s)
+Total wall-clock time used: 553.146 sec (0h:9m:13s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.splits.nex...
+39 taxa and 197 splits.
+Consensus tree written to analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.contree
+Log-likelihood of consensus tree: -19475.040
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Diphenyl_ether_dioxygenase/Diphenyl_ether_dioxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 15:29:57 2020

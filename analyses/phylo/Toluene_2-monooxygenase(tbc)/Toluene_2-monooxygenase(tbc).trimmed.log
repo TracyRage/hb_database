@@ -1,0 +1,143 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 15:41:48 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 11 sequences with 602 columns, 567 distinct patterns
+443 parsimony-informative, 78 singleton sites, 81 constant sites
+WARNING: Some sequence names are changed as follows:
+Q768T5-O=Gordonia-G=prmA-T=BLAST -> Q768T5-O_Gordonia-G_prmA-T_BLAST
+E9RFS9-O=Mycobacterium-G=mimA-T=BLAST -> E9RFS9-O_Mycobacterium-G_mimA-T_BLAST
+A0QTU8-O=Mycolicibacterium-G=mimA-T=BLAST -> A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST
+Q0SJK9-O=Rhodococcus-G=prmA-T=BLAST -> Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST
+P22869-O=Methylococcus-G=mmoX-T=BLAST -> P22869-O_Methylococcus-G_mmoX-T_BLAST
+P27353-O=Methylosinus-G=mmoX-T=BLAST -> P27353-O_Methylosinus-G_mmoX-T_BLAST
+P19732-O=Pseudomonas-G=dmpN-T=BLAST -> P19732-O_Pseudomonas-G_dmpN-T_BLAST
+O87082-O=Xanthobacter-G=xamoA-T=BLAST -> O87082-O_Xanthobacter-G_xamoA-T_BLAST
+AAG40794.1-O=Burkholderia-NCBI -> AAG40794.1-O_Burkholderia-NCBI
+Q9EZP0-O=Burkholderia-G=tbc2A-T=Query -> Q9EZP0-O_Burkholderia-G_tbc2A-T_Query
+Q00456-O=Pseudomonas-G=tmoA-T=BLAST -> Q00456-O_Pseudomonas-G_tmoA-T_BLAST
+
+                                           Gap/Ambiguity  Composition  p-value
+   1  Q768T5-O_Gordonia-G_prmA-T_BLAST             9.47%    passed     92.74%
+   2  E9RFS9-O_Mycobacterium-G_mimA-T_BLAST        9.97%    passed     99.62%
+   3  A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST    9.97%    passed     99.83%
+   4  Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST          9.63%    passed     99.93%
+   5  P22869-O_Methylococcus-G_mmoX-T_BLAST       12.46%    passed     81.78%
+   6  P27353-O_Methylosinus-G_mmoX-T_BLAST        12.62%    passed     62.13%
+   7  P19732-O_Pseudomonas-G_dmpN-T_BLAST         14.12%    passed     32.27%
+   8  O87082-O_Xanthobacter-G_xamoA-T_BLAST       17.44%    passed     59.04%
+   9  AAG40794.1-O_Burkholderia-NCBI              16.78%    passed     74.05%
+  10  Q9EZP0-O_Burkholderia-G_tbc2A-T_Query       16.78%    passed     74.05%
+  11  Q00456-O_Pseudomonas-G_tmoA-T_BLAST         16.94%    passed     97.78%
+****  TOTAL                                       13.29%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Q9EZP0-O_Burkholderia-G_tbc2A-T_Query is identical to AAG40794.1-O_Burkholderia-NCBI but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+9 trees examined
+Threads: 1 / Time: 4.123 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -9326
+Threads: 2 / Time: 3.933 sec / Speedup: 1.048 / Efficiency: 52% / LogL: -9326
+Threads: 3 / Time: 4.079 sec / Speedup: 1.011 / Efficiency: 34% / LogL: -9326
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8241.123
+2. Current log-likelihood: -8033.869
+3. Current log-likelihood: -8026.521
+4. Current log-likelihood: -8026.038
+Optimal log-likelihood: -8025.988
+Site proportion and rates:  (0.091,0.131) (0.125,0.522) (0.170,0.696) (0.182,0.830) (0.170,1.024) (0.148,1.507) (0.115,2.240)
+Parameters optimization took 4 rounds (3.672 sec)
+Computing ML distances based on estimated model parameters... 0.041 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -8025.988
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.175 second
+Computing log-likelihood of 96 initial trees ... 4.955 seconds
+Current best score: -8025.988
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8025.958
+Iteration 10 / LogL: -8028.090 / Time: 0h:0m:27s
+Iteration 20 / LogL: -8027.314 / Time: 0h:0m:32s
+Finish initializing candidate tree set (1)
+Current best tree score: -8025.958 / CPU time: 16.683
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -8029.181 / Time: 0h:0m:42s (0h:1m:43s left)
+Iteration 40 / LogL: -8027.053 / Time: 0h:0m:49s (0h:1m:17s left)
+Iteration 50 / LogL: -8027.096 / Time: 0h:0m:58s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -8058.762
+Iteration 60 / LogL: -8026.194 / Time: 0h:1m:5s (0h:0m:45s left)
+Iteration 70 / LogL: -8026.697 / Time: 0h:1m:13s (0h:0m:32s left)
+Iteration 80 / LogL: -8027.582 / Time: 0h:1m:20s (0h:0m:21s left)
+Iteration 90 / LogL: -8026.232 / Time: 0h:1m:28s (0h:0m:10s left)
+Iteration 100 / LogL: -8035.414 / Time: 0h:1m:36s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -8058.762
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:1m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8025.958
+2. Current log-likelihood: -8025.933
+3. Current log-likelihood: -8025.911
+4. Current log-likelihood: -8025.891
+5. Current log-likelihood: -8025.874
+6. Current log-likelihood: -8025.858
+7. Current log-likelihood: -8025.845
+8. Current log-likelihood: -8025.834
+9. Current log-likelihood: -8025.823
+Optimal log-likelihood: -8025.814
+Site proportion and rates:  (0.095,0.129) (0.120,0.619) (0.169,0.698) (0.181,0.780) (0.165,0.911) (0.147,1.715) (0.121,2.064)
+Parameters optimization took 9 rounds (6.869 sec)
+BEST SCORE FOUND : -8025.814
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.splits.nex
+Total tree length: 7.189
+
+Total number of iterations: 102
+CPU time used for tree search: 82.002 sec (0h:1m:22s)
+Wall-clock time used for tree search: 82.079 sec (0h:1m:22s)
+Total CPU time used: 117.301 sec (0h:1m:57s)
+Total wall-clock time used: 105.212 sec (0h:1m:45s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.splits.nex...
+11 taxa and 25 splits.
+Consensus tree written to analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.contree
+Reading input trees file analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.contree
+Log-likelihood of consensus tree: -8025.816
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.treefile
+  Likelihood distances:          analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.contree
+  Screen log file:               analyses/phylo/Toluene_2-monooxygenase(tbc)/Toluene_2-monooxygenase(tbc).trimmed.log
+
+Date and Time: Thu Sep  3 15:43:33 2020

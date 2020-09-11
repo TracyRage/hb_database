@@ -1,0 +1,6 @@
+sp|O50214|STYA_PSESP Styrene monooxygenase StyA OS=Pseudomonas sp. OX=306 GN=styA PE=1 SV=1
+           Length = 415
+
+sp|O06834|STYA_PSEFL Styrene monooxygenase StyA OS=Pseudomonas fluorescens OX=294 GN=styA PE=1 SV=1
+           Length = 415
+

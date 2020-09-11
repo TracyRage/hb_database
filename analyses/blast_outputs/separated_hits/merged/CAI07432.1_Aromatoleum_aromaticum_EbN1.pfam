@@ -1,0 +1,175 @@
+# pfam_scan.pl,  run at Wed Sep  2 20:49:21 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/blast_outputs/separated_hits/merged/CAI07432.1_Aromatoleum_aromaticum_EbN1.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+I3R9M9    168    692    168    692 PF00384.23  Molybdopterin     Family     1   432   432    312.1   6.3e-93   1 No_clan  
+I3R9M9    844    943    842    946 PF01568.22  Molydop_binding   Domain     3   101   111     72.1   3.6e-20   1 CL0332   
+P60068    128    641    127    642 PF00384.23  Molybdopterin     Family     3   431   432    168.9   1.9e-49   1 No_clan  
+P60068    784    882    781    891 PF01568.22  Molydop_binding   Domain     4   101   111     54.7   8.8e-15   1 CL0332   
+Q47CW6    117    653    117    653 PF00384.23  Molybdopterin     Family     1   432   432    333.0   2.8e-99   1 No_clan  
+Q47CW6    786    864    786    888 PF01568.22  Molydop_binding   Domain     1    79   111     53.1   2.8e-14   1 CL0332   
+Q8GPG4    124    638    124    641 PF00384.23  Molybdopterin     Family     1   429   432    188.6   1.9e-55   1 No_clan  
+Q8GPG4    778    870    777    880 PF01568.22  Molydop_binding   Domain     2    93   111     47.4   1.6e-12   1 CL0332   
+Q9S1H0    131    645    131    646 PF00384.23  Molybdopterin     Family     2   431   432    195.7   1.3e-57   1 No_clan  
+Q9S1H0    785    880    785    895 PF01568.22  Molydop_binding   Domain     1    95   111     56.2   2.9e-15   1 CL0332   
+P9WJQ3    118    828    118    829 PF00384.23  Molybdopterin     Family     1   431   432    443.7  7.1e-133   1 No_clan  
+P9WJQ3   1086   1195   1085   1204 PF01568.22  Molydop_binding   Domain     2   102   111     74.1   8.5e-21   1 CL0332   
+P9WJQ2    118    828    118    829 PF00384.23  Molybdopterin     Family     1   431   432    443.7  7.1e-133   1 No_clan  
+P9WJQ2   1086   1195   1085   1204 PF01568.22  Molydop_binding   Domain     2   102   111     74.1   8.5e-21   1 CL0332   
+P42175      9     44      8     44 PF14710.7   Nitr_red_alph_N   Domain     2    38    38     49.7   3.6e-13   1 CL0344   
+P42175    112    824    112    824 PF00384.23  Molybdopterin     Family     1   432   432    628.5  6.1e-189   1 No_clan  
+P42175   1080   1194   1079   1198 PF01568.22  Molydop_binding   Domain     2   107   111     74.6     6e-21   1 CL0332   
+P09152      3     40      3     40 PF14710.7   Nitr_red_alph_N   Domain     1    38    38     61.8   6.4e-17   1 CL0344   
+P09152    108    833    108    833 PF00384.23  Molybdopterin     Family     1   432   432    655.9  2.9e-197   1 No_clan  
+P09152   1087   1202   1087   1206 PF01568.22  Molydop_binding   Domain     1   107   111     76.2   1.8e-21   1 CL0332   
+Q9HR74     54    108     53    108 PF04879.17  Molybdop_Fe4S4    Domain     2    55    55     45.5   5.5e-12   1 CL0344   
+Q9HR74    111    593    111    594 PF00384.23  Molybdopterin     Family     1   431   432    161.2   3.9e-47   1 No_clan  
+Q9HR74    695    803    695    804 PF01568.22  Molydop_binding   Domain     1   110   111     80.1   1.2e-22   1 CL0332   
+P19319      3     40      3     40 PF14710.7   Nitr_red_alph_N   Domain     1    38    38     61.0   1.1e-16   1 CL0344   
+P19319    108    832    108    832 PF00384.23  Molybdopterin     Family     1   432   432    554.4  1.9e-166   1 No_clan  
+P19319   1086   1200   1086   1205 PF01568.22  Molydop_binding   Domain     1   106   111     71.9   3.9e-20   1 CL0332   
+P46448     47    112     45    112 PF04879.17  Molybdop_Fe4S4    Domain     5    55    55     54.0   1.2e-14   1 CL0344   
+P46448    117    591    115    599 PF00384.23  Molybdopterin     Family     3   374   432     95.4   3.7e-27   1 No_clan  
+P46448    898   1018    897   1019 PF01568.22  Molydop_binding   Domain     2   110   111     62.5   3.4e-17   1 CL0332   
+P77374     49    108     49    108 PF04879.17  Molybdop_Fe4S4    Domain     1    55    55     54.5   8.7e-15   1 CL0344   
+P77374    111    566    111    566 PF00384.23  Molybdopterin     Family     1   432   432    321.2   1.1e-95   1 No_clan  
+P77374    687    800    687    802 PF01568.22  Molydop_binding   Domain     1   109   111     94.4   4.2e-27   1 CL0332   
+P32176     44    103     43    104 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     64.7   5.7e-18   1 CL0344   
+P32176    107    590    107    592 PF00384.23  Molybdopterin     Family     1   380   432    110.7   8.3e-32   1 No_clan  
+P32176    894   1009    891   1010 PF01568.22  Molydop_binding   Domain     4   110   111     58.0   8.5e-16   1 CL0332   
+P85097    101    146    100    148 PF00384.23  Molybdopterin     Family    19    64   432     51.9     6e-14   1 No_clan  
+P85097    147    611    145    611 PF00384.23  Molybdopterin     Family   127   432   432    283.1     4e-84   1 No_clan  
+P85097    793    853    772    863 PF01568.22  Molydop_binding   Domain    25    97   111     37.3   2.2e-09   1 CL0332   
+P45004     48    107     47    107 PF04879.17  Molybdop_Fe4S4    Domain     2    55    55     61.6   5.3e-17   1 CL0344   
+P45004    110    568    110    568 PF00384.23  Molybdopterin     Family     1   432   432    379.2  2.7e-113   1 No_clan  
+P45004    687    798    687    800 PF01568.22  Molydop_binding   Domain     1   109   111     95.4     2e-27   1 CL0332   
+P18775     56    116     56    116 PF04879.17  Molybdop_Fe4S4    Domain     1    55    55     64.1   8.7e-18   1 CL0344   
+P18775    119    576    119    576 PF00384.23  Molybdopterin     Family     1   432   432    379.9  1.6e-113   1 No_clan  
+P18775    695    806    695    808 PF01568.22  Molydop_binding   Domain     1   109   111    100.0   7.3e-29   1 CL0332   
+Q71EW5     61    502     61    504 PF00384.23  Molybdopterin     Family     1   430   432    186.5   8.5e-55   1 No_clan  
+Q71EW5    605    681    600    699 PF01568.22  Molydop_binding   Domain     6    83   111     46.1   4.3e-12   1 CL0332   
+P77783     52    111     52    111 PF04879.17  Molybdop_Fe4S4    Domain     1    55    55     50.5   1.5e-13   1 CL0344   
+P77783    114    565    114    565 PF00384.23  Molybdopterin     Family     1   432   432    296.7     3e-88   1 No_clan  
+P77783    686    799    686    801 PF01568.22  Molydop_binding   Domain     1   109   111     93.8   6.2e-27   1 CL0332   
+P24183     44    104     43    104 PF04879.17  Molybdop_Fe4S4    Domain     2    55    55     68.2   4.5e-19   1 CL0344   
+P24183    107    589    107    593 PF00384.23  Molybdopterin     Family     1   379   432    112.8   1.9e-32   1 No_clan  
+P24183    893   1008    890   1009 PF01568.22  Molydop_binding   Domain     4   110   111     60.0     2e-16   1 CL0332   
+D3RNN8     17     68     15     69 PF04879.17  Molybdop_Fe4S4    Domain     3    54    55     52.1   4.9e-14   1 CL0344   
+D3RNN8     72    365     72    373 PF00384.23  Molybdopterin     Family     1   232   432     68.6   5.1e-19   1 No_clan  
+D3RNN8    545    625    392    627 PF00384.23  Molybdopterin     Family   361   430   432     34.3   1.3e-08   1 No_clan  
+D3RNN8    790    867    787    897 PF01568.22  Molydop_binding   Domain     4    82   111     39.2   5.8e-10   1 CL0332   
+Q934F5     46     99     45    101 PF04879.17  Molybdop_Fe4S4    Domain     2    53    55     61.4   5.9e-17   1 CL0344   
+Q934F5    107    649    104    650 PF00384.23  Molybdopterin     Family     4   431   432    107.2   9.7e-31   1 No_clan  
+Q934F5    886   1005    885   1006 PF01568.22  Molydop_binding   Domain     2   110   111     64.0   1.1e-17   1 CL0332   
+Q727P3     44     92     43     97 PF04879.17  Molybdop_Fe4S4    Domain     2    50    55     56.5   2.1e-15   1 CL0344   
+Q727P3    100    646    100    648 PF00384.23  Molybdopterin     Family     1   430   432    116.5   1.4e-33   1 No_clan  
+Q727P3    880    998    879    999 PF01568.22  Molydop_binding   Domain     2   110   111     60.5   1.4e-16   1 CL0332   
+P07658      1     53      1     54 PF04879.17  Molybdop_Fe4S4    Domain     1    54    55     56.3   2.4e-15   1 CL0344   
+P07658     61    487     61    488 PF00384.23  Molybdopterin     Family     1   431   432    388.8  3.3e-116   1 No_clan  
+P07658    576    682    575    682 PF01568.22  Molydop_binding   Domain     2   111   111     91.5   3.3e-26   1 CL0332   
+Q57366     52     92     52     92 PF18364.2   Molybdopterin_N   Domain     1    41    41     58.0   7.4e-16   1 No_clan  
+Q57366     96    563     96    563 PF00384.23  Molybdopterin     Family     1   432   432    318.7   6.4e-95   1 No_clan  
+Q57366    680    795    679    800 PF01568.22  Molydop_binding   Domain     2   106   111     76.6   1.4e-21   1 CL0332   
+C0SP82     12     63     11     64 PF04879.17  Molybdop_Fe4S4    Domain     4    54    55     60.6   1.1e-16   1 CL0344   
+C0SP82     67    473     67    474 PF00384.23  Molybdopterin     Family     1   431   432    202.9   8.7e-60   1 No_clan  
+C0SP82    566    670    565    673 PF01568.22  Molydop_binding   Domain     2   107   111     63.0   2.3e-17   1 CL0332   
+P37519      3     55      2     57 PF04879.17  Molybdop_Fe4S4    Domain     2    53    55     60.8   9.2e-17   1 CL0344   
+P37519     60    461     60    461 PF00384.23  Molybdopterin     Family     1   432   432    199.5   9.2e-59   1 No_clan  
+P37519    559    649    557    660 PF01568.22  Molydop_binding   Domain     3    99   111     45.4   6.8e-12   1 CL0332   
+Q0I5G9      2     22      2     26 PF10518.10  TAT_signal         Motif     1    21    26     23.1   4.5e-05   1 CL0300   
+Q0I5G9     38     90     37     91 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     59.4   2.6e-16   1 CL0344   
+Q0I5G9     94    567     94    568 PF00384.23  Molybdopterin     Family     1   431   432    283.5     3e-84   1 No_clan  
+Q0I5G9    713    821    713    821 PF01568.22  Molydop_binding   Domain     1   111   111     85.6   2.2e-24   1 CL0332   
+P31075      5     24      4     29 PF10518.10  TAT_signal         Motif     2    21    26     29.1     6e-07   1 CL0300   
+P31075     45     97     44     98 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     50.2   1.8e-13   1 CL0344   
+P31075    101    537    101    537 PF00384.23  Molybdopterin     Family     1   432   432    365.0  5.7e-109   1 No_clan  
+P31075    642    751    642    754 PF01568.22  Molydop_binding   Domain     1   104   111     84.0   6.9e-24   1 CL0332   
+B0URQ3      2     22      2     26 PF10518.10  TAT_signal         Motif     1    21    26     23.1   4.5e-05   1 CL0300   
+B0URQ3     38     90     37     91 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     59.4   2.6e-16   1 CL0344   
+B0URQ3     94    567     94    568 PF00384.23  Molybdopterin     Family     1   431   432    281.7   1.1e-83   1 No_clan  
+B0URQ3    713    821    713    821 PF01568.22  Molydop_binding   Domain     1   111   111     85.6   2.2e-24   1 CL0332   
+P06131      4     56      3     57 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     79.8   1.1e-22   1 CL0344   
+P06131     60    480     60    480 PF00384.23  Molybdopterin     Family     1   432   432    380.7  9.7e-114   1 No_clan  
+P06131    568    674    568    674 PF01568.22  Molydop_binding   Domain     1   111   111     91.3   3.8e-26   1 CL0332   
+P42434     19     73     19     76 PF04879.17  Molybdop_Fe4S4    Domain     1    53    55     46.3   3.2e-12   1 CL0344   
+P42434     78    503     78    504 PF00384.23  Molybdopterin     Family     1   431   432    340.6  1.4e-101   1 No_clan  
+P42434    597    704    597    704 PF01568.22  Molydop_binding   Domain     1   111   111    101.9     2e-29   1 CL0332   
+P9WJQ1    118    252    118    267 PF00384.23  Molybdopterin     Family     1   103   432    109.5   1.9e-31   1 No_clan  
+P9WJQ1    294    405    273    409 PF02613.16  Nitrate_red_del   Family    14   134   138     32.0     1e-07   1 No_clan  
+P9WJQ1    419    639    418    639 PF02665.15  Nitrate_red_gam   Family     2   217   217    290.4   7.8e-87   1 No_clan  
+P9WJQ0    118    252    118    267 PF00384.23  Molybdopterin     Family     1   103   432    109.5   1.9e-31   1 No_clan  
+P9WJQ0    294    405    273    409 PF02613.16  Nitrate_red_del   Family    14   134   138     32.0     1e-07   1 No_clan  
+P9WJQ0    419    639    418    639 PF02665.15  Nitrate_red_gam   Family     2   217   217    290.4   7.8e-87   1 No_clan  
+P37600     43     94     41     95 PF04879.17  Molybdop_Fe4S4    Domain     3    54    55     47.9     1e-12   1 CL0344   
+P37600     98    524     98    525 PF00384.23  Molybdopterin     Family     1   431   432    339.0  4.4e-101   1 No_clan  
+P37600    637    746    637    750 PF01568.22  Molydop_binding   Domain     1   104   111     75.2   3.9e-21   1 CL0332   
+B1Y6A6     45     97     44     98 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     58.6   4.5e-16   1 CL0344   
+B1Y6A6    101    584    101    584 PF00384.23  Molybdopterin     Family     1   432   432    310.9   1.5e-92   1 No_clan  
+B1Y6A6    737    845    737    845 PF01568.22  Molydop_binding   Domain     1   111   111     92.6   1.5e-26   1 CL0332   
+P81186     38     90     38     91 PF04879.17  Molybdop_Fe4S4    Domain     1    54    55     55.4   4.6e-15   1 CL0344   
+P81186     94    534     94    536 PF00384.23  Molybdopterin     Family     1   430   432    246.6   4.7e-73   1 No_clan  
+P81186    643    749    643    749 PF01568.22  Molydop_binding   Domain     1   111   111    104.1   3.9e-30   1 CL0332   
+A7ZCK4     38     90     37     91 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     66.4   1.7e-18   1 CL0344   
+A7ZCK4     94    614     94    614 PF00384.23  Molybdopterin     Family     1   432   432    237.4   2.9e-70   1 No_clan  
+A7ZCK4    812    920    812    920 PF01568.22  Molydop_binding   Domain     1   111   111     81.5   4.3e-23   1 CL0332   
+Q67QZ1     40     92     39     93 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     67.7   6.6e-19   1 CL0344   
+Q67QZ1     97    534     97    534 PF00384.23  Molybdopterin     Family     1   432   432    287.4     2e-85   1 No_clan  
+Q67QZ1    638    748    638    748 PF01568.22  Molydop_binding   Domain     1   111   111     91.8   2.7e-26   1 CL0332   
+A7GZP5     38     90     37     91 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     64.4     7e-18   1 CL0344   
+A7GZP5     94    614     94    614 PF00384.23  Molybdopterin     Family     1   432   432    240.1   4.4e-71   1 No_clan  
+A7GZP5    812    920    812    920 PF01568.22  Molydop_binding   Domain     1   111   111     82.5   2.1e-23   1 CL0332   
+A4VJ11     42     94     41     95 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     54.9   6.4e-15   1 CL0344   
+A4VJ11     98    571     98    571 PF00384.23  Molybdopterin     Family     1   432   432    309.4   4.1e-92   1 No_clan  
+A4VJ11    717    825    717    825 PF01568.22  Molydop_binding   Domain     1   111   111     80.3     1e-22   1 CL0332   
+Q3HS05     42     94     41     95 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     54.9   6.4e-15   1 CL0344   
+Q3HS05     98    571     98    571 PF00384.23  Molybdopterin     Family     1   432   432    309.4   4.1e-92   1 No_clan  
+Q3HS05    717    825    717    825 PF01568.22  Molydop_binding   Domain     1   111   111     80.3     1e-22   1 CL0332   
+A1VZC8     35     87     34     88 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     62.0   3.8e-17   1 CL0344   
+A1VZC8     91    611     91    611 PF00384.23  Molybdopterin     Family     1   432   432    229.9   5.5e-68   1 No_clan  
+A1VZC8    809    917    809    917 PF01568.22  Molydop_binding   Domain     1   111   111     80.2     1e-22   1 CL0332   
+A8FLJ3     36     88     35     89 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     62.0   3.8e-17   1 CL0344   
+A8FLJ3     92    612     92    612 PF00384.23  Molybdopterin     Family     1   432   432    230.0   5.3e-68   1 No_clan  
+A8FLJ3    810    918    810    918 PF01568.22  Molydop_binding   Domain     1   111   111     80.2     1e-22   1 CL0332   
+Q5HV12     36     88     35     89 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     62.0   3.8e-17   1 CL0344   
+Q5HV12     92    612     92    612 PF00384.23  Molybdopterin     Family     1   432   432    230.3   4.3e-68   1 No_clan  
+Q5HV12    810    918    810    918 PF01568.22  Molydop_binding   Domain     1   111   111     80.2     1e-22   1 CL0332   
+Q9PPD9     36     88     35     89 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     62.0   3.8e-17   1 CL0344   
+Q9PPD9     92    612     92    612 PF00384.23  Molybdopterin     Family     1   432   432    230.3   4.3e-68   1 No_clan  
+Q9PPD9    810    918    810    918 PF01568.22  Molydop_binding   Domain     1   111   111     80.2     1e-22   1 CL0332   
+Q9Z4S6     75    152     71    152 PF04879.17  Molybdop_Fe4S4    Domain     5    55    55     28.4   1.2e-06   1 CL0344   
+Q9Z4S6    241    682    233    695 PF00384.23  Molybdopterin     Family    66   398   432     50.0   2.2e-13   1 No_clan  
+Q9Z4S6    890    992    879    999 PF01568.22  Molydop_binding   Domain    14    97   111     48.1     1e-12   1 CL0332   
+A7I3Y7     36     88     35     89 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     65.4   3.4e-18   1 CL0344   
+A7I3Y7     92    611     92    611 PF00384.23  Molybdopterin     Family     1   432   432    236.6   5.1e-70   1 No_clan  
+A7I3Y7    806    914    806    914 PF01568.22  Molydop_binding   Domain     1   111   111     78.3   4.1e-22   1 CL0332   
+O33732      1     60      1     62 PF04879.17  Molybdop_Fe4S4    Domain     1    53    55     56.9   1.6e-15   1 CL0344   
+O33732     66    489     66    489 PF00384.23  Molybdopterin     Family     2   432   432    252.1     1e-74   1 No_clan  
+O33732    592    653    592    661 PF01568.22  Molydop_binding   Domain     1    61   111     36.0   5.5e-09   1 CL0332   
+Q9CKL8      2     23      2     26 PF10518.10  TAT_signal         Motif     1    22    26     26.4   4.2e-06   1 CL0300   
+Q9CKL8     39     91     38     92 PF04879.17  Molybdop_Fe4S4    Domain     2    54    55     58.7   4.2e-16   1 CL0344   
+Q9CKL8     95    567     95    568 PF00384.23  Molybdopterin     Family     1   431   432    285.0   1.1e-84   1 No_clan  
+Q9CKL8    714    822    714    822 PF01568.22  Molydop_binding   Domain     1   111   111     90.0   9.4e-26   1 CL0332   

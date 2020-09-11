@@ -1,0 +1,273 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    terminal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed -m LG+R7 -B 1000 -T AUTO -seed 3333
+Seed:    3333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  3 15:43:33 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 64 sequences with 592 columns, 586 distinct patterns
+521 parsimony-informative, 44 singleton sites, 27 constant sites
+WARNING: Some sequence names are changed as follows:
+Q768T5-O=Gordonia-G=prmA-T=BLAST -> Q768T5-O_Gordonia-G_prmA-T_BLAST
+E9RFS9-O=Mycobacterium-G=mimA-T=BLAST -> E9RFS9-O_Mycobacterium-G_mimA-T_BLAST
+A0QTU8-O=Mycolicibacterium-G=mimA-T=BLAST -> A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST
+Q0SJK9-O=Rhodococcus-G=prmA-T=BLAST -> Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST
+P22869-O=Methylococcus-G=mmoX-T=BLAST -> P22869-O_Methylococcus-G_mmoX-T_BLAST
+P27353-O=Methylosinus-G=mmoX-T=BLAST -> P27353-O_Methylosinus-G_mmoX-T_BLAST
+A0A0U5BC15-O=Aneurinibacillus-G=tmoA-T=Query -> A0A0U5BC15-O_Aneurinibacillus-G_tmoA-T_Query
+A0A554WMK9-O=Tepidimonas-G=tmoA-T=Query -> A0A554WMK9-O_Tepidimonas-G_tmoA-T_Query
+A0A554WZ25-O=Tepidimonas-G=tmoA-T=Query -> A0A554WZ25-O_Tepidimonas-G_tmoA-T_Query
+A0A246K891-O=Brevundimonas-G=tmoA-T=Query -> A0A246K891-O_Brevundimonas-G_tmoA-T_Query
+A0A4P1KFW9-O=Brevundimonas-G=tmoA-T=Query -> A0A4P1KFW9-O_Brevundimonas-G_tmoA-T_Query
+A0A4P6WCX8-O=Marinobacter-G=tmoA-T=Query -> A0A4P6WCX8-O_Marinobacter-G_tmoA-T_Query
+A0A1W6KF07-O=Marinobacter-G=tmoA-T=Query -> A0A1W6KF07-O_Marinobacter-G_tmoA-T_Query
+A0A3M2RKM8-O=Marinobacter-G=tmoA-T=Query -> A0A3M2RKM8-O_Marinobacter-G_tmoA-T_Query
+P19732-O=Pseudomonas-G=dmpN-T=BLAST -> P19732-O_Pseudomonas-G_dmpN-T_BLAST
+A0A127MRZ3-O=Pseudomonas-G=tmoA-T=Query -> A0A127MRZ3-O_Pseudomonas-G_tmoA-T_Query
+A0A5E7FTR4-O=Pseudomonas-G=tmoA-T=Query -> A0A5E7FTR4-O_Pseudomonas-G_tmoA-T_Query
+A0A5E7M8D2-O=Pseudomonas-G=tmoA-T=Query -> A0A5E7M8D2-O_Pseudomonas-G_tmoA-T_Query
+A0A5E7BZ46-O=Pseudomonas-G=tmoA-T=Query -> A0A5E7BZ46-O_Pseudomonas-G_tmoA-T_Query
+A0A5E7R278-O=Pseudomonas-G=tmoA-T=Query -> A0A5E7R278-O_Pseudomonas-G_tmoA-T_Query
+W2UHD9-O=Gammaproteobacteria-G=tmoA-T=Query -> W2UHD9-O_Gammaproteobacteria-G_tmoA-T_Query
+W9VND5-O=Nitrincola-G=tmoA-T=Query -> W9VND5-O_Nitrincola-G_tmoA-T_Query
+A0A1X3CQU7-O=Neisseria-G=tmoA-T=Query -> A0A1X3CQU7-O_Neisseria-G_tmoA-T_Query
+A0A448D7C3-O=Neisseria-G=tmoA-T=Query -> A0A448D7C3-O_Neisseria-G_tmoA-T_Query
+A0A0M3FQV5-O=Acinetobacter-G=tmoA-T=Query -> A0A0M3FQV5-O_Acinetobacter-G_tmoA-T_Query
+A0A143IZC4-O=Acinetobacter-G=tmoA-T=Query -> A0A143IZC4-O_Acinetobacter-G_tmoA-T_Query
+A0A150HVA8-O=Acinetobacter-G=tmoA-T=Query -> A0A150HVA8-O_Acinetobacter-G_tmoA-T_Query
+A0A2U3MYH3-O=Acinetobacter-G=tmoA-T=Query -> A0A2U3MYH3-O_Acinetobacter-G_tmoA-T_Query
+A0A132HMK5-O=Cupriavidus-G=tmoA-T=Query -> A0A132HMK5-O_Cupriavidus-G_tmoA-T_Query
+A0A6A7SIN8-O=wastewater-G=tmoA-T=Query -> A0A6A7SIN8-O_wastewater-G_tmoA-T_Query
+Q97YT0-O=Saccharolobus-G=tmoA-T=Query -> Q97YT0-O_Saccharolobus-G_tmoA-T_Query
+Q97YT1-O=Saccharolobus-G=tmoA-T=Query -> Q97YT1-O_Saccharolobus-G_tmoA-T_Query
+O87082-O=Xanthobacter-G=xamoA-T=BLAST -> O87082-O_Xanthobacter-G_xamoA-T_BLAST
+A0A508ST84-O=Bradyrhizobium-G=tmoA-T=Query -> A0A508ST84-O_Bradyrhizobium-G_tmoA-T_Query
+A0A125RGP5-O=Burkholderia-G=tmoA-T=Query -> A0A125RGP5-O_Burkholderia-G_tmoA-T_Query
+F8JFV7-O=Hyphomicrobium-G=tmoA-T=Query -> F8JFV7-O_Hyphomicrobium-G_tmoA-T_Query
+A0A6F9EDY8-O=Kyrpidia-G=tmoA-T=Query -> A0A6F9EDY8-O_Kyrpidia-G_tmoA-T_Query
+A0A1Z4IRB3-O=Scytonema-G=tmoA-T=Query -> A0A1Z4IRB3-O_Scytonema-G_tmoA-T_Query
+A0A2H6ATC8-O=bacterium-G=tmoA-T=Query -> A0A2H6ATC8-O_bacterium-G_tmoA-T_Query
+A0A1C3NYD1-O=Candidatus-G=tmoA-T=Query -> A0A1C3NYD1-O_Candidatus-G_tmoA-T_Query
+A0A1X2DRQ3-O=Mycolicibacter-G=tmoA-T=Query -> A0A1X2DRQ3-O_Mycolicibacter-G_tmoA-T_Query
+X7ZP06-O=Mycobacterium-G=tmoA-T=Query -> X7ZP06-O_Mycobacterium-G_tmoA-T_Query
+A0A448GRI6-O=Mycobacteroides-G=tmoA-T=Query -> A0A448GRI6-O_Mycobacteroides-G_tmoA-T_Query
+K5BCK2-O=Mycolicibacterium-G=tmoA-T=Query -> K5BCK2-O_Mycolicibacterium-G_tmoA-T_Query
+A0A5P9A0I2-O=Mycobacterium-G=tmoA-T=Query -> A0A5P9A0I2-O_Mycobacterium-G_tmoA-T_Query
+A0A2S6R829-O=Alphaproteobacteria-G=tmoA-T=Query -> A0A2S6R829-O_Alphaproteobacteria-G_tmoA-T_Query
+A0A4U8VY70-O=Nocardia-G=tmoA-T=Query -> A0A4U8VY70-O_Nocardia-G_tmoA-T_Query
+A0A0H5NUS2-O=Nocardia-G=tmoA-T=Query -> A0A0H5NUS2-O_Nocardia-G_tmoA-T_Query
+A0A379M9B7-O=Rhodococcus-G=tmoA-T=Query -> A0A379M9B7-O_Rhodococcus-G_tmoA-T_Query
+Q00456-O=Pseudomonas-G=tmoA-T=BLAST -> Q00456-O_Pseudomonas-G_tmoA-T_BLAST
+A0A0D3QM77-O=Pseudomonas-G=tmoA-T=Query -> A0A0D3QM77-O_Pseudomonas-G_tmoA-T_Query
+A0A645DU35-O=bioreactor-G=tmoA-T=Query -> A0A645DU35-O_bioreactor-G_tmoA-T_Query
+F8GVL7-O=Cupriavidus-G=tmoA-T=Query -> F8GVL7-O_Cupriavidus-G_tmoA-T_Query
+K0DZF2-O=Paraburkholderia-G=tmoA-T=Query -> K0DZF2-O_Paraburkholderia-G_tmoA-T_Query
+A0A375JDL2-O=Cupriavidus-G=tmoA-T=Query -> A0A375JDL2-O_Cupriavidus-G_tmoA-T_Query
+A0A375HEB8-O=Cupriavidus-G=tmoA-T=Query -> A0A375HEB8-O_Cupriavidus-G_tmoA-T_Query
+A0A375ISL0-O=Cupriavidus-G=tmoA-T=Query -> A0A375ISL0-O_Cupriavidus-G_tmoA-T_Query
+A0A375CR20-O=Cupriavidus-G=tmoA-T=Query -> A0A375CR20-O_Cupriavidus-G_tmoA-T_Query
+B2AJ55-O=Cupriavidus-G=tmoA-T=Query -> B2AJ55-O_Cupriavidus-G_tmoA-T_Query
+A0A375HWE7-O=Cupriavidus-G=tmoA-T=Query -> A0A375HWE7-O_Cupriavidus-G_tmoA-T_Query
+A0A238D8X6-O=Thiomonas-G=tmoA-T=Query -> A0A238D8X6-O_Thiomonas-G_tmoA-T_Query
+QCT24447.1-O=Pseudomonas-NCBI -> QCT24447.1-O_Pseudomonas-NCBI
+A0A4P8YT38-O=Pseudomonas-G=tmoA-T=Query -> A0A4P8YT38-O_Pseudomonas-G_tmoA-T_Query
+Q1LNS7-O=Cupriavidus-G=tmoA-T=Query -> Q1LNS7-O_Cupriavidus-G_tmoA-T_Query
+
+                                                 Gap/Ambiguity  Composition  p-value
+   1  Q768T5-O_Gordonia-G_prmA-T_BLAST                   8.45%    passed     20.40%
+   2  E9RFS9-O_Mycobacterium-G_mimA-T_BLAST              8.45%    passed     45.99%
+   3  A0QTU8-O_Mycolicibacterium-G_mimA-T_BLAST          8.45%    passed     58.94%
+   4  Q0SJK9-O_Rhodococcus-G_prmA-T_BLAST                8.45%    passed     71.42%
+   5  P22869-O_Methylococcus-G_mmoX-T_BLAST             12.16%    passed     38.58%
+   6  P27353-O_Methylosinus-G_mmoX-T_BLAST              12.33%    passed     30.33%
+   7  A0A0U5BC15-O_Aneurinibacillus-G_tmoA-T_Query      15.71%    passed     90.18%
+   8  A0A554WMK9-O_Tepidimonas-G_tmoA-T_Query           14.86%    passed     80.00%
+   9  A0A554WZ25-O_Tepidimonas-G_tmoA-T_Query           14.86%    passed     89.92%
+  10  A0A246K891-O_Brevundimonas-G_tmoA-T_Query         14.02%    passed     95.83%
+  11  A0A4P1KFW9-O_Brevundimonas-G_tmoA-T_Query         22.47%    passed     97.14%
+  12  A0A4P6WCX8-O_Marinobacter-G_tmoA-T_Query          13.18%    passed     41.80%
+  13  A0A1W6KF07-O_Marinobacter-G_tmoA-T_Query          13.01%    passed     39.54%
+  14  A0A3M2RKM8-O_Marinobacter-G_tmoA-T_Query          13.68%    passed     56.63%
+  15  P19732-O_Pseudomonas-G_dmpN-T_BLAST               12.67%    passed     89.57%
+  16  A0A127MRZ3-O_Pseudomonas-G_tmoA-T_Query           15.71%    passed     84.16%
+  17  A0A5E7FTR4-O_Pseudomonas-G_tmoA-T_Query           12.50%    passed     97.87%
+  18  A0A5E7M8D2-O_Pseudomonas-G_tmoA-T_Query           12.50%    passed     98.35%
+  19  A0A5E7BZ46-O_Pseudomonas-G_tmoA-T_Query           13.51%    passed     96.36%
+  20  A0A5E7R278-O_Pseudomonas-G_tmoA-T_Query           15.03%    passed     97.57%
+  21  W2UHD9-O_Gammaproteobacteria-G_tmoA-T_Query       15.71%    passed     86.38%
+  22  W9VND5-O_Nitrincola-G_tmoA-T_Query                15.54%    passed     73.05%
+  23  A0A1X3CQU7-O_Neisseria-G_tmoA-T_Query             15.71%    passed     87.88%
+  24  A0A448D7C3-O_Neisseria-G_tmoA-T_Query             15.71%    passed     87.88%
+  25  A0A0M3FQV5-O_Acinetobacter-G_tmoA-T_Query         14.19%    passed     98.19%
+  26  A0A143IZC4-O_Acinetobacter-G_tmoA-T_Query         14.19%    passed     98.27%
+  27  A0A150HVA8-O_Acinetobacter-G_tmoA-T_Query         13.34%    passed     87.27%
+  28  A0A2U3MYH3-O_Acinetobacter-G_tmoA-T_Query         14.19%    passed     97.08%
+  29  A0A132HMK5-O_Cupriavidus-G_tmoA-T_Query           13.01%    passed     96.90%
+  30  A0A6A7SIN8-O_wastewater-G_tmoA-T_Query            13.34%    passed     77.81%
+  31  Q97YT0-O_Saccharolobus-G_tmoA-T_Query             49.16%    passed     37.70%
+  32  Q97YT1-O_Saccharolobus-G_tmoA-T_Query             55.07%    passed     31.63%
+  33  O87082-O_Xanthobacter-G_xamoA-T_BLAST             16.05%    passed     51.19%
+  34  A0A508ST84-O_Bradyrhizobium-G_tmoA-T_Query        11.15%    passed     84.73%
+  35  A0A125RGP5-O_Burkholderia-G_tmoA-T_Query          16.55%    passed     77.89%
+  36  F8JFV7-O_Hyphomicrobium-G_tmoA-T_Query            16.05%    passed     97.39%
+  37  A0A6F9EDY8-O_Kyrpidia-G_tmoA-T_Query              16.55%    passed     92.62%
+  38  A0A1Z4IRB3-O_Scytonema-G_tmoA-T_Query             15.54%    passed     66.95%
+  39  A0A2H6ATC8-O_bacterium-G_tmoA-T_Query             15.37%    passed     99.84%
+  40  A0A1C3NYD1-O_Candidatus-G_tmoA-T_Query            14.36%    passed     44.30%
+  41  A0A1X2DRQ3-O_Mycolicibacter-G_tmoA-T_Query        15.20%    passed     70.22%
+  42  X7ZP06-O_Mycobacterium-G_tmoA-T_Query             14.53%    passed     59.95%
+  43  A0A448GRI6-O_Mycobacteroides-G_tmoA-T_Query       15.71%    passed     72.61%
+  44  K5BCK2-O_Mycolicibacterium-G_tmoA-T_Query         15.88%    passed     78.57%
+  45  A0A5P9A0I2-O_Mycobacterium-G_tmoA-T_Query         16.72%    passed     94.30%
+  46  A0A2S6R829-O_Alphaproteobacteria-G_tmoA-T_Query   15.88%    passed     88.53%
+  47  A0A4U8VY70-O_Nocardia-G_tmoA-T_Query              15.88%    passed     90.69%
+  48  A0A0H5NUS2-O_Nocardia-G_tmoA-T_Query              15.88%    passed     92.68%
+  49  A0A379M9B7-O_Rhodococcus-G_tmoA-T_Query           15.88%    passed     90.38%
+  50  Q00456-O_Pseudomonas-G_tmoA-T_BLAST               15.54%    passed     99.97%
+  51  A0A0D3QM77-O_Pseudomonas-G_tmoA-T_Query           15.54%    passed     99.99%
+  52  A0A645DU35-O_bioreactor-G_tmoA-T_Query            80.24%    passed     82.21%
+  53  F8GVL7-O_Cupriavidus-G_tmoA-T_Query               15.37%    passed     90.39%
+  54  K0DZF2-O_Paraburkholderia-G_tmoA-T_Query          15.54%    passed     92.83%
+  55  A0A375JDL2-O_Cupriavidus-G_tmoA-T_Query           28.89%    passed     58.43%
+  56  A0A375HEB8-O_Cupriavidus-G_tmoA-T_Query           15.37%    passed     61.05%
+  57  A0A375ISL0-O_Cupriavidus-G_tmoA-T_Query           15.37%    passed     75.32%
+  58  A0A375CR20-O_Cupriavidus-G_tmoA-T_Query           15.37%    passed     67.95%
+  59  B2AJ55-O_Cupriavidus-G_tmoA-T_Query               15.37%    passed     67.95%
+  60  A0A375HWE7-O_Cupriavidus-G_tmoA-T_Query           22.13%    passed     87.13%
+  61  A0A238D8X6-O_Thiomonas-G_tmoA-T_Query             15.88%    passed     94.01%
+  62  QCT24447.1-O_Pseudomonas-NCBI                     15.54%    passed     99.94%
+  63  A0A4P8YT38-O_Pseudomonas-G_tmoA-T_Query           15.54%    passed     99.94%
+  64  Q1LNS7-O_Cupriavidus-G_tmoA-T_Query               15.54%    passed     99.89%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                             17.06%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: B2AJ55-O_Cupriavidus-G_tmoA-T_Query is identical to A0A375CR20-O_Cupriavidus-G_tmoA-T_Query but kept for subsequent analysis
+NOTE: A0A4P8YT38-O_Pseudomonas-G_tmoA-T_Query is identical to QCT24447.1-O_Pseudomonas-NCBI but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.039 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 3333)...
+
+NOTE: 44 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+9 trees examined
+Threads: 1 / Time: 4.016 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54773
+Threads: 2 / Time: 3.846 sec / Speedup: 1.044 / Efficiency: 52% / LogL: -54773
+Threads: 3 / Time: 3.951 sec / Speedup: 1.016 / Efficiency: 34% / LogL: -54773
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -26864.187
+2. Current log-likelihood: -26431.380
+3. Current log-likelihood: -26418.357
+4. Current log-likelihood: -26417.890
+5. Current log-likelihood: -26417.704
+6. Current log-likelihood: -26417.551
+7. Current log-likelihood: -26417.417
+8. Current log-likelihood: -26417.298
+9. Current log-likelihood: -26417.193
+Optimal log-likelihood: -26417.097
+Site proportion and rates:  (0.076,0.068) (0.124,0.253) (0.159,0.410) (0.187,0.546) (0.225,0.984) (0.168,1.636) (0.062,4.881)
+Parameters optimization took 9 rounds (53.244 sec)
+Computing ML distances based on estimated model parameters... 1.510 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -26527.234
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.258 second
+Computing log-likelihood of 98 initial trees ... 38.251 seconds
+Current best score: -26417.097
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -26373.112
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -26371.810
+UPDATE BEST LOG-LIKELIHOOD: -26371.810
+BETTER TREE FOUND at iteration 4: -26371.809
+Iteration 10 / LogL: -26371.810 / Time: 0h:3m:52s
+UPDATE BEST LOG-LIKELIHOOD: -26371.809
+Iteration 20 / LogL: -26371.810 / Time: 0h:5m:20s
+Finish initializing candidate tree set (4)
+Current best tree score: -26371.809 / CPU time: 250.508
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -26371.809
+Iteration 30 / LogL: -26375.570 / Time: 0h:6m:59s (0h:17m:49s left)
+Iteration 40 / LogL: -26371.810 / Time: 0h:8m:42s (0h:14m:17s left)
+Iteration 50 / LogL: -26371.809 / Time: 0h:10m:26s (0h:11m:29s left)
+Log-likelihood cutoff on original alignment: -26425.188
+Iteration 60 / LogL: -26371.813 / Time: 0h:11m:57s (0h:8m:54s left)
+Iteration 70 / LogL: -26371.810 / Time: 0h:13m:35s (0h:6m:41s left)
+Iteration 80 / LogL: -26371.811 / Time: 0h:15m:14s (0h:4m:37s left)
+Iteration 90 / LogL: -26374.874 / Time: 0h:16m:55s (0h:2m:39s left)
+Iteration 100 / LogL: -26373.154 / Time: 0h:18m:40s (0h:0m:45s left)
+Log-likelihood cutoff on original alignment: -26425.188
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:19m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -26371.809
+2. Current log-likelihood: -26371.713
+3. Current log-likelihood: -26371.613
+4. Current log-likelihood: -26371.505
+5. Current log-likelihood: -26371.361
+6. Current log-likelihood: -26371.128
+7. Current log-likelihood: -26370.730
+8. Current log-likelihood: -26370.260
+9. Current log-likelihood: -26369.830
+10. Current log-likelihood: -26369.502
+11. Current log-likelihood: -26369.312
+12. Current log-likelihood: -26369.212
+13. Current log-likelihood: -26369.148
+14. Current log-likelihood: -26369.103
+15. Current log-likelihood: -26369.066
+16. Current log-likelihood: -26369.037
+17. Current log-likelihood: -26369.013
+18. Current log-likelihood: -26368.995
+19. Current log-likelihood: -26368.980
+20. Current log-likelihood: -26368.967
+21. Current log-likelihood: -26368.956
+Optimal log-likelihood: -26368.947
+Site proportion and rates:  (0.082,0.069) (0.196,0.279) (0.160,0.463) (0.217,0.669) (0.269,1.305) (0.047,3.141) (0.030,7.503)
+Parameters optimization took 21 rounds (118.347 sec)
+BEST SCORE FOUND : -26368.947
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.splits.nex
+Total tree length: 25.826
+
+Total number of iterations: 105
+CPU time used for tree search: 1101.090 sec (0h:18m:21s)
+Wall-clock time used for tree search: 1101.655 sec (0h:18m:21s)
+Total CPU time used: 1301.432 sec (0h:21m:41s)
+Total wall-clock time used: 1290.606 sec (0h:21m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.splits.nex...
+64 taxa and 233 splits.
+Consensus tree written to analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.contree
+Reading input trees file analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.contree
+Log-likelihood of consensus tree: -26368.953
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.iqtree
+  Maximum-likelihood tree:       analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.treefile
+  Likelihood distances:          analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.splits.nex
+  Consensus tree:                analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.contree
+  Screen log file:               analyses/phylo/Toluene_4-monooxygenase/Toluene_4-monooxygenase.trimmed.log
+
+Date and Time: Thu Sep  3 16:05:07 2020

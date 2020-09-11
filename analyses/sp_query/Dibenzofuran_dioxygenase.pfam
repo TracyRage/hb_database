@@ -1,0 +1,38 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:33:24 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/Dibenzofuran_dioxygenase.filtered
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_B2MV36_B2MV36_9NOCADibenzofuran_dioxygenase_alpha_subunit_OS=Rhodococcus_sp._HA01_OX=522341_GN=dbfA1_PE=3_SV=1            49    133     49    150 PF00355.27  Rieske            Domain     1    84    89     61.6   5.4e-17   1 CL0516   
+tr_B2MV36_B2MV36_9NOCADibenzofuran_dioxygenase_alpha_subunit_OS=Rhodococcus_sp._HA01_OX=522341_GN=dbfA1_PE=3_SV=1           201    437    171    438 PF00848.20  Ring_hydroxyl_A   Domain    13   214   215     91.9   5.4e-26   1 CL0209   
+tr_G8GV17_G8GV17_9NOCADibenzofuran_dioxygenase_alpha_subunit_OS=Rhodococcus_sp._p52_OX=935199_GN=dbfA1_PE=3_SV=1             49    133     49    150 PF00355.27  Rieske            Domain     1    84    89     61.6   5.4e-17   1 CL0516   
+tr_G8GV17_G8GV17_9NOCADibenzofuran_dioxygenase_alpha_subunit_OS=Rhodococcus_sp._p52_OX=935199_GN=dbfA1_PE=3_SV=1            201    437    171    438 PF00848.20  Ring_hydroxyl_A   Domain    13   214   215     91.9   5.4e-26   1 CL0209   
+tr_Q0KJ72_Q0KJ72_NOVK1Angular_dioxygenase_large_subunit_OS=Novosphingobium_sp.__strain_KA1__OX=164608_GN=dbfA1_PE=3_SV=1     41    124     40    144 PF00355.27  Rieske            Domain     2    84    89     64.3   7.6e-18   1 CL0516   
+tr_Q0KJ72_Q0KJ72_NOVK1Angular_dioxygenase_large_subunit_OS=Novosphingobium_sp.__strain_KA1__OX=164608_GN=dbfA1_PE=3_SV=1    196    451    161    452 PF00848.20  Ring_hydroxyl_A   Domain    14   214   215     45.9   6.4e-12   1 CL0209   
+tr_Q2WGA2_Q2WGA2_9BACLAlpha_subunit_of_dibenzofuran_dioxygenase_OS=Paenibacillus_sp._YK5_OX=206394_GN=dbfA1_PE=3_SV=1        37    119     37    131 PF00355.27  Rieske            Domain     1    82    89     71.8   3.5e-20   1 CL0516   
+tr_Q2WGA2_Q2WGA2_9BACLAlpha_subunit_of_dibenzofuran_dioxygenase_OS=Paenibacillus_sp._YK5_OX=206394_GN=dbfA1_PE=3_SV=1       191    424    161    425 PF00848.20  Ring_hydroxyl_A   Domain    13   214   215     74.2   1.4e-20   1 CL0209   
+tr_Q93UV3_Q93UV3_TERSDAngular_dioxygenase_large_subunit_OS=Terrabacter_sp.__strain_DBF63__OX=150395_GN=DbfA1_PE=3_SV=1       49    133     49    150 PF00355.27  Rieske            Domain     1    84    89     61.6   5.4e-17   1 CL0516   
+tr_Q93UV3_Q93UV3_TERSDAngular_dioxygenase_large_subunit_OS=Terrabacter_sp.__strain_DBF63__OX=150395_GN=DbfA1_PE=3_SV=1      201    437    171    438 PF00848.20  Ring_hydroxyl_A   Domain    13   214   215     93.8   1.4e-26   1 CL0209   

@@ -1,0 +1,79 @@
+# pfam_scan.pl,  run at Thu Sep  3 22:31:27 2020
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: analyses/sp_query/unfiltered_fasta/Xylene_monooxygenase.fa
+#        searching against: data/seqs/db_pfam//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+tr_A0A0A8XC21_A0A0A8XC21_9SPHN_Oxygenase_component_of_xylene_monooxygenase_OS=Sphingobium_barthaii_OX=1054037_GN=xylM_PE=3_SV=1                96    302     94    304 PF00487.25  FA_desaturase     Domain     3   233   254     62.0   7.9e-17   1 No_clan  
+tr_A0A0D6DWJ9_A0A0D6DWJ9_9LACT_Type-1_mutarotase_OS=Lactococcus_piscium_MKFS47_OX=297352_GN=xylM_PE=4_SV=1                                     18    329     17    330 PF01263.21  Aldose_epim       Family     2   300   301    197.4   3.2e-58   1 CL0103   
+tr_A0A0G2UQ11_A0A0G2UQ11_9BACT_Xylene_monooxygenase_OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                         97    300     91    311 PF00487.25  FA_desaturase     Domain     7   232   254     56.2   4.5e-15   1 No_clan  
+tr_A0A0K0WTB2_A0A0K0WTB2_9PSED_Xylene_monooxygenase__Fragment__OS=Pseudomonas_sp._AET-5-01_OX=1661191_GN=xylM_PE=4_SV=1                         3     93      1    104 PF00487.25  FA_desaturase     Domain   143   234   254     38.7     1e-09   1 No_clan  
+tr_A0A1W6VS93_A0A1W6VS93_GEOTD_Aldose_1-epimerase_OS=Geobacillus_thermodenitrificans_OX=33940_GN=xylM_PE=3_SV=1                                18    343     17    344 PF01263.21  Aldose_epim       Family     2   300   301    302.8   2.6e-90   1 CL0103   
+tr_A0A231VMA9_A0A231VMA9_THETR_Xylose_isomerase_OS=Thermoanaerobacterium_thermosaccharolyticum_OX=1517_GN=xylA_PE=3_SV=1                      153    284     91    307 PF01261.25  AP_endonuc_2      Domain    53   174   250     36.5   4.1e-09   1 CL0036   
+tr_A0A286LNP2_A0A286LNP2_9MICO_Beta-xylanase_OS=Luteimicrobium_xylanilyticum_OX=1133546_GN=xylM_PE=3_SV=1                                      48    339     48    340 PF00331.21  Glyco_hydro_10    Family     1   315   316    357.0  8.4e-107   1 CL0058   
+tr_A0A286LNP2_A0A286LNP2_9MICO_Beta-xylanase_OS=Luteimicrobium_xylanilyticum_OX=1133546_GN=xylM_PE=3_SV=1                                     355    433    348    433 PF14200.7   RicinB_lectin_2   Domain    11    89    89     66.1   3.6e-18   1 CL0066   
+tr_A0A286LNP2_A0A286LNP2_9MICO_Beta-xylanase_OS=Luteimicrobium_xylanilyticum_OX=1133546_GN=xylM_PE=3_SV=1                                     442    493    439    495 PF14200.7   RicinB_lectin_2   Domain     4    55    89     42.4   8.7e-11   1 CL0066   
+tr_A0A291I5P1_A0A291I5P1_GEOTD_Aldose_1-epimerase_OS=Geobacillus_thermodenitrificans_OX=33940_GN=xylM_PE=3_SV=1                                18    344     17    344 PF01263.21  Aldose_epim       Family     2   301   301    313.3   1.6e-93   1 CL0103   
+tr_A0A2Z5W3X9_A0A2Z5W3X9_9ALTE_Xylene_monooxygenase_hydroxylase_subunit_OS=Halioxenophilus_aromaticivorans_OX=1306992_GN=xylM_PE=3_SV=1        98    298     90    309 PF00487.25  FA_desaturase     Domain    10   234   254     62.5   5.4e-17   1 No_clan  
+tr_A0A4U9C148_A0A4U9C148_STRPY_4-oxalocrotonate_tautomerase_OS=Streptococcus_pyogenes_OX=1314_GN=xylH_PE=3_SV=1                                 2     59      2     61 PF01361.22  Tautomerase       Domain     1    58    60     87.4   4.4e-25   1 CL0082   
+tr_A0A6A0BE11_A0A6A0BE11_9LACT_Type-1_mutarotase_OS=Lactococcus_sp._Hs30E4-3_OX=2709157_GN=xylM_PE=4_SV=1                                      18    330     17    330 PF01263.21  Aldose_epim       Family     2   301   301    206.5   5.6e-61   1 CL0103   
+tr_A0A6C2WMV3_A0A6C2WMV3_STRPY_4-oxalocrotonate_tautomerase_OS=Streptococcus_pyogenes_OX=1314_GN=xylM_PE=3_SV=1                                 2     59      2     61 PF01361.22  Tautomerase       Domain     1    58    60     87.1   5.6e-25   1 CL0082   
+tr_A2TC53_A2TC53_SPHYA_Oxygenase_component_of_xylene_monooxygenase_OS=Sphingobium_yanoikuyae_OX=13690_GN=xylM_PE=3_SV=1                       104    310    102    312 PF00487.25  FA_desaturase     Domain     3   233   254     60.8   1.8e-16   1 No_clan  
+tr_A9QSS4_A9QSS4_LACLK_Aldose-1-epimerase_OS=Lactococcus_lactis_subsp._lactis__strain_KF147__OX=684738_GN=xylM_PE=4_SV=1                       20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    239.1   6.7e-71   1 CL0103   
+tr_B7XFU9_B7XFU9_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    119 PF00487.25  FA_desaturase     Domain   134   234   254     38.3   1.3e-09   1 No_clan  
+tr_B7XFV0_B7XFV0_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    110 PF00487.25  FA_desaturase     Domain   135   233   254     39.6   5.2e-10   1 No_clan  
+tr_B7XFV1_B7XFV1_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    115 PF00487.25  FA_desaturase     Domain   135   233   254     37.1   3.1e-09   1 No_clan  
+tr_B7XFV2_B7XFV2_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    109 PF00487.25  FA_desaturase     Domain   135   233   254     36.3   5.2e-09   1 No_clan  
+tr_B7XFV3_B7XFV3_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    110 PF00487.25  FA_desaturase     Domain   135   233   254     39.6   5.2e-10   1 No_clan  
+tr_B7XFV4_B7XFV4_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    111 PF00487.25  FA_desaturase     Domain   135   233   254     39.2     7e-10   1 No_clan  
+tr_B7XFV5_B7XFV5_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    110 PF00487.25  FA_desaturase     Domain   135   233   254     39.2   6.9e-10   1 No_clan  
+tr_B7XFV6_B7XFV6_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    106      1    110 PF00487.25  FA_desaturase     Domain   134   233   254     39.2     7e-10   1 No_clan  
+tr_B7XFV7_B7XFV7_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    119 PF00487.25  FA_desaturase     Domain   134   234   254     38.2   1.4e-09   1 No_clan  
+tr_B7XFV8_B7XFV8_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    119 PF00487.25  FA_desaturase     Domain   134   234   254     34.5   1.9e-08   1 No_clan  
+tr_B7XFV9_B7XFV9_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    106      1    110 PF00487.25  FA_desaturase     Domain   134   233   254     37.7     2e-09   1 No_clan  
+tr_B7XFW0_B7XFW0_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    118 PF00487.25  FA_desaturase     Domain   134   234   254     38.2   1.4e-09   1 No_clan  
+tr_B7XFW1_B7XFW1_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    117 PF00487.25  FA_desaturase     Domain   134   234   254     37.9   1.7e-09   1 No_clan  
+tr_B7XFW2_B7XFW2_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      11    106      2    110 PF00487.25  FA_desaturase     Domain   135   233   254     40.2   3.5e-10   1 No_clan  
+tr_B7XFW3_B7XFW3_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      12    107      1    118 PF00487.25  FA_desaturase     Domain   134   234   254     37.6   2.2e-09   1 No_clan  
+tr_B7XFW4_B7XFW4_9BACT_Xylene_monooxygenase__Fragment__OS=uncultured_bacterium_OX=77133_GN=xylM_PE=3_SV=1                                      13    107      2    119 PF00487.25  FA_desaturase     Domain   135   234   254     37.4   2.5e-09   1 No_clan  
+tr_D5MPF5_D5MPF5_PSEPU_Xylene_monooxygenase_hydroxylase_subunit_OS=Pseudomonas_putida_OX=303_GN=xylM_PE=3_SV=1                                 93    298     88    308 PF00487.25  FA_desaturase     Domain     6   234   254     74.7     1e-20   1 No_clan  
+tr_F1LIV6_F1LIV6_PSEPU_Xylene_monooxygenase_hydroxylase_subunit_OS=Pseudomonas_putida_OX=303_GN=xylM_PE=3_SV=1                                 93    298     88    307 PF00487.25  FA_desaturase     Domain     6   234   254     75.5     6e-21   1 No_clan  
+tr_H5T010_H5T010_LACLL_Aldose_1-epimerase_OS=Lactococcus_lactis_subsp._lactis_IO-1_OX=1046624_GN=xylM_PE=4_SV=1                                20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    234.7   1.5e-69   1 CL0103   
+tr_I7C0Z3_I7C0Z3_PSEPT_Fatty_acid_desaturase_OS=Pseudomonas_putida__strain_DOT-T1E__OX=1196325_GN=xylM_PE=3_SV=1                               98    296     90    303 PF00487.25  FA_desaturase     Domain    13   233   254     68.8   6.5e-19   1 No_clan  
+tr_O30865_O30865_PSEPU_Xylene_monooxygenase_hydroxylase_component_OS=Pseudomonas_putida_OX=303_GN=xylM_PE=3_SV=1                               93    298     88    307 PF00487.25  FA_desaturase     Domain     6   234   254     74.9   9.1e-21   1 No_clan  
+tr_O85970_O85970_NOVAR_Xylene_monooxygenase_hydroxylase_subunit_OS=Novosphingobium_aromaticivorans_OX=48935_GN=xylM_PE=3_SV=1                  95    302     94    304 PF00487.25  FA_desaturase     Domain     2   233   254     60.2   2.7e-16   1 No_clan  
+tr_Q09LZ2_Q09LZ2_GEOSE_Aldose_1-epimerase_OS=Geobacillus_stearothermophilus_OX=1422_GN=xylM_PE=3_SV=1                                           1    318      1    318 PF01263.21  Aldose_epim       Family    11   301   301    301.1   8.6e-90   1 CL0103   
+tr_Q46152_Q46152_9GAMM_Membrane_protein_OS=Cycloclasticus_oligotrophus_OX=46457_GN=XYLM_PE=4_SV=1                                               1    132      1    133 PF06139.13  BphX              Family     1   132   133    206.8     1e-61   1 No_clan  
+tr_Q4JN58_Q4JN58_9BACT_Predicted_xylene_monooxygenase_hydroxylase_component_OS=uncultured_bacterium_BAC13K9BAC_OX=332979_GN=xylM_PE=3_SV=1    126    325    119    339 PF00487.25  FA_desaturase     Domain     7   234   254     86.8   2.1e-24   1 No_clan  
+tr_Q7AXU3_Q7AXU3_PSEPU_XylM_protein_OS=Pseudomonas_putida_OX=303_GN=xylM_PE=3_SV=1                                                             93    298     88    308 PF00487.25  FA_desaturase     Domain     6   234   254     74.3   1.4e-20   1 No_clan  
+tr_Q83VJ5_Q83VJ5_9SPHN_Putative_oxygenase_component_of_xylene_monooxygenase_OS=Sphingomonas_sp._P2_OX=208080_GN=xylM_PE=3_SV=1                 86    292     83    294 PF00487.25  FA_desaturase     Domain     3   233   254     62.5   5.4e-17   1 No_clan  
+tr_Q9CFG9_Q9CFG9_LACLA_Aldose_1-epimerase_OS=Lactococcus_lactis_subsp._lactis__strain_IL1403__OX=272623_GN=xylM_PE=4_SV=1                      20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    238.6   9.2e-71   1 CL0103   
+tr_Q9X417_Q9X417_LACLL_Mutarotase_OS=Lactococcus_lactis_subsp._lactis_OX=1360_GN=xylM_PE=4_SV=1                                                20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    234.4   1.8e-69   1 CL0103   
+tr_Q9X420_Q9X420_LACLL_Mutarotase_OS=Lactococcus_lactis_subsp._lactis_OX=1360_GN=xylM_PE=4_SV=1                                                20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    220.2   3.8e-65   1 CL0103   
+tr_Q9X424_Q9X424_LACLL_Mutarotase_OS=Lactococcus_lactis_subsp._lactis_OX=1360_GN=xylM_PE=4_SV=1                                                20    329     19    330 PF01263.21  Aldose_epim       Family     2   300   301    239.3   5.7e-71   1 CL0103   
+tr_R4ITU3_R4ITU3_9PSED_XylM_OS=Pseudomonas_migulae_OX=78543_GN=xylM_PE=3_SV=1                                                                  92    298     88    308 PF00487.25  FA_desaturase     Domain     5   234   254     73.7   2.1e-20   1 No_clan  
+tr_R4Z9A2_R4Z9A2_STRAG_4-oxalocrotonate_tautomerase_OS=Streptococcus_agalactiae_OX=1311_GN=xylH_PE=3_SV=1                                       2     59      2     60 PF01361.22  Tautomerase       Domain     1    58    60     85.3   1.9e-24   1 CL0082   
+tr_T1VY96_T1VY96_PSEPU_Xylene_monooxygenase_hydroxylase_subunit_OS=Pseudomonas_putida_OX=303_GN=xylM_PE=3_SV=1                                 92    298     88    310 PF00487.25  FA_desaturase     Domain     5   234   254     75.4   6.3e-21   1 No_clan  
+tr_U5XKU0_U5XKU0_9SPHN_XylM_OS=Sphingobium_sp._PNB_OX=863934_GN=xylM_PE=3_SV=1                                                                 95    302     94    304 PF00487.25  FA_desaturase     Domain     2   233   254     58.8   7.2e-16   1 No_clan  
